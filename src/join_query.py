@@ -53,9 +53,11 @@ def join_mapper(rankings, uservisits, date):
     with open("output.json", "w") as f:
         json.dump(datum, f)
 
-def json_reducer(jfile):
-    with open(jfile) as f:
-        datum = json.load(f)
+def json_reducer(jfiles):
+
+    for jfile in jfiles:
+        with open(jfile) as f:
+            datum = json.load(f)
 
     res = {}
     #for sourceIP, v in datum.iteritems():

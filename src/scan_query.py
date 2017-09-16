@@ -19,3 +19,4 @@ t_end = time.time()
 r_num = len(res)
 elapsed = t_end - t_start
 
+print r_num, elapsed

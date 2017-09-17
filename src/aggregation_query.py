@@ -29,9 +29,9 @@ for line in lines:
     # SELECT SUBSTR(sourceIP, 1, X), SUM(adRevenue) FROM uservisits GROUP BY
     # SUBSTR(sourceIP, 1, X)
     key = sourceIP[:int(x)]
-    try:
+    if key in res:
         res[key] += float(adRevenue)
-    except KeyError:
+    else:
         res[key] = float(adRevenue)
 
 t_end = time.time()

@@ -1,7 +1,18 @@
 import sys
 import time
 import json
-
+"""
+SELECT sourceIP, totalRevenue, avgPageRank
+FROM
+  (SELECT sourceIP,
+          AVG(pageRank) as avgPageRank,
+          SUM(adRevenue) as totalRevenue
+    FROM Rankings AS R, UserVisits AS UV
+    WHERE R.pageURL = UV.destURL
+       AND UV.visitDate BETWEEN Date(`1980-01-01') AND Date(`X')
+    GROUP BY UV.sourceIP)
+  ORDER BY totalRevenue DESC LIMIT 1
+"""
 rankings = sys.argv[1]
 uservisits = sys.argv[2]
 x = sys.argv[3]

@@ -1,0 +1,281 @@
+DEBUG: Command arguments ['functionapp', 'deployment', 'source', 'config', '--resource-group', 'flops', '--branch', 'master', '--repo-url', 'https://github.com/lee212/azure-functions-big-data-benchmark.git', '--manual-integration', '--name', 'flops42']
+DEBUG: Loading all installed modules as module with name 'functionapp' not found.
+DEBUG: Installed command modules ['acr', 'acs', 'appservice', 'batch', 'billing', 'cdn', 'cloud', 'cognitiveservices', 'component', 'configure', 'consumption', 'container', 'cosmosdb', 'dla', 'dls', 'eventgrid', 'feedback', 'find', 'interactive', 'iot', 'keyvault', 'lab', 'monitor', 'network', 'profile', 'rdbms', 'redis', 'resource', 'role', 'sf', 'sql', 'storage', 'vm']
+DEBUG: Current cloud config:
+{'endpoints': {'active_directory': 'https://login.microsoftonline.com',
+               'active_directory_data_lake_resource_id': 'https://datalake.azure.net/',
+               'active_directory_graph_resource_id': 'https://graph.windows.net/',
+               'active_directory_resource_id': 'https://management.core.windows.net/',
+               'batch_resource_id': 'https://batch.core.windows.net/',
+               'gallery': 'https://gallery.azure.com/',
+               'management': 'https://management.core.windows.net/',
+               'resource_manager': 'https://management.azure.com/',
+               'sql_management': 'https://management.core.windows.net:8443/',
+               'vm_image_alias_doc': 'https://raw.githubusercontent.com/Azure/azure-rest-api-specs/master/arm-compute/quickstart-templates/aliases.json'},
+ 'is_active': True,
+ 'name': 'AzureCloud',
+ 'profile': 'latest',
+ 'suffixes': {'azure_datalake_analytics_catalog_and_job_endpoint': 'azuredatalakeanalytics.net',
+              'azure_datalake_store_file_system_endpoint': 'azuredatalakestore.net',
+              'keyvault_dns': '.vault.azure.net',
+              'sql_server_hostname': '.database.windows.net',
+              'storage_endpoint': 'core.windows.net'}}
+DEBUG: Registered application event handler 'CommandTableParams.Loaded' at <function add_id_parameters at 0x7f8c2e774b18>
+DEBUG: Registered application event handler 'CommandTable.Loaded' at <function add_id_parameters at 0x7f8c2e774b18>
+DEBUG: Loaded module 'acr' in 0.015 seconds.
+DEBUG: Loaded module 'acs' in 0.001 seconds.
+DEBUG: Registered application event handler 'CommandParser.Parsing' at <function deprecate at 0x7f8c2e792b90>
+DEBUG: Loaded module 'appservice' in 0.002 seconds.
+DEBUG: Did not load Batch Extensions module
+DEBUG: No module named batch_extensions.commands
+DEBUG: Loaded module 'batch' in 0.017 seconds.
+DEBUG: Loaded module 'billing' in 0.000 seconds.
+DEBUG: Loaded module 'cdn' in 0.003 seconds.
+DEBUG: Loaded module 'cloud' in 0.000 seconds.
+DEBUG: Loaded module 'cognitiveservices' in 0.000 seconds.
+DEBUG: Loaded module 'component' in 0.000 seconds.
+DEBUG: Loaded module 'configure' in 0.000 seconds.
+DEBUG: Loaded module 'consumption' in 0.000 seconds.
+DEBUG: Loaded module 'container' in 0.000 seconds.
+DEBUG: Registered application event handler 'CommandParser.Parsing' at <function deprecate at 0x7f8c2e658320>
+DEBUG: Loaded module 'cosmosdb' in 0.002 seconds.
+DEBUG: Loaded module 'dla' in 0.001 seconds.
+DEBUG: Loaded module 'dls' in 0.001 seconds.
+DEBUG: Loaded module 'eventgrid' in 0.001 seconds.
+DEBUG: Loaded module 'feedback' in 0.000 seconds.
+DEBUG: Loaded module 'find' in 0.000 seconds.
+DEBUG: Loaded module 'interactive' in 0.000 seconds.
+DEBUG: Loaded module 'iot' in 0.001 seconds.
+DEBUG: Loaded module 'keyvault' in 0.002 seconds.
+DEBUG: Loaded module 'lab' in 0.001 seconds.
+DEBUG: Loaded module 'monitor' in 0.001 seconds.
+DEBUG: Loaded module 'network' in 0.016 seconds.
+DEBUG: Loaded module 'profile' in 0.000 seconds.
+DEBUG: Loaded module 'rdbms' in 0.002 seconds.
+DEBUG: Loaded module 'redis' in 0.001 seconds.
+DEBUG: Loaded module 'resource' in 0.003 seconds.
+DEBUG: Loaded module 'role' in 0.001 seconds.
+DEBUG: Loaded module 'sf' in 0.164 seconds.
+DEBUG: Loaded module 'sql' in 0.003 seconds.
+DEBUG: Loaded module 'storage' in 0.019 seconds.
+DEBUG: Loaded module 'vm' in 0.034 seconds.
+DEBUG: Loaded all modules in 0.295 seconds. (note: there's always an overhead with the first module loaded)
+DEBUG: Application event 'CommandTable.Loaded' with event data {'command_table': {'functionapp deployment source config': <azure.cli.core.commands.CliCommand object at 0x7f8c2e734d10>}}
+DEBUG: Application event 'CommandParser.Loaded' with event data {'parser': AzCliCommandParser(prog='az', usage=None, description=None, version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True)}
+DEBUG: Application event 'CommandTableParams.Loaded' with event data {'command_table': {'functionapp deployment source config': <azure.cli.core.commands.CliCommand object at 0x7f8c2e734d10>}}
+DEBUG: Application event 'CommandParser.Parsing' with event data {'argv': ['functionapp', 'deployment', 'source', 'config', '--resource-group', 'flops', '--branch', 'master', '--repo-url', 'https://github.com/lee212/azure-functions-big-data-benchmark.git', '--manual-integration', '--name', 'flops42']}
+DEBUG: Application event 'CommandParser.Parsed' with event data {'args': Namespace(_command_package='functionapp', _jmespath_query=None, _log_verbosity_debug=False, _log_verbosity_verbose=False, _output_format='json', _parser=AzCliCommandParser(prog='az functionapp deployment source config', usage=None, description='', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True), _validators=[<function required_values_validator at 0x7f8c2ca46b90>], branch='master', cd_account=None, cd_account_must_exist=None, [...]
+DEBUG: Getting management service client client_type=WebSiteManagementClient
+DEBUG: attempting to read file /home/lee212/.azure/accessTokens.json as utf-8-sig
+DEBUG: adal-python : 37c40ec6-7bbb-4e5e-9b34-307471f92404 - Authority:Performing instance discovery: https://login.microsoftonline.com/1e79b20e-c51a-46de-8f6e-2506a51ef8fb
+DEBUG: adal-python : 37c40ec6-7bbb-4e5e-9b34-307471f92404 - Authority:Performing static instance discovery
+DEBUG: adal-python : 37c40ec6-7bbb-4e5e-9b34-307471f92404 - Authority:Authority validated via static instance discovery
+INFO: adal-python : 37c40ec6-7bbb-4e5e-9b34-307471f92404 - TokenRequest:Getting token from cache with refresh if necessary.
+DEBUG: adal-python : 37c40ec6-7bbb-4e5e-9b34-307471f92404 - OAuth2Client:finding with query: {"_clientId": "04b07795-8ddb-461a-bbee-02f9e1bf7b46", "userId": "hroe.lee@gmail.com"}
+DEBUG: adal-python : 37c40ec6-7bbb-4e5e-9b34-307471f92404 - OAuth2Client:Looking for potential cache entries:
+DEBUG: adal-python : 37c40ec6-7bbb-4e5e-9b34-307471f92404 - OAuth2Client:{"_clientId": "04b07795-8ddb-461a-bbee-02f9e1bf7b46", "userId": "hroe.lee@gmail.com"}
+DEBUG: adal-python : 37c40ec6-7bbb-4e5e-9b34-307471f92404 - OAuth2Client:Found 2 potential entries.
+DEBUG: adal-python : 37c40ec6-7bbb-4e5e-9b34-307471f92404 - OAuth2Client:Resource specific token found.
+DEBUG: adal-python : 37c40ec6-7bbb-4e5e-9b34-307471f92404 - OAuth2Client:Returning token from cache lookup, AccessTokenId: kpq0UBPh5tEt9J+/H98H577gTmGnNGL2zb+VL0Wn424=, RefreshTokenId: ZI1wt9fEA0XlnCD9/r3H377SSWSILUZZaHGeTKuEY5Y=
+DEBUG: msrest.pipeline : Configuring request: timeout=100, verify=True, cert=None
+DEBUG: msrest.pipeline : Configuring redirects: allow=True, max=30
+DEBUG: msrest.pipeline : Configuring proxies: ''
+DEBUG: msrest.pipeline : Evaluate proxies against ENV settings: True
+DEBUG: msrest.pipeline : Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+DEBUG: urllib3.connectionpool : Starting new HTTPS connection (1): management.azure.com
+DEBUG: urllib3.connectionpool : https://management.azure.com:443 "GET /subscriptions/6b3cf2b5-2cc1-4828-b5e0-9f8be72e6e6f/resourceGroups/flops/providers/Microsoft.Web/sites/flops42?api-version=2016-08-01 HTTP/1.1" 200 None
+DEBUG: msrest.http_logger : Request URL: 'https://management.azure.com/subscriptions/6b3cf2b5-2cc1-4828-b5e0-9f8be72e6e6f/resourceGroups/flops/providers/Microsoft.Web/sites/flops42?api-version=2016-08-01'
+DEBUG: msrest.http_logger : Request method: 'GET'
+DEBUG: msrest.http_logger : Request headers:
+DEBUG: msrest.http_logger :     'Connection': 'keep-alive'
+DEBUG: msrest.http_logger :     'Accept-Encoding': 'gzip, deflate'
+DEBUG: msrest.http_logger :     'Accept': 'application/json'
+DEBUG: msrest.http_logger :     'User-Agent': 'python/2.7.12 (Linux-4.4.0-92-generic-x86_64-with-Ubuntu-16.04-xenial) requests/2.18.4 msrest/0.4.14 msrest_azure/0.4.13 websitemanagementclient/0.32.0 Azure-SDK-For-Python AZURECLI/2.0.13'
+DEBUG: msrest.http_logger :     'Authorization': '*****'
+DEBUG: msrest.http_logger :     'x-ms-client-request-id': '425634b4-a02c-11e7-bc28-d4bed9a00f50'
+DEBUG: msrest.http_logger :     'CommandName': 'functionapp deployment source config'
+DEBUG: msrest.http_logger :     'Content-Type': 'application/json; charset=utf-8'
+DEBUG: msrest.http_logger :     'accept-language': 'en-US'
+DEBUG: msrest.http_logger : Request body:
+DEBUG: msrest.http_logger : None
+DEBUG: msrest.http_logger : Response status: 200
+DEBUG: msrest.http_logger : Response headers:
+DEBUG: msrest.http_logger :     'Cache-Control': 'no-cache'
+DEBUG: msrest.http_logger :     'Pragma': 'no-cache'
+DEBUG: msrest.http_logger :     'Transfer-Encoding': 'chunked'
+DEBUG: msrest.http_logger :     'Content-Type': 'application/json'
+DEBUG: msrest.http_logger :     'Content-Encoding': 'gzip'
+DEBUG: msrest.http_logger :     'Expires': '-1'
+DEBUG: msrest.http_logger :     'ETag': '"1D32BF6E7E2DC70"'
+DEBUG: msrest.http_logger :     'Vary': 'Accept-Encoding'
+DEBUG: msrest.http_logger :     'Strict-Transport-Security': 'max-age=31536000; includeSubDomains'
+DEBUG: msrest.http_logger :     'x-ms-request-id': '897a5149-e2f9-478a-a756-11d5b214ea5b'
+DEBUG: msrest.http_logger :     'Server': 'Microsoft-IIS/8.0'
+DEBUG: msrest.http_logger :     'X-AspNet-Version': '4.0.30319'
+DEBUG: msrest.http_logger :     'X-Powered-By': 'ASP.NET'
+DEBUG: msrest.http_logger :     'x-ms-ratelimit-remaining-subscription-reads': '14982'
+DEBUG: msrest.http_logger :     'x-ms-correlation-request-id': '4a92e92e-bae8-42a2-bc32-b41c099582dd'
+DEBUG: msrest.http_logger :     'x-ms-routing-request-id': 'NORTHCENTRALUS:20170923T065601Z:4a92e92e-bae8-42a2-bc32-b41c099582dd'
+DEBUG: msrest.http_logger :     'Date': 'Sat, 23 Sep 2017 06:56:00 GMT'
+DEBUG: msrest.http_logger : Response content:
+DEBUG: msrest.http_logger : Body contains chunked data.
+DEBUG: Getting management service client client_type=WebSiteManagementClient
+DEBUG: adal-python : 5409d029-3c33-4b4a-b5bb-d3237dbdd604 - Authority:Performing instance discovery: https://login.microsoftonline.com/1e79b20e-c51a-46de-8f6e-2506a51ef8fb
+DEBUG: adal-python : 5409d029-3c33-4b4a-b5bb-d3237dbdd604 - Authority:Performing static instance discovery
+DEBUG: adal-python : 5409d029-3c33-4b4a-b5bb-d3237dbdd604 - Authority:Authority validated via static instance discovery
+INFO: adal-python : 5409d029-3c33-4b4a-b5bb-d3237dbdd604 - TokenRequest:Getting token from cache with refresh if necessary.
+DEBUG: adal-python : 5409d029-3c33-4b4a-b5bb-d3237dbdd604 - OAuth2Client:finding with query: {"_clientId": "04b07795-8ddb-461a-bbee-02f9e1bf7b46", "userId": "hroe.lee@gmail.com"}
+DEBUG: adal-python : 5409d029-3c33-4b4a-b5bb-d3237dbdd604 - OAuth2Client:Looking for potential cache entries:
+DEBUG: adal-python : 5409d029-3c33-4b4a-b5bb-d3237dbdd604 - OAuth2Client:{"_clientId": "04b07795-8ddb-461a-bbee-02f9e1bf7b46", "userId": "hroe.lee@gmail.com"}
+DEBUG: adal-python : 5409d029-3c33-4b4a-b5bb-d3237dbdd604 - OAuth2Client:Found 2 potential entries.
+DEBUG: adal-python : 5409d029-3c33-4b4a-b5bb-d3237dbdd604 - OAuth2Client:Resource specific token found.
+DEBUG: adal-python : 5409d029-3c33-4b4a-b5bb-d3237dbdd604 - OAuth2Client:Returning token from cache lookup, AccessTokenId: kpq0UBPh5tEt9J+/H98H577gTmGnNGL2zb+VL0Wn424=, RefreshTokenId: ZI1wt9fEA0XlnCD9/r3H377SSWSILUZZaHGeTKuEY5Y=
+DEBUG: msrest.pipeline : Configuring request: timeout=100, verify=True, cert=None
+DEBUG: msrest.pipeline : Configuring redirects: allow=True, max=30
+DEBUG: msrest.pipeline : Configuring proxies: ''
+DEBUG: msrest.pipeline : Evaluate proxies against ENV settings: True
+DEBUG: msrest.pipeline : Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+DEBUG: urllib3.connectionpool : Starting new HTTPS connection (1): management.azure.com
+DEBUG: urllib3.connectionpool : https://management.azure.com:443 "PUT /subscriptions/6b3cf2b5-2cc1-4828-b5e0-9f8be72e6e6f/resourceGroups/flops/providers/Microsoft.Web/sites/flops42/sourcecontrols/web?api-version=2016-08-01 HTTP/1.1" 201 446
+DEBUG: msrest.http_logger : Request URL: 'https://management.azure.com/subscriptions/6b3cf2b5-2cc1-4828-b5e0-9f8be72e6e6f/resourceGroups/flops/providers/Microsoft.Web/sites/flops42/sourcecontrols/web?api-version=2016-08-01'
+DEBUG: msrest.http_logger : Request method: 'PUT'
+DEBUG: msrest.http_logger : Request headers:
+DEBUG: msrest.http_logger :     'Connection': 'keep-alive'
+DEBUG: msrest.http_logger :     'Accept-Encoding': 'gzip, deflate'
+DEBUG: msrest.http_logger :     'Accept': 'application/json'
+DEBUG: msrest.http_logger :     'User-Agent': 'python/2.7.12 (Linux-4.4.0-92-generic-x86_64-with-Ubuntu-16.04-xenial) requests/2.18.4 msrest/0.4.14 msrest_azure/0.4.13 websitemanagementclient/0.32.0 Azure-SDK-For-Python AZURECLI/2.0.13'
+DEBUG: msrest.http_logger :     'Authorization': '*****'
+DEBUG: msrest.http_logger :     'x-ms-client-request-id': '425634b4-a02c-11e7-bc28-d4bed9a00f50'
+DEBUG: msrest.http_logger :     'CommandName': 'functionapp deployment source config'
+DEBUG: msrest.http_logger :     'Content-Type': 'application/json; charset=utf-8'
+DEBUG: msrest.http_logger :     'Content-Length': '191'
+DEBUG: msrest.http_logger :     'accept-language': 'en-US'
+DEBUG: msrest.http_logger : Request body:
+DEBUG: msrest.http_logger : {"properties": {"repoUrl": "https://github.com/lee212/azure-functions-big-data-benchmark.git", "isMercurial": false, "isManualIntegration": true, "branch": "master"}, "location": "East US 2"}
+DEBUG: msrest.http_logger : Response status: 201
+DEBUG: msrest.http_logger : Response headers:
+DEBUG: msrest.http_logger :     'Cache-Control': 'no-cache'
+DEBUG: msrest.http_logger :     'Pragma': 'no-cache'
+DEBUG: msrest.http_logger :     'Content-Length': '446'
+DEBUG: msrest.http_logger :     'Content-Type': 'application/json'
+DEBUG: msrest.http_logger :     'Expires': '-1'
+DEBUG: msrest.http_logger :     'ETag': '"1D3343907D5AAE0"'
+DEBUG: msrest.http_logger :     'Strict-Transport-Security': 'max-age=31536000; includeSubDomains'
+DEBUG: msrest.http_logger :     'x-ms-request-id': '69b7cf32-48f4-48aa-bcaa-d0635fe86ac4'
+DEBUG: msrest.http_logger :     'Server': 'Microsoft-IIS/8.0'
+DEBUG: msrest.http_logger :     'X-AspNet-Version': '4.0.30319'
+DEBUG: msrest.http_logger :     'X-Powered-By': 'ASP.NET'
+DEBUG: msrest.http_logger :     'x-ms-ratelimit-remaining-subscription-writes': '1197'
+DEBUG: msrest.http_logger :     'x-ms-correlation-request-id': '19746b63-fd53-47f6-87a2-3e01385f0a94'
+DEBUG: msrest.http_logger :     'x-ms-routing-request-id': 'NORTHCENTRALUS:20170923T065608Z:19746b63-fd53-47f6-87a2-3e01385f0a94'
+DEBUG: msrest.http_logger :     'Date': 'Sat, 23 Sep 2017 06:56:08 GMT'
+DEBUG: msrest.http_logger : Response content:
+DEBUG: msrest.http_logger : {"id":"/subscriptions/6b3cf2b5-2cc1-4828-b5e0-9f8be72e6e6f/resourceGroups/flops/providers/Microsoft.Web/sites/flops42/sourcecontrols/web","name":"flops42","type":"Microsoft.Web/sites/sourcecontrols","location":"East US 2","properties":{"repoUrl":"https://github.com/lee212/azure-functions-big-data-benchmark.git","branch":"master","isManualIntegration":true,"deploymentRollbackEnabled":false,"isMercurial":false,"provisioningState":"InProgress"}}
+DEBUG: adal-python : 637baadd-2112-4e9e-9186-bbf15d16ef7b - Authority:Performing instance discovery: https://login.microsoftonline.com/1e79b20e-c51a-46de-8f6e-2506a51ef8fb
+DEBUG: adal-python : 637baadd-2112-4e9e-9186-bbf15d16ef7b - Authority:Performing static instance discovery
+DEBUG: adal-python : 637baadd-2112-4e9e-9186-bbf15d16ef7b - Authority:Authority validated via static instance discovery
+INFO: adal-python : 637baadd-2112-4e9e-9186-bbf15d16ef7b - TokenRequest:Getting token from cache with refresh if necessary.
+DEBUG: adal-python : 637baadd-2112-4e9e-9186-bbf15d16ef7b - OAuth2Client:finding with query: {"_clientId": "04b07795-8ddb-461a-bbee-02f9e1bf7b46", "userId": "hroe.lee@gmail.com"}
+DEBUG: adal-python : 637baadd-2112-4e9e-9186-bbf15d16ef7b - OAuth2Client:Looking for potential cache entries:
+DEBUG: adal-python : 637baadd-2112-4e9e-9186-bbf15d16ef7b - OAuth2Client:{"_clientId": "04b07795-8ddb-461a-bbee-02f9e1bf7b46", "userId": "hroe.lee@gmail.com"}
+DEBUG: adal-python : 637baadd-2112-4e9e-9186-bbf15d16ef7b - OAuth2Client:Found 2 potential entries.
+DEBUG: adal-python : 637baadd-2112-4e9e-9186-bbf15d16ef7b - OAuth2Client:Resource specific token found.
+DEBUG: adal-python : 637baadd-2112-4e9e-9186-bbf15d16ef7b - OAuth2Client:Returning token from cache lookup, AccessTokenId: kpq0UBPh5tEt9J+/H98H577gTmGnNGL2zb+VL0Wn424=, RefreshTokenId: ZI1wt9fEA0XlnCD9/r3H377SSWSILUZZaHGeTKuEY5Y=
+DEBUG: msrest.pipeline : Configuring request: timeout=100, verify=True, cert=None
+DEBUG: msrest.pipeline : Configuring redirects: allow=True, max=30
+DEBUG: msrest.pipeline : Configuring proxies: ''
+DEBUG: msrest.pipeline : Evaluate proxies against ENV settings: True
+DEBUG: msrest.pipeline : Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+DEBUG: urllib3.connectionpool : Starting new HTTPS connection (1): management.azure.com
+DEBUG: urllib3.connectionpool : https://management.azure.com:443 "GET /subscriptions/6b3cf2b5-2cc1-4828-b5e0-9f8be72e6e6f/resourceGroups/flops/providers/Microsoft.Web/sites/flops42/sourcecontrols/web?api-version=2016-08-01 HTTP/1.1" 201 601
+DEBUG: msrest.http_logger : Request URL: 'https://management.azure.com/subscriptions/6b3cf2b5-2cc1-4828-b5e0-9f8be72e6e6f/resourceGroups/flops/providers/Microsoft.Web/sites/flops42/sourcecontrols/web?api-version=2016-08-01'
+DEBUG: msrest.http_logger : Request method: 'GET'
+DEBUG: msrest.http_logger : Request headers:
+DEBUG: msrest.http_logger :     'Connection': 'keep-alive'
+DEBUG: msrest.http_logger :     'Accept-Encoding': 'gzip, deflate'
+DEBUG: msrest.http_logger :     'Accept': 'application/json'
+DEBUG: msrest.http_logger :     'User-Agent': 'python/2.7.12 (Linux-4.4.0-92-generic-x86_64-with-Ubuntu-16.04-xenial) requests/2.18.4 msrest/0.4.14 msrest_azure/0.4.13 websitemanagementclient/0.32.0 Azure-SDK-For-Python AZURECLI/2.0.13'
+DEBUG: msrest.http_logger :     'Authorization': '*****'
+DEBUG: msrest.http_logger :     'x-ms-client-request-id': '425634b4-a02c-11e7-bc28-d4bed9a00f50'
+DEBUG: msrest.http_logger :     'CommandName': 'functionapp deployment source config'
+DEBUG: msrest.http_logger :     'Content-Type': 'application/json; charset=utf-8'
+DEBUG: msrest.http_logger :     'accept-language': 'en-US'
+DEBUG: msrest.http_logger : Request body:
+DEBUG: msrest.http_logger : None
+DEBUG: msrest.http_logger : Response status: 201
+DEBUG: msrest.http_logger : Response headers:
+DEBUG: msrest.http_logger :     'Cache-Control': 'no-cache'
+DEBUG: msrest.http_logger :     'Pragma': 'no-cache'
+DEBUG: msrest.http_logger :     'Content-Length': '601'
+DEBUG: msrest.http_logger :     'Content-Type': 'application/json'
+DEBUG: msrest.http_logger :     'Expires': '-1'
+DEBUG: msrest.http_logger :     'ETag': '"1D3343907D5AAE0"'
+DEBUG: msrest.http_logger :     'Strict-Transport-Security': 'max-age=31536000; includeSubDomains'
+DEBUG: msrest.http_logger :     'x-ms-request-id': 'f2b97621-7951-4543-8261-764f758d3844'
+DEBUG: msrest.http_logger :     'Server': 'Microsoft-IIS/8.0'
+DEBUG: msrest.http_logger :     'X-AspNet-Version': '4.0.30319'
+DEBUG: msrest.http_logger :     'X-Powered-By': 'ASP.NET'
+DEBUG: msrest.http_logger :     'x-ms-ratelimit-remaining-subscription-reads': '14987'
+DEBUG: msrest.http_logger :     'x-ms-correlation-request-id': 'adeda900-e665-499e-b6eb-351529d6d800'
+DEBUG: msrest.http_logger :     'x-ms-routing-request-id': 'NORTHCENTRALUS:20170923T065639Z:adeda900-e665-499e-b6eb-351529d6d800'
+DEBUG: msrest.http_logger :     'Date': 'Sat, 23 Sep 2017 06:56:39 GMT'
+DEBUG: msrest.http_logger : Response content:
+DEBUG: msrest.http_logger : {"id":"/subscriptions/6b3cf2b5-2cc1-4828-b5e0-9f8be72e6e6f/resourceGroups/flops/providers/Microsoft.Web/sites/flops42/sourcecontrols/web","name":"flops42","type":"Microsoft.Web/sites/sourcecontrols","location":"East US 2","properties":{"repoUrl":"https://github.com/lee212/azure-functions-big-data-benchmark.git","branch":"master","isManualIntegration":true,"deploymentRollbackEnabled":false,"isMercurial":false,"provisioningState":"InProgress","provisioningDetails":"2017-09-23T06:56:30.2699128 https://flops42.scm.azurewebsites.net/api/deployments/latest?deployer=GitHub&time=2017-09-23_06-56-16Z"}}
+DEBUG: adal-python : 4411ad3e-2703-4803-b774-92c9d4c683b4 - Authority:Performing instance discovery: https://login.microsoftonline.com/1e79b20e-c51a-46de-8f6e-2506a51ef8fb
+DEBUG: adal-python : 4411ad3e-2703-4803-b774-92c9d4c683b4 - Authority:Performing static instance discovery
+DEBUG: adal-python : 4411ad3e-2703-4803-b774-92c9d4c683b4 - Authority:Authority validated via static instance discovery
+INFO: adal-python : 4411ad3e-2703-4803-b774-92c9d4c683b4 - TokenRequest:Getting token from cache with refresh if necessary.
+DEBUG: adal-python : 4411ad3e-2703-4803-b774-92c9d4c683b4 - OAuth2Client:finding with query: {"_clientId": "04b07795-8ddb-461a-bbee-02f9e1bf7b46", "userId": "hroe.lee@gmail.com"}
+DEBUG: adal-python : 4411ad3e-2703-4803-b774-92c9d4c683b4 - OAuth2Client:Looking for potential cache entries:
+DEBUG: adal-python : 4411ad3e-2703-4803-b774-92c9d4c683b4 - OAuth2Client:{"_clientId": "04b07795-8ddb-461a-bbee-02f9e1bf7b46", "userId": "hroe.lee@gmail.com"}
+DEBUG: adal-python : 4411ad3e-2703-4803-b774-92c9d4c683b4 - OAuth2Client:Found 2 potential entries.
+DEBUG: adal-python : 4411ad3e-2703-4803-b774-92c9d4c683b4 - OAuth2Client:Resource specific token found.
+DEBUG: adal-python : 4411ad3e-2703-4803-b774-92c9d4c683b4 - OAuth2Client:Returning token from cache lookup, AccessTokenId: kpq0UBPh5tEt9J+/H98H577gTmGnNGL2zb+VL0Wn424=, RefreshTokenId: ZI1wt9fEA0XlnCD9/r3H377SSWSILUZZaHGeTKuEY5Y=
+DEBUG: msrest.pipeline : Configuring request: timeout=100, verify=True, cert=None
+DEBUG: msrest.pipeline : Configuring redirects: allow=True, max=30
+DEBUG: msrest.pipeline : Configuring proxies: ''
+DEBUG: msrest.pipeline : Evaluate proxies against ENV settings: True
+DEBUG: msrest.pipeline : Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+DEBUG: urllib3.connectionpool : Starting new HTTPS connection (1): management.azure.com
+DEBUG: urllib3.connectionpool : https://management.azure.com:443 "GET /subscriptions/6b3cf2b5-2cc1-4828-b5e0-9f8be72e6e6f/resourceGroups/flops/providers/Microsoft.Web/sites/flops42/sourcecontrols/web?api-version=2016-08-01 HTTP/1.1" 200 None
+DEBUG: msrest.http_logger : Request URL: 'https://management.azure.com/subscriptions/6b3cf2b5-2cc1-4828-b5e0-9f8be72e6e6f/resourceGroups/flops/providers/Microsoft.Web/sites/flops42/sourcecontrols/web?api-version=2016-08-01'
+DEBUG: msrest.http_logger : Request method: 'GET'
+DEBUG: msrest.http_logger : Request headers:
+DEBUG: msrest.http_logger :     'Connection': 'keep-alive'
+DEBUG: msrest.http_logger :     'Accept-Encoding': 'gzip, deflate'
+DEBUG: msrest.http_logger :     'Accept': 'application/json'
+DEBUG: msrest.http_logger :     'User-Agent': 'python/2.7.12 (Linux-4.4.0-92-generic-x86_64-with-Ubuntu-16.04-xenial) requests/2.18.4 msrest/0.4.14 msrest_azure/0.4.13 websitemanagementclient/0.32.0 Azure-SDK-For-Python AZURECLI/2.0.13'
+DEBUG: msrest.http_logger :     'Authorization': '*****'
+DEBUG: msrest.http_logger :     'x-ms-client-request-id': '425634b4-a02c-11e7-bc28-d4bed9a00f50'
+DEBUG: msrest.http_logger :     'CommandName': 'functionapp deployment source config'
+DEBUG: msrest.http_logger :     'Content-Type': 'application/json; charset=utf-8'
+DEBUG: msrest.http_logger :     'accept-language': 'en-US'
+DEBUG: msrest.http_logger : Request body:
+DEBUG: msrest.http_logger : None
+DEBUG: msrest.http_logger : Response status: 200
+DEBUG: msrest.http_logger : Response headers:
+DEBUG: msrest.http_logger :     'Cache-Control': 'no-cache'
+DEBUG: msrest.http_logger :     'Pragma': 'no-cache'
+DEBUG: msrest.http_logger :     'Transfer-Encoding': 'chunked'
+DEBUG: msrest.http_logger :     'Content-Type': 'application/json'
+DEBUG: msrest.http_logger :     'Content-Encoding': 'gzip'
+DEBUG: msrest.http_logger :     'Expires': '-1'
+DEBUG: msrest.http_logger :     'ETag': '"1D3343907D5AAE0"'
+DEBUG: msrest.http_logger :     'Vary': 'Accept-Encoding'
+DEBUG: msrest.http_logger :     'Strict-Transport-Security': 'max-age=31536000; includeSubDomains'
+DEBUG: msrest.http_logger :     'x-ms-request-id': 'f5b66eb1-476e-407a-8ee9-ae5dcca98ad0'
+DEBUG: msrest.http_logger :     'Server': 'Microsoft-IIS/8.0'
+DEBUG: msrest.http_logger :     'X-AspNet-Version': '4.0.30319'
+DEBUG: msrest.http_logger :     'X-Powered-By': 'ASP.NET'
+DEBUG: msrest.http_logger :     'x-ms-ratelimit-remaining-subscription-reads': '14949'
+DEBUG: msrest.http_logger :     'x-ms-correlation-request-id': '153ed6a9-2279-443f-bba7-34864a98d6af'
+DEBUG: msrest.http_logger :     'x-ms-routing-request-id': 'NORTHCENTRALUS:20170923T065710Z:153ed6a9-2279-443f-bba7-34864a98d6af'
+DEBUG: msrest.http_logger :     'Date': 'Sat, 23 Sep 2017 06:57:09 GMT'
+DEBUG: msrest.http_logger : Response content:
+DEBUG: msrest.http_logger : Body contains chunked data.
+DEBUG: Application event 'Application.TransformResults' with event data {'event_data': {'result': {'deploymentRollbackEnabled': False, 'kind': None, 'isMercurial': False, 'name': u'flops42', 'tags': None, 'isManualIntegration': True, 'repoUrl': u'https://github.com/lee212/azure-functions-big-data-benchmark.git', 'location': u'East US 2', 'branch': u'master', 'type': u'Microsoft.Web/sites/sourcecontrols', 'id': u'/subscriptions/6b3cf2b5-2cc1-4828-b5e0-9f8be72e6e6f/resourceGroups/flops/providers/Microsoft.Web/sites/flops42/sourcecontrols/web'}}}
+DEBUG: Application event 'Application.FilterResults' with event data {'event_data': {'result': {'deploymentRollbackEnabled': False, 'kind': None, 'isMercurial': False, 'name': u'flops42', 'tags': None, 'isManualIntegration': True, 'resourceGroup': u'flops', 'repoUrl': u'https://github.com/lee212/azure-functions-big-data-benchmark.git', 'location': u'East US 2', 'branch': u'master', 'type': u'Microsoft.Web/sites/sourcecontrols', 'id': u'/subscriptions/6b3cf2b5-2cc1-4828-b5e0-9f8be72e6e6f/resourceGroups/flops/providers/Microsoft.Web/sites/flops42/sourcecontro [...]
+
+real	1m10.363s
+user	0m0.656s
+sys	0m0.108s

@@ -6,7 +6,7 @@ from multiprocessing.pool import ThreadPool
 git_url = "https://github.com/lee212/azure-functions-big-data-benchmark.git"
 
 jdict = {}
-start = 1270
+start = 2540
 end = 3000
 batch = 1
 wait = 10
@@ -66,9 +66,13 @@ with open('flist2nd') as f:
         wait, batch = update_timer()
         p.apply_async(worker, args=(cmd,), callback=r)
         if i % batch == 0:
-           print "time.sleep({0}) between batch {1}".format(wait, batch)
-           time.sleep(wait)
-    
-           with open("deploy.result.log", "w") as fout:
-               json.dump(res, fout)
+
+            print "time.sleep({0}) between batch {1}".format(wait, batch)
+            time.sleep(wait)
+   
+            try:
+                with open("deploy.result.log", "w") as fout:
+                    json.dump(res, fout)
+            except:
+                pass
 

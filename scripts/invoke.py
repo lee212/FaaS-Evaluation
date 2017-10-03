@@ -61,6 +61,8 @@ for i in cblist:
             'result': n[1],
             'elapsed_time': n[2]}
 
+tp.close()
+tp.join()
 pp (res)
 with open("invoke_{0}_{1}_{2}_{3}_{4}.result".format(num, start, end, loop,
     matrix),"wb") as fout:

@@ -68,13 +68,14 @@ with open(result) as f:
     res = []
     print "Number of deploy_again: {0}".format(len(deploy_again))
     res = p.map(delete, deploy_again)
+    print res
     #p.close()
 
     print "Number of deploy_missing: {0}".format(len(deploy_missing))
     p2 = Pool(batch_size)
     res2 = []
     res3 = []
-    #res2 = p2.map(deploy, deploy_missing)
+    res2 = p2.map(deploy, deploy_missing)
     res3 = p2.map(deploy, deploy_again)
-    print res3
+    print res2, res3
     #p2.close()

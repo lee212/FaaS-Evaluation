@@ -15,6 +15,23 @@ matrix = 512
 timeout_sec=60
 res = {}
 
+def worker(n):
+    url = "https://flops{0}.azurewebsites.net/api/HttpTriggerPythonGFlops".format(n)
+    payload = {"number_of_loop": loop, "number_of_matrix": matrix}
+    s = time.time()
+    try:
+        r = requests.post(url,data=json.dumps(payload), timeout=timeout_sec)
+        res = r.text
+    except requests.exceptions.ReadTimeout as e:
+        res = unicode(e, 'utf-8')
+    e = time.time() - s
+    return (n, res, e)
+
+def collect(n):
+    res[n[0]] = {
+            'result': n[1],
+            'elapsed_time': n[2]}
+
 if __name__ == "__main__":
 
     if len(sys.argv) >= 2:
@@ -56,21 +73,4 @@ if __name__ == "__main__":
     with open("invoke_{0}_{1}_{2}_{3}_{4}.result".format(num, start, end, loop,
         matrix),"wb") as fout:
         json.dump(res, fout, indent=2)
-
-def worker(n):
-    url = "https://flops{0}.azurewebsites.net/api/HttpTriggerPythonGFlops".format(n)
-    payload = {"number_of_loop": loop, "number_of_matrix": matrix}
-    s = time.time()
-    try:
-        r = requests.post(url,data=json.dumps(payload), timeout=timeout_sec)
-        res = r.text
-    except requests.exceptions.ReadTimeout as e:
-        res = unicode(e, 'utf-8')
-    e = time.time() - s
-    return (n, res, e)
-
-def collect(n):
-    res[n[0]] = {
-            'result': n[1],
-            'elapsed_time': n[2]}
 

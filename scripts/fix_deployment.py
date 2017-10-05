@@ -3,7 +3,7 @@ import subprocess
 from multiprocessing import Pool
 import sys
 
-batch_size = 5
+batch_size = 3
 deploy_missing = []
 deploy_again = []
 
@@ -39,6 +39,7 @@ def delete(nid):
 def deploy(nid):
     print "deploy {0}".format(nid)
     name = "flops{0}".format(nid)
+
     try:
         rgroup = fdict[name]['resourceGroup']
     except:
@@ -49,6 +50,7 @@ def deploy(nid):
             " --manual-integration --name {2}").format(rgroup, repo_url, name)
     try:
         o = subprocess.check_output(cmd.split(), stderr=subprocess.STDOUT)
+        print o
     except subprocess.CalledProcessError, e:
         print vars(e)
         return e
@@ -57,7 +59,7 @@ def deploy(nid):
 with open(result) as f:
     rdict = json.load(f)
     for k, v in rdict.iteritems():
-        if v['result'] == "":
+        if v['result'] == "" or v['result'] == None:
             # Need a deployment, functions might not exist.
             deploy_missing.append(k)
         elif v['result'].find("error") > 0:
@@ -67,7 +69,7 @@ with open(result) as f:
     p = Pool(batch_size)
     res = []
     print "Number of deploy_again: {0}".format(len(deploy_again))
-    res = p.map(delete, deploy_again)
+    #res = p.map(delete, deploy_again)
     print res
     #p.close()
 
@@ -75,7 +77,13 @@ with open(result) as f:
     p2 = Pool(batch_size)
     res2 = []
     res3 = []
-    res2 = p2.map(deploy, deploy_missing)
-    res3 = p2.map(deploy, deploy_again)
+    #res2 = p2.map(deploy, deploy_missing)
+    #res3 = p2.map(deploy, deploy_again)
+
+    #for i in deploy_missing + deploy_again:
+    #    import invoke
+    #    n, text, elapsed = invoke.worker(i)
+    #    print n, text,elapsed
+    #    res2.append(deploy(i))
     print res2, res3
     #p2.close()

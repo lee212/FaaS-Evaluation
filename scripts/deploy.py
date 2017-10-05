@@ -6,8 +6,8 @@ from multiprocessing.pool import ThreadPool
 git_url = "https://github.com/lee212/azure-functions-big-data-benchmark.git"
 
 jdict = {}
-start = 2540
-end = 3000
+start = 1071
+end = 1081
 batch = 1
 wait = 10
 
@@ -32,7 +32,7 @@ def update_timer():
         tmp = json.load(f)
         return tmp['wait'], tmp['batch_size']
 
-with open('flist2nd') as f:
+with open('flist4th') as f:
     jdata = json.load(f)
     for i in jdata:
         jdict[i['name']] = i

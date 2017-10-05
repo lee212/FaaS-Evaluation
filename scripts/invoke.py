@@ -13,17 +13,49 @@ loop = 1
 matrix = 512
 
 timeout_sec=60
+res = {}
 
-if len(sys.argv) >= 1:
-    num = int(sys.argv[1])
-if len(sys.argv) >= 2:
-    start = int(sys.argv[2])
-    end = int(sys.argv[3])
-if len(sys.argv) >= 4:
-    loop = int(sys.argv[4])
-    matrix = int(sys.argv[5])
+if __name__ == "__main__":
 
-tp = ThreadPool(num)
+    if len(sys.argv) >= 2:
+        num = int(sys.argv[1])
+    if len(sys.argv) >= 3:
+        start = int(sys.argv[2])
+        end = int(sys.argv[3])
+    if len(sys.argv) >= 5:
+        loop = int(sys.argv[4])
+        matrix = int(sys.argv[5])
+    if len(sys.argv) == 7:
+        timeout_sec = int(sys.argv[6])
+
+    tp = ThreadPool(num)
+    
+    cblist = [] 
+    for i in range(start, end):
+
+        cb = tp.apply_async(worker, (i,))
+        cblist.append(cb)
+
+    cnt = start
+    for i in cblist:
+        try:
+            n = i.get(timeout_sec)
+        except TimeoutError:
+            n = (cnt, None, None)
+        except:
+            n = (cnt, None, None)
+
+        res[n[0]] = {
+                'result': n[1],
+                'elapsed_time': n[2]}
+        cnt += 1
+
+    tp.close()
+    tp.join()
+    pp (res)
+    with open("invoke_{0}_{1}_{2}_{3}_{4}.result".format(num, start, end, loop,
+        matrix),"wb") as fout:
+        json.dump(res, fout, indent=2)
 
 def worker(n):
     url = "https://flops{0}.azurewebsites.net/api/HttpTriggerPythonGFlops".format(n)
@@ -37,35 +69,8 @@ def worker(n):
     e = time.time() - s
     return (n, res, e)
 
-res = {}
-
 def collect(n):
     res[n[0]] = {
             'result': n[1],
             'elapsed_time': n[2]}
-
-cblist = [] 
-for i in range(start, end):
-
-    cb = tp.apply_async(worker, (i,))
-    cblist.append(cb)
-
-cnt = start
-for i in cblist:
-    try:
-        n = i.get(timeout_sec)
-    except TimeoutError:
-        n = (cnt, None, None)
-
-    res[n[0]] = {
-            'result': n[1],
-            'elapsed_time': n[2]}
-    cnt += 1
-
-tp.close()
-tp.join()
-pp (res)
-with open("invoke_{0}_{1}_{2}_{3}_{4}.result".format(num, start, end, loop,
-    matrix),"wb") as fout:
-    json.dump(res, fout, indent=2)
 

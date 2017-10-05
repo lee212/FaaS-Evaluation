@@ -2,8 +2,8 @@ regions="ukwest"
 letter=$(echo {{y..z},{a..z}{a..z}})
 cnt=0
 len=1
-s=2891
-e=2999
+s=200
+e=299
 inc=20
 for i in $regions
 do

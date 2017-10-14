@@ -1,6 +1,7 @@
 import os
 import glob
 import json
+import pickle
 from pprint import pprint as pp
 
 bin_size = [100, 200, 400, 800, 1600, 3000]
@@ -33,11 +34,19 @@ def get_realtime(x):
         secs = secs[:-1]
         return int(mins) * 60.0 + float(secs)
 
+rdi = {}
 for h in ['azure']:
+    rdi[h] = { 'cnt' : 0 }
     for i in bin_size:
+        if i not in rdi[h]:
+            rdi[h][i] = { 'cnt' : 0 }
         for j in conf:
+            if j not in rdi[h][i]:
+                rdi[h][i][j] = { 'cnt' : 0 }
             cur_path = "{0}/{1}/{2}".format(h,i,j)
             for k in os.listdir(cur_path):
+                if k not in rdi[h][i][j]:
+                    rdi[h][i][j][k] = { 'cnt' : 0 }
                 f_dir = "{0}/{1}".format(cur_path, k)
                 files = [ get_numbers(x) for x in os.listdir(f_dir) ]
                 files = [ x for x in files if isinstance(x, int) ]
@@ -49,7 +58,7 @@ for h in ['azure']:
                     start = end = 0
 
                 # Old results in type of curl.*.result
-                for l in range(start, end):
+                for l in range(start, start + end):
                     # parsing curl results
                     result_filename = "{0}/curl.{1}.result".format(f_dir, l)
                     time_filename = "{0}/time.{1}.txt".format(f_dir, l)
@@ -64,6 +73,10 @@ for h in ['azure']:
                             else:
                                 res = [0.0] * 5
                                 df.append([h, i, j, k, l] + res + [elapsed])
+                            rdi[h]['cnt'] += 1
+                            rdi[h][i]['cnt'] += 1
+                            rdi[h][i][j]['cnt'] += 1
+                            rdi[h][i][j][k]['cnt'] += 1
                 # new results in a json format
                 if start == 0 and end == 0:
                     jfiles = glob.glob(f_dir + "/*.result")
@@ -83,6 +96,14 @@ for h in ['azure']:
                                 else:
                                     res = [0.0] * 5
                                     df.append([h, i, j, k, l] + res + [elapsed])
+                                rdi[h]['cnt'] += 1
+                                rdi[h][i]['cnt'] += 1
+                                rdi[h][i][j]['cnt'] += 1
+                                rdi[h][i][j][k]['cnt'] += 1
 
 
-pp (df, indent=2)
+with open("results.list", "wb") as fp:
+    pickle.dump(df, fp)
+
+pp(rdi)
+#pp (df, indent=2, depth=10)

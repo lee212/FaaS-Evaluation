@@ -47,7 +47,7 @@ def invoke_rest(args):
             headers={"Content-Type":"application/json"})
     return res
 
-def invoker(size, fname, loop, mat_n):
+def invoker(size, region, pname, fname, loop, mat_n):
     p = mp.Pool(64)
     res = []
     stime = dt.now()
@@ -56,7 +56,7 @@ def invoker(size, fname, loop, mat_n):
         cmd = "gcloud beta functions call {} --data".format(fname)
         argument = (cmd, params)
         url = \
-        'https://us-central1-capable-shard-436.cloudfunctions.net/{}'.format(fname)
+        'https://{}-{}.cloudfunctions.net/{}'.format(region, pname, fname)
         argument = (url, params)
         if call_type == "REST":
             invoke = invoke_rest
@@ -86,11 +86,13 @@ def invoker(size, fname, loop, mat_n):
 
 if __name__ == "__main__":
 
-    if len(sys.argv) < 5:
-        print "invoke_size func_name num mat_n"
+    if len(sys.argv) < 7:
+        print "invoke_size region project_name func_name num mat_n"
         sys.exit()
     size = sys.argv[1]
-    fname = sys.argv[2]
-    loop = sys.argv[3]
-    mat_n = sys.argv[4]
-    invoker(size, fname, loop, mat_n)
+    region = sys.argv[2]
+    pname = sys.argv[3]
+    fname = sys.argv[4]
+    loop = sys.argv[5]
+    mat_n = sys.argv[6]
+    invoker(size, region, pname, fname, loop, mat_n)

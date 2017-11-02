@@ -84,7 +84,10 @@ def invoker(size, org, space, fname, loop, mat_n):
             rdict = parse_response_rest(r)
         else:
             rdict = parse_response(r)
-        rall[rdict['activationId']] = rdict
+        try:
+            rall[rdict['activationId']] = rdict
+        except KeyError:
+            rall[cnt] = rdict
         cnt += 1
     etime = dt.now()
     with open("invoke.{}.{}.{}.{}.{}.log".format(call_type, size, fname, loop, mat_n), "w") as f:

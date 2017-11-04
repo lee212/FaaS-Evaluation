@@ -47,5 +47,5 @@ print "# of all log events : {}".format(len(all_e))
 
 
 with open("{}.logs".format(lgn.replace("/",".")), "w") as f:
-    json.dump(all_e, f)
+    json.dump(all_e, f, indent=4)
 

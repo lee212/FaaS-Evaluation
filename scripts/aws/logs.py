@@ -42,10 +42,10 @@ for ls in all_ls:
     print len(all_e), cnt
     cnt += 1
 
-print "Log streams with valid event messages: {}".format(cnt)
-print "All log events: {}".format(all_e)
+print "# of Log streams with valid event messages: {}".format(cnt)
+print "# of all log events : {}".format(len(all_e))
 
 
-with open("{}.logs".format(lgn), "w") as f:
+with open("{}.logs".format(lgn.replace("/",".")), "w") as f:
     json.dump(all_e, f)
 

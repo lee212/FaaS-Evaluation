@@ -12,14 +12,13 @@ def parse_event(msg):
         result['id'] = mid
         txt = txt.strip()
         res = txt.split(",")
-        # loop,mat_n,gflops,elapsed
-        if len(res) == 4:
-            result['gflops'] = float(res[2])
-            result['elapsed'] = float(res[3])
-        # Assume other messages are:
-        # condaruntime does not exist
-        else:
-            result['cold_start'] = True
+        # cid, loop, mat_n, gflops,func_elapsed, all_elapsed, init_numpy
+        # 1684,1,1024,17.994209007,0.238927,0.238958, False
+        if len(res) == 7:
+            result['gflops'] = float(res[3])
+            result['func_elapsed'] = float(res[4])
+            result['all_elapsed'] = float(res[5])
+            result['init_numpy'] = bool(res[6])
     # REPORT RequestId: a8129aef-bd34-11e7-ac92-6fc3e515585c\t
     # Duration: 15982.64 ms\tBilled Duration: 16000 ms \tMemory Size: 1536 MB\tMax
     # Memory Used: 547 MB\t\n"
@@ -50,14 +49,14 @@ tdlist = []
 for k, v in rdict.iteritems():
     tdiff = 0
     try:
-        tdiff = v['mseconds'] - (v['elapsed'] * 1000)
+        tdiff = v['mseconds'] - (v['func_elapsed'] * 1000)
     except:
         continue
-    if 'cold_start' in v:
+    if v['init_numpy']:
         cslist.append(tdiff)
     else:
         if tdiff > 100:
-            print v
+            print k, v
         tdlist.append(tdiff)
 
 with open(fname + ".cslist", "w") as f:

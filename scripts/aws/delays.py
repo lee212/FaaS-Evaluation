@@ -18,7 +18,7 @@ def parse_event(msg):
             result['gflops'] = float(res[3])
             result['func_elapsed'] = float(res[4])
             result['all_elapsed'] = float(res[5])
-            result['init_numpy'] = bool(res[6])
+            result['init_numpy'] = True if res[6] == "True" else False
     # REPORT RequestId: a8129aef-bd34-11e7-ac92-6fc3e515585c\t
     # Duration: 15982.64 ms\tBilled Duration: 16000 ms \tMemory Size: 1536 MB\tMax
     # Memory Used: 547 MB\t\n"

@@ -23,10 +23,10 @@ for i in actlist:
     headers = {'Authorization': auth_string}
     rdata = requests.get(url + i, headers=headers)
     rdict = rdata.json()
-    mseconds = float(rdict['duration']) / 1000.0
+    mseconds = float(rdict['duration'])
     # 4443,1,1024,5.86704090704,0.366025
     cid, loop, mat_n, gflops, elapsed = rdict['response']['result']['msg'].split(",")
-    tdiff = mseconds - float(elapsed)
+    tdiff = mseconds - (float(elapsed) * 1000)
     tdlist.append(tdiff)
     actdict[i] = rdict
 

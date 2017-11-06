@@ -5,10 +5,10 @@ import json
 import sys
 import base64
 
-
 def invoke(params):
     url, param = params
-    r = requests.post(url, data=param)
+    r = requests.post(url, data=param,
+    headers={"Content-Type":"application/json"})
     return r.text
 
 def invoker(cnt, url, param):
@@ -31,6 +31,8 @@ def invoker(cnt, url, param):
     return nres
 
 if __name__ == "__main__":
+    if len(sys.argv) < 4:
+        print "cnt url param"
     cnt = sys.argv[1]
     url = sys.argv[2]
     param = sys.argv[3]

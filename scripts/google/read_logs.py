@@ -12,7 +12,11 @@ loglist = []
 for k, v in r.iteritems():
     tdiff = 0.0
     # msg:611,1,1024,4.77169744852,790 stdout:bash: 4771697448.52\n stderr:bash: 
-    cid, loop, mat_n, gflops, elapsed = v['msg'].split(" ", 1)[0].split(":")[1].split(",")
+    try:
+        cid, loop, mat_n, gflops, elapsed = v['msg'].split(" ", 1)[0].split(":")[1].split(",")
+    except:
+        print v
+        continue
     elapsed = float(elapsed)
     # TODO: Replace gcloud with api
     # Python api: google-cloud-logging
@@ -24,7 +28,11 @@ for k, v in r.iteritems():
 
     # Assume third [2] records contains:
     # e.g. 'Function execution took 849 ms, finished with status code: 200'
-    mseconds = float(rdict[2]['log'].split()[3])
+    try:
+        mseconds = float(rdict[2]['log'].split()[3])
+    except:
+        print rdict
+        continue
 
     tdiff = mseconds - elapsed
     tdlist.append(tdiff)

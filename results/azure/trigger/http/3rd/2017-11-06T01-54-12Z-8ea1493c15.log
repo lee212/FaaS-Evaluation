@@ -1,0 +1,9 @@
+2017-11-06T01:54:20.629 Function started (Id=3fcbbf25-d80f-47ab-8bd0-38d07dbf0b12)
+2017-11-06T01:54:21.114 C# HTTP trigger function processed a request.3fcbbf25-d80f-47ab-8bd0-38d07dbf0b12
+2017-11-06T01:54:21.192 Function started (Id=54505c92-3a34-49c3-8c8a-07cac2fcfa77)
+2017-11-06T01:54:21.192 Function started (Id=f0b5ed30-cb75-4e55-9821-b9c4634b6612)
+2017-11-06T01:54:21.192 C# HTTP trigger function processed a request.54505c92-3a34-49c3-8c8a-07cac2fcfa77
+2017-11-06T01:54:21.192 C# HTTP trigger function processed a request.f0b5ed30-cb75-4e55-9821-b9c4634b6612
+2017-11-06T01:54:22.457 Function completed (Success, Id=54505c92-3a34-49c3-8c8a-07cac2fcfa77, Duration=1266ms)
+2017-11-06T01:54:22.568 Function completed (Success, Id=f0b5ed30-cb75-4e55-9821-b9c4634b6612, Duration=1385ms)
+2017-11-06T01:54:22.582 Function completed (Success, Id=3fcbbf25-d80f-47ab-8bd0-38d07dbf0b12, Duration=1943ms)

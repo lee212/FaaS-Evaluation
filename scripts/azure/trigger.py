@@ -33,6 +33,7 @@ def invoker(cnt, url, param):
 if __name__ == "__main__":
     if len(sys.argv) < 4:
         print "cnt url param"
+        sys.exit()
     cnt = sys.argv[1]
     url = sys.argv[2]
     param = sys.argv[3]

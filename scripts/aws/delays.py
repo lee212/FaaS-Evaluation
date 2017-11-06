@@ -55,8 +55,6 @@ for k, v in rdict.iteritems():
     if v['init_numpy']:
         cslist.append(tdiff)
     else:
-        if tdiff > 100:
-            print k, v
         tdlist.append(tdiff)
 
 with open(fname + ".cslist", "w") as f:

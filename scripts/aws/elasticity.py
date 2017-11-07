@@ -38,9 +38,7 @@ for bini in bins_invoke:
         key_name = "{}_{}_{}".format(idx, isize, i)
         res[key_name] = ret
         idx += 1
-        break
     print "{},{} bin size completed".format(bini[0], bini[1])
-    break
    
 with open(os.path.basename(__file__) + ".log", "w") as f:
     json.dump(res, f)

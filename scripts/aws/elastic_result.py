@@ -22,7 +22,11 @@ for i in range(len(r)):
             continue
         call_date = j['ResponseMetadata']['HTTPHeaders']['date']
 
-        rdata = r2[key]
+        try:
+            rdata = r2[key]
+        except:
+            print key
+            continue
         gflops = float(rdata['gflop'])
         elapsed = float(rdata['all_elapsed'])
         init = rdata['init_numpy'].strip()

@@ -7,9 +7,8 @@ with open(fname) as f:
 
 nres = {}
 for k, v in r.iteritems():
-    idx, rsize, ntry = k.split("_")
+    idx, rsize = k.split("_")
     nres[idx] = { "workload_size": rsize,
-            "number_of_try": ntry,
             "response": v
             }
 

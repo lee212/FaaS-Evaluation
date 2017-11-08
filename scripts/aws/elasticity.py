@@ -8,7 +8,7 @@ interval = 0.1
 cold_start_delay = 15
 try_size = 150
 bins_invoke = [[0, 50], [50, 100], [100, 200], [0, 200]]
-func_name = "comp_1536_4"
+func_name = "comp_1536_6"
 loop = 10
 mat_n = 1024
 

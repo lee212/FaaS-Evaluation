@@ -1,4 +1,4 @@
-import multiprocessing as mp
+from multiprocessing.pool import ThreadPool
 from subprocess import check_output
 from datetime import datetime as dt
 import json
@@ -56,7 +56,7 @@ def invoke_rest(args):
     return res
 
 def invoker(size, org, space, fname, loop, mat_n):
-    p = mp.Pool(64)
+    p = ThreadPool(64)
     res = []
     stime = dt.now()
     for i in range(int(size)):
@@ -90,6 +90,8 @@ def invoker(size, org, space, fname, loop, mat_n):
             rall[cnt] = rdict
         cnt += 1
     etime = dt.now()
+    p.close()
+    p.join()
     with open("invoke.{}.{}.{}.{}.{}.log".format(call_type, size, fname, loop, mat_n), "w") as f:
             json.dump(rall, f)
 

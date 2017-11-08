@@ -1,6 +1,6 @@
 import botocore.session
 import json
-import multiprocessing as mp
+from multiprocessing.pool import ThreadPool
 import sys
 
 s = botocore.session.get_session()
@@ -15,7 +15,7 @@ def invoke(x):
     return r
 
 def handler(event):
-    p = mp.Pool(64)
+    p = ThreadPool(64)
     res = []
     size = int(event['invoke_size'])
     func_name = event['function_name']
@@ -29,6 +29,8 @@ def handler(event):
     for i in res:
         nres.append(i.get())
 
+    p.close()
+    p.join()
     return nres
    
 if __name__ == "__main__":
@@ -47,6 +49,6 @@ if __name__ == "__main__":
                 "invoke_size": isize,
                 "number_of_loop": loop,
                 "number_of_matrix": mat_n }
-        res.append(handler(event))
+        res += (handler(event))
 
     print res

@@ -1,5 +1,5 @@
 import requests
-import multiprocessing as mp
+from multiprocessing.pool import ThreadPool
 from datetime import datetime as dt
 import json
 import sys
@@ -12,7 +12,7 @@ def invoke(params):
     return r.text
 
 def invoker(cnt, url, param):
-    p = mp.Pool(64)
+    p = ThreadPool(64)
     res = []
     stime = dt.now()
     argument = (url, param)
@@ -27,6 +27,8 @@ def invoker(cnt, url, param):
         cnt+=1
 
     etime = dt.now()
+    p.close()
+    p.join()
     print "{},{},{}".format(itime - stime, etime - itime, etime - stime)
     return nres
 

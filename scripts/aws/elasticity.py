@@ -34,10 +34,10 @@ rand_numbers = np.concatenate([np.random.randint(1, 4, size=50), \
         np.random.randint(35, 40, size=10), \
         np.random.randint(30, 35, size=10), \
         np.random.randint(25, 30, size=10), \
-        np.random.randint(30, 40, size=10), \
         np.random.randint(50, 60, size=10), \
-        np.random.randint(55, 70, size=10), \
-        np.random.randint(65, 80, size=10), \
+        np.random.randint(59, 69, size=10), \
+        np.random.randint(65, 79, size=10), \
+        np.random.randint(75, 89, size=10), \
         np.random.randint(60, 90, size=10), \
         np.random.randint(70, 90, size=10), \
         np.random.randint(55, 70, size=25)])
@@ -49,12 +49,13 @@ mat_n = 1024
 res = {}
 idx = 0
 
-if len(sys.argv) < 2:
-    print "run_type func_name"
+if len(sys.argv) < 3:
+    print "run_type func_name interval(sec)"
     sys.exit()
 
 run_type = sys.argv[1]
 func_name = sys.argv[2]
+interval = float(sys.argv[3])
 
 if run_type != "concurrent" and run_type != "sequential":
     run_type = "sequential"

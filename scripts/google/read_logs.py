@@ -12,8 +12,9 @@ loglist = []
 for k, v in r.iteritems():
     tdiff = 0.0
     # msg:611,1,1024,4.77169744852,790 stdout:bash: 4771697448.52\n stderr:bash: 
+    # msg:53,10,1024,2.006760956,11488,false 
     try:
-        cid, loop, mat_n, gflops, elapsed = v['msg'].split(" ", 1)[0].split(":")[1].split(",")
+        cid, loop, mat_n, gflops, elapsed, init_numpy = v['msg'].split(" ", 1)[0].split(":")[1].split(",")
     except:
         print v
         continue

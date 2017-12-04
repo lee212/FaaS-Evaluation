@@ -47,12 +47,12 @@ def invoke_rest(args):
             headers={"Content-Type":"application/json"})
     return res
 
-def invoker(size, region, pname, fname, params, parallel):
+def invoker(size, region, pname, fname, loop, mat_n):
     p = ThreadPool(64)
     res = []
     stime = dt.now()
     for i in range(int(size)):
-        params["cid"] = i
+        params = {"cid": i, "number_of_loop":int(loop), "number_of_matrix": int(mat_n)}
         cmd = "gcloud beta functions call {} --data".format(fname)
         argument = (cmd, params)
         url = \
@@ -62,19 +62,14 @@ def invoker(size, region, pname, fname, params, parallel):
             invoke = invoke_rest
         else:
             invoke = invoke_cli
-        if parallel:
-            res.append(p.apply_async(invoke, args=(argument,)))
-        else:
-            res.append(invoke(argument))
+        res.append(p.apply_async(invoke, args=(argument,)))
 
     itime = dt.now()
     rall = {}
     cnt = 0
     for i in res:
-        if parallel:
-            r = i.get()
-        else:
-            r = i
+        r = i.get()
+        #rdict = parse_response(r)
         if call_type == "REST":
             rdict = parse_response_rest(r)
         else:
@@ -86,24 +81,20 @@ def invoker(size, region, pname, fname, params, parallel):
     etime = dt.now()
     p.close()
     p.join()
-    params_str = ''.join(e for e in str(params) if e.isalnum() or e == ":")
-    with open("invoke.{}.{}.{}.{}.{}.log".format(call_type, size, fname,
-        params_str, parallel), "w") as f:
-        json.dump(rall, f)
+    with open("invoke.{}.{}.{}.{}.{}.log".format(call_type, size, fname, loop, mat_n), "w") as f:
+            json.dump(rall, f)
 
     print etime - stime, itime - stime, etime - itime 
 
 if __name__ == "__main__":
 
     if len(sys.argv) < 7:
-        print "invoke_size region project_name " + \
-                "func_name params sequential|concurrent"
-        sys.exit(-1)
+        print "invoke_size region project_name func_name num mat_n"
+        sys.exit()
     size = sys.argv[1]
     region = sys.argv[2]
     pname = sys.argv[3]
     fname = sys.argv[4]
-    print sys.argv[5]
-    params = json.loads(sys.argv[5])
-    parallel = True if sys.argv[6] == 'concurrent' else False
-    invoker(size, region, pname, fname, params, parallel)
+    loop = sys.argv[5]
+    mat_n = sys.argv[6]
+    invoker(size, region, pname, fname, loop, mat_n)

@@ -55,31 +55,42 @@ def invoke_rest(args):
                 os.environ['IBM_OPENWHISK_AUTH_STRING']})
     return res
 
-def invoker(size, org, space, fname, loop, mat_n):
+def invoker(size, org, space, fname, params, parallel):
     p = ThreadPool(64)
     res = []
     stime = dt.now()
     for i in range(int(size)):
-        params = "-p cid {} -p number_of_loop {} -p number_of_matrix {}".format(i, loop, mat_n)
-        cmd = "wsk action invoke /{}_{}/{} {}".format(org,space,fname, params)
-        argument = (cmd, params)
+        params['cid'] = i
         if call_type == "REST":
-            params = {"cid": i, "number_of_loop":int(loop), "number_of_matrix": int(mat_n)}
             url = \
                     'https://openwhisk.ng.bluemix.net/api/v1/namespaces/{}_{}/actions/{}?blocking={}'.format(org,space,fname,is_sync)
             argument = (url, params)
+        else:
+            params_str = ""
+            for k, v in params.iteritems():
+                params_str += "-p {} {} ".format(k, v)
+            cmd = "wsk action invoke /{}_{}/{} {}".format(org,space,fname,
+                    params_str)
+            argument = (cmd, params)
+
         if call_type == "REST":
             invoke = invoke_rest
         else:
             invoke = invoke_cli
-        res.append(p.apply_async(invoke, args=(argument,)))
+        if parallel:
+            res.append(p.apply_async(invoke, args=(argument,)))
+        else:
+            res.append(invoke(argument))
 
     itime = dt.now()
     rall = {}
     cnt = 0
     for i in res:
-        r = i.get()
-        #rdict = parse_response(r)
+        if parallel:
+            r = i.get()
+        else:
+            r = i
+            print r
         if call_type == "REST":
             rdict = parse_response_rest(r)
         else:
@@ -92,20 +103,22 @@ def invoker(size, org, space, fname, loop, mat_n):
     etime = dt.now()
     p.close()
     p.join()
-    with open("invoke.{}.{}.{}.{}.{}.log".format(call_type, size, fname, loop, mat_n), "w") as f:
+    params_fstr = ''.join(e for e in str(params) if e.isalnum() or e == ":")
+    with open("invoke.{}.{}.{}.{}.{}.log".format(call_type, size, fname,
+        params_fstr, parallel), "w") as f:
             json.dump(rall, f)
 
     print etime - stime, itime - stime, etime - itime 
 
 if __name__ == "__main__":
 
-    if len(sys.argv) < 5:
-        print "invoke_size Org Space func_name num mat_n"
+    if len(sys.argv) < 7:
+        print "invoke_size Org Space func_name params sequential|concurrent"
         sys.exit()
     size = sys.argv[1]
     org = sys.argv[2]
     space = sys.argv[3]
     fname = sys.argv[4]
-    loop = sys.argv[5]
-    mat_n = sys.argv[6]
-    invoker(size, org, space, fname, loop, mat_n)
+    params = json.loads(sys.argv[5])
+    parallel = True if sys.argv[6] == "concurrent" else False
+    invoker(size, org, space, fname, params, parallel)

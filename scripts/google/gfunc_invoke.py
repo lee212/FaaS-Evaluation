@@ -103,7 +103,6 @@ if __name__ == "__main__":
     region = sys.argv[2]
     pname = sys.argv[3]
     fname = sys.argv[4]
-    print sys.argv[5]
     params = json.loads(sys.argv[5])
     parallel = True if sys.argv[6] == 'concurrent' else False
     invoker(size, region, pname, fname, params, parallel)

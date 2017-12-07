@@ -5,7 +5,10 @@ import json
 lgn = sys.argv[1]
 c = boto3.client("logs")
 r = c.describe_log_streams(logGroupName=lgn)
-nt = r['nextToken']
+try:
+    nt = r['nextToken']
+except KeyError as e:
+    nt = ""
 ls = r['logStreams']
 all_ls = [] + ls
 
@@ -46,6 +49,6 @@ print "# of Log streams with valid event messages: {}".format(cnt)
 print "# of all log events : {}".format(len(all_e))
 
 
-with open("{}.logs".format(lgn.replace("/",".")), "w") as f:
+with open("{}.logs".format(lgn.replace("/",".")[1:]), "w") as f:
     json.dump(all_e, f, indent=4)
 

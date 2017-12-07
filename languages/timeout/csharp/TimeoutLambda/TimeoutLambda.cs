@@ -12,7 +12,7 @@ namespace TimeoutLambda
 			public Result Handle(Request request) {
 				var stopwatch = new Stopwatch();
 				stopwatch.Start();
-				System.Threading.Thread.Sleep(1000);
+				System.Threading.Thread.Sleep(request.Second*1000);
 				stopwatch.Stop();
 				var elapsed_time = stopwatch.ElapsedMilliseconds;
 				return new Result {
@@ -22,7 +22,7 @@ namespace TimeoutLambda
 	}
 	public class Request
 	{
-		public string Second { get; set; }
+		public int Second { get; set; }
 	}
 
 	public class Result

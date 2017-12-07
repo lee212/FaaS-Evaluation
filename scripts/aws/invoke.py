@@ -15,8 +15,11 @@ def invoke(x):
     res = c.invoke(FunctionName=x['function_name'], Payload=json.dumps(x),
             InvocationType=itype) 
     end = time.time()
+    try:
+        ret = res['Payload'].read()
     res['client_info'] = { 'elapsed_time' : end - start,
-            'invocation_type': itype }
+            'invocation_type': itype,
+            'return_value': ret }
     return res
 
 def handler(event, parallel):

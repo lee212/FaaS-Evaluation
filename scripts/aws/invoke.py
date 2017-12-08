@@ -17,6 +17,9 @@ def invoke(x):
     end = time.time()
     try:
         ret = res['Payload'].read()
+    except:
+        ret = None
+
     res['client_info'] = { 'elapsed_time' : end - start,
             'invocation_type': itype,
             'return_value': ret }

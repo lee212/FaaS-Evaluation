@@ -26,6 +26,9 @@ def invoke(x):
     return res
 
 def handler(event, parallel):
+    # meaningless call for initialization
+    c.publish_version(FunctionName=event['function_name'])
+
     p = ThreadPool(64)
     res = []
     for i in range(event['invoke_size']):

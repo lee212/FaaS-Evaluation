@@ -81,8 +81,10 @@ if __name__ == "__main__":
     tp.join()
 
     params_str = ''.join(e for e in str(params) if e.isalnum() or e == ":")
-    url_str = urlparse(url).hostname.split(".")[0]
-    with open("{}.{}.{}.{}.log".format(os.path.basename(__file__).split(".")[0],
-        cnt, url_str, params_str),"wb") as fout:
+    parse_result = urlparse(url)
+    url_str = parse_result.hostname.split(".")[0]
+    func_name = parse_result.path.split("/")[2]
+    with open("{}.{}.{}.{}.{}.log".format(os.path.basename(__file__).split(".")[0],
+        cnt, url_str, func_name, params_str),"wb") as fout:
             json.dump(res, fout, indent=2)
 

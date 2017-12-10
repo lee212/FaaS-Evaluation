@@ -4,6 +4,7 @@ from datetime import datetime as dt
 import json
 import sys
 import requests
+import time
 
 call_type = "REST"
 
@@ -36,16 +37,20 @@ def parse_response_rest(requests_response):
             "raw": json.dumps(dict(r.headers)) + str(r.elapsed)}
 
 def invoke_cli(args):
+    s = time.time()
     cmd, params = args
     res = check_output(cmd.split() + [json.dumps(params)])
-    return res
+    e = time.time() - s
+    return (res, e)
 
 def invoke_rest(args):
+    s = time.time()
     url, params = args
     res = requests.post(url,
             data=json.dumps(params),
             headers={"Content-Type":"application/json"})
-    return res
+    e = time.time() - s
+    return (res, e)
 
 def invoker(size, region, pname, fname, params, parallel):
     p = ThreadPool(64)
@@ -76,9 +81,11 @@ def invoker(size, region, pname, fname, params, parallel):
         else:
             r = i
         if call_type == "REST":
-            rdict = parse_response_rest(r)
+            rdict = parse_response_rest(r[0])
         else:
-            rdict = parse_response(r)
+            rdict = parse_response(r[0])
+        rdict['client_info'] = { 'elapsed_time': r[1],
+                'API': call_type }
         if rdict['key'] is None:
             rdict['key'] = cnt
         rall[rdict['key']] = rdict

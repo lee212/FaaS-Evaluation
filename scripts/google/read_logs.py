@@ -49,6 +49,8 @@ for k, v in r.iteritems():
         print rdict
         continue
 
+    # Be careful for units
+    # convert elapsed to msecs if it is a second unit
     tdiff = mseconds - elapsed
     tdlist.append(tdiff)
 

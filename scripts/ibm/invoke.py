@@ -5,9 +5,10 @@ import json
 import sys
 import requests
 import os
+import time
 
 call_type = "REST"
-is_sync = "false"
+is_sync = "true"
 
 def parse_response(text):
     ''' sample res
@@ -43,17 +44,21 @@ def parse_response_rest(requests_response):
     return requests_response.json()
 
 def invoke_cli(args):
+    s = time.time()
     cmd, params = args
     res = check_output(cmd.split() + [json.dumps(params)])
-    return res
+    e = time.time() - s
+    return (res, e)
 
 def invoke_rest(args):
+    s = time.time()
     url, params = args
     res = requests.post(url,
             data=json.dumps(params),
             headers={"Content-Type":"application/json", "Authorization":
                 os.environ['IBM_OPENWHISK_AUTH_STRING']})
-    return res
+    e = time.time() - s
+    return (res, e)
 
 def invoker(size, org, space, fname, params, parallel):
     p = ThreadPool(64)
@@ -90,11 +95,14 @@ def invoker(size, org, space, fname, params, parallel):
             r = i.get()
         else:
             r = i
-            print r
         if call_type == "REST":
-            rdict = parse_response_rest(r)
+            rdict = parse_response_rest(r[0])
         else:
-            rdict = parse_response(r)
+            rdict = parse_response(r[0])
+        rdict['client_info'] = { 'elapsed_time': r[1],
+                'API':  call_type,
+                'sync': is_sync }
+
         try:
             rall[rdict['activationId']] = rdict
         except KeyError:
@@ -106,7 +114,7 @@ def invoker(size, org, space, fname, params, parallel):
     params_fstr = ''.join(e for e in str(params) if e.isalnum() or e == ":")
     with open("invoke.{}.{}.{}.{}.{}.log".format(call_type, size, fname,
         params_fstr, parallel), "w") as f:
-            json.dump(rall, f)
+            json.dump(rall, f, indent=2)
 
     print etime - stime, itime - stime, etime - itime 
 

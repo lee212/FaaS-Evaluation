@@ -69,10 +69,10 @@ def argument_parser(parser=None):
                 default=False, help='Concurrency concurrent|sequential')
     args = parser.parse_args()
     args.params = json.loads(args.params)
-    return args
+    return (args, parser)
 
 if __name__ == "__main__":
-    args = argument_parser()
+    (args, parser) = argument_parser()
 
     func_names = args.func_names.split(",")
     res = []

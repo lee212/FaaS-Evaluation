@@ -1,3 +1,4 @@
+import argparse
 import os
 import sys
 import time
@@ -56,24 +57,29 @@ def handler(event, parallel):
     return nres
    
 if __name__ == "__main__":
-    if len(sys.argv) < 5:
-        print "invoke_size func_name params sequential|concurrent"
-        sys.exit()
-    isize = int(sys.argv[1])
-    func_name = sys.argv[2]
+    parser = argparse.ArgumentParser(description="AWS Lambda invocation")
+    parser.add_argument('isize', metavar='cnt', type=int, help='number of'
+            + ' invocation')
+    parser.add_argument('func_names', metavar='fnames', type=str, help='Function'
+            + ' name(s) to invoke')
+    parser.add_argument('params', metavar='params', type=str, help='parameters'
+            + ' to a function (json)')
+    parser.add_argument('--concurrent', action='store_true', dest='concurrent', 
+            default=False, help='Concurrency concurrent|sequential')
+    args = parser.parse_args()
     params = json.loads(sys.argv[3])
-    parallel = True if sys.argv[4] == "concurrent" else False
+    parallel = args.concurrent
 
-    func_names = func_name.split(",")
+    func_names = args.func_names.split(",")
     res = []
     for func_name in func_names:
         params["function_name"] = func_name
-        params["invoke_size"] = isize
+        params["invoke_size"] = args.isize
         res += handler(params, parallel)
 
     #print res
     params_str = ''.join(e for e in str(params) if e.isalnum() or e == ":")
     with open("{}.{}.{}.log".format(os.path.basename(__file__).split(".")[0],
-        isize, func_name, params_str, parallel), "w") as f:
+        args.isize, args.func_names, params_str, parallel), "w") as f:
         json.dump(res, f)
 

@@ -28,7 +28,8 @@ def invoke(x):
 
 def handler(event, parallel):
     # meaningless call for initialization
-    c.publish_version(FunctionName=event['function_name'])
+    func_name = event['function_name'].split(":")[0]
+    c.publish_version(FunctionName=func_name)
 
     p = ThreadPool(64)
     res = []
@@ -86,5 +87,5 @@ if __name__ == "__main__":
     params_str = ''.join(e for e in str(params) if e.isalnum() or e == ":")
     with open("{}.{}.{}.log".format(os.path.basename(__file__).split(".")[0],
         args.isize, args.func_names, params_str, args.concurrent), "w") as f:
-        json.dump(res, f)
+        json.dump(res, f, indent=4)
 

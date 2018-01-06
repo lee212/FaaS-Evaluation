@@ -96,7 +96,7 @@ def invoker(size, region, pname, fname, params, parallel):
     params_str = ''.join(e for e in str(params) if e.isalnum() or e == ":")
     with open("invoke.{}.{}.{}.{}.{}.log".format(call_type, size, fname,
         params_str, parallel), "w") as f:
-        json.dump(rall, f)
+        json.dump(rall, f, indent=4)
 
     print etime - stime, itime - stime, etime - itime 
 

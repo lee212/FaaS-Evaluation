@@ -60,14 +60,14 @@ def handler(event, parallel):
 def argument_parser(parser=None):
     if not parser:
         parser = argparse.ArgumentParser(description="AWS Lambda invocation")
-        parser.add_argument('isize', metavar='cnt', type=int, help='number of'
-                + ' invocation')
-        parser.add_argument('func_names', metavar='fnames', type=str, help='Function'
-                + ' name(s) to invoke')
-        parser.add_argument('params', metavar='params', type=str, help='parameters'
-                + ' to a function (json)')
-        parser.add_argument('--concurrent', action='store_true', dest='concurrent', 
-                default=False, help='Concurrency concurrent|sequential')
+    parser.add_argument('isize', metavar='cnt', type=int, help='number of'
+            + ' invocation')
+    parser.add_argument('func_names', metavar='fnames', type=str, help='Function'
+            + ' name(s) to invoke')
+    parser.add_argument('params', metavar='params', type=str, help='parameters'
+            + ' to a function (json)')
+    parser.add_argument('--concurrent', action='store_true', dest='concurrent', 
+            default=False, help='Concurrency concurrent|sequential')
     args = parser.parse_args()
     args.params = json.loads(args.params)
     return (args, parser)

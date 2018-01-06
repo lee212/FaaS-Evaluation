@@ -1,15 +1,13 @@
 from random import randint
 import numpy as np
+import argparse
+import pprint
 
-def rand_write(fname):
-    rn = rand_gen()
-    with open(fname, "w") as f:
-        np.save(f, rn, allow_pickle=False)
+def rand_write(fname, rn):
+    np.savetxt(fname, rn, fmt='%d')
 
 def rand_read(fname):
-    with open(fname, "r") as f:
-        res = np.load(f)
-
+    res = np.genfromtxt(fname, dtype=int)
     return res
 
 def rand_gen():
@@ -47,3 +45,17 @@ def rand_gen():
 
     return rand_numbers
 
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Rand Number Generator")
+    parser.add_argument('--type', metavar='rtype', default='generate', type=str, help="read|write|generate")
+    parser.add_argument("--filename", type=str, help="filename to write" +\
+            "or read")
+    args = parser.parse_args()
+    if args.type == "read":
+        pprint.pprint(rand_read(args.filename))
+    else:
+        rlist = rand_gen()
+        if args.type == "write":
+            rand_write(args.filename, rlist)
+        else:
+            pprint.pprint(rlist)

@@ -28,8 +28,8 @@ for isize in rand_numbers:
     args.params["invoke_size"] =  isize
     event = args.params
 
-    if args.concurrent == "concurrent":
-        ret = (invoke.handler(event))
+    if args.concurrent:
+        ret = (invoke.handler(event, args.concurrent))
         print ("{} invoked and sleep {}".format(isize, args.interval))
         time.sleep(args.interval)
     else:
@@ -43,14 +43,14 @@ for isize in rand_numbers:
     for j in ret:
         # Exception: TypeError: b'""' is not JSON serializable
         j['client_info']['return_value'] = str(j['client_info']['return_value'])
-        del (j['Payload'])
+        #del (j['Payload'])
 
     #if idx == 0:
     #    print ("cold start delay in {} seconds".format(cold_start_delay))
     #    time.sleep(cold_start_delay)
-    key_name = "{}_{}".format(idx, args.isize)
+    key_name = "{}_{}".format(idx, isize)
     res[key_name] = ret
-    #idx += 1
+    idx += 1
    
-with open(os.path.basename(__file__).split(".")[0] + args.func_names + ".log", "w") as f:
-    json.dump(res, f)
+with open(os.path.basename(__file__).split(".")[0] + "." + args.func_names + ".log", "w") as f:
+    json.dump(res, f, indent=4)

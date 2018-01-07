@@ -19,6 +19,11 @@ for fname in fnames.split(","):
         except:
             err.append(i)
             continue
+        if key in ar:
+            ar[key].append(i)
+        else:
+            ar[key] = [i]
+        '''
         if i['message'].find('1024') > 0:
             try:
                 # 21,10,1024,17.4369022563,1.314976,1.315003,False
@@ -35,6 +40,7 @@ for fname in fnames.split(","):
                     "timestamp": i['timestamp'],
                     "raw": i['message']
                     }
+        '''
 
 with open(fname +  ".elastic", "w") as f:
     json.dump(ar, f, indent=4)

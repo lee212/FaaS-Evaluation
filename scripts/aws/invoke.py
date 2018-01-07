@@ -8,6 +8,7 @@ from multiprocessing.pool import ThreadPool
 
 region = "us-east-2"
 itype = "RequestResponse" #"Event"
+itype = "Event"
 s = botocore.session.get_session()
 c = s.create_client('lambda', region_name=region)
 
@@ -23,7 +24,7 @@ def invoke(x):
 
     res['client_info'] = { 'elapsed_time' : end - start,
             'invocation_type': itype,
-            'return_value': ret }
+            'return_value': str(ret) }
     return res
 
 def handler(event, parallel):

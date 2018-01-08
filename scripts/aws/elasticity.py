@@ -24,27 +24,15 @@ print ("concurrency: {}".format(args.concurrent))
 rand_numbers = rand_gen.rand_read(args.rand_file)
 for isize in rand_numbers:
 
-    args.params["function_name"] = args.func_names
-    args.params["invoke_size"] =  isize
     event = args.params
+    event["function_name"] = args.func_names
+    # <class 'numpy.int64'>
+    event["invoke_size"] =  int(isize)
 
-    if args.concurrent:
-        ret = (invoke.handler(event, args.concurrent))
-        print ("{} invoked and sleep {}".format(isize, args.interval))
-        time.sleep(args.interval)
-    else:
-        ret = []
-        for k in range(isize):
-            event['invoke_size'] = k
-            ret.append(invoke.invoke(event))
-            time.sleep(args.interval)
-    # Not saving 'Payload': <botocore.response.StreamingBody object at
-    # 0x7f6a9ab62510>,
-    for j in ret:
-        # Exception: TypeError: b'""' is not JSON serializable
-        j['client_info']['return_value'] = str(j['client_info']['return_value'])
-        #del (j['Payload'])
-
+    ret = (invoke.handler(event, args.concurrent))
+    print ("{} invoked and sleep {}".format(isize, args.interval))
+    time.sleep(args.interval)
+    
     #if idx == 0:
     #    print ("cold start delay in {} seconds".format(cold_start_delay))
     #    time.sleep(cold_start_delay)

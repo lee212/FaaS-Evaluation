@@ -1,3 +1,4 @@
+import uuid
 import argparse
 import os
 import sys
@@ -12,7 +13,7 @@ itype = "Event"
 s = botocore.session.get_session()
 c = s.create_client('lambda', region_name=region)
 
-def invoke(x):
+def lambda_invoke(x):
     start = time.time()
     res = c.invoke(FunctionName=x['function_name'], Payload=json.dumps(x),
             InvocationType=itype) 
@@ -22,12 +23,19 @@ def invoke(x):
     except:
         ret = None
 
+    # elapsed_time is valid when RequestResponse used
     res['client_info'] = { 'elapsed_time' : end - start,
             'invocation_type': itype,
-            'return_value': str(ret) }
+            'return_value': str(ret),
+            'payload': x }
     return res
 
 def handler(event, parallel):
+    if not parallel:
+        global itype
+        # run a function in
+        itype = "RequestResponse"
+
     # meaningless call for initialization
     func_name = event['function_name'].split(":")[0]
     c.publish_version(FunctionName=func_name)
@@ -35,11 +43,11 @@ def handler(event, parallel):
     p = ThreadPool(64)
     res = []
     for i in range(event['invoke_size']):
-        event['cid'] = i
+        event['cid'] = str(uuid.uuid1())#i
         if parallel:
-            res.append(p.apply_async(invoke, args=(event,)))
+            res.append(p.apply_async(lambda_invoke, args=(event,)))
         else:
-            res.append(invoke(event))
+            res.append(lambda_invoke(event))
 
     nres = []
     if parallel:

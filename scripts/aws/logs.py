@@ -80,27 +80,32 @@ def get_logs(logGroupName):
     default_fname = "{}.logs".format(logGroupName.replace("/",".")[1:])
     to_file(default_fname, events)
 
-def get_expr_from_logs(fname, expr):
+def get_expr_from_logs(fnames, expr):
 
-    ar = {}
+    res = {}
     err = []
     for fname in fnames.split(","):
         with open(fname) as f:
-            r = json.load(f)
+            data = json.load(f)
 
-        for i in r:
+        for event in data:
+            loc = event['message'].find(expr + ": ")
+            if loc > 0:
+                val = event['message'][loc + len(expr) + 2:].split()[0]
+                print (val)
+            else:
+                continue
+            # Get AWS RequestId
             t = \
             re.match(".*([a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}).*",
-                    i['message'])
+                    event['message'])
             try:
                 key = t.group(1)
             except:
-                err.append(i)
+                err.append(event)
                 continue
-            if key in ar:
-                ar[key].append(i)
-            else:
-                ar[key] = [i]
+            res[key] = { 'raw': event,
+                    expr: val }
             '''
             if i['message'].find('1024') > 0:
                 try:
@@ -120,8 +125,9 @@ def get_expr_from_logs(fname, expr):
                         }
             '''
 
-    to_file(fname +  ".elastic", ar)
-    to_file(fname +  ".elastic.err", err)
+    to_file(fname +  ".expr", res)
+    to_file(fname +  ".expr.err", err)
+    return res
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="AWS CloudWatch Log Program")
@@ -141,6 +147,6 @@ if __name__ == "__main__":
     if args.sub == "get":
         get_logs(args.logGroupName)
     elif args.sub == "analyze":
-        get_expr_from_logs(fname, args.expr)
+        get_expr_from_logs(args.fname, args.expr)
 
 

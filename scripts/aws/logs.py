@@ -130,7 +130,7 @@ def get_expr_from_logs(fnames, expr):
     return res
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="AWS CloudWatch Log Program")
+    parser = argparse.ArgumentParser(description="AWS CloudWatch Log Manager")
     subparsers = parser.add_subparsers(help='sub-command help', dest='sub')
 
     parser_read = subparsers.add_parser('get', help='get log messages from AWS')

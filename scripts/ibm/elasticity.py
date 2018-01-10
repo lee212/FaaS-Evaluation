@@ -19,7 +19,6 @@ def elastic_invoke(args):
     """ 
     Invoke a function with concurrent numbers in file 
     """
-
     logger.info("concurrency: {}".format(args.concurrent))
     rand_numbers = rand_gen.rand_read(args.rand_file)
 
@@ -41,42 +40,6 @@ def elastic_invoke(args):
 def to_file(fname, data):    
     with open(fname, "w") as f: 
         json.dump(data, f, indent=4)
-
-def log_with_result(invoke_fname, log_fname):
-    """
-        Connects two output files by RequestId.
-        This is necessary for event (async) invocation
-    """
-    with open(invoke_fname) as f:
-        invoked_list = json.load(f)
-
-    with open(log_fname) as f:
-        log_data = json.load(f)
-
-    res = []
-    for i in invoked_list:
-        i_size = int(i['invoke_size'])
-        num = 0
-        for j in i['result']['response']:
-            try:
-                key = j['ResponseMetadata']['RequestId']
-            except:
-                logger.error("error {}, {}".format(idx, r[idx]))
-                continue
-            call_date = j['ResponseMetadata']['HTTPHeaders']['date']
-
-            try:
-                rdata = log_data[key]
-            except:
-                logger.error(key)
-                continue
-            tmp = [i, w_size, num, gflops, elapsed, init, mat_n, loop, call_date,
-                    func_timestamp ]
-            res.append(tmp)
-            num += 1
-
-    logger.info("total invocations: {}".format(len(res)))
-    return res
 
 if __name__ == "__main__":
  
@@ -101,10 +64,6 @@ if __name__ == "__main__":
             dest='concurrent', default=False, help='Concurrency'
             + ' concurrent|sequential')
 
-    parser_log = subparsers.add_parser('log', help='read logs with elasticity' +
-            ' results')
-    parser_log.add_argument('res_fname', help='result file of elastic invoke')
-    parser_log.add_argument('log_fname', help='log file')
     args = parser.parse_args()
     args.params = json.loads(args.params)
 
@@ -112,8 +71,5 @@ if __name__ == "__main__":
         result = elastic_invoke(args)
         output_fname = os.path.basename(__file__).split(".")[0] + "." + \
                 args.func_names + ".log"
-    elif args.sub == "log":
-        result = log_with_result(args.res_fname, args.log_fname)
-        output_fname = args.res_fname + ".result"
 
     to_file(output_fname, result)

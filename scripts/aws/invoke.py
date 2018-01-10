@@ -87,10 +87,10 @@ if __name__ == "__main__":
     func_names = args.func_names.split(",")
     res = []
     for func_name in func_names:
-        params = args.params
-        params["function_name"] = func_name
-        params["invoke_size"] = args.isize
-        res += handler(params, args.concurrent)
+        event = args.params
+        event["function_name"] = func_name
+        event["invoke_size"] = args.isize
+        res += handler(event, args.concurrent)
 
     #print res
     params_str = ''.join(e for e in str(params) if e.isalnum() or e == ":")

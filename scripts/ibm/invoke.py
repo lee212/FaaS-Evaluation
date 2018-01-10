@@ -1,14 +1,20 @@
-from multiprocessing.pool import ThreadPool
-from subprocess import check_output
-from datetime import datetime as dt
+import argparse
+import uuid
+import time
 import json
 import sys
-import requests
 import os
-import time
+import requests
+import logging
+from datetime import datetime as dt
+from subprocess import check_output
+from multiprocessing.pool import ThreadPool
 
 call_type = "REST"
 is_sync = "true"
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def parse_response(text):
     ''' sample res
@@ -60,12 +66,12 @@ def invoke_rest(args):
     e = time.time() - s
     return (res, e)
 
-def invoker(size, org, space, fname, params, parallel):
+def handler(size, org, space, fname, params, parallel):
     p = ThreadPool(64)
     res = []
     stime = dt.now()
     for i in range(int(size)):
-        params['cid'] = i
+        params['cid'] = str(uuid.uuid1())#i
         if call_type == "REST":
             url = \
                     'https://openwhisk.ng.bluemix.net/api/v1/namespaces/{}_{}/actions/{}?blocking={}'.format(org,space,fname,is_sync)
@@ -116,17 +122,32 @@ def invoker(size, org, space, fname, params, parallel):
         params_fstr, parallel), "w") as f:
             json.dump(rall, f, indent=2)
 
-    print etime - stime, itime - stime, etime - itime 
+    logging.info("{},{},{}".format(etime - stime, itime - stime, etime - itime))
+
+def argument_parser(parser=None):
+    if not parser:
+        parser = argparse.ArgumentParser(description="IBM OpenWhisk invocation")
+    parser.add_argument('isize', metavar='cnt', type=int, help='number of'
+            + ' invocation')
+    parser.add_argument('func_names', metavar='fnames', type=str, help='Function'
+            + ' name(s) to invoke')
+    parser.add_argument('params', metavar='params', type=str, help='parameters'
+            + ' to a function (json)')
+    parser.add_argument('--concurrent', action='store_true', dest='concurrent', 
+            default=False, help='Concurrency concurrent|sequential')
+    # For IBM OpenWhisk
+    parser.add_argument('--Org', default=os.environ['IBM_ORG'],
+    help='Organization name')
+    parser.add_argument('--Space', default=os.environ['IBM_SPACE'], help='Space'
+            + 'name')
+    args = parser.parse_args()
+    args.params = json.loads(args.params)
+    return (args, parser)
 
 if __name__ == "__main__":
 
-    if len(sys.argv) < 7:
-        print "invoke_size Org Space func_name params sequential|concurrent"
-        sys.exit()
-    size = sys.argv[1]
-    org = sys.argv[2]
-    space = sys.argv[3]
-    fname = sys.argv[4]
-    params = json.loads(sys.argv[5])
-    parallel = True if sys.argv[6] == "concurrent" else False
-    invoker(size, org, space, fname, params, parallel)
+    args, parser = argument_parser()
+    event = args.params
+    event['function_name'] = args.fnames
+    event['invoke_size'] = args.isize
+    handler(event, args.concurrent)

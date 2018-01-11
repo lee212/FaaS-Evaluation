@@ -34,7 +34,7 @@ def elastic_invoke(args):
         logger.info("{} invoked and sleep {}".format(isize, args.interval))
         time.sleep(args.interval)
         
-        res.append({ 'result': ret, 'invoke_size': isize})
+        res.append({ 'result': ret, 'invoke_size': int(isize)})
     return res
 
 def to_file(fname, data):    
@@ -65,11 +65,12 @@ if __name__ == "__main__":
             + ' concurrent|sequential')
 
     args = parser.parse_args()
-    args.params = json.loads(args.params)
 
     if args.sub == "invoke":
+        args.params = json.loads(args.params)
         result = elastic_invoke(args)
         output_fname = os.path.basename(__file__).split(".")[0] + "." + \
                 args.func_names + ".log"
 
-    to_file(output_fname, result)
+    if 'output_fname' in locals():
+        to_file(output_fname, result)

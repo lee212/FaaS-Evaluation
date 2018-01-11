@@ -5,6 +5,11 @@ import json
 import sys
 import requests
 import time
+from google.cloud import pubsub_v1
+import os
+
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.environ["HOME"] + \
+        "/.config/gcloud/application_default_credentials.json"
 
 call_type = "REST"
 
@@ -37,6 +42,7 @@ def parse_response_rest(requests_response):
             "raw": json.dumps(dict(r.headers)) + str(r.elapsed)}
 
 def invoke_cli(args):
+    """ function invocation by gcloud """
     s = time.time()
     cmd, params = args
     res = check_output(cmd.split() + [json.dumps(params)])
@@ -44,6 +50,7 @@ def invoke_cli(args):
     return (res, e)
 
 def invoke_rest(args):
+    """ function invocation by http REST API """
     s = time.time()
     url, params = args
     res = requests.post(url,
@@ -52,21 +59,41 @@ def invoke_rest(args):
     e = time.time() - s
     return (res, e)
 
-def invoker(size, region, pname, fname, params, parallel):
+def invoke_pubsub(args):
+
+    project, topic_name, size, params = args
+    publisher = pubsub_v1.PublisherClient()
+    topic_path = publisher.topic_path(project, topic_name)
+                        
+    data = u'{}'.format(params)
+    # Data must be a bytestring
+    data = data.encode('utf-8')
+    for i in range(int(size)):
+        publisher.publish(topic_path, data=data)
+
+def invoker(size, region, pname, fname, params, parallel, pubsub):
     p = ThreadPool(64)
     res = []
     stime = dt.now()
+    if call_type == "PUBSUB":
+        argument = (pname, pubsub, size, params)
+        invoke_pubsub(argument)
+
     for i in range(int(size)):
         params["cid"] = i
         cmd = "gcloud beta functions call {} --data".format(fname)
-        argument = (cmd, params)
         url = \
         'https://{}-{}.cloudfunctions.net/{}'.format(region, pname, fname)
-        argument = (url, params)
         if call_type == "REST":
+            argument = (url, params)
             invoke = invoke_rest
-        else:
+        elif call_type == "CLI":
+            argument = (cmd, params)
             invoke = invoke_cli
+        elif call_type == "PUBSUB":
+            argument = (pname, pubsub, size, params)
+            invoke = invoke_pubsub
+        # parallel is only available by PUBSUB according to Google Groups
         if parallel:
             res.append(p.apply_async(invoke, args=(argument,)))
         else:
@@ -82,8 +109,12 @@ def invoker(size, region, pname, fname, params, parallel):
             r = i
         if call_type == "REST":
             rdict = parse_response_rest(r[0])
-        else:
+        elif call_type == "CLI":
             rdict = parse_response(r[0])
+        elif call_type == "PUBSUB":
+            # n/a 
+            break
+
         rdict['client_info'] = { 'elapsed_time': r[1],
                 'API': call_type }
         if rdict['key'] is None:
@@ -98,13 +129,14 @@ def invoker(size, region, pname, fname, params, parallel):
         params_str, parallel), "w") as f:
         json.dump(rall, f, indent=4)
 
-    print etime - stime, itime - stime, etime - itime 
+    print (etime - stime, itime - stime, etime - itime )
 
 if __name__ == "__main__":
 
     if len(sys.argv) < 7:
-        print "invoke_size region project_name " + \
-                "func_name params sequential|concurrent"
+        print ("invoke_size region project_name " + 
+                "func_name params sequential|concurrent" + 
+                "call_type(REST|CLI|PUBSUB) [pub/sub topic name] ")
         sys.exit(-1)
     size = sys.argv[1]
     region = sys.argv[2]
@@ -112,4 +144,6 @@ if __name__ == "__main__":
     fname = sys.argv[4]
     params = json.loads(sys.argv[5])
     parallel = True if sys.argv[6] == 'concurrent' else False
-    invoker(size, region, pname, fname, params, parallel)
+    call_type = sys.argv[7]
+    pubsub = sys.argv[8]
+    invoker(size, region, pname, fname, params, parallel, pubsub)

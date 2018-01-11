@@ -11,7 +11,7 @@ from subprocess import check_output
 from multiprocessing.pool import ThreadPool
 
 call_type = "REST"
-is_sync = "true"
+is_sync = "false" #"true"
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -66,7 +66,12 @@ def invoke_rest(args):
     e = time.time() - s
     return (res, e)
 
-def handler(size, org, space, fname, params, parallel):
+def handler(event, parallel, org=os.environ['IBM_ORG'],
+        space=os.environ['IBM_SPACE']):
+
+    size = event['invoke_size']
+    fname = event['function_name']
+    params = event
     p = ThreadPool(64)
     res = []
     stime = dt.now()
@@ -117,12 +122,12 @@ def handler(size, org, space, fname, params, parallel):
     etime = dt.now()
     p.close()
     p.join()
-    params_fstr = ''.join(e for e in str(params) if e.isalnum() or e == ":")
-    with open("invoke.{}.{}.{}.{}.{}.log".format(call_type, size, fname,
-        params_fstr, parallel), "w") as f:
-            json.dump(rall, f, indent=2)
-
     logging.info("{},{},{}".format(etime - stime, itime - stime, etime - itime))
+    return rall
+
+def to_file(fname, data):
+    with open(fname, "w") as f:
+        json.dump(data, f, indent=4)
 
 def argument_parser(parser=None):
     if not parser:
@@ -148,6 +153,12 @@ if __name__ == "__main__":
 
     args, parser = argument_parser()
     event = args.params
-    event['function_name'] = args.fnames
+    event['function_name'] = args.func_names
     event['invoke_size'] = args.isize
-    handler(event, args.concurrent)
+    res = handler(event, args.concurrent, org=args.Org, space=args.Space)
+
+    params_fstr = ''.join(e for e in str(args.params) if e.isalnum() or e == ":")
+    output_fname = ("invoke.{}.{}.{}.{}.{}.log".format(call_type, args.isize,
+        args.func_names, params_fstr, args.concurrent))
+    to_file(output_fname, res)
+

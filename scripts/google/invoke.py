@@ -118,8 +118,7 @@ def handler(event, args):
             # Under development, currently in testing mode
             # zero byte of content but the filename is used as a parameter like
             # 128_0.txt indicates { "mat_n": 128, "cid": 0 } in a code
-            params = "bucket_128_100/128_{}.txt".format(i)
-            argument = (bucket, params)
+            argument = (bucket, "bucket_128_100/128_{}.txt".format(i))
             invoke = invoke_storage
         # parallel is only available by PUBSUB/storage according to Google Groups
         if parallel:
@@ -155,10 +154,12 @@ def handler(event, args):
     etime = dt.now()
     p.close()
     p.join()
+    '''
     params_str = ''.join(e for e in str(params) if e.isalnum() or e == ":")
     with open("invoke.{}.{}.{}.{}.{}.log".format(call_type, size, fname,
         params_str, parallel), "w") as f:
         json.dump(rall, f, indent=4)
+    '''
 
     print (etime - stime, itime - stime, etime - itime )
 
@@ -179,7 +180,7 @@ def to_file(fname, data):
     with open(fname, "w") as f:
         json.dump(data, f, indent=4)
 
-def config_parser(conf_file):
+def config_parser(conf_file=gcloud_config):
     """ Return default project, region from config file
     Note, this is not verified by Google API Document.
     Some user might not have a default value where this function assumes

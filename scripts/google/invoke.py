@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import time
+import base64
 import requests
 import argparse
 import configparser
@@ -77,8 +78,17 @@ def invoke_pubsub(args):
         publisher.publish(topic_path, data=data)
 
 def invoke_storage(args):
-    """ Alias to upload_file """
-    upload_file(args)
+    """ call upload_from_filename Google Cloud Storage API
+    Args:
+       obj is a set of bucket object and filename
+       where filename should exist in a local path and not an absolute path
+    Return:
+       n/a
+    """
+
+    bucket, fname_encoded = args
+    blob = bucket.blob(fname_encoded)
+    blob.upload_from_string("") # 0 byte of content but uses filename as a param
 
 def handler(event, args):
     call_type = args.call_type
@@ -97,7 +107,10 @@ def handler(event, args):
         argument = (pname, option, size, params)
         invoke_pubsub(argument)
     elif call_type == "STORAGE":
-        client = storage.Client()
+        #s = requests.Session()
+        #a = requests.adapters.HTTPAdapter(pool_connections=100, pool_maxsize=100)
+        #s.mount('https://', a)
+        client = storage.Client()#_http=s)
         bucket = client.get_bucket(option)
 
     for i in range(int(size)):
@@ -115,10 +128,12 @@ def handler(event, args):
             argument = (pname, option, size, params)
             invoke = invoke_pubsub
         elif call_type == "STORAGE":
-            # Under development, currently in testing mode
-            # zero byte of content but the filename is used as a parameter like
-            # 128_0.txt indicates { "mat_n": 128, "cid": 0 } in a code
-            argument = (bucket, "bucket_128_100/128_{}.txt".format(i))
+            # zero byte of content but the filename is used as a parameter 
+            # using base64 encode
+            # eyJtYXRfbiI6MTI4LCJjaWQiOjF9Cg==.txt 
+            # indicates { "mat_n": 128, "cid": 1 }
+            encoded_params = base64.b64encode(bytes(json.dumps(params), "utf-8"))
+            argument = (bucket, encoded_params)
             invoke = invoke_storage
         # parallel is only available by PUBSUB/storage according to Google Groups
         if parallel:
@@ -162,19 +177,6 @@ def handler(event, args):
     '''
 
     print (etime - stime, itime - stime, etime - itime )
-
-def upload_file(obj):
-    """ call upload_from_filename Google Cloud Storage API
-    Args:
-       obj is a set of bucket object and filename
-       where filename should exist in a local path and not an absolute path
-    Return:
-       n/a
-    """
-
-    bucket, fname = obj
-    blob = bucket.blob(fname)
-    blob.upload_from_filename(filename=fname)
 
 def to_file(fname, data):
     with open(fname, "w") as f:

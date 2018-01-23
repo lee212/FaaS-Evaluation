@@ -3,8 +3,9 @@ import json
 import logging
 import argparse
 from google.cloud import logging as g_logging
+import time
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 def argument_parser():
@@ -31,11 +32,24 @@ def read_log(log_name):
 
     res = []
     cnt = 0
-    for i in g_logger.list_entries():
+    # page_size with a high number is important not to receive quota limit raise
+    # error (ReadRequestsPerMinutePerProject) like:
+    # 
+    # google.gax.errors.RetryError: RetryError(Exception occurred in retry
+    # method that was not classified as transient, caused by <_Rendezvous of RPC
+    # that terminated with (StatusCode.RESOURCE_EXHAUSTED, Insufficient tokens
+    # for quota 'logging.googleapis.com/read_requests' and limit
+    # 'ReadRequestsPerMinutePerProject' of service 'logging.googleapis.com' for
+    # consumer 'project_number:764086051850'.)>)
+    # 
+    # https://googlecloudplatform.github.io/google-cloud-python/latest/logging/logger.html#google.cloud.logging.logger.Logger.list_entries
+    page_size = 1000
+
+    for i in g_logger.list_entries(page_size=page_size):
         del(i.logger)
         i.timestamp = i.timestamp.isoformat()
         res.append(vars(i))
-        if cnt == 1000:
+        if cnt % page_size == 0:
             logger.info("{} entries".format(cnt))
         cnt += 1
     return res
@@ -48,6 +62,6 @@ if __name__ == "__main__":
 
     args = argument_parser()
     res = read_log(args.log_name)
-    to_file("{}.{}.log".format(os.path.basename(__file__).split(".")[0], args.log_name), res)
+    to_file("stackdriver.{}.log".format(args.log_name), res)
 
 

@@ -43,7 +43,7 @@ def handler(event, parallel):
     p = ThreadPool(64)
     res = []
     for i in range(event['invoke_size']):
-        event['cid'] = str(uuid.uuid1())#i
+        event['cid'] = str(uuid.uuid1())
         if parallel:
             res.append(p.apply_async(lambda_invoke, args=(event,)))
         else:

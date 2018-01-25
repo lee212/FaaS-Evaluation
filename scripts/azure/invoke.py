@@ -1,19 +1,19 @@
-from multiprocessing.pool import ThreadPool, TimeoutError
-from urlparse import urlparse
-import urllib
 import time
-from pprint import pprint as pp
 import json
-import requests
 import sys
 import os
+import requests
+import argparse
+from pprint import pprint as pp
+from urllib.parse import urlparse
+from multiprocessing.pool import ThreadPool, TimeoutError
 
+call_type = "HTTP"
 thread_num = 64
-timeout_sec=60
-res = {}
+timeout_sec = 60 # REST TIMEOUT
 
-def worker(n):
-    cid, url, payload = n
+def azure_invoke(payload):
+    url = payload['function_name']
     #url = "https://flops{0}.azurewebsites.net/api/HttpTriggerPythonGFlops".format(n)
     #payload = {"number_of_loop": loop, "number_of_matrix": matrix}
     s = time.time()
@@ -24,67 +24,95 @@ def worker(n):
     except requests.exceptions.ReadTimeout as e:
         ret = unicode(e, 'utf-8')
     e = time.time() - s
-    return (cid, ret, e)
+    return (ret, e)
 
-def collect(n):
-    res[n[0]] = {
-            'result': n[1],
-            'elapsed_time': n[2]}
+def to_file(fname, data):
+    with open(fname, "w") as f:
+        json.dumps(data, f, indent=4)
 
-if __name__ == "__main__":
+def argument_parser(parser=None):
+    if not parser:
+        parser = argparse.ArgumentParser(description="Function invocation")
+    parser.add_argument("target", help="Function provider name e.g." +  \
+            "azure|aws|ibm|google")
+    parser.add_argument('isize', metavar='cnt', type=int, help='number of'
+            + ' invocation')
+    parser.add_argument('func_names', metavar='fnames', type=str, help='Function'
+            + ' name(s) to invoke. Azure uses HTTP URL instead, if HTTP trigger'
+            + 'selected')
+    parser.add_argument('params', metavar='params', type=str, help='parameters'
+            + ' to a function (json)')
+    parser.add_argument('--concurrent', action='store_true', dest='concurrent', 
+            default=False, help='Concurrency concurrent|sequential')
+    try:
+        # For IBM OpenWhisk
+        parser.add_argument('--Org', default=os.environ['IBM_ORG'],
+        help='Organization name')
+        parser.add_argument('--Space', default=os.environ['IBM_SPACE'], help='Space'
+                + 'name')
+    except KeyError:
+        pass
 
-    if len(sys.argv) < 5:
-        print "cnt url params concurrent|sequential start end timout_second"
-        sys.exit(-1)
+    args = parser.parse_args()
+    args.params = json.loads(args.params)
+    return (args, parser)
 
-    cnt = int(sys.argv[1])
-    url = sys.argv[2]
-    params = json.loads(sys.argv[3])
-    parallel = True if sys.argv[4] == "concurrent" else False
-    # optional
-    if len(sys.argv) > 5:
-        start = int(sys.argv[5])
-        end = int(sys.argv[6])
-    else:
-        start = 0
-        end = cnt
-    if len(sys.argv) == 8:
-        timeout_sec = int(sys.argv[7])
+def convert_urls_2_str(url):
+    parse_result = urlparse(url)
+    url_str = parse_result.hostname.split(".")[0]
+    func_name = parse_result.path.split("/")[2]
+    return func_name
+
+def handler(event, parallel):
 
     tp = ThreadPool(thread_num)
     
     cblist = [] 
-    for cid in range(start, end):
+    size = int(event['invoke_size'])
+    params = event
+    worker = globals()[event['target'] + "_invoke"]
+    for cid in range(size):
 
-        arguments = (cid, url, params)
         if parallel:
-            cblist.append(tp.apply_async(worker, (arguments,)))
+            cblist.append(tp.apply_async(worker, (params,)))
         else:
-            cblist.append(worker(arguments))
+            cblist.append(worker(params))
 
+    cnt = 0
+    res = {}
     for i in cblist:
         if parallel:
             try:
                 n = i.get(timeout_sec)
             except TimeoutError:
-                n = (start, None, None)
+                n = (cnt, None, None)
             except:
-                n = (start, None, None)
+                n = (cnt, None, None)
         else:
             n = i
-        res[n[0]] = {
-                'result': n[1],
-                'elapsed_time': n[2]}
-        start += 1
+        res[cnt] = {
+                'result': n[0],
+                'elapsed_time': n[1]}
+        cnt += 1
 
     tp.close()
     tp.join()
 
-    params_str = ''.join(e for e in str(params) if e.isalnum() or e == ":")
-    parse_result = urlparse(url)
-    url_str = parse_result.hostname.split(".")[0]
-    func_name = parse_result.path.split("/")[2]
-    with open("{}.{}.{}.{}.{}.log".format(os.path.basename(__file__).split(".")[0],
-        cnt, url_str, func_name, params_str),"wb") as fout:
-            json.dump(res, fout, indent=2)
+    return res
 
+if __name__ == "__main__":
+
+    args, parser = argument_parser()
+    event = args.params
+    event['function_name'] = args.func_names
+    event['invoke_size'] = args.isize
+    event['target'] = args.target
+    res = handler(event, args.concurrent)
+
+    params_fstr = ''.join(e for e in str(args.params) if e.isalnum() or e == ":")
+
+    if event['target'] == 'azure':
+        func_names = convert_urls_2_str(args.func_names)
+    output_fname = ("invoke.{}.{}.{}.{}.{}.log".format(call_type, args.isize,
+        func_names, params_fstr, args.concurrent))
+    to_file(output_fname, res)

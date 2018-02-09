@@ -29,7 +29,8 @@ def elastic_invoke(args):
         event = args.params
         event["function_name"] = args.func_names
         # <class 'numpy.int64'>
-        event["invoke_size"] =  int(isize)
+        isize = int(isize)
+        event["invoke_size"] = isize
 
         ret = (invoke.handler(event, args.concurrent))
         logger.info("{} invoked and sleep {}".format(isize, args.interval))

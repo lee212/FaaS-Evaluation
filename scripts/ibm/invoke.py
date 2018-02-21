@@ -1,3 +1,4 @@
+import copy
 import argparse
 import uuid
 import time
@@ -71,12 +72,16 @@ def handler(event, parallel, org=os.environ['IBM_ORG'],
 
     size = event['invoke_size']
     fname = event['function_name']
-    params = event
     p = ThreadPool(64)
     res = []
     stime = dt.now()
     for i in range(int(size)):
-        params['cid'] = str(uuid.uuid1())#i
+        params = copy.deepcopy(event)
+        params['cid'] = i # str(uuid.uuid1())#i
+        params['client'] = { "curr_time": "{}".format(dt.now()),
+                "init_time": "{}".format(stime),
+                "API": call_type,
+                "blocking": is_sync }
         if call_type == "REST":
             url = \
                     'https://openwhisk.ng.bluemix.net/api/v1/namespaces/{}_{}/actions/{}?blocking={}'.format(org,space,fname,is_sync)

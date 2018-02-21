@@ -1,3 +1,4 @@
+import copy
 import uuid
 import argparse
 import os
@@ -43,9 +44,10 @@ def handler(event, parallel):
     p = ThreadPool(64)
     res = []
     for i in range(event['invoke_size']):
-        event['cid'] = str(uuid.uuid1())
+        params = copy.deepcopy(event)
+        params['cid'] = i # uuid.uuid1())
         if parallel:
-            res.append(p.apply_async(lambda_invoke, args=(event,)))
+            res.append(p.apply_async(lambda_invoke, args=(params,)))
         else:
             res.append(lambda_invoke(event))
 
@@ -93,7 +95,7 @@ if __name__ == "__main__":
         res += handler(event, args.concurrent)
 
     #print res
-    params_str = ''.join(e for e in str(params) if e.isalnum() or e == ":")
+    params_str = ''.join(e for e in str(args.params) if e.isalnum() or e == ":")
     with open("{}.{}.{}.log".format(os.path.basename(__file__).split(".")[0],
         args.isize, args.func_names, params_str, args.concurrent), "w") as f:
         json.dump(res, f, indent=4)

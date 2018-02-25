@@ -28,7 +28,7 @@ def azure_invoke(payload):
 
 def to_file(fname, data):
     with open(fname, "w") as f:
-        json.dumps(data, f, indent=4)
+        json.dump(data, f, indent=4)
 
 def argument_parser(parser=None):
     if not parser:
@@ -90,6 +90,7 @@ def handler(event, parallel):
                 n = (cnt, None, None)
         else:
             n = i
+
         res[cnt] = {
                 'result': n[0],
                 'elapsed_time': n[1]}

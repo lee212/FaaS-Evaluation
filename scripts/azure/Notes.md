@@ -15,3 +15,4 @@ Azure has its own scaling controller to increase instances based on the input ev
 - Functions Scale: https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale
 - Event Hubs: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-event-hubs#trigger---scaling
 - HTTP Concurrency host options: https://docs.microsoft.com/en-us/azure/azure-functions/functions-best-practices#scalability-best-practices
+- host.json: https://github.com/Azure/azure-functions-host/wiki/host.json

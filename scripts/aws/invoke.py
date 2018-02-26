@@ -43,6 +43,7 @@ def handler(event, parallel):
 
     p = ThreadPool(64)
     res = []
+    stime = time.time()
     for i in range(event['invoke_size']):
         params = copy.deepcopy(event)
         params['cid'] = i # uuid.uuid1())
@@ -51,6 +52,7 @@ def handler(event, parallel):
         else:
             res.append(lambda_invoke(event))
 
+    mtime = time.time()
     nres = []
     if parallel:
         for i in res:
@@ -61,10 +63,19 @@ def handler(event, parallel):
     p.close()
     p.join()
 
+    etime = time.time()
     # Not saving 'Payload': <botocore.response.StreamingBody object at
     # 0x7f6a9ab62510>,
     for j in nres:
         del (j['Payload'])
+
+    tmp = {'client_info': {'start_time': "{}".format(stime),
+            "end_time": "{}".format(etime),
+            "threadpool": "{}".format(mtime-stime),
+            "Response": "{}".format(etime-mtime),
+            "total": "{}".format(etime-stime)}
+            }
+    nres.append(tmp)
 
     return nres
 

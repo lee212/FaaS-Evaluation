@@ -128,6 +128,11 @@ def handler(event, parallel, org=os.environ['IBM_ORG'],
     p.close()
     p.join()
     logging.info("{},{},{}".format(etime - stime, itime - stime, etime - itime))
+    rall['client_info'] = {'start_time': '{}'.format(stime),
+            'end_time': '{}'.format(etime),
+            'threadpool': '{}'.format(itime - stime),
+            'HTTP_Reponse': '{}'.format(etime - itime),
+            'total': '{}'.format(etime - stime)}
     return rall
 
 def to_file(fname, data):

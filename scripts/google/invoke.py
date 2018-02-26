@@ -177,6 +177,7 @@ def handler(event, args):
     '''
 
     print (etime - stime, itime - stime, etime - itime )
+    return rall
 
 def to_file(fname, data):
     with open(fname, "w") as f:

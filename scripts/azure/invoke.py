@@ -7,6 +7,11 @@ import argparse
 from pprint import pprint as pp
 from urllib.parse import urlparse
 from multiprocessing.pool import ThreadPool, TimeoutError
+import logging
+
+logging.basicConfig(level=logging.INFO)
+#logging.getLogger().addHandler(logging.StreamHandler())
+logger = logging.getLogger(__name__)
 
 call_type = "HTTP"
 thread_num = 64
@@ -71,6 +76,8 @@ def handler(event, parallel):
     size = int(event['invoke_size'])
     params = event
     worker = globals()[event['target'] + "_invoke"]
+    s = time.time()
+    logger.debug("started threadpool")
     for cid in range(size):
 
         if parallel:
@@ -78,6 +85,8 @@ def handler(event, parallel):
         else:
             cblist.append(worker(params))
 
+    m = time.time()
+    logger.debug("ended threadpool:{}".format(m-s))
     cnt = 0
     res = {}
     for i in cblist:
@@ -99,6 +108,14 @@ def handler(event, parallel):
     tp.close()
     tp.join()
 
+    e = time.time()
+    logger.debug("ended get(): {}".format(e-m))
+    logger.debug("elapsed total: {}".format(e-s))
+    res['client_info']  = { "threadpool": "{}".format(m - s),
+            "start_time": s,
+            "HTTP_Response": "{}".format(e-m),
+            "end_time": e,
+            "total": "{}".format(e-s)}
     return res
 
 if __name__ == "__main__":

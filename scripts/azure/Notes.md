@@ -9,6 +9,7 @@ Azure has its own scaling controller to increase instances based on the input ev
 - Event Hub is for handling large concurrent event messages
 - Queue storage trigger supports up to 32 batch sizes to process at a time
 - Log messages might be throttled if it exceeds thresholds
+- Monitor page does not provide accurate information if log messages are throttled e.g. 10k invoked but 7k count are displayed on the monitor page
 
 ## Resources
 

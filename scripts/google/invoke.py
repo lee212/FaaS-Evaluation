@@ -177,6 +177,11 @@ def handler(event, args):
     '''
 
     print (etime - stime, itime - stime, etime - itime )
+    rall['client_info'] = { 'start_time':'{}'.format(stime),
+        "end_time": "{}".format(etime),
+        "threadpool":"{}".format(itime - stime),
+        "Response": "{}".format(etime - itime),
+        "total": "{}".format(etime - stime)}
     return rall
 
 def to_file(fname, data):

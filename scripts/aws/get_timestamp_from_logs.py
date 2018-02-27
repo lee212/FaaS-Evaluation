@@ -42,8 +42,6 @@ def get_timestamp(rdata, ldata):
         res['max'] = max(max(ts), res['max'])
 
     res["diff"] = res["max"] - res["min"]
-    res["diff_datetime"] = datetime.datetime.fromtimestamp(
-            res["diff"]).strftime('%Y-%m-%d %H:%M:%S')
     return res
 
 if __name__ == "__main__":

@@ -20,28 +20,36 @@ def to_file(fname, data):
         json.dump(data, f, indent=4)
 
 def get_timestamp(rdata, ldata):
-    1519624219563
     res = { "min": 9999999999999,
             "max": 0,
             "diff": 0,
             "diff_datetime": 0 }
+
+    err = 0
+    err_msg = []
     for i in rdata:
         if "ResponseMetadata" in i:
             rid = i["ResponseMetadata"]["RequestId"]
         else:
             #KeyError
+            err += 1
+            err_msg.append(i)
             continue
         if rid in ldata:
             log_messages = ldata[rid]
         else:
             # KeyError
+            err += 1
+            err_msg.append(i)
             continue
-        ts = [ x['timestamp'] for x in log_messages]
+        ts = [ x['timestamp'] for x in log_messages ]
         res[rid] = ts
         res['min'] = min(min(ts), res['min'])
         res['max'] = max(max(ts), res['max'])
 
     res["diff"] = res["max"] - res["min"]
+    res['error'] = { "cnt": err,
+            "msg": err_msg }
     return res
 
 if __name__ == "__main__":

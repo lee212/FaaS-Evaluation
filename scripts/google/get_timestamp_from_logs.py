@@ -18,22 +18,32 @@ def to_file(fname, data):
         json.dump(data, f, indent=4)
 
 def read_timestamp(data):
-    res = { "min": datetime.datetime.now(),
+    res = { "min": None,
             "max": None,
             "diff": None }
+    err = 0
+    err_msg = []
     # data is list
     for i in data:
         #         "timestamp": "2018-02-26T07:13:46.169000+00:00",
-        t = datetime.datetime.strptime(i['timestamp'][:-6],
-                '%Y-%m-%dT%H:%M:%S.%f')
+        try:
+            t = datetime.datetime.strptime(i['timestamp'][:-6],
+                    '%Y-%m-%dT%H:%M:%S.%f')
+        except ValueError as e:
+            err += 1
+            err_msg.append(i)
+            continue
         if res['max'] is None:
             res['max'] = t
+            res['min'] = t
         res['min'] = min(t, res['min'])
         res['max'] = max(t, res['max'])
 
     res['diff'] = "{}".format(res['max'] - res['min'])
     res['min'] = "{}".format(res['min'])
     res['max'] = "{}".format(res['max'])
+    res['error'] = { "cnt": err,
+            "msg": err_msg }
     return res
 
 if __name__ == "__main__":

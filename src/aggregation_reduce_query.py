@@ -16,3 +16,5 @@ for i in args.file:
                 all_data[k] = v
 
 print (len(all_data))
+with open(i + ".result", "wb") as f:
+    marshal.dump(all_data, f)

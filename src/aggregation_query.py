@@ -38,3 +38,8 @@ t_end = time.time()
 
 r_num = len(res)
 elapsed = t_end - t_start
+import json
+n = json.dumps(res)
+with open(fname + ".aggregate", "w") as f:
+     json.dump(res, f, indent=4)
+print (elapsed, r_num, sys.getsizeof(n))

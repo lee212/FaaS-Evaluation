@@ -33,7 +33,7 @@ for line in lines:
     # SUBSTR(sourceIP, 1, X)
     key = sourceIP[:int(x)]
     key_id = key[0]
-    if key in res:
+    if key in res[key_id]:
         res[key_id][key] += float(adRevenue)
     else:
         res[key_id][key] = float(adRevenue)

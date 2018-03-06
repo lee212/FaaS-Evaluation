@@ -9,6 +9,13 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 def argument_parser():
+    """ e.g.
+    python read_stackdriver_logging.py
+    cloudfunctions.googleapis.com%2Fcloud-function
+
+    incorrect logname :
+    projects/capable-shard-436/logs/cloudfunctions.googleapis.com%2Fcloud-functions
+    """
     parser = argparse.ArgumentParser("Google Stackdriver Logging Python Client API")
     parser.add_argument("log_name", help="log name which associated with log entries")
 

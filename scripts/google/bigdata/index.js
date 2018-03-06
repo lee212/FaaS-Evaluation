@@ -1,6 +1,6 @@
 const path = require('path');
   
-exports.pythonGCS = (event, callback) {
+exports.pythonGCS = (event, callback) => {
     const file = event.data;
     if (file.resourceState === 'not_exists')  {
 	    callback();

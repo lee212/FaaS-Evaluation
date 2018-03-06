@@ -1,0 +1,1504 @@
+[
+    { "total": ["real    1m17.055s", "user    1m27.272s", "sys     0m20.020s"]
+},
+    {
+        "result": {
+            "cnt": 328,
+            "elapsed": 1.6232774257659912,
+            "s3d": 47.97936654090881
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00000",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 334,
+            "elapsed": 1.708397626876831,
+            "s3d": 3.500169277191162
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00001",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "elapsed": 1.4328372478485107,
+            "s3d": 8.898995399475098
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00002",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "elapsed": 3.168980121612549,
+            "s3d": 38.436312675476074
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00003",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 333,
+            "elapsed": 1.6339240074157715,
+            "s3d": 8.360689163208008
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00004",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "elapsed": 1.857069969177246,
+            "s3d": 3.9804329872131348
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00005",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 325,
+            "elapsed": 1.6371424198150635,
+            "s3d": 8.032756328582764
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00006",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 324,
+            "elapsed": 1.900094747543335,
+            "s3d": 6.031854152679443
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00007",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "elapsed": 0.7605421543121338,
+            "s3d": 10.967784404754639
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00008",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 325,
+            "elapsed": 1.1746680736541748,
+            "s3d": 50.5939736366272
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00009",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 334,
+            "elapsed": 1.8241627216339111,
+            "s3d": 3.666982650756836
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00010",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "elapsed": 2.313917636871338,
+            "s3d": 44.25282430648804
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00011",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 330,
+            "elapsed": 4.9964776039123535,
+            "s3d": 40.20192790031433
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00012",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "elapsed": 3.3484201431274414,
+            "s3d": 26.94380235671997
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00013",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "elapsed": 3.923872947692871,
+            "s3d": 25.53742742538452
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00014",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "elapsed": 3.6737253665924072,
+            "s3d": 30.817980527877808
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00015",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "elapsed": 1.5216236114501953,
+            "s3d": 6.262646913528442
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00016",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "elapsed": 4.041432857513428,
+            "s3d": 23.70041036605835
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00017",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 333,
+            "elapsed": 5.82928729057312,
+            "s3d": 23.360814809799194
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00018",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "elapsed": 2.758803129196167,
+            "s3d": 16.907445669174194
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00019",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "elapsed": 5.023579359054565,
+            "s3d": 30.949729442596436
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00020",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "elapsed": 4.989226818084717,
+            "s3d": 32.247336864471436
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00021",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 324,
+            "elapsed": 1.6743268966674805,
+            "s3d": 14.481454372406006
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00022",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 335,
+            "elapsed": 2.0353732109069824,
+            "s3d": 47.381983518600464
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00023",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "elapsed": 2.20312237739563,
+            "s3d": 46.951212644577026
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00024",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 323,
+            "elapsed": 1.0036067962646484,
+            "s3d": 12.577322483062744
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00025",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "elapsed": 2.907062292098999,
+            "s3d": 20.163772106170654
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00026",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "elapsed": 3.563981771469116,
+            "s3d": 42.342578172683716
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00027",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "elapsed": 4.511943578720093,
+            "s3d": 33.52267146110535
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00028",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "elapsed": 3.449450731277466,
+            "s3d": 21.050881147384644
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00029",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "elapsed": 4.659772872924805,
+            "s3d": 24.589890718460083
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00030",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 325,
+            "elapsed": 2.551973819732666,
+            "s3d": 19.80019187927246
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00031",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "elapsed": 5.507781505584717,
+            "s3d": 25.07530903816223
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00032",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "elapsed": 1.931403636932373,
+            "s3d": 5.646310806274414
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00033",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "elapsed": 4.341282844543457,
+            "s3d": 36.55683135986328
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00034",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "elapsed": 2.5528788566589355,
+            "s3d": 22.85197615623474
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00035",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "elapsed": 4.45969295501709,
+            "s3d": 32.69639229774475
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00036",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "elapsed": 3.16951322555542,
+            "s3d": 41.1864538192749
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00037",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "elapsed": 2.564610242843628,
+            "s3d": 16.309643745422363
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00038",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "elapsed": 0.6682841777801514,
+            "s3d": 49.807814836502075
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00039",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 330,
+            "elapsed": 5.3772454261779785,
+            "s3d": 40.61397337913513
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00040",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "elapsed": 2.2194950580596924,
+            "s3d": 46.79481887817383
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00041",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 325,
+            "elapsed": 1.4712741374969482,
+            "s3d": 13.71009874343872
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00042",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "elapsed": 4.526764392852783,
+            "s3d": 38.757309913635254
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00043",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "elapsed": 5.328589200973511,
+            "s3d": 39.300310373306274
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00044",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 334,
+            "elapsed": 2.1672067642211914,
+            "s3d": 28.558581352233887
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00045",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "elapsed": 4.202856540679932,
+            "s3d": 33.698344469070435
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00046",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "elapsed": 4.315963983535767,
+            "s3d": 39.39150905609131
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00047",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 333,
+            "elapsed": 2.5599799156188965,
+            "s3d": 16.509721994400024
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00048",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 325,
+            "elapsed": 4.210917949676514,
+            "s3d": 25.900062084197998
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00049",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "elapsed": 1.8198847770690918,
+            "s3d": 13.16032099723816
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00050",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 333,
+            "elapsed": 2.7761824131011963,
+            "s3d": 17.85931658744812
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00051",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "elapsed": 3.109884738922119,
+            "s3d": 17.492361545562744
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00052",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 324,
+            "elapsed": 3.941413402557373,
+            "s3d": 34.609102725982666
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00053",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "elapsed": 1.4237263202667236,
+            "s3d": 14.760847091674805
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00054",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "elapsed": 7.2941155433654785,
+            "s3d": 32.38416600227356
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00055",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "elapsed": 3.958757162094116,
+            "s3d": 20.758036375045776
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00056",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "elapsed": 2.689762592315674,
+            "s3d": 43.888965368270874
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00057",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "elapsed": 5.933212757110596,
+            "s3d": 31.57697820663452
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00058",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "elapsed": 3.109778642654419,
+            "s3d": 20.005448579788208
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00059",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "elapsed": 2.221475124359131,
+            "s3d": 44.47736668586731
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00060",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 323,
+            "elapsed": 3.6883647441864014,
+            "s3d": 25.784240007400513
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00061",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 335,
+            "elapsed": 5.800111532211304,
+            "s3d": 34.88866901397705
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00062",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "elapsed": 4.219408750534058,
+            "s3d": 31.15328288078308
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00063",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 325,
+            "elapsed": 1.1615138053894043,
+            "s3d": 48.39392709732056
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00064",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "elapsed": 0.6411492824554443,
+            "s3d": 50.24280548095703
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00065",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "elapsed": 0.7947371006011963,
+            "s3d": 49.02086305618286
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00066",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 333,
+            "elapsed": 0.661890983581543,
+            "s3d": 48.86344504356384
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00067",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "elapsed": 0.9771230220794678,
+            "s3d": 43.13397288322449
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00068",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "elapsed": 1.321730613708496,
+            "s3d": 45.93640995025635
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00069",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "elapsed": 0.6946284770965576,
+            "s3d": 42.55951738357544
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00070",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 324,
+            "elapsed": 1.079148292541504,
+            "s3d": 47.2544960975647
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00071",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "elapsed": 1.0056538581848145,
+            "s3d": 47.21120738983154
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00072",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 330,
+            "elapsed": 0.6327574253082275,
+            "s3d": 46.92822074890137
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00073",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "elapsed": 1.5063095092773438,
+            "s3d": 49.38345170021057
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00074",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 323,
+            "elapsed": 0.6326620578765869,
+            "s3d": 46.482298612594604
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00075",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "elapsed": 0.6153028011322021,
+            "s3d": 47.0955855846405
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00076",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 335,
+            "elapsed": 0.8316676616668701,
+            "s3d": 44.450831174850464
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00077",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "elapsed": 1.4352247714996338,
+            "s3d": 47.574233293533325
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00078",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "elapsed": 0.9374711513519287,
+            "s3d": 46.33822989463806
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00079",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "elapsed": 1.5042812824249268,
+            "s3d": 48.48497462272644
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00080",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 337,
+            "elapsed": 0.88680100440979,
+            "s3d": 40.445765256881714
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00081",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "elapsed": 1.3555703163146973,
+            "s3d": 44.05483913421631
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00082",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "elapsed": 1.3949391841888428,
+            "s3d": 42.59633111953735
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00083",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 322,
+            "elapsed": 1.0406088829040527,
+            "s3d": 43.91263294219971
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00084",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "elapsed": 2.525312900543213,
+            "s3d": 46.248530864715576
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00085",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "elapsed": 0.5736095905303955,
+            "s3d": 48.973414182662964
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00086",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "elapsed": 0.6201183795928955,
+            "s3d": 34.59348964691162
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00087",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "elapsed": 1.414423942565918,
+            "s3d": 42.974982023239136
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00088",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "elapsed": 2.2203891277313232,
+            "s3d": 44.40122151374817
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00089",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 334,
+            "elapsed": 1.3416762351989746,
+            "s3d": 46.4335412979126
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00090",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "elapsed": 1.622046709060669,
+            "s3d": 39.40369749069214
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00091",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "elapsed": 1.624098300933838,
+            "s3d": 41.132792234420776
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00092",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "elapsed": 0.5604407787322998,
+            "s3d": 43.289414405822754
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00093",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "elapsed": 0.922144889831543,
+            "s3d": 45.35421442985535
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00094",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 333,
+            "elapsed": 0.5621161460876465,
+            "s3d": 43.24125909805298
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00095",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "elapsed": 1.4097743034362793,
+            "s3d": 43.75273108482361
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00096",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 325,
+            "elapsed": 2.161936044692993,
+            "s3d": 38.92312479019165
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00097",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 334,
+            "elapsed": 0.8842260837554932,
+            "s3d": 35.85168218612671
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00098",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "elapsed": 0.5502729415893555,
+            "s3d": 41.442564249038696
+        },
+        "input": {
+            "event": {
+                "bucket": "big-data-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00099",
+                "x": "1000"
+            },
+            "line_count": 900001
+        }
+    }
+]

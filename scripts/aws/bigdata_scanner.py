@@ -1,4 +1,5 @@
 import copy
+import argparse
 from logs import to_file
 from bigdata import scanner
 from multiprocessing.pool import ThreadPool
@@ -33,8 +34,17 @@ def main(x):
     p.join()
     return n_res
 
+def get_argparse():
+    parser = argparse.ArgumentParser("run bigdata scan query")
+    parser.add_argument("-x", help="query input for ranking > x")
+    args = parser.parse_args()
+    return args
+
 if __name__ == "__main__":
+    args = get_argparse()
+    """
     q1a, q1b, q1c = 1000, 1000, 10
     x = q1a
-    res = main(x)
-    to_file("scanner.result", res)
+    """
+    res = main(args.x)
+    to_file("scanner.{}.result".format(args.x), res)

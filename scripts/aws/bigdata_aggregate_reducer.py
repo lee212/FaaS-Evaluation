@@ -23,6 +23,7 @@ def get_object_keys(bucket, prefix, Delimiter=None):
     all_keys = []
     all_objs = []
     for page in page_iterator:
+        keys = []
         if "Contents" in page:
             keys = [x['Key'] for x in page['Contents']]
             all_objs.append(page['Contents'])

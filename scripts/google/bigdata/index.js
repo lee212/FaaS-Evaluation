@@ -1,4 +1,13 @@
-exports.pythonGCS = function pythonGCS(req, res) {
+const path = require('path');
+  
+exports.pythonGCS = (event, callback) {
+    const file = event.data;
+    if (file.resourceState === 'not_exists')  {
+	    callback();
+    }
+    const fpath = file.name;
+    const fname = path.basename(fpath);
+    var params = JSON.parse(new Buffer(fname, 'base64').toString('ascii'));
 
     const
     spawn = require( 'child_process' ).spawnSync,

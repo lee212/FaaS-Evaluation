@@ -18,33 +18,38 @@ event = {
         "okey": okey,
         "x": x
         }
-p = ThreadPool(64)
 
-client = boto3.client("s3")
+def main():
+    p = ThreadPool(64)
 
-paginator = client.get_paginator("list_objects")
-page_iterator = paginator.paginate(Bucket = bucket, Prefix = prefix)
-all_keys = []
-all_objs = []
-for page in page_iterator:
-    if "Contents" in page:
-        keys = [x['Key'] for x in page['Contents']]
-    else:
-        keys = []
-    all_keys += keys
-    all_objs.append(page['Contents'])
+    client = boto3.client("s3")
 
-s3d_elapsed = 0
-all_data = {}
-res = []
-for key in all_keys:
-    params = copy.deepcopy(event)
-    params['key'] = key
-    res.append(p.apply_async(invoke.lambda_invoke, args=(params,)))
-   
-nres = []
-for i in res:
-    nres.append(i.get())
+    paginator = client.get_paginator("list_objects")
+    page_iterator = paginator.paginate(Bucket = bucket, Prefix = prefix)
+    all_keys = []
+    all_objs = []
+    for page in page_iterator:
+        if "Contents" in page:
+            keys = [x['Key'] for x in page['Contents']]
+        else:
+            keys = []
+        all_keys += keys
+        all_objs.append(page['Contents'])
 
-p.close()
-p.join()
+    s3d_elapsed = 0
+    all_data = {}
+    res = []
+    for key in all_keys:
+        params = copy.deepcopy(event)
+        params['key'] = key
+        res.append(p.apply_async(invoke.lambda_invoke, args=(params,)))
+       
+    nres = []
+    for i in res:
+        nres.append(i.get())
+
+    p.close()
+    p.join()
+
+if __name__ == "__main__":
+    main()

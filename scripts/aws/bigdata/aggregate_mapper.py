@@ -1,6 +1,10 @@
 import os import time
 #import json
-import marshal import boto3 s3 = boto3.resource("s3") client = boto3.client("s3") def lambda_handler(event, context):
+import marshal 
+import boto3 
+s3 = boto3.resource("s3") 
+client = boto3.client("s3") 
+def lambda_handler(event, context):
     bucket = event["bucket"]
     key = event["key"]
     okey = event["okey"]

@@ -1,7 +1,11 @@
+import time
 import copy
 import boto3
 import invoke
+import argparse
+from bigdata import aggregate_mapper
 from multiprocessing.pool import ThreadPool
+import logs
 
 bucket = "big-data-benchmark"
 prefix = "pavlo/text/5nodes/uservisits/"
@@ -19,7 +23,10 @@ event = {
         "x": x
         }
 
-def main():
+def local_handler(event):
+    return aggregate_mapper.lambda_handler(event, None)
+
+def main(local=False):
     p = ThreadPool(64)
 
     client = boto3.client("s3")
@@ -39,10 +46,16 @@ def main():
     s3d_elapsed = 0
     all_data = {}
     res = []
+    if local:
+        func = local_handler
+        event["okey"] += ".local"
+    else:
+        func = invoke.lambda_invoke
+
     for key in all_keys:
         params = copy.deepcopy(event)
         params['key'] = key
-        res.append(p.apply_async(invoke.lambda_invoke, args=(params,)))
+        res.append(p.apply_async(func, args=(params,)))
        
     nres = []
     for i in res:
@@ -50,6 +63,19 @@ def main():
 
     p.close()
     p.join()
+    return nres
+
+def get_argparse():
+    parser = argparse.ArgumentParser("Bigdata Aggregation query - mapper")
+    parser.add_argument("--local", default=False, action="store_true", help="local execution, no lambda invocation")
+    args = parser.parse_args()
+    return args
 
 if __name__ == "__main__":
-    main()
+    args = get_argparse()
+    start = time.time()
+    res = main(args.local)
+    end = time.time()
+    logs.to_file("bigdata-mapper.result", res)
+    logs.to_file("bigdata-mapper.time", {"mapper_handler": end - start })
+

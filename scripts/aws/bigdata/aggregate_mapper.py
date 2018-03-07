@@ -1,4 +1,5 @@
-import os import time
+import os 
+import time
 #import json
 import marshal 
 import boto3 
@@ -11,15 +12,17 @@ def lambda_handler(event, context):
     x = int(event["x"])
     fname = os.path.basename(key)
     fpath = "/tmp/" + fname
+
     s3get_start = time.time()
     obj = client.get_object(Bucket=bucket, Key=key)
     body = obj['Body'].read()
     s3get_end = time.time()
     s3get_elapsed = s3get_end - s3get_start
+
     temp1 = { str(i).zfill(2) : {} for i in range(10,100) }
     temp2 = { str(i) + "." : {} for i in range(1,10) }
     res = { **temp1, **temp2 }
-    
+
     t_start = time.time()
     for line in body.split(b'\n'):
         try:
@@ -36,6 +39,7 @@ def lambda_handler(event, context):
     t_end = time.time()
     r_num = len(res)
     elapsed = t_end - t_start
+
     obucket = event["obucket"]
     s3u_elapsed = 0
     for k, v in res.items():

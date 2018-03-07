@@ -59,6 +59,7 @@ def read_log(log_name):
         if cnt % page_size == 0:
             logger.info("{} entries".format(cnt))
         cnt += 1
+    logger.info("final: {} entries".format(cnt))
     return res
 
 def to_file(fname, data):

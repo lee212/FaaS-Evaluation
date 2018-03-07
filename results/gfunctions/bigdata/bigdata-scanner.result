@@ -1,0 +1,1402 @@
+[
+    {
+        "result": {
+            "cnt": 328,
+            "gs_download": 28.05179762840271,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7199680805206299
+        }
+    },
+    {
+        "result": {
+            "cnt": 334,
+            "gs_download": 17.004607439041138,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 2.214799165725708
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "gs_download": 22.810407638549805,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 2.4172003269195557
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "gs_download": 19.173819065093994,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.5640473365783691
+        }
+    },
+    {
+        "result": {
+            "cnt": 333,
+            "gs_download": 20.943182229995728,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.4998114109039307
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "gs_download": 35.86147499084473,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7488040924072266
+        }
+    },
+    {
+        "result": {
+            "cnt": 325,
+            "gs_download": 17.287297010421753,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 2.3235292434692383
+        }
+    },
+    {
+        "result": {
+            "cnt": 324,
+            "gs_download": 42.06588435173035,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7567439079284668
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "gs_download": 21.993585348129272,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.9358868598937988
+        }
+    },
+    {
+        "result": {
+            "cnt": 325,
+            "gs_download": 23.242833852767944,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 2.145076274871826
+        }
+    },
+    {
+        "result": {
+            "cnt": 334,
+            "gs_download": 25.74222183227539,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.8459806442260742
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "gs_download": 26.582162618637085,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7795112133026123
+        }
+    },
+    {
+        "result": {
+            "cnt": 330,
+            "gs_download": 20.344574689865112,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.445894479751587
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "gs_download": 13.537448644638062,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7655489444732666
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "gs_download": 17.65713620185852,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 2.2286574840545654
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "gs_download": 23.495420694351196,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 2.029157876968384
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "gs_download": 20.34083867073059,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7392520904541016
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "gs_download": 46.08294606208801,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.768775224685669
+        }
+    },
+    {
+        "result": {
+            "cnt": 333,
+            "gs_download": 19.757593631744385,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7677242755889893
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "gs_download": 35.031111001968384,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7528021335601807
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "gs_download": 24.547125339508057,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7947587966918945
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "gs_download": 22.376983165740967,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7537000179290771
+        }
+    },
+    {
+        "result": {
+            "cnt": 324,
+            "gs_download": 40.15560603141785,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.9204850196838379
+        }
+    },
+    {
+        "result": {
+            "cnt": 335,
+            "gs_download": 25.51175856590271,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.2627029418945312
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "gs_download": 23.208382844924927,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7860040664672852
+        }
+    },
+    {
+        "result": {
+            "cnt": 323,
+            "gs_download": 17.663002490997314,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7819163799285889
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "gs_download": 21.37090516090393,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.1120386123657227
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "gs_download": 19.675808906555176,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.2633721828460693
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "gs_download": 22.60557508468628,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.142298936843872
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "gs_download": 27.48811912536621,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.8242604732513428
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "gs_download": 24.147627353668213,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.8089230060577393
+        }
+    },
+    {
+        "result": {
+            "cnt": 325,
+            "gs_download": 26.945844173431396,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.8103291988372803
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "gs_download": 26.943500757217407,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7740261554718018
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "gs_download": 32.32161855697632,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.0755541324615479
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "gs_download": 29.694573640823364,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.0493786334991455
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "gs_download": 27.695481061935425,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.3701941967010498
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "gs_download": 25.850935220718384,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.160895824432373
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "gs_download": 28.232240200042725,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.0001492500305176
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "gs_download": 29.21142339706421,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.4154927730560303
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "gs_download": 27.83921527862549,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.3833143711090088
+        }
+    },
+    {
+        "result": {
+            "cnt": 330,
+            "gs_download": 19.457428455352783,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7624492645263672
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "gs_download": 29.87921690940857,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.9907007217407227
+        }
+    },
+    {
+        "result": {
+            "cnt": 325,
+            "gs_download": 24.53148913383484,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.1067545413970947
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "gs_download": 30.081382989883423,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.783477783203125
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "gs_download": 25.042585849761963,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7905714511871338
+        }
+    },
+    {
+        "result": {
+            "cnt": 334,
+            "gs_download": 28.831435918807983,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7566640377044678
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "gs_download": 29.479602098464966,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7640178203582764
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "gs_download": 44.29178261756897,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.8533563613891602
+        }
+    },
+    {
+        "result": {
+            "cnt": 333,
+            "gs_download": 29.326350450515747,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7422780990600586
+        }
+    },
+    {
+        "result": {
+            "cnt": 325,
+            "gs_download": 24.785982370376587,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7409741878509521
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "gs_download": 29.637189388275146,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.4320354461669922
+        }
+    },
+    {
+        "result": {
+            "cnt": 333,
+            "gs_download": 26.920559644699097,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.8056888580322266
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "gs_download": 29.019835472106934,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.071155071258545
+        }
+    },
+    {
+        "result": {
+            "cnt": 324,
+            "gs_download": 25.794689416885376,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.079402208328247
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "gs_download": 28.155367374420166,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7713980674743652
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "gs_download": 28.14816427230835,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7560021877288818
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "gs_download": 19.495107889175415,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7743322849273682
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "gs_download": 27.262994527816772,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.8036303520202637
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "gs_download": 29.400328636169434,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7981936931610107
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "gs_download": 31.193546056747437,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7698245048522949
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "gs_download": 25.27246332168579,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7730453014373779
+        }
+    },
+    {
+        "result": {
+            "cnt": 323,
+            "gs_download": 25.70690131187439,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7684848308563232
+        }
+    },
+    {
+        "result": {
+            "cnt": 335,
+            "gs_download": 25.559097051620483,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7981662750244141
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "gs_download": 26.039162397384644,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.797382116317749
+        }
+    },
+    {
+        "result": {
+            "cnt": 325,
+            "gs_download": 31.00020742416382,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7503814697265625
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "gs_download": 25.434014558792114,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7654049396514893
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "gs_download": 33.210176944732666,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.0735290050506592
+        }
+    },
+    {
+        "result": {
+            "cnt": 333,
+            "gs_download": 30.504691123962402,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.830618143081665
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "gs_download": 27.571597814559937,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.2438483238220215
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "gs_download": 27.605388641357422,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.3040063381195068
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "gs_download": 29.869794130325317,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.0745694637298584
+        }
+    },
+    {
+        "result": {
+            "cnt": 324,
+            "gs_download": 30.70980715751648,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.0285053253173828
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "gs_download": 29.328458309173584,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.9382143020629883
+        }
+    },
+    {
+        "result": {
+            "cnt": 330,
+            "gs_download": 30.19235920906067,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7295551300048828
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "gs_download": 18.424362659454346,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7742421627044678
+        }
+    },
+    {
+        "result": {
+            "cnt": 323,
+            "gs_download": 28.92992329597473,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.9426941871643066
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "gs_download": 25.582664966583252,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.8807835578918457
+        }
+    },
+    {
+        "result": {
+            "cnt": 335,
+            "gs_download": 31.813881158828735,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.829911470413208
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "gs_download": 25.429369926452637,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7838239669799805
+        }
+    },
+    {
+        "result": {
+            "cnt": 328,
+            "gs_download": 26.53182339668274,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.8025486469268799
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "gs_download": 28.683780908584595,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7577247619628906
+        }
+    },
+    {
+        "result": {
+            "cnt": 337,
+            "gs_download": 26.502378463745117,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7758700847625732
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "gs_download": 28.30486273765564,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.8258132934570312
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "gs_download": 28.446598768234253,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.76419997215271
+        }
+    },
+    {
+        "result": {
+            "cnt": 322,
+            "gs_download": 30.247201681137085,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7186136245727539
+        }
+    },
+    {
+        "result": {
+            "cnt": 329,
+            "gs_download": 23.11246681213379,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.311699390411377
+        }
+    },
+    {
+        "result": {
+            "cnt": 332,
+            "gs_download": 22.03344440460205,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.1767842769622803
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "gs_download": 28.526509046554565,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7688627243041992
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "gs_download": 27.29364585876465,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.1359107494354248
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "gs_download": 30.92405915260315,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7004883289337158
+        }
+    },
+    {
+        "result": {
+            "cnt": 334,
+            "gs_download": 24.846487998962402,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 1.0622367858886719
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "gs_download": 25.826387643814087,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7205147743225098
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "gs_download": 23.90325903892517,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.7368085384368896
+        }
+    },
+    {
+        "result": {
+            "cnt": 326,
+            "gs_download": 24.42708730697632,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.6633238792419434
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "gs_download": 24.295064210891724,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.6349997520446777
+        }
+    },
+    {
+        "result": {
+            "cnt": 333,
+            "gs_download": 21.493359327316284,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.6448554992675781
+        }
+    },
+    {
+        "result": {
+            "cnt": 331,
+            "gs_download": 22.194591999053955,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.6935505867004395
+        }
+    },
+    {
+        "result": {
+            "cnt": 325,
+            "gs_download": 21.46592092514038,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.5765731334686279
+        }
+    },
+    {
+        "result": {
+            "cnt": 334,
+            "gs_download": 18.790032863616943,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.5966823101043701
+        }
+    },
+    {
+        "result": {
+            "cnt": 327,
+            "gs_download": 16.73491406440735,
+            "input": {
+                "params": [
+                    "bigdata_scanner.py",
+                    "--local"
+                ],
+                "line_count": 900001
+            },
+            "elapsed": 0.8018994331359863
+        }
+    }
+]

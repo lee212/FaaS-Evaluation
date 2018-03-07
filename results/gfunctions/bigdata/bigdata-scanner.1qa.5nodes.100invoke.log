@@ -1,0 +1,5402 @@
+[
+    {
+        "insert_id": "000000-b3c9794a-ad56-44a7-9c46-fd73a6ca088f",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717985101425"
+        },
+        "timestamp": "2018-03-07T14:17:14.082734+00:00"
+    },
+    {
+        "insert_id": "000000-458df845-0600-4450-acf8-36088037def6",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00011', '1000']}, 'cnt': 329, 'gs_download': 3.708509922027588, 'elapsed': 1.7573819160461426}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717985101425"
+        },
+        "timestamp": "2018-03-07T14:17:27.180000+00:00"
+    },
+    {
+        "insert_id": "000000-4984651c-2b0b-49ff-a6fe-61ac0c3c8dfa",
+        "severity": "DEBUG",
+        "payload": "Function execution took 13123 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717985101425"
+        },
+        "timestamp": "2018-03-07T14:17:27.204536+00:00"
+    },
+    {
+        "insert_id": "000000-d25856c3-de38-45b8-b164-0917de5e6a17",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50716883770031"
+        },
+        "timestamp": "2018-03-07T14:17:27.272287+00:00"
+    },
+    {
+        "insert_id": "000000-613fe3e4-17ac-4164-a1a9-79ee9437a040",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717202765912"
+        },
+        "timestamp": "2018-03-07T14:17:30.369052+00:00"
+    },
+    {
+        "insert_id": "000000-50a51004-dc78-4c00-8967-cdcc7ac4652a",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717202765913"
+        },
+        "timestamp": "2018-03-07T14:17:30.462454+00:00"
+    },
+    {
+        "insert_id": "000000-88a76381-bae3-45fd-9cb9-fa94d57602ed",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00027', '1000']}, 'cnt': 328, 'gs_download': 2.3761849403381348, 'elapsed': 1.897463083267212}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50716883770031"
+        },
+        "timestamp": "2018-03-07T14:17:34.051000+00:00"
+    },
+    {
+        "insert_id": "000000-1d5aa317-f492-41a6-a66b-1c362130bbfa",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6791 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50716883770031"
+        },
+        "timestamp": "2018-03-07T14:17:34.062471+00:00"
+    },
+    {
+        "insert_id": "000000-ddce27bf-6522-4dec-bd9f-08d1359bf790",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720976553414"
+        },
+        "timestamp": "2018-03-07T14:17:34.084748+00:00"
+    },
+    {
+        "insert_id": "000000-617bb338-44a8-4c99-8cd5-b7fe600e5163",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00026', '1000']}, 'cnt': 331, 'gs_download': 2.2819740772247314, 'elapsed': 1.8725330829620361}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717202765913"
+        },
+        "timestamp": "2018-03-07T14:17:39.813000+00:00"
+    },
+    {
+        "insert_id": "000000-4864b023-85bb-4579-bc67-5ab6fd1cd7a5",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9374 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717202765913"
+        },
+        "timestamp": "2018-03-07T14:17:39.835073+00:00"
+    },
+    {
+        "insert_id": "000000-bed8691e-134a-4d3b-ab47-d168f272c832",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717722689304"
+        },
+        "timestamp": "2018-03-07T14:17:39.896016+00:00"
+    },
+    {
+        "insert_id": "000000-b333bdda-9115-4b4f-b032-7051bc986014",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00001', '1000']}, 'cnt': 334, 'gs_download': 2.6612961292266846, 'elapsed': 1.781378984451294}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717202765912"
+        },
+        "timestamp": "2018-03-07T14:17:40.061000+00:00"
+    },
+    {
+        "insert_id": "000000-2b7995c1-7a9c-416d-8fba-218c3e3b7003",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9715 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717202765912"
+        },
+        "timestamp": "2018-03-07T14:17:40.083130+00:00"
+    },
+    {
+        "insert_id": "000000-c04f4ea2-0c8b-4036-a673-694291fc1cef",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722131450112"
+        },
+        "timestamp": "2018-03-07T14:17:40.143895+00:00"
+    },
+    {
+        "insert_id": "000000-88a27a39-a0dc-4ad6-9c19-f1fd2106d395",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00007', '1000']}, 'cnt': 324, 'gs_download': 2.4823691844940186, 'elapsed': 1.965714931488037}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720976553414"
+        },
+        "timestamp": "2018-03-07T14:17:40.971000+00:00"
+    },
+    {
+        "insert_id": "000000-100a530e-6b4d-4e30-912c-11d47b03ec89",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6895 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720976553414"
+        },
+        "timestamp": "2018-03-07T14:17:40.979293+00:00"
+    },
+    {
+        "insert_id": "000000-58544a3d-daf2-486e-98d9-3ee75e149973",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722078217733"
+        },
+        "timestamp": "2018-03-07T14:17:41.048826+00:00"
+    },
+    {
+        "insert_id": "000000-f4f29b43-4fe1-47b0-9f25-f91f5654ac4e",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00000', '1000']}, 'cnt': 328, 'gs_download': 2.220041036605835, 'elapsed': 1.9884049892425537}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717722689304"
+        },
+        "timestamp": "2018-03-07T14:17:46.414000+00:00"
+    },
+    {
+        "insert_id": "000000-66ecfc06-929f-46a7-ba64-05e38929eef8",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6535 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717722689304"
+        },
+        "timestamp": "2018-03-07T14:17:46.430042+00:00"
+    },
+    {
+        "insert_id": "000000-a116b9a2-603e-49be-870f-40f3164b3010",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722847050376"
+        },
+        "timestamp": "2018-03-07T14:17:46.462172+00:00"
+    },
+    {
+        "insert_id": "000000-1c4eac39-52f8-435c-bc81-2e20299f3863",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00023', '1000']}, 'cnt': 335, 'gs_download': 2.427112102508545, 'elapsed': 1.7471399307250977}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722131450112"
+        },
+        "timestamp": "2018-03-07T14:17:46.641000+00:00"
+    },
+    {
+        "insert_id": "000000-5271b31d-34c5-4d20-a8c1-6eb3f501c7b7",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6509 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722131450112"
+        },
+        "timestamp": "2018-03-07T14:17:46.651530+00:00"
+    },
+    {
+        "insert_id": "000000-14a6d684-c3ba-4795-965f-e26f6d648aec",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715262569375"
+        },
+        "timestamp": "2018-03-07T14:17:46.710372+00:00"
+    },
+    {
+        "insert_id": "000000-bff418bf-5b8c-4944-8641-cceeed8e3515",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00014', '1000']}, 'cnt': 332, 'gs_download': 2.193790912628174, 'elapsed': 1.691349983215332}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722078217733"
+        },
+        "timestamp": "2018-03-07T14:17:47.282000+00:00"
+    },
+    {
+        "insert_id": "000000-116ace4d-8dd9-43b1-b97d-0847aa7c9fcf",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6260 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722078217733"
+        },
+        "timestamp": "2018-03-07T14:17:47.307839+00:00"
+    },
+    {
+        "insert_id": "000000-e66b7ed1-3368-491a-a99d-9f7f3a612fc6",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717835757122"
+        },
+        "timestamp": "2018-03-07T14:17:47.799152+00:00"
+    },
+    {
+        "insert_id": "000000-38c74e30-ef97-42b0-a3b1-3867f9ea0ed0",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720415736087"
+        },
+        "timestamp": "2018-03-07T14:17:48.270015+00:00"
+    },
+    {
+        "insert_id": "000000-79ee1644-7c65-4bdd-9fa8-3da43501172c",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721657028527"
+        },
+        "timestamp": "2018-03-07T14:17:49.471948+00:00"
+    },
+    {
+        "insert_id": "000000-9ee1a068-13ea-4d5d-a845-97799775d754",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722586118243"
+        },
+        "timestamp": "2018-03-07T14:17:49.473464+00:00"
+    },
+    {
+        "insert_id": "000000-8d4c87de-27ce-4047-ba48-f6641ebdc920",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00056', '1000']}, 'cnt': 327, 'gs_download': 1.9532380104064941, 'elapsed': 1.727363109588623}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722847050376"
+        },
+        "timestamp": "2018-03-07T14:17:52.426000+00:00"
+    },
+    {
+        "insert_id": "000000-6a7c73f6-cb3d-4a6a-8f15-578434bdf253",
+        "severity": "DEBUG",
+        "payload": "Function execution took 5974 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722847050376"
+        },
+        "timestamp": "2018-03-07T14:17:52.435300+00:00"
+    },
+    {
+        "insert_id": "000000-95a76780-f5f4-4d4f-9976-752d6bcf782a",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722349062644"
+        },
+        "timestamp": "2018-03-07T14:17:52.698704+00:00"
+    },
+    {
+        "insert_id": "000000-5e8991c7-2710-42b5-b1ec-38acb7dbcf00",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00076', '1000']}, 'cnt': 328, 'gs_download': 2.448812961578369, 'elapsed': 1.7627220153808594}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715262569375"
+        },
+        "timestamp": "2018-03-07T14:17:53.211000+00:00"
+    },
+    {
+        "insert_id": "000000-73803542-0abc-48e8-ae88-767331b8e585",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6512 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715262569375"
+        },
+        "timestamp": "2018-03-07T14:17:53.221009+00:00"
+    },
+    {
+        "insert_id": "000000-b1a111d9-e07a-471d-b9f9-0d36a1e1570d",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720521549999"
+        },
+        "timestamp": "2018-03-07T14:17:53.224984+00:00"
+    },
+    {
+        "insert_id": "000000-9d859215-2058-4062-b6e7-d810a75d7dc2",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00025', '1000']}, 'cnt': 323, 'gs_download': 2.307922124862671, 'elapsed': 1.710953950881958}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717835757122"
+        },
+        "timestamp": "2018-03-07T14:17:54.131000+00:00"
+    },
+    {
+        "insert_id": "000000-677edb18-07f8-417d-94b0-6610a48816e2",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6341 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717835757122"
+        },
+        "timestamp": "2018-03-07T14:17:54.138915+00:00"
+    },
+    {
+        "insert_id": "000000-dee07674-0adc-4487-a931-e9c4af5f414d",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721777429389"
+        },
+        "timestamp": "2018-03-07T14:17:54.377345+00:00"
+    },
+    {
+        "insert_id": "000000-8911454f-bd77-411d-a640-94ff67f0663c",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00087', '1000']}, 'cnt': 331, 'gs_download': 2.4503660202026367, 'elapsed': 1.7114880084991455}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720415736087"
+        },
+        "timestamp": "2018-03-07T14:17:57.057000+00:00"
+    },
+    {
+        "insert_id": "000000-18ecd159-1993-4292-a0d8-b22862711d4d",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8809 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720415736087"
+        },
+        "timestamp": "2018-03-07T14:17:57.078263+00:00"
+    },
+    {
+        "insert_id": "000000-3cbd2a00-c3f3-4251-87bc-5e11eb24b8ab",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50716870748755"
+        },
+        "timestamp": "2018-03-07T14:17:57.799148+00:00"
+    },
+    {
+        "insert_id": "000000-27ec441d-bc55-4dae-9628-1d348da04361",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00099', '1000']}, 'cnt': 327, 'gs_download': 2.30696702003479, 'elapsed': 1.6892790794372559}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721657028527"
+        },
+        "timestamp": "2018-03-07T14:17:58.056000+00:00"
+    },
+    {
+        "insert_id": "000000-7c8f00dd-3b47-4160-96fb-d0188e55ecc1",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8611 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721657028527"
+        },
+        "timestamp": "2018-03-07T14:17:58.081920+00:00"
+    },
+    {
+        "insert_id": "000000-3cd7155a-c12e-4e25-8525-f02c49c5a9bc",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00096', '1000']}, 'cnt': 331, 'gs_download': 2.402376890182495, 'elapsed': 1.6751201152801514}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722586118243"
+        },
+        "timestamp": "2018-03-07T14:17:58.172000+00:00"
+    },
+    {
+        "insert_id": "000000-c74124d9-02d9-4e4e-832c-7a1a94210ff6",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8724 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722586118243"
+        },
+        "timestamp": "2018-03-07T14:17:58.196373+00:00"
+    },
+    {
+        "insert_id": "000000-d22ae6bd-28fc-45ce-8868-e04d91615a54",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00071', '1000']}, 'cnt': 324, 'gs_download': 2.0876410007476807, 'elapsed': 1.6489670276641846}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722349062644"
+        },
+        "timestamp": "2018-03-07T14:17:58.795000+00:00"
+    },
+    {
+        "insert_id": "000000-14b9100a-b459-4c58-a1d8-b7a9ea6b2295",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6106 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722349062644"
+        },
+        "timestamp": "2018-03-07T14:17:58.804147+00:00"
+    },
+    {
+        "insert_id": "000000-8e8942e9-f20c-441a-894d-28f411af9171",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715744873780"
+        },
+        "timestamp": "2018-03-07T14:17:58.812823+00:00"
+    },
+    {
+        "insert_id": "000000-80c1b2ea-0f98-4e7a-af64-c4236f5fc08e",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720556482290"
+        },
+        "timestamp": "2018-03-07T14:17:58.812839+00:00"
+    },
+    {
+        "insert_id": "000000-571032ce-3e01-46a5-b72f-b8a7e19a5744",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00069', '1000']}, 'cnt': 327, 'gs_download': 2.482980966567993, 'elapsed': 1.6224660873413086}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720521549999"
+        },
+        "timestamp": "2018-03-07T14:17:59.669000+00:00"
+    },
+    {
+        "insert_id": "000000-b92dcfce-ec29-4e76-8a38-aa05b2cb9ba6",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6451 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720521549999"
+        },
+        "timestamp": "2018-03-07T14:17:59.675147+00:00"
+    },
+    {
+        "insert_id": "000000-083660a6-ec10-4e88-b08f-f81417460341",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00073', '1000']}, 'cnt': 330, 'gs_download': 2.2866060733795166, 'elapsed': 1.520704984664917}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721777429389"
+        },
+        "timestamp": "2018-03-07T14:18:00.565000+00:00"
+    },
+    {
+        "insert_id": "000000-ec433a99-f2ac-4a3f-a93f-8a8f9a4228d7",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6201 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721777429389"
+        },
+        "timestamp": "2018-03-07T14:18:00.576870+00:00"
+    },
+    {
+        "insert_id": "000000-872b5bf9-d8f0-4ce8-80da-08ac992ba10c",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00086', '1000']}, 'cnt': 332, 'gs_download': 2.122591018676758, 'elapsed': 1.7901051044464111}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50716870748755"
+        },
+        "timestamp": "2018-03-07T14:18:03.915000+00:00"
+    },
+    {
+        "insert_id": "000000-edd03314-ee90-46b9-9ecc-513d138c682b",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6128 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50716870748755"
+        },
+        "timestamp": "2018-03-07T14:18:03.926543+00:00"
+    },
+    {
+        "insert_id": "000000-9d5ee4b4-aec3-4bf3-a02d-61c94eb3b763",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722729668324"
+        },
+        "timestamp": "2018-03-07T14:18:04.509268+00:00"
+    },
+    {
+        "insert_id": "000000-d61b300e-91a9-4a4a-b11b-4c724a001e1e",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00064', '1000']}, 'cnt': 325, 'gs_download': 2.505510091781616, 'elapsed': 1.7369189262390137}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720556482290"
+        },
+        "timestamp": "2018-03-07T14:18:05.361000+00:00"
+    },
+    {
+        "insert_id": "000000-5d93c3fc-87ca-441a-98dd-ae8904242c0e",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6560 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720556482290"
+        },
+        "timestamp": "2018-03-07T14:18:05.372334+00:00"
+    },
+    {
+        "insert_id": "000000-dbdc217f-d187-47d1-87aa-e48a6abef678",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717809799808"
+        },
+        "timestamp": "2018-03-07T14:18:05.376463+00:00"
+    },
+    {
+        "insert_id": "000000-c9e217a6-83e8-4476-a2e7-eb007b75a9c6",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00040', '1000']}, 'cnt': 330, 'gs_download': 2.625530958175659, 'elapsed': 1.807610034942627}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715744873780"
+        },
+        "timestamp": "2018-03-07T14:18:05.581000+00:00"
+    },
+    {
+        "insert_id": "000000-50cd9a94-e2a2-4388-be7a-c2ec3aaa3c23",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6782 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715744873780"
+        },
+        "timestamp": "2018-03-07T14:18:05.593715+00:00"
+    },
+    {
+        "insert_id": "000000-3546d55b-3e5b-4382-a42f-987b21c429bd",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717330469752"
+        },
+        "timestamp": "2018-03-07T14:18:05.924624+00:00"
+    },
+    {
+        "insert_id": "000000-36a63b49-9455-408f-b142-6cc02ab1dd60",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00024', '1000']}, 'cnt': 332, 'gs_download': 1.9838058948516846, 'elapsed': 1.642362117767334}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722729668324"
+        },
+        "timestamp": "2018-03-07T14:18:10.302000+00:00"
+    },
+    {
+        "insert_id": "000000-72b032ed-e058-46cd-b095-309eaa5a8311",
+        "severity": "DEBUG",
+        "payload": "Function execution took 5802 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722729668324"
+        },
+        "timestamp": "2018-03-07T14:18:10.310083+00:00"
+    },
+    {
+        "insert_id": "000000-9e373d14-f97c-476f-a0f8-1e0d2d44049b",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720659846309"
+        },
+        "timestamp": "2018-03-07T14:18:10.876347+00:00"
+    },
+    {
+        "insert_id": "000000-0b8e0c81-fcbb-469f-9de4-484f8baa675f",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722305466312"
+        },
+        "timestamp": "2018-03-07T14:18:10.964468+00:00"
+    },
+    {
+        "insert_id": "000000-b2225fdc-5b3a-4a02-a2d1-7638c06e357b",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00036', '1000']}, 'cnt': 329, 'gs_download': 2.1462948322296143, 'elapsed': 1.6802880764007568}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717809799808"
+        },
+        "timestamp": "2018-03-07T14:18:11.388000+00:00"
+    },
+    {
+        "insert_id": "000000-2156be75-699e-4d24-9b06-87b931718b4a",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6024 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717809799808"
+        },
+        "timestamp": "2018-03-07T14:18:11.399853+00:00"
+    },
+    {
+        "insert_id": "000000-e74286f0-90ac-4ca0-93fe-c75224a1bf6b",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722021822649"
+        },
+        "timestamp": "2018-03-07T14:18:11.556857+00:00"
+    },
+    {
+        "insert_id": "000000-48a8e475-8e91-4101-bc04-46590c61bb39",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721055817402"
+        },
+        "timestamp": "2018-03-07T14:18:11.842724+00:00"
+    },
+    {
+        "insert_id": "000000-ef56960f-38b8-4c0c-bd50-4e760b5be5e0",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721661704073"
+        },
+        "timestamp": "2018-03-07T14:18:11.978664+00:00"
+    },
+    {
+        "insert_id": "000000-21806e6e-4710-4a12-8e10-c0f303ed6027",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721466504603"
+        },
+        "timestamp": "2018-03-07T14:18:12.078983+00:00"
+    },
+    {
+        "insert_id": "000000-bfd37b9a-3377-4ccb-a69c-1f5aad9dbefa",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00009', '1000']}, 'cnt': 325, 'gs_download': 2.5342438220977783, 'elapsed': 1.6632490158081055}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717330469752"
+        },
+        "timestamp": "2018-03-07T14:18:12.400000+00:00"
+    },
+    {
+        "insert_id": "000000-0dd05323-7ee1-4265-87da-3e9998fc1b4d",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6489 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717330469752"
+        },
+        "timestamp": "2018-03-07T14:18:12.412760+00:00"
+    },
+    {
+        "insert_id": "000000-42ab8237-3c3b-4887-b584-16f202cded9d",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00005', '1000']}, 'cnt': 332, 'gs_download': 2.4054369926452637, 'elapsed': 1.6798248291015625}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720659846309"
+        },
+        "timestamp": "2018-03-07T14:18:19.521000+00:00"
+    },
+    {
+        "insert_id": "000000-e8949dbc-9962-406c-941a-a063d858e8aa",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8672 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720659846309"
+        },
+        "timestamp": "2018-03-07T14:18:19.547495+00:00"
+    },
+    {
+        "insert_id": "000000-b62cb72e-385e-4717-89e4-63d59a5514a0",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717656706896"
+        },
+        "timestamp": "2018-03-07T14:18:19.596631+00:00"
+    },
+    {
+        "insert_id": "000000-1f4889f6-7395-4366-86dd-2f7467b66f9d",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00022', '1000']}, 'cnt': 324, 'gs_download': 2.128227949142456, 'elapsed': 2.2386560440063477}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722305466312"
+        },
+        "timestamp": "2018-03-07T14:18:20.208000+00:00"
+    },
+    {
+        "insert_id": "000000-6937d825-f500-42aa-a4a5-5f3a965ca9f0",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9272 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722305466312"
+        },
+        "timestamp": "2018-03-07T14:18:20.235662+00:00"
+    },
+    {
+        "insert_id": "000000-5dc6e26e-391d-45f4-b9d4-a4bd69a09134",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00018', '1000']}, 'cnt': 333, 'gs_download': 2.0219810009002686, 'elapsed': 1.8029320240020752}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722021822649"
+        },
+        "timestamp": "2018-03-07T14:18:20.349000+00:00"
+    },
+    {
+        "insert_id": "000000-9d65bd9a-f32f-4bee-bc44-28e7b53550d7",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8818 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722021822649"
+        },
+        "timestamp": "2018-03-07T14:18:20.374013+00:00"
+    },
+    {
+        "insert_id": "000000-dc0048c6-1dde-43ab-a732-b6423314edaa",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721257634970"
+        },
+        "timestamp": "2018-03-07T14:18:20.383724+00:00"
+    },
+    {
+        "insert_id": "000000-b4bb1fa3-533a-4da6-b05e-11f6b3c01e68",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721231776132"
+        },
+        "timestamp": "2018-03-07T14:18:20.383752+00:00"
+    },
+    {
+        "insert_id": "000000-1d8c181d-04db-41fd-9541-159d15186a65",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00042', '1000']}, 'cnt': 325, 'gs_download': 2.2883059978485107, 'elapsed': 1.8315930366516113}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721466504603"
+        },
+        "timestamp": "2018-03-07T14:18:20.716000+00:00"
+    },
+    {
+        "insert_id": "000000-2058dba4-8806-48c2-b345-7f35a7263cf5",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8666 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721466504603"
+        },
+        "timestamp": "2018-03-07T14:18:20.744369+00:00"
+    },
+    {
+        "insert_id": "000000-a8b9731f-4ed7-4561-9a8d-854836647d66",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722367324711"
+        },
+        "timestamp": "2018-03-07T14:18:20.756429+00:00"
+    },
+    {
+        "insert_id": "000000-85928400-71bc-4a63-be28-612ebd6589fc",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00008', '1000']}, 'cnt': 332, 'gs_download': 2.2680680751800537, 'elapsed': 2.204827070236206}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721661704073"
+        },
+        "timestamp": "2018-03-07T14:18:21.018000+00:00"
+    },
+    {
+        "insert_id": "000000-4907ade1-d00c-4c27-a8e5-44f554bd3f24",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9086 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721661704073"
+        },
+        "timestamp": "2018-03-07T14:18:21.049317+00:00"
+    },
+    {
+        "insert_id": "000000-d9163bcc-5bad-4cdc-a98f-4ff3bb5870aa",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00002', '1000']}, 'cnt': 329, 'gs_download': 2.5236010551452637, 'elapsed': 1.9512240886688232}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721055817402"
+        },
+        "timestamp": "2018-03-07T14:18:21.194000+00:00"
+    },
+    {
+        "insert_id": "000000-70b02971-c181-4f59-b973-f73c9259b6ee",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9378 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721055817402"
+        },
+        "timestamp": "2018-03-07T14:18:21.219623+00:00"
+    },
+    {
+        "insert_id": "000000-cab703a4-46d6-48b2-b1dd-255c75f421b6",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722123237472"
+        },
+        "timestamp": "2018-03-07T14:18:21.229968+00:00"
+    },
+    {
+        "insert_id": "000000-249365f5-f983-4b80-9900-3109d3b2ddc3",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715347393392"
+        },
+        "timestamp": "2018-03-07T14:18:21.934379+00:00"
+    },
+    {
+        "insert_id": "000000-3160018e-1341-4d0e-895b-2263b51bccb1",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00006', '1000']}, 'cnt': 325, 'gs_download': 2.1067800521850586, 'elapsed': 1.8068349361419678}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721231776132"
+        },
+        "timestamp": "2018-03-07T14:18:26.745000+00:00"
+    },
+    {
+        "insert_id": "000000-98f923a5-6bc3-43f1-aff4-ca87a0b3cfb8",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00016', '1000']}, 'cnt': 332, 'gs_download': 2.1745550632476807, 'elapsed': 1.7276511192321777}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721257634970"
+        },
+        "timestamp": "2018-03-07T14:18:26.746000+00:00"
+    },
+    {
+        "insert_id": "000000-4588ddd4-67c9-43d0-939b-e57e94a023c3",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6376 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721257634970"
+        },
+        "timestamp": "2018-03-07T14:18:26.758466+00:00"
+    },
+    {
+        "insert_id": "000000-8ba4f88d-bb84-4236-b56f-270f3681c7a1",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6376 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721231776132"
+        },
+        "timestamp": "2018-03-07T14:18:26.758615+00:00"
+    },
+    {
+        "insert_id": "000000-bbcd1842-c800-411d-96e6-11e46a8951d5",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715347393336"
+        },
+        "timestamp": "2018-03-07T14:18:26.762805+00:00"
+    },
+    {
+        "insert_id": "000000-1a00e6ef-3bea-4e1c-8824-7f61ebf7b3ba",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720701625427"
+        },
+        "timestamp": "2018-03-07T14:18:26.762809+00:00"
+    },
+    {
+        "insert_id": "000000-ddcdd90c-e6d0-4964-8a83-7159b9bd0f5a",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00034', '1000']}, 'cnt': 328, 'gs_download': 2.966156005859375, 'elapsed': 1.6357128620147705}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717656706896"
+        },
+        "timestamp": "2018-03-07T14:18:27.167000+00:00"
+    },
+    {
+        "insert_id": "000000-779843c1-35a6-4452-ac14-68831070197a",
+        "severity": "DEBUG",
+        "payload": "Function execution took 7584 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717656706896"
+        },
+        "timestamp": "2018-03-07T14:18:27.179417+00:00"
+    },
+    {
+        "insert_id": "000000-071f1df0-b8d8-4b1b-a3ae-2c2c59d4e9a2",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721778030587"
+        },
+        "timestamp": "2018-03-07T14:18:27.657955+00:00"
+    },
+    {
+        "insert_id": "000000-77e836c1-bc08-4b60-a348-54b1be598f58",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00041', '1000']}, 'cnt': 329, 'gs_download': 2.3171498775482178, 'elapsed': 1.6647460460662842}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722367324711"
+        },
+        "timestamp": "2018-03-07T14:18:27.762000+00:00"
+    },
+    {
+        "insert_id": "000000-394c9ebb-515b-403f-bce9-05ed863adadd",
+        "severity": "DEBUG",
+        "payload": "Function execution took 7019 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722367324711"
+        },
+        "timestamp": "2018-03-07T14:18:27.774097+00:00"
+    },
+    {
+        "insert_id": "000000-29e33fde-80e8-48a4-bb27-9ae9b94c7a8e",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00028', '1000']}, 'cnt': 332, 'gs_download': 2.915827989578247, 'elapsed': 1.7931830883026123}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722123237472"
+        },
+        "timestamp": "2018-03-07T14:18:28.447000+00:00"
+    },
+    {
+        "insert_id": "000000-0de0b252-1812-4089-8fcf-acc21b4aac02",
+        "severity": "DEBUG",
+        "payload": "Function execution took 7230 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722123237472"
+        },
+        "timestamp": "2018-03-07T14:18:28.458827+00:00"
+    },
+    {
+        "insert_id": "000000-07d4b486-b584-4cd7-9776-0dcf96eddf7a",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50716974893906"
+        },
+        "timestamp": "2018-03-07T14:18:28.463547+00:00"
+    },
+    {
+        "insert_id": "000000-fde47ff4-c04e-4828-bcd6-a8b76249c88d",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722633940628"
+        },
+        "timestamp": "2018-03-07T14:18:29.114105+00:00"
+    },
+    {
+        "insert_id": "000000-5adc41c2-e61a-4f00-bf60-64340085e4b0",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00017', '1000']}, 'cnt': 326, 'gs_download': 2.2205920219421387, 'elapsed': 1.9975202083587646}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715347393392"
+        },
+        "timestamp": "2018-03-07T14:18:29.163000+00:00"
+    },
+    {
+        "insert_id": "000000-b78c4852-53cb-455c-8f48-0b9a3f289209",
+        "severity": "DEBUG",
+        "payload": "Function execution took 7242 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715347393392"
+        },
+        "timestamp": "2018-03-07T14:18:29.175184+00:00"
+    },
+    {
+        "insert_id": "000000-7a8b4601-a5bb-4336-9864-be20eebad313",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50723000777385"
+        },
+        "timestamp": "2018-03-07T14:18:30.139287+00:00"
+    },
+    {
+        "insert_id": "000000-0db8fc00-4c22-4633-9546-ef5679309037",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00066', '1000']}, 'cnt': 326, 'gs_download': 2.05975604057312, 'elapsed': 1.775144100189209}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720701625427"
+        },
+        "timestamp": "2018-03-07T14:18:33.085000+00:00"
+    },
+    {
+        "insert_id": "000000-f378fe20-15b4-4297-bdce-bda5ddf0af12",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00021', '1000']}, 'cnt': 326, 'gs_download': 1.965013027191162, 'elapsed': 1.9091930389404297}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715347393336"
+        },
+        "timestamp": "2018-03-07T14:18:33.092000+00:00"
+    },
+    {
+        "insert_id": "000000-d6c85877-2e66-4fe8-ac40-203b48a5be85",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6332 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720701625427"
+        },
+        "timestamp": "2018-03-07T14:18:33.094264+00:00"
+    },
+    {
+        "insert_id": "000000-f401b6d7-8fb7-4d6e-9bd7-b6cb7c88decd",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6339 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715347393336"
+        },
+        "timestamp": "2018-03-07T14:18:33.101166+00:00"
+    },
+    {
+        "insert_id": "000000-4088f431-25f7-4a42-aba4-ee5eb893dd7e",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00020', '1000']}, 'cnt': 329, 'gs_download': 2.2564258575439453, 'elapsed': 1.655649185180664}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721778030587"
+        },
+        "timestamp": "2018-03-07T14:18:33.671000+00:00"
+    },
+    {
+        "insert_id": "000000-2176f4a3-718c-44a3-8c47-b131536f536f",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6025 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721778030587"
+        },
+        "timestamp": "2018-03-07T14:18:33.682336+00:00"
+    },
+    {
+        "insert_id": "000000-cc174645-a7eb-489c-b9d2-75163481377b",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721300975217"
+        },
+        "timestamp": "2018-03-07T14:18:33.991198+00:00"
+    },
+    {
+        "insert_id": "000000-1de330b0-e765-4993-be4f-4918e4799c26",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50711190655915"
+        },
+        "timestamp": "2018-03-07T14:18:33.991263+00:00"
+    },
+    {
+        "insert_id": "000000-3c0c0d6a-e074-4e33-9408-9b3d1753f269",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717934089603"
+        },
+        "timestamp": "2018-03-07T14:18:34.243675+00:00"
+    },
+    {
+        "insert_id": "000000-d607528a-d717-41d0-8418-6d47835f30bf",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00019', '1000']}, 'cnt': 329, 'gs_download': 2.216614007949829, 'elapsed': 1.7667701244354248}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50716974893906"
+        },
+        "timestamp": "2018-03-07T14:18:34.944000+00:00"
+    },
+    {
+        "insert_id": "000000-9a76e8db-93c1-47c4-a2bf-3f93914612f3",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6492 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50716974893906"
+        },
+        "timestamp": "2018-03-07T14:18:34.954955+00:00"
+    },
+    {
+        "insert_id": "000000-a9b8bce8-f3ec-47b1-ad7a-3d4b436b5e70",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00003', '1000']}, 'cnt': 328, 'gs_download': 2.1609179973602295, 'elapsed': 1.5995450019836426}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722633940628"
+        },
+        "timestamp": "2018-03-07T14:18:34.971000+00:00"
+    },
+    {
+        "insert_id": "000000-f1d6d728-a144-482d-bb6f-daf506ea57db",
+        "severity": "DEBUG",
+        "payload": "Function execution took 5865 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722633940628"
+        },
+        "timestamp": "2018-03-07T14:18:34.977980+00:00"
+    },
+    {
+        "insert_id": "000000-48023497-af00-4ac2-9f08-23e03e8ff06d",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722518618320"
+        },
+        "timestamp": "2018-03-07T14:18:34.983748+00:00"
+    },
+    {
+        "insert_id": "000000-46458c9e-52a3-445d-a7ff-6980272417c2",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721157783652"
+        },
+        "timestamp": "2018-03-07T14:18:36.018743+00:00"
+    },
+    {
+        "insert_id": "000000-ae537232-5e98-4548-8938-261f523f384c",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00043', '1000']}, 'cnt': 331, 'gs_download': 2.3998501300811768, 'elapsed': 1.6342639923095703}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50723000777385"
+        },
+        "timestamp": "2018-03-07T14:18:36.375000+00:00"
+    },
+    {
+        "insert_id": "000000-ebd18c1e-301b-4738-a8c8-fc2777fbf6a2",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6246 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50723000777385"
+        },
+        "timestamp": "2018-03-07T14:18:36.384077+00:00"
+    },
+    {
+        "insert_id": "000000-297d2fa5-c2ad-40c7-9d32-1ddfdd772268",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717444832712"
+        },
+        "timestamp": "2018-03-07T14:18:37.013107+00:00"
+    },
+    {
+        "insert_id": "000000-cd8fe927-5655-4ba6-846f-819cae87a58d",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00038', '1000']}, 'cnt': 328, 'gs_download': 1.9029200077056885, 'elapsed': 1.8257238864898682}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50711190655915"
+        },
+        "timestamp": "2018-03-07T14:18:40.177000+00:00"
+    },
+    {
+        "insert_id": "000000-87c4195e-055b-4f1c-be55-1a7a45d6689e",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6195 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50711190655915"
+        },
+        "timestamp": "2018-03-07T14:18:40.185417+00:00"
+    },
+    {
+        "insert_id": "000000-96260005-305c-4dce-a5c3-dce24f7905d3",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00030', '1000']}, 'cnt': 331, 'gs_download': 2.2909839153289795, 'elapsed': 1.6348111629486084}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717934089603"
+        },
+        "timestamp": "2018-03-07T14:18:40.294000+00:00"
+    },
+    {
+        "insert_id": "000000-5ca46997-5363-49e9-b8d5-e93c2f11d925",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6058 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717934089603"
+        },
+        "timestamp": "2018-03-07T14:18:40.301194+00:00"
+    },
+    {
+        "insert_id": "000000-bab71791-11bb-4cce-b38a-f696088bb930",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00012', '1000']}, 'cnt': 330, 'gs_download': 2.328855037689209, 'elapsed': 1.7638649940490723}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721300975217"
+        },
+        "timestamp": "2018-03-07T14:18:40.650000+00:00"
+    },
+    {
+        "insert_id": "000000-a830ac72-073a-45e5-9f9d-4a1d210e318c",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6667 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721300975217"
+        },
+        "timestamp": "2018-03-07T14:18:40.657554+00:00"
+    },
+    {
+        "insert_id": "000000-19399d1f-d138-4b43-a26a-37b85220a612",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722359751201"
+        },
+        "timestamp": "2018-03-07T14:18:40.662035+00:00"
+    },
+    {
+        "insert_id": "000000-513f26b0-e503-4547-8e84-e4c746733379",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717500726091"
+        },
+        "timestamp": "2018-03-07T14:18:40.662517+00:00"
+    },
+    {
+        "insert_id": "000000-bf9c6715-87af-41bf-a78f-9ae415dc07b3",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00029', '1000']}, 'cnt': 329, 'gs_download': 2.4625320434570312, 'elapsed': 1.5340349674224854}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722518618320"
+        },
+        "timestamp": "2018-03-07T14:18:41.135000+00:00"
+    },
+    {
+        "insert_id": "000000-b94ff2c9-9850-47d9-9a24-1f19f3c5fb8c",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6161 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722518618320"
+        },
+        "timestamp": "2018-03-07T14:18:41.143431+00:00"
+    },
+    {
+        "insert_id": "000000-273ef610-8fe8-44db-8e88-44a200fb48d1",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720804204956"
+        },
+        "timestamp": "2018-03-07T14:18:41.147289+00:00"
+    },
+    {
+        "insert_id": "000000-06bd664e-e6bd-4722-a07c-0525caed9340",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50716485465206"
+        },
+        "timestamp": "2018-03-07T14:18:41.147343+00:00"
+    },
+    {
+        "insert_id": "000000-0db39a54-735d-4a74-8fcd-ea0e85d8eb15",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50723277295192"
+        },
+        "timestamp": "2018-03-07T14:18:42.523827+00:00"
+    },
+    {
+        "insert_id": "000000-53e0f8f6-f6a5-4643-84a8-c92417704af0",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715610019367"
+        },
+        "timestamp": "2018-03-07T14:18:42.531734+00:00"
+    },
+    {
+        "insert_id": "000000-120e2545-39e0-4e65-99e5-8bc32af1cd10",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721510743994"
+        },
+        "timestamp": "2018-03-07T14:18:42.677785+00:00"
+    },
+    {
+        "insert_id": "000000-ca04bb48-88e9-4a36-8013-7bb4fa34f915",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720990270586"
+        },
+        "timestamp": "2018-03-07T14:18:42.747674+00:00"
+    },
+    {
+        "insert_id": "000000-f388ddb8-6709-4bce-b7eb-d3dc43ff2fca",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721485369981"
+        },
+        "timestamp": "2018-03-07T14:18:42.753675+00:00"
+    },
+    {
+        "insert_id": "000000-a8dcdefe-26f6-4dd0-b759-4594180610a8",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721371387844"
+        },
+        "timestamp": "2018-03-07T14:18:42.755022+00:00"
+    },
+    {
+        "insert_id": "000000-6336767d-df37-4a68-b920-97d8403bc92f",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721476178237"
+        },
+        "timestamp": "2018-03-07T14:18:42.755036+00:00"
+    },
+    {
+        "insert_id": "000000-37320fcc-1e53-469b-ad79-b1b14917b1c2",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722034266412"
+        },
+        "timestamp": "2018-03-07T14:18:42.863306+00:00"
+    },
+    {
+        "insert_id": "000000-52b6db04-8390-45b0-9a43-bd177b435899",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722635628597"
+        },
+        "timestamp": "2018-03-07T14:18:42.873358+00:00"
+    },
+    {
+        "insert_id": "000000-c936474c-6e88-4051-bec0-a44610a0fffc",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720399565765"
+        },
+        "timestamp": "2018-03-07T14:18:42.898324+00:00"
+    },
+    {
+        "insert_id": "000000-872026e0-55e0-4823-91be-eb4c57767123",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721542242571"
+        },
+        "timestamp": "2018-03-07T14:18:42.907690+00:00"
+    },
+    {
+        "insert_id": "000000-d1b49c92-6d85-406d-877e-bed93f1f3f77",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720204347480"
+        },
+        "timestamp": "2018-03-07T14:18:42.910520+00:00"
+    },
+    {
+        "insert_id": "000000-a19d166e-f8ee-489b-b0c1-9e2156814111",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721702748966"
+        },
+        "timestamp": "2018-03-07T14:18:42.931770+00:00"
+    },
+    {
+        "insert_id": "000000-fae50c9a-3bb3-4f9b-bca7-efd6ef1688f4",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721480936656"
+        },
+        "timestamp": "2018-03-07T14:18:42.967719+00:00"
+    },
+    {
+        "insert_id": "000000-79f61dc7-480e-41ca-ad8a-59ac4a104db0",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721552089061"
+        },
+        "timestamp": "2018-03-07T14:18:42.969221+00:00"
+    },
+    {
+        "insert_id": "000000-034c9295-3a88-4e44-a324-6211296a6290",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721045673523"
+        },
+        "timestamp": "2018-03-07T14:18:42.973558+00:00"
+    },
+    {
+        "insert_id": "000000-ea939a7c-04d0-4a11-ac27-c2d52c29a6a4",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00080', '1000']}, 'cnt': 326, 'gs_download': 2.410335063934326, 'elapsed': 2.1503360271453857}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721157783652"
+        },
+        "timestamp": "2018-03-07T14:18:43.046000+00:00"
+    },
+    {
+        "insert_id": "000000-f58ab5fa-020e-4fd5-b15b-b55e0ae30087",
+        "severity": "DEBUG",
+        "payload": "Function execution took 7036 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721157783652"
+        },
+        "timestamp": "2018-03-07T14:18:43.052939+00:00"
+    },
+    {
+        "insert_id": "000000-71ca0cf7-5f09-4b74-a4cd-efcefb32ba2d",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720448555561"
+        },
+        "timestamp": "2018-03-07T14:18:43.062236+00:00"
+    },
+    {
+        "insert_id": "000000-87bafe4a-982b-45ab-b46e-bda668569f04",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50711190655861"
+        },
+        "timestamp": "2018-03-07T14:18:43.070261+00:00"
+    },
+    {
+        "insert_id": "000000-5b99ce39-51b3-42aa-a505-944d2113783a",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722403278311"
+        },
+        "timestamp": "2018-03-07T14:18:43.089027+00:00"
+    },
+    {
+        "insert_id": "000000-28a9574c-40e9-4e5b-a336-565163e04c73",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721157783645"
+        },
+        "timestamp": "2018-03-07T14:18:43.158729+00:00"
+    },
+    {
+        "insert_id": "000000-0a582b6b-1502-437c-aa2c-1aac2000c759",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721841456313"
+        },
+        "timestamp": "2018-03-07T14:18:43.168946+00:00"
+    },
+    {
+        "insert_id": "000000-166b342c-90f5-4aad-9a2d-fe6fdeba806d",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00013', '1000']}, 'cnt': 332, 'gs_download': 2.2825610637664795, 'elapsed': 1.6091101169586182}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717444832712"
+        },
+        "timestamp": "2018-03-07T14:18:43.190000+00:00"
+    },
+    {
+        "insert_id": "000000-5b5637dd-6e63-4110-957d-1c0d1df22c43",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6186 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717444832712"
+        },
+        "timestamp": "2018-03-07T14:18:43.198593+00:00"
+    },
+    {
+        "insert_id": "000000-6895b202-ad0d-48b0-ba3e-cbf0ebc58783",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722635628575"
+        },
+        "timestamp": "2018-03-07T14:18:43.261686+00:00"
+    },
+    {
+        "insert_id": "000000-54973bb2-7c02-432d-af9a-8af3e7b1e31d",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721906785435"
+        },
+        "timestamp": "2018-03-07T14:18:43.275627+00:00"
+    },
+    {
+        "insert_id": "000000-2defca96-3e1d-4866-b73e-274bfe114d83",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715386425940"
+        },
+        "timestamp": "2018-03-07T14:18:43.362945+00:00"
+    },
+    {
+        "insert_id": "000000-f2d462a0-a2ba-4e75-a322-c9e0dd7bd7d3",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721221889657"
+        },
+        "timestamp": "2018-03-07T14:18:43.485015+00:00"
+    },
+    {
+        "insert_id": "000000-1ad069c0-f64f-42e0-8b4b-7f2ec4d4dd52",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722418641499"
+        },
+        "timestamp": "2018-03-07T14:18:43.561321+00:00"
+    },
+    {
+        "insert_id": "000000-59a53fc7-61ff-43c5-a597-fd2362d5af1a",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720729674910"
+        },
+        "timestamp": "2018-03-07T14:18:43.610273+00:00"
+    },
+    {
+        "insert_id": "000000-5f37e318-00b8-463a-95fb-22ecf9ae9a92",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717724719380"
+        },
+        "timestamp": "2018-03-07T14:18:43.666273+00:00"
+    },
+    {
+        "insert_id": "000000-bc184b72-754d-499c-b368-897def11df1a",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720178844818"
+        },
+        "timestamp": "2018-03-07T14:18:43.733556+00:00"
+    },
+    {
+        "insert_id": "000000-eb63b426-1c71-474e-b2e4-eb4158db2814",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721117362251"
+        },
+        "timestamp": "2018-03-07T14:18:43.782451+00:00"
+    },
+    {
+        "insert_id": "000000-cd45e5f1-571b-42ea-aee9-fb00fc93cbfd",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722349062643"
+        },
+        "timestamp": "2018-03-07T14:18:43.960602+00:00"
+    },
+    {
+        "insert_id": "000000-858fbbc8-4e26-40f3-b1c1-e46adf61f696",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721962571866"
+        },
+        "timestamp": "2018-03-07T14:18:43.963423+00:00"
+    },
+    {
+        "insert_id": "000000-25033eb1-d429-4d74-a060-f0fe3f606a13",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720181731767"
+        },
+        "timestamp": "2018-03-07T14:18:43.969403+00:00"
+    },
+    {
+        "insert_id": "000000-7ef0287a-0e82-471e-b2fb-1934e159ac24",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717598701817"
+        },
+        "timestamp": "2018-03-07T14:18:44.065236+00:00"
+    },
+    {
+        "insert_id": "000000-caa358a8-03b4-4a07-8556-6457ce0969be",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717570282968"
+        },
+        "timestamp": "2018-03-07T14:18:44.274817+00:00"
+    },
+    {
+        "insert_id": "000000-be615abf-32e8-4ed5-b80c-650c70645ba6",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720879082659"
+        },
+        "timestamp": "2018-03-07T14:18:44.665744+00:00"
+    },
+    {
+        "insert_id": "000000-2a94181f-dd26-4e54-994d-e09c2875c2cd",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721757077351"
+        },
+        "timestamp": "2018-03-07T14:18:44.674054+00:00"
+    },
+    {
+        "insert_id": "000000-92cbb19f-e35c-4949-a17c-ce9921010e8c",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722530315705"
+        },
+        "timestamp": "2018-03-07T14:18:44.675540+00:00"
+    },
+    {
+        "insert_id": "000000-f76a3b9e-6152-4ebf-86eb-0099c7817bd8",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720217073124"
+        },
+        "timestamp": "2018-03-07T14:18:44.761778+00:00"
+    },
+    {
+        "insert_id": "000000-648b15f6-4139-471c-9420-49a75e7b7cc9",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721925810775"
+        },
+        "timestamp": "2018-03-07T14:18:44.762961+00:00"
+    },
+    {
+        "insert_id": "000000-90fe653e-1678-43da-97c7-14858df52383",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721480036567"
+        },
+        "timestamp": "2018-03-07T14:18:44.805185+00:00"
+    },
+    {
+        "insert_id": "000000-56b995fd-60e5-45da-bf49-c0d7dd35d5c4",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717691158529"
+        },
+        "timestamp": "2018-03-07T14:18:45.064186+00:00"
+    },
+    {
+        "insert_id": "000000-862fe162-64a4-4d53-a756-1852e8f011e0",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721780592938"
+        },
+        "timestamp": "2018-03-07T14:18:45.163787+00:00"
+    },
+    {
+        "insert_id": "000000-27055a35-c4a3-4307-9fd0-2d14a494ea7d",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721480936584"
+        },
+        "timestamp": "2018-03-07T14:18:45.265313+00:00"
+    },
+    {
+        "insert_id": "000000-1248d8b0-0f3b-42e2-b62e-ff497bb96498",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720233449775"
+        },
+        "timestamp": "2018-03-07T14:18:45.567114+00:00"
+    },
+    {
+        "insert_id": "000000-d8c87bf1-c906-4822-99d7-938c86fbca59",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720447001447"
+        },
+        "timestamp": "2018-03-07T14:18:46.162781+00:00"
+    },
+    {
+        "insert_id": "000000-a3aeb808-cf85-4fa1-af85-3362c82fd035",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00049', '1000']}, 'cnt': 325, 'gs_download': 1.9980790615081787, 'elapsed': 1.9363090991973877}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717500726091"
+        },
+        "timestamp": "2018-03-07T14:18:47.168000+00:00"
+    },
+    {
+        "insert_id": "000000-4bf3ecbe-ee7d-4e25-b00a-f817cf3fd747",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6516 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717500726091"
+        },
+        "timestamp": "2018-03-07T14:18:47.177652+00:00"
+    },
+    {
+        "insert_id": "000000-98eafd64-a934-4bb1-b417-652115e80986",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00055', '1000']}, 'cnt': 326, 'gs_download': 2.2122130393981934, 'elapsed': 1.8505258560180664}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722359751201"
+        },
+        "timestamp": "2018-03-07T14:18:47.209000+00:00"
+    },
+    {
+        "insert_id": "000000-81f7cd88-4474-46bb-8166-fd0d217f2742",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6556 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722359751201"
+        },
+        "timestamp": "2018-03-07T14:18:47.217045+00:00"
+    },
+    {
+        "insert_id": "000000-cecba847-6174-4d5c-9757-62aa38404a94",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00046', '1000']}, 'cnt': 332, 'gs_download': 2.492894172668457, 'elapsed': 1.5772669315338135}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50716485465206"
+        },
+        "timestamp": "2018-03-07T14:18:47.280000+00:00"
+    },
+    {
+        "insert_id": "000000-55af773a-cf2d-4118-8136-21ec59597c9e",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6141 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50716485465206"
+        },
+        "timestamp": "2018-03-07T14:18:47.287763+00:00"
+    },
+    {
+        "insert_id": "000000-a1c04fd8-f672-48fe-8e60-2c7d9f6130df",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00072', '1000']}, 'cnt': 326, 'gs_download': 2.3793890476226807, 'elapsed': 1.7280490398406982}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720804204956"
+        },
+        "timestamp": "2018-03-07T14:18:47.356000+00:00"
+    },
+    {
+        "insert_id": "000000-8a33d22d-26b6-4f19-b0bd-ab2f1115690b",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6218 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720804204956"
+        },
+        "timestamp": "2018-03-07T14:18:47.364616+00:00"
+    },
+    {
+        "insert_id": "000000-fae3491b-97c3-495a-b5e0-63d012507204",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00090', '1000']}, 'cnt': 334, 'gs_download': 2.0701019763946533, 'elapsed': 1.4491901397705078}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721552089061"
+        },
+        "timestamp": "2018-03-07T14:18:50.498000+00:00"
+    },
+    {
+        "insert_id": "000000-83672810-c05a-473a-b85b-5e422eaa1cde",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00050', '1000']}, 'cnt': 327, 'gs_download': 1.7341771125793457, 'elapsed': 1.7448570728302002}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721476178237"
+        },
+        "timestamp": "2018-03-07T14:18:50.502000+00:00"
+    },
+    {
+        "insert_id": "000000-ef00c560-f017-40a4-b53b-bd1fa221d0f2",
+        "severity": "DEBUG",
+        "payload": "Function execution took 7553 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721552089061"
+        },
+        "timestamp": "2018-03-07T14:18:50.521528+00:00"
+    },
+    {
+        "insert_id": "000000-a7aac7f8-b84f-43bd-be7a-8fb272dcffb8",
+        "severity": "DEBUG",
+        "payload": "Function execution took 7770 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721476178237"
+        },
+        "timestamp": "2018-03-07T14:18:50.524319+00:00"
+    },
+    {
+        "insert_id": "000000-4c2f9a71-376d-414a-b266-220700993ee8",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00091', '1000']}, 'cnt': 326, 'gs_download': 1.8368349075317383, 'elapsed': 1.6447720527648926}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721542242571"
+        },
+        "timestamp": "2018-03-07T14:18:50.579000+00:00"
+    },
+    {
+        "insert_id": "000000-2316e7f6-ce4d-4c90-9e8b-1c2a9b41cd71",
+        "severity": "DEBUG",
+        "payload": "Function execution took 7692 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721542242571"
+        },
+        "timestamp": "2018-03-07T14:18:50.599024+00:00"
+    },
+    {
+        "insert_id": "000000-98434ddd-fba4-4d2e-b0fb-1a4626a43864",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00048', '1000']}, 'cnt': 333, 'gs_download': 2.289705991744995, 'elapsed': 1.618056058883667}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50723277295192"
+        },
+        "timestamp": "2018-03-07T14:18:50.760000+00:00"
+    },
+    {
+        "insert_id": "000000-6a4d5d64-26fb-4182-a0d9-8103f898f5d7",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00035', '1000']}, 'cnt': 327, 'gs_download': 1.8593909740447998, 'elapsed': 1.445706844329834}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721702748966"
+        },
+        "timestamp": "2018-03-07T14:18:50.779000+00:00"
+    },
+    {
+        "insert_id": "000000-c3cf7887-2a3b-4c5b-a938-41b74e07156a",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8260 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50723277295192"
+        },
+        "timestamp": "2018-03-07T14:18:50.783228+00:00"
+    },
+    {
+        "insert_id": "000000-c5552ff0-84ca-42d9-b177-e4fadc0340f2",
+        "severity": "DEBUG",
+        "payload": "Function execution took 7933 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721702748966"
+        },
+        "timestamp": "2018-03-07T14:18:50.801904+00:00"
+    },
+    {
+        "insert_id": "000000-666e270f-536d-41a8-b03f-593d0eab4e47",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50716733463692"
+        },
+        "timestamp": "2018-03-07T14:18:50.898025+00:00"
+    },
+    {
+        "insert_id": "000000-00cf2355-9c8d-4a52-b421-2af8fe615601",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00082', '1000']}, 'cnt': 329, 'gs_download': 2.403218984603882, 'elapsed': 1.60853910446167}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721045673523"
+        },
+        "timestamp": "2018-03-07T14:18:50.982000+00:00"
+    },
+    {
+        "insert_id": "000000-f89e1c52-529f-49d4-a297-9160511864f5",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8028 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721045673523"
+        },
+        "timestamp": "2018-03-07T14:18:51.001059+00:00"
+    },
+    {
+        "insert_id": "000000-8603377d-8a10-4b87-a0c9-b4c2baa1757a",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00004', '1000']}, 'cnt': 333, 'gs_download': 2.100416898727417, 'elapsed': 1.5594220161437988}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722403278311"
+        },
+        "timestamp": "2018-03-07T14:18:51.074000+00:00"
+    },
+    {
+        "insert_id": "000000-5cef6c62-f7cc-4063-b62d-9932236bd472",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8012 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722403278311"
+        },
+        "timestamp": "2018-03-07T14:18:51.099769+00:00"
+    },
+    {
+        "insert_id": "000000-70a4b617-7806-4970-ab49-1487a3a995df",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00061', '1000']}, 'cnt': 323, 'gs_download': 2.0536208152770996, 'elapsed': 1.7597100734710693}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720990270586"
+        },
+        "timestamp": "2018-03-07T14:18:51.103000+00:00"
+    },
+    {
+        "insert_id": "000000-911a3582-a947-4ba1-a169-09c7ac18dbd6",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8381 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720990270586"
+        },
+        "timestamp": "2018-03-07T14:18:51.128098+00:00"
+    },
+    {
+        "insert_id": "000000-4387f4bd-1b30-45f6-8906-516176fa2f11",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00068', '1000']}, 'cnt': 328, 'gs_download': 2.1507151126861572, 'elapsed': 1.6263439655303955}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720448555561"
+        },
+        "timestamp": "2018-03-07T14:18:51.142000+00:00"
+    },
+    {
+        "insert_id": "000000-6bb0f49c-7ced-4898-b677-b9dc43941ba6",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00044', '1000']}, 'cnt': 327, 'gs_download': 1.9239120483398438, 'elapsed': 1.843770980834961}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720399565765"
+        },
+        "timestamp": "2018-03-07T14:18:51.146000+00:00"
+    },
+    {
+        "insert_id": "000000-6b72ad1f-d566-4aaf-a650-78c88af28c98",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8104 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720448555561"
+        },
+        "timestamp": "2018-03-07T14:18:51.164681+00:00"
+    },
+    {
+        "insert_id": "000000-5af8eb43-6189-4ec9-a313-d0a69d0ff541",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8275 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720399565765"
+        },
+        "timestamp": "2018-03-07T14:18:51.172648+00:00"
+    },
+    {
+        "insert_id": "000000-fe8e5291-627f-4c2f-9201-e8f6778df937",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00058', '1000']}, 'cnt': 329, 'gs_download': 2.1029021739959717, 'elapsed': 1.6717848777770996}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722034266412"
+        },
+        "timestamp": "2018-03-07T14:18:51.182000+00:00"
+    },
+    {
+        "insert_id": "000000-db71fd10-2df9-4ef5-8f07-36383155baaa",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8347 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722034266412"
+        },
+        "timestamp": "2018-03-07T14:18:51.209415+00:00"
+    },
+    {
+        "insert_id": "000000-0479f162-b995-4b6b-a846-698ef05d5ce0",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00057', '1000']}, 'cnt': 331, 'gs_download': 2.1353909969329834, 'elapsed': 1.8110737800598145}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722635628597"
+        },
+        "timestamp": "2018-03-07T14:18:51.377000+00:00"
+    },
+    {
+        "insert_id": "000000-875e5b02-b2a1-43ea-a51a-bcbbcc96e9c7",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8530 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722635628597"
+        },
+        "timestamp": "2018-03-07T14:18:51.402699+00:00"
+    },
+    {
+        "insert_id": "000000-c646f244-90ab-4a6f-a14a-ef0e03e40656",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00075', '1000']}, 'cnt': 323, 'gs_download': 1.9759879112243652, 'elapsed': 1.6099460124969482}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721221889657"
+        },
+        "timestamp": "2018-03-07T14:18:51.426000+00:00"
+    },
+    {
+        "insert_id": "000000-1a3b8e4f-b97f-4f59-b80c-63c27e110abb",
+        "severity": "DEBUG",
+        "payload": "Function execution took 7967 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721221889657"
+        },
+        "timestamp": "2018-03-07T14:18:51.450491+00:00"
+    },
+    {
+        "insert_id": "000000-744dbeb0-d48e-4b92-8899-a178df12324c",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00089', '1000']}, 'cnt': 331, 'gs_download': 2.3915140628814697, 'elapsed': 1.4344069957733154}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721157783645"
+        },
+        "timestamp": "2018-03-07T14:18:51.497000+00:00"
+    },
+    {
+        "insert_id": "000000-ea07a8db-fc66-4060-8439-58134803dad3",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8362 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721157783645"
+        },
+        "timestamp": "2018-03-07T14:18:51.519854+00:00"
+    },
+    {
+        "insert_id": "000000-b04a23c0-0037-4209-80a9-9a85516887a2",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00032', '1000']}, 'cnt': 331, 'gs_download': 2.11011004447937, 'elapsed': 1.719120979309082}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720204347480"
+        },
+        "timestamp": "2018-03-07T14:18:51.536000+00:00"
+    },
+    {
+        "insert_id": "000000-f367d186-90d0-46e5-8d92-2ac972a7b4cc",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8654 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720204347480"
+        },
+        "timestamp": "2018-03-07T14:18:51.563856+00:00"
+    },
+    {
+        "insert_id": "000000-82a0f220-dedc-4757-afc6-72de758ebf18",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00088', '1000']}, 'cnt': 327, 'gs_download': 2.073899030685425, 'elapsed': 1.683333158493042}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721906785435"
+        },
+        "timestamp": "2018-03-07T14:18:51.578000+00:00"
+    },
+    {
+        "insert_id": "000000-ba8d1660-4528-47b9-a5b5-6f086dc1d2f5",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8328 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721906785435"
+        },
+        "timestamp": "2018-03-07T14:18:51.602605+00:00"
+    },
+    {
+        "insert_id": "000000-210c913f-9bdd-49c8-820e-f1f8b4aed502",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722427444234"
+        },
+        "timestamp": "2018-03-07T14:18:51.613297+00:00"
+    },
+    {
+        "insert_id": "000000-4cdf46f3-cc50-46f3-b0db-22f6cb90885f",
+        "severity": "DEBUG",
+        "payload": "Function execution started",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722418641500"
+        },
+        "timestamp": "2018-03-07T14:18:51.613335+00:00"
+    },
+    {
+        "insert_id": "000000-e1ded295-6bcb-4446-9a86-d9dcf42f1a7a",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00095', '1000']}, 'cnt': 333, 'gs_download': 2.5187549591064453, 'elapsed': 2.0068199634552}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721371387844"
+        },
+        "timestamp": "2018-03-07T14:18:51.660000+00:00"
+    },
+    {
+        "insert_id": "000000-2e59c619-6c80-4097-a9fe-5cd235b2c9c5",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8935 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721371387844"
+        },
+        "timestamp": "2018-03-07T14:18:51.688533+00:00"
+    },
+    {
+        "insert_id": "000000-0cad49f9-9086-4262-a5d8-1aaf86ca1ae6",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00062', '1000']}, 'cnt': 335, 'gs_download': 2.5279297828674316, 'elapsed': 1.6801469326019287}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722418641499"
+        },
+        "timestamp": "2018-03-07T14:18:51.709000+00:00"
+    },
+    {
+        "insert_id": "000000-8dae39cd-95a9-4e46-a948-07319948d553",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8171 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722418641499"
+        },
+        "timestamp": "2018-03-07T14:18:51.731717+00:00"
+    },
+    {
+        "insert_id": "000000-291f62ca-7c8d-4d2e-b3b2-213cbff81f26",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00010', '1000']}, 'cnt': 334, 'gs_download': 2.153172016143799, 'elapsed': 1.509596824645996}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721117362251"
+        },
+        "timestamp": "2018-03-07T14:18:51.916000+00:00"
+    },
+    {
+        "insert_id": "000000-2ed52110-8605-4e4b-a87f-b6507a64516a",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8162 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721117362251"
+        },
+        "timestamp": "2018-03-07T14:18:51.943524+00:00"
+    },
+    {
+        "insert_id": "000000-3f6e4672-ffb8-4670-aeb8-b16db3309084",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00053', '1000']}, 'cnt': 324, 'gs_download': 3.0777668952941895, 'elapsed': 1.6134471893310547}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715610019367"
+        },
+        "timestamp": "2018-03-07T14:18:51.983000+00:00"
+    },
+    {
+        "insert_id": "000000-1f0c7433-9f41-4296-bf45-7e1f7528d5e8",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9477 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715610019367"
+        },
+        "timestamp": "2018-03-07T14:18:52.008291+00:00"
+    },
+    {
+        "insert_id": "000000-dc8bbd16-3c42-4a88-ba19-71a3168ade12",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00092', '1000']}, 'cnt': 327, 'gs_download': 2.9462249279022217, 'elapsed': 1.6277060508728027}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721485369981"
+        },
+        "timestamp": "2018-03-07T14:18:52.059000+00:00"
+    },
+    {
+        "insert_id": "000000-14de10bf-6f68-44fc-8452-d35e7b1fb955",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9329 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721485369981"
+        },
+        "timestamp": "2018-03-07T14:18:52.081936+00:00"
+    },
+    {
+        "insert_id": "000000-0ddc71ba-7c93-4c95-abf5-0c758dbfbb6d",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00093', '1000']}, 'cnt': 326, 'gs_download': 2.044584035873413, 'elapsed': 1.9073288440704346}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715386425940"
+        },
+        "timestamp": "2018-03-07T14:18:52.109000+00:00"
+    },
+    {
+        "insert_id": "000000-ca2e9214-8ea7-46ad-a4f6-2723a597e633",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8771 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50715386425940"
+        },
+        "timestamp": "2018-03-07T14:18:52.133059+00:00"
+    },
+    {
+        "insert_id": "000000-f957fb2f-fa27-4e9d-a0f0-2bc7a7c6a5d4",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00067', '1000']}, 'cnt': 333, 'gs_download': 2.432243824005127, 'elapsed': 1.8687498569488525}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721510743994"
+        },
+        "timestamp": "2018-03-07T14:18:52.238000+00:00"
+    },
+    {
+        "insert_id": "000000-9c46907e-4f5e-4569-8baa-b653c72e5576",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9589 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721510743994"
+        },
+        "timestamp": "2018-03-07T14:18:52.265310+00:00"
+    },
+    {
+        "insert_id": "000000-f0917885-b54e-4c37-9063-e2baec5b90a5",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00015', '1000']}, 'cnt': 328, 'gs_download': 2.2968380451202393, 'elapsed': 1.9717049598693848}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721480936656"
+        },
+        "timestamp": "2018-03-07T14:18:52.399000+00:00"
+    },
+    {
+        "insert_id": "000000-f2586d15-bf41-4cce-9e90-8df5078b9062",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00054', '1000']}, 'cnt': 331, 'gs_download': 2.184682846069336, 'elapsed': 1.9043779373168945}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722635628575"
+        },
+        "timestamp": "2018-03-07T14:18:52.403000+00:00"
+    },
+    {
+        "insert_id": "000000-011e24a8-5729-4d26-adca-e618cd17bbe1",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9459 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721480936656"
+        },
+        "timestamp": "2018-03-07T14:18:52.425583+00:00"
+    },
+    {
+        "insert_id": "000000-a0fd0ae8-7491-4099-8f65-c2dd970ed04b",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9166 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722635628575"
+        },
+        "timestamp": "2018-03-07T14:18:52.426755+00:00"
+    },
+    {
+        "insert_id": "000000-23e59758-9bae-47f4-aa6e-0cf62fffc345",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00070', '1000']}, 'cnt': 328, 'gs_download': 2.03438401222229, 'elapsed': 1.6204781532287598}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721962571866"
+        },
+        "timestamp": "2018-03-07T14:18:52.433000+00:00"
+    },
+    {
+        "insert_id": "000000-bb2a62ae-a81b-44e1-9905-b33cfb85323e",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8494 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721962571866"
+        },
+        "timestamp": "2018-03-07T14:18:52.456574+00:00"
+    },
+    {
+        "insert_id": "000000-f695a2fc-9cbb-494f-b5ce-0f0741c944e5",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00059', '1000']}, 'cnt': 328, 'gs_download': 2.5597598552703857, 'elapsed': 1.9544408321380615}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720178844818"
+        },
+        "timestamp": "2018-03-07T14:18:52.540000+00:00"
+    },
+    {
+        "insert_id": "000000-04cf4f63-c46b-48ee-a668-59d576b26af7",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8834 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720178844818"
+        },
+        "timestamp": "2018-03-07T14:18:52.566717+00:00"
+    },
+    {
+        "insert_id": "000000-6d6778be-2b37-4da1-a391-b9cc6a94cb82",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00084', '1000']}, 'cnt': 322, 'gs_download': 2.455796003341675, 'elapsed': 2.048539876937866}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717724719380"
+        },
+        "timestamp": "2018-03-07T14:18:52.851000+00:00"
+    },
+    {
+        "insert_id": "000000-9f142dc3-b6d8-4b1e-8bf2-e5c2dc240803",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00094', '1000']}, 'cnt': 331, 'gs_download': 2.55576491355896, 'elapsed': 1.8885209560394287}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721841456313"
+        },
+        "timestamp": "2018-03-07T14:18:52.853000+00:00"
+    },
+    {
+        "insert_id": "000000-debcc156-ab67-476a-95e3-b46db0e42f8f",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9212 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717724719380"
+        },
+        "timestamp": "2018-03-07T14:18:52.877221+00:00"
+    },
+    {
+        "insert_id": "000000-8d4a4cc5-bcc8-43c3-b408-a4a88a7e8275",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9710 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721841456313"
+        },
+        "timestamp": "2018-03-07T14:18:52.877861+00:00"
+    },
+    {
+        "insert_id": "000000-b7477761-6b95-429b-8472-858dbf39b913",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00085', '1000']}, 'cnt': 329, 'gs_download': 2.6740360260009766, 'elapsed': 1.842297077178955}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717598701817"
+        },
+        "timestamp": "2018-03-07T14:18:52.920000+00:00"
+    },
+    {
+        "insert_id": "000000-5d43df32-ec22-4ade-a1bd-07b69b0c55ef",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00052', '1000']}, 'cnt': 332, 'gs_download': 2.327346086502075, 'elapsed': 2.0290749073028564}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720729674910"
+        },
+        "timestamp": "2018-03-07T14:18:52.924000+00:00"
+    },
+    {
+        "insert_id": "000000-1a19878f-07c7-44cb-82dc-00fe76b1dfaa",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8881 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717598701817"
+        },
+        "timestamp": "2018-03-07T14:18:52.944907+00:00"
+    },
+    {
+        "insert_id": "000000-17beca54-f48f-4d1b-9ed5-b8b52f1cd801",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9397 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720729674910"
+        },
+        "timestamp": "2018-03-07T14:18:52.953649+00:00"
+    },
+    {
+        "insert_id": "000000-7d4350e4-2e4c-4600-9cbb-9fd278057702",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00078', '1000']}, 'cnt': 326, 'gs_download': 2.916300058364868, 'elapsed': 1.9335219860076904}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50711190655861"
+        },
+        "timestamp": "2018-03-07T14:18:53.025000+00:00"
+    },
+    {
+        "insert_id": "000000-9a0348bf-9ae5-4b27-93a5-a92c16ad7af5",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9990 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50711190655861"
+        },
+        "timestamp": "2018-03-07T14:18:53.059140+00:00"
+    },
+    {
+        "insert_id": "000000-7ae053e7-e6e2-442f-947d-b08f19163371",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00097', '1000']}, 'cnt': 325, 'gs_download': 2.497502088546753, 'elapsed': 1.7995169162750244}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720181731767"
+        },
+        "timestamp": "2018-03-07T14:18:53.332000+00:00"
+    },
+    {
+        "insert_id": "000000-5fbe1b79-3914-4689-b2fe-de4b39a0ce17",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9386 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720181731767"
+        },
+        "timestamp": "2018-03-07T14:18:53.354524+00:00"
+    },
+    {
+        "insert_id": "000000-69cf1ccc-01a0-4e43-a3d6-b769182e1efa",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00051', '1000']}, 'cnt': 333, 'gs_download': 2.243483066558838, 'elapsed': 1.8196330070495605}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721757077351"
+        },
+        "timestamp": "2018-03-07T14:18:53.363000+00:00"
+    },
+    {
+        "insert_id": "000000-0320634a-b536-4372-927c-22f6fea6c9d0",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8716 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721757077351"
+        },
+        "timestamp": "2018-03-07T14:18:53.389062+00:00"
+    },
+    {
+        "insert_id": "000000-8b6a2987-c4d3-4d5b-825a-d3abf73ba719",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00047', '1000']}, 'cnt': 326, 'gs_download': 2.5325541496276855, 'elapsed': 1.8824148178100586}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722349062643"
+        },
+        "timestamp": "2018-03-07T14:18:53.475000+00:00"
+    },
+    {
+        "insert_id": "000000-aadad810-ce03-4b0f-addf-560cfc48820b",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9543 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722349062643"
+        },
+        "timestamp": "2018-03-07T14:18:53.502813+00:00"
+    },
+    {
+        "insert_id": "000000-595d53a9-bae1-4eb6-927b-8a581484d621",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00081', '1000']}, 'cnt': 337, 'gs_download': 1.8432180881500244, 'elapsed': 1.8122000694274902}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721480036567"
+        },
+        "timestamp": "2018-03-07T14:18:53.528000+00:00"
+    },
+    {
+        "insert_id": "000000-e0598590-a0ad-4b14-82e4-c326deef63e5",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00033', '1000']}, 'cnt': 329, 'gs_download': 2.4222869873046875, 'elapsed': 1.7116708755493164}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720879082659"
+        },
+        "timestamp": "2018-03-07T14:18:53.547000+00:00"
+    },
+    {
+        "insert_id": "000000-caae6080-98b6-4d0f-9f18-08e873610332",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8750 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721480036567"
+        },
+        "timestamp": "2018-03-07T14:18:53.554172+00:00"
+    },
+    {
+        "insert_id": "000000-85dc58dc-16c7-4668-8e5f-fc6684c4c710",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00077', '1000']}, 'cnt': 335, 'gs_download': 2.3849539756774902, 'elapsed': 1.544975996017456}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722530315705"
+        },
+        "timestamp": "2018-03-07T14:18:53.567000+00:00"
+    },
+    {
+        "insert_id": "000000-1b3e4272-f9c6-4bc7-a8f6-280a79a07015",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8911 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720879082659"
+        },
+        "timestamp": "2018-03-07T14:18:53.575385+00:00"
+    },
+    {
+        "insert_id": "000000-7943dc0a-369b-4177-982a-53b58a5aface",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00031', '1000']}, 'cnt': 325, 'gs_download': 1.9100370407104492, 'elapsed': 1.8172729015350342}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721780592938"
+        },
+        "timestamp": "2018-03-07T14:18:53.586000+00:00"
+    },
+    {
+        "insert_id": "000000-79ade15f-a0e4-45aa-ae6d-2112cb3f3737",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8915 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722530315705"
+        },
+        "timestamp": "2018-03-07T14:18:53.589908+00:00"
+    },
+    {
+        "insert_id": "000000-de25a051-4bda-4422-b2b5-f77112035212",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8446 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721780592938"
+        },
+        "timestamp": "2018-03-07T14:18:53.608639+00:00"
+    },
+    {
+        "insert_id": "000000-60c29637-83da-4c95-b1ec-56a039b7b59d",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00074', '1000']}, 'cnt': 328, 'gs_download': 2.161853075027466, 'elapsed': 1.8831689357757568}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721925810775"
+        },
+        "timestamp": "2018-03-07T14:18:53.889000+00:00"
+    },
+    {
+        "insert_id": "000000-fd74148d-ec66-451a-bc8d-8ef511004367",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9151 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721925810775"
+        },
+        "timestamp": "2018-03-07T14:18:53.913426+00:00"
+    },
+    {
+        "insert_id": "000000-240a063e-1c11-48d7-9a73-77f3825e7c3e",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00083', '1000']}, 'cnt': 327, 'gs_download': 2.4737050533294678, 'elapsed': 1.692586898803711}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721480936584"
+        },
+        "timestamp": "2018-03-07T14:18:54+00:00"
+    },
+    {
+        "insert_id": "000000-132eff07-1c7d-4095-80dd-323529e11f1f",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8758 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50721480936584"
+        },
+        "timestamp": "2018-03-07T14:18:54.021782+00:00"
+    },
+    {
+        "insert_id": "000000-1d346ba0-e4f0-475c-bb16-0443a7c9ecb7",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00065', '1000']}, 'cnt': 329, 'gs_download': 2.1985390186309814, 'elapsed': 1.7037110328674316}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720233449775"
+        },
+        "timestamp": "2018-03-07T14:18:54.152000+00:00"
+    },
+    {
+        "insert_id": "000000-7ae2b227-2e6c-4c7c-a8d8-9c2ea15a3be9",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8608 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720233449775"
+        },
+        "timestamp": "2018-03-07T14:18:54.173924+00:00"
+    },
+    {
+        "insert_id": "000000-c4feb591-efbb-4ca9-854f-c28b0e8ccfbb",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00039', '1000']}, 'cnt': 328, 'gs_download': 2.4202349185943604, 'elapsed': 1.9339048862457275}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720217073124"
+        },
+        "timestamp": "2018-03-07T14:18:54.228000+00:00"
+    },
+    {
+        "insert_id": "000000-1c753554-e96c-4091-974b-ac18383d6915",
+        "severity": "DEBUG",
+        "payload": "Function execution took 9493 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720217073124"
+        },
+        "timestamp": "2018-03-07T14:18:54.253522+00:00"
+    },
+    {
+        "insert_id": "000000-24799cb4-e798-4053-aa88-8185e2a4a822",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00079', '1000']}, 'cnt': 328, 'gs_download': 3.046264886856079, 'elapsed': 2.2174949645996094}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717570282968"
+        },
+        "timestamp": "2018-03-07T14:18:54.742000+00:00"
+    },
+    {
+        "insert_id": "000000-4fb8e666-5ea3-46d6-8b10-508022fced46",
+        "severity": "DEBUG",
+        "payload": "Function execution took 10500 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717570282968"
+        },
+        "timestamp": "2018-03-07T14:18:54.774029+00:00"
+    },
+    {
+        "insert_id": "000000-24491475-c8b0-4238-bea6-f1f7122d4251",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00060', '1000']}, 'cnt': 326, 'gs_download': 2.4339840412139893, 'elapsed': 1.6838910579681396}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720447001447"
+        },
+        "timestamp": "2018-03-07T14:18:54.908000+00:00"
+    },
+    {
+        "insert_id": "000000-6d11cac9-6547-4195-9919-abd5078a1e96",
+        "severity": "DEBUG",
+        "payload": "Function execution took 8770 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50720447001447"
+        },
+        "timestamp": "2018-03-07T14:18:54.931802+00:00"
+    },
+    {
+        "insert_id": "000000-3944e76d-25bc-4b9e-9b81-75a9684ad889",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00045', '1000']}, 'cnt': 334, 'gs_download': 2.9807469844818115, 'elapsed': 1.954361915588379}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717691158529"
+        },
+        "timestamp": "2018-03-07T14:18:55.918000+00:00"
+    },
+    {
+        "insert_id": "000000-30d71f52-467a-4125-ba74-cf58cbc17b6f",
+        "severity": "DEBUG",
+        "payload": "Function execution took 10882 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50717691158529"
+        },
+        "timestamp": "2018-03-07T14:18:55.944651+00:00"
+    },
+    {
+        "insert_id": "000000-95a2f03f-5312-4ffc-a894-459da4df5764",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00063', '1000']}, 'cnt': 326, 'gs_download': 2.2173001766204834, 'elapsed': 1.5069661140441895}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50716733463692"
+        },
+        "timestamp": "2018-03-07T14:18:56.808000+00:00"
+    },
+    {
+        "insert_id": "000000-9a262809-c41b-484a-ac52-7e67cbb7625b",
+        "severity": "DEBUG",
+        "payload": "Function execution took 5922 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50716733463692"
+        },
+        "timestamp": "2018-03-07T14:18:56.819071+00:00"
+    },
+    {
+        "insert_id": "000000-ff47ddf6-094b-413a-9b68-7e43b6952874",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00098', '1000']}, 'cnt': 334, 'gs_download': 2.1723079681396484, 'elapsed': 1.598771095275879}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722418641500"
+        },
+        "timestamp": "2018-03-07T14:18:57.680000+00:00"
+    },
+    {
+        "insert_id": "000000-4178ebcc-91a3-4fd4-8f27-3ef85d45ccbc",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6081 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722418641500"
+        },
+        "timestamp": "2018-03-07T14:18:57.693295+00:00"
+    },
+    {
+        "insert_id": "000000-24dd7ed6-ee49-48f3-a061-5f5d31e4c4bf",
+        "severity": "INFO",
+        "payload": "stdout: {'result': {'input': {'line_count': 900001, 'params': ['scan_query.py', 'bigdata-pavlo', 'text/5nodes/rankings/part-00037', '1000']}, 'cnt': 329, 'gs_download': 2.1323659420013428, 'elapsed': 1.7760958671569824}}\nstderr: ",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722427444234"
+        },
+        "timestamp": "2018-03-07T14:18:57.803000+00:00"
+    },
+    {
+        "insert_id": "000000-4e6b3973-c3fe-4d93-8074-6fddc2764e86",
+        "severity": "DEBUG",
+        "payload": "Function execution took 6204 ms, finished with status: 'ok'",
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "project_id": "capable-shard-436",
+                "function_name": "bigdata-scanner"
+            }
+        ],
+        "http_request": null,
+        "labels": {
+            "execution_id": "50722427444234"
+        },
+        "timestamp": "2018-03-07T14:18:57.816389+00:00"
+    }
+]

@@ -203,7 +203,7 @@ def lambda_handler(event, context):
       body = obj['Body'].read()
 
       (prediction_label, prediction_prob) = run_inference_on_image(body)[0]
-      results.append( (prediction_label, prediction_prob) )
+      results.append( (prediction_label, float(prediction_prob)) )
     return results
 
 def get_argparse():
@@ -225,7 +225,7 @@ def rioi(args):
     start = time.time()
     (prediction_label, prediction_prob) = run_inference_on_image(body)[0]
     end = time.time()
-    res = { "result": (prediction_label, prediction_prob),
+    res = { "result": (prediction_label, float(prediction_prob)),
             "elapsed": end - start,
             "s3d_elapsed": s3d_end - s3d_start }
     return res

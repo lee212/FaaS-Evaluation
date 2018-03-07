@@ -46,7 +46,7 @@ from six.moves import urllib
 import tensorflow as tf
 
 from os import listdir
-from multiprocessing import Process, Pipe
+from multiprocessing.pool import ThreadPool 
 from google.cloud import storage
 
 import time
@@ -198,47 +198,38 @@ def maybe_download_and_extract():
 
 def rioim(args):
 
-    bucket, key, conn = args
+    bucket, key = args
     client = storage.Client()
     ibucket = client.get_bucket(bucket)
     blob = ibucket.get_blob(key)
     body = blob.download_as_string()
     msg = run_inference_on_image(body)
-    conn.send(msg)
-    conn.close()
+    return msg
 
 def main(_):
     maybe_download_and_extract()
     client = storage.Client()
+    p = ThreadPool(FLAGS.batch_size)
     if FLAGS.bucket:
         bucket = client.get_bucket(FLAGS.bucket)
         blobs = bucket.list_blobs(prefix=FLAGS.prefix)
-        pcs = []
-        ps = []
         cnt = 0
+        res = []
         for blob in blobs:
-            parent_conn, child_conn = Pipe()
-            pcs.append(parent_conn)
-            param = (FLAGS.bucket, blob.name, child_conn)
-            process = Process(target=rioim, args=(param, ))
-            ps.append(process)
+            print (blob.name)
+            if blob.name == FLAGS.prefix:
+                continue
+            param = (FLAGS.bucket, blob.name)
+            res.append(p.apply_async(rioim, args=(param, )))
 
-        limit = FLAGS.batch_size
-        cnt = 0
-        loc = 0
-        for process in ps:
-            process.start()
-          cnt += 1
-          if cnt == limit:
-              for i in range(loc, loc + limit):
-                  ps[i].join()
-             cnt = 0
-             loc += limit       
+        nres = []
+        for i in res:
+            temp = i.get()
+            print (temp)
+            nres.append(temp)
 
-        for pc in pcs:
-            print(pc.recv())
-      else:
-          run_inference_on_image(image)
+        print (nres)
+        return nres
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()

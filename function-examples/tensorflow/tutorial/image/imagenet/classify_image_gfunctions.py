@@ -47,6 +47,9 @@ import tensorflow as tf
 
 from os import listdir
 from multiprocessing import Process, Pipe
+from google.cloud import storage
+
+import time
 
 FLAGS = None
 
@@ -139,9 +142,12 @@ def run_inference_on_image(image):
   Returns:
     Nothing
   """
+  """
   if not tf.gfile.Exists(image):
     tf.logging.fatal('File does not exist %s', image)
   image_data = tf.gfile.FastGFile(image, 'rb').read()
+  """
+  image_data = image
 
   # Creates graph from saved GraphDef.
   create_graph()
@@ -190,43 +196,49 @@ def maybe_download_and_extract():
     print('Successfully downloaded', filename, statinfo.st_size, 'bytes.')
   tarfile.open(filepath, 'r:gz').extractall(dest_directory)
 
-def rioim(fpath, conn):
+def rioim(args):
 
-    msg = run_inference_on_image(fpath)
+    bucket, key, conn = args
+    client = storage.Client()
+    ibucket = client.get_bucket(bucket)
+    blob = ibucket.get_blob(key)
+    body = blob.download_as_string()
+    msg = run_inference_on_image(body)
     conn.send(msg)
     conn.close()
 
 def main(_):
-  maybe_download_and_extract()
-  image = (FLAGS.image_file if FLAGS.image_file else
-           os.path.join(FLAGS.model_dir, 'cropped_panda.jpg'))
-  if FLAGS.image_dir:
-    pcs = []
-    ps = []
-    cnt = 0
-    for f in listdir(FLAGS.image_dir):
-      if os.path.isfile(os.path.join(FLAGS.image_dir, f)):
-         parent_conn, child_conn = Pipe()
-         pcs.append(parent_conn)
-         process = Process(target=rioim, args=(os.path.join(FLAGS.image_dir, f),child_conn,))
-         ps.append(process)
+    maybe_download_and_extract()
+    client = storage.Client()
+    if FLAGS.bucket:
+        bucket = client.get_bucket(FLAGS.bucket)
+        blobs = bucket.list_blobs(prefix=FLAGS.prefix)
+        pcs = []
+        ps = []
+        cnt = 0
+        for blob in blobs:
+            parent_conn, child_conn = Pipe()
+            pcs.append(parent_conn)
+            param = (FLAGS.bucket, blob.name, child_conn)
+            process = Process(target=rioim, args=(param, ))
+            ps.append(process)
 
-    limit = 16
-    cnt = 0
-    loc = 0
-    for process in ps:
-      process.start()
-      cnt += 1
-      if cnt == limit:
-         for i in range(loc, loc + limit):
-             ps[i].join()
-         cnt = 0
-         loc += limit       
+        limit = FLAGS.batch_size
+        cnt = 0
+        loc = 0
+        for process in ps:
+            process.start()
+          cnt += 1
+          if cnt == limit:
+              for i in range(loc, loc + limit):
+                  ps[i].join()
+             cnt = 0
+             loc += limit       
 
-    for pc in pcs:
-      print(pc.recv())
-  else:
-    run_inference_on_image(image)
+        for pc in pcs:
+            print(pc.recv())
+      else:
+          run_inference_on_image(image)
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
@@ -258,6 +270,8 @@ if __name__ == '__main__':
       default=5,
       help='Display this many predictions.'
   )
-  parser.add_argument('--image_dir')
+  parser.add_argument('--bucket')
+  parser.add_argument('--prefix')
+  parser.add_argument('--batch_size', type=int)
   FLAGS, unparsed = parser.parse_known_args()
   tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)

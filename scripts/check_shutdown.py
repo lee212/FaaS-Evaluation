@@ -53,7 +53,7 @@ def main(args):
     elif args.serverless == "ibm":
         tmp = iinvoke.get_config()
         param = { **param, **tmp }
-        param["sync"] = "false"
+        param["sync"] = "true"
 
     if args.param:
         param_input = json.loads(args.param)

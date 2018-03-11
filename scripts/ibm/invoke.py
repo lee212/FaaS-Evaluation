@@ -71,6 +71,8 @@ def invoke_rest(args):
             headers={"Content-Type":"application/json", "Authorization":
                 os.environ['IBM_OPENWHISK_AUTH_STRING']})
     e = time.time() - s
+    if args['sync'] == "true":
+        res = res.text
     return (res, e)
 
 def handler(event, parallel, org, space):

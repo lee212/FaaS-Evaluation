@@ -94,6 +94,17 @@ def argument_parser(parser=None):
     args.params = json.loads(args.params)
     return (args, parser)
 
+def to_file(fname, data):    
+    with open(fname, "w") as f: 
+        try:
+            json.dump(data, f, indent=4)
+        # TypeError: <botocore.response.StreamingBody object at 0x7f38b8fecc18>
+        # is not JSON serializable
+        except TypeError:
+            for d in data:
+                del(d['Payload'])
+            json.dump(data, f, indent=4)
+
 if __name__ == "__main__":
     (args, parser) = argument_parser()
 
@@ -107,7 +118,7 @@ if __name__ == "__main__":
 
     #print res
     params_str = ''.join(e for e in str(args.params) if e.isalnum() or e == ":")
-    with open("{}.{}.{}.log".format(os.path.basename(__file__).split(".")[0],
-        args.isize, args.func_names, params_str, args.concurrent), "w") as f:
-        json.dump(res, f, indent=4)
+    ofname = ("{}.{}.{}.log".format(os.path.basename(__file__).split(".")[0],
+        args.isize, args.func_names, params_str, args.concurrent))
+    to_file(ofname, res)
 

@@ -58,9 +58,12 @@ def invoke_cli(args):
 def invoke_rest(args):
     """ function invocation by http REST API """
     s = time.time()
-    url, params = args
+
+    url = ('https://{}-{}.cloudfunctions.net/{}'.format(args['region'],
+        args['project'], args['function_name']))
+
     res = requests.post(url,
-            data=json.dumps(params),
+            data=json.dumps(args),
             headers={"Content-Type":"application/json"})
     e = time.time() - s
     return (res, e)
@@ -116,10 +119,11 @@ def handler(event, args):
     for i in range(int(size)):
         params["cid"] = i
         cmd = "gcloud beta functions call {} --data".format(fname)
-        url = \
-        'https://{}-{}.cloudfunctions.net/{}'.format(region, pname, fname)
         if call_type == "REST":
-            argument = (url, params)
+            argument = params
+            argument['region'] = region
+            argument['project'] = pname
+            argument['function_name'] = fname
             invoke = invoke_rest
         elif call_type == "CLI":
             argument = (cmd, params)

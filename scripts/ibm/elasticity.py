@@ -68,6 +68,9 @@ if __name__ == "__main__":
 
     if args.sub == "invoke":
         args.params = json.loads(args.params)
+        org, space = invoke.get_config()
+        args["Org"] = org
+        args["Space"] = space
         result = elastic_invoke(args)
         output_fname = os.path.basename(__file__).split(".")[0] + "." + \
                 args.func_names + ".log"

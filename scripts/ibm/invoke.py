@@ -50,6 +50,9 @@ def parse_response_rest(requests_response):
     """
     return requests_response.json()
 
+def get_config():
+    return { "Org": os.environ["IBM_ORG"], "Space": os.environ["IBM_SPACE"] }
+
 def invoke_cli(args):
     s = time.time()
     cmd, params = args
@@ -59,16 +62,18 @@ def invoke_cli(args):
 
 def invoke_rest(args):
     s = time.time()
-    url, params = args
+    url = \
+    ('https://openwhisk.ng.bluemix.net/api/v1/namespaces/{}_{}/actions/{}?blocking={}'.format(args['Org'],
+        args['Space'], args['function_name'], args['sync']))
+
     res = requests.post(url,
-            data=json.dumps(params),
+            data=json.dumps(args),
             headers={"Content-Type":"application/json", "Authorization":
                 os.environ['IBM_OPENWHISK_AUTH_STRING']})
     e = time.time() - s
     return (res, e)
 
-def handler(event, parallel, org=os.environ['IBM_ORG'],
-        space=os.environ['IBM_SPACE']):
+def handler(event, parallel, org, space):
 
     size = event['invoke_size']
     fname = event['function_name']
@@ -83,9 +88,12 @@ def handler(event, parallel, org=os.environ['IBM_ORG'],
                 "API": call_type,
                 "blocking": is_sync }
         if call_type == "REST":
-            url = \
-                    'https://openwhisk.ng.bluemix.net/api/v1/namespaces/{}_{}/actions/{}?blocking={}'.format(org,space,fname,is_sync)
-            argument = (url, params)
+            invoke = invoke_rest
+            params["Org"] = org
+            params["Space"] = space
+            params["function_name"] = fname
+            params["sync"] = is_sync
+            argument = params
         else:
             params_str = ""
             for k, v in params.iteritems():
@@ -93,10 +101,6 @@ def handler(event, parallel, org=os.environ['IBM_ORG'],
             cmd = "wsk action invoke /{}_{}/{} {}".format(org,space,fname,
                     params_str)
             argument = (cmd, params)
-
-        if call_type == "REST":
-            invoke = invoke_rest
-        else:
             invoke = invoke_cli
         if parallel:
             res.append(p.apply_async(invoke, args=(argument,)))

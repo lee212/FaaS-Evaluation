@@ -1,6 +1,9 @@
 import os
 import json
-import invoke
+from aws import invoke as ainvoke
+from google import invoke as ginvoke
+from azure import invoke as azinvoke
+from ibm import invoke as iinvoke
 import time
 import argparse
 import logging
@@ -25,34 +28,45 @@ def get_argparse():
 
 def get_function_name(provider):
     if provider == "aws":
-        return invoke.lambda_invoke
+        return ainvoke.lambda_invoke
     elif provider == "google":
-        return invoke.invoke_rest
+        return ginvoke.invoke_rest
+    elif provider == "azure":
+        return azinvoke.azure_invoke
+    elif provider == "ibm":
+        return iinvoke.invoke_rest
+
 def main(args):
 
     param = { "function_name" : args.fname }
     # preparation
     if args.serverless == "aws":
         # For AWS
-        invoke.itype = "RequestResponse"
+        ainvoke.itype = "RequestResponse"
     elif args.serverless == "google":
         # For Google
-        d_project, d_region = invoke.config_parser(invoke.gcloud_config)
+        d_project, d_region = ginvoke.config_parser(ginvoke.gcloud_config)
         param["project"] = d_project
         param["region"] = d_region
+    elif args.serverless == "azure":
+        pass
+    elif args.serverless == "ibm":
+        tmp = iinvoke.get_config()
+        param = { **param, **tmp }
+        param["sync"] = "false"
 
     if args.param:
         param_input = json.loads(args.param)
         param = { **param, **param_input }
-    ctime = stime = time.time()
-    logger.info(stime)
     interval = args.interval
     res = []
     func = get_function_name(args.serverless)
+    ctime = stime = time.time()
     while True:
+        stime = time.time()
         tmp = func(param)
         res.append(tmp)
-        logger.info("{},{}:{}".format(len(res), ctime - stime, tmp))
+        logger.info("{},{}:{}".format(len(res), interval, tmp))
         time.sleep(interval)
         # will be increated every time
         interval += args.interval
@@ -65,7 +79,7 @@ def main(args):
 if __name__ == "__main__":
     args = get_argparse()
     res = main(args)
-    invoke.to_file("{}.{}.{}.result".format(os.path.basename(__file__).split(".")[0],args.fname,
+    utils.to_file("{}.{}.{}.result".format(os.path.basename(__file__).split(".")[0],args.fname,
         args.serverless),
             res)
 

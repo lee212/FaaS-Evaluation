@@ -29,13 +29,14 @@ def main(args):
     if args.param:
         param_input = json.loads(args.param)
         param = { **param, **param_input }
-    stime = time.time()
+    ctime = stime = time.time()
+    logger.info(stime)
     interval = args.interval
     res = []
     while True:
         tmp = invoke.lambda_invoke(param)
         res.append(tmp)
-        logger.info("{}:{}".format(len(res), tmp))
+        logger.info("{},{}:{}".format(len(res), ctime, tmp))
         time.sleep(interval)
         # will be increated every time
         interval += args.interval

@@ -1,0 +1,40 @@
+2018-03-11T08:08:41.973 [Info] Script for function 'HttpTriggerCSharp1' changed. Reloading.
+2018-03-11T08:08:42.298 [Info] Compilation succeeded.
+2018-03-11T08:08:42.926 [Info] Function started (Id=27b341da-6928-4bd4-b690-a41801c37cb5)
+2018-03-11T08:08:43.207 [Info] Yes
+2018-03-11T08:08:43.207 [Info] Function completed (Success, Id=27b341da-6928-4bd4-b690-a41801c37cb5, Duration=279ms)
+2018-03-11T08:08:44.452 [Info] Function started (Id=36b8f5ca-9145-4e65-bbe3-57762430dc5f)
+2018-03-11T08:08:44.452 [Info] No
+2018-03-11T08:08:44.452 [Info] Function completed (Success, Id=36b8f5ca-9145-4e65-bbe3-57762430dc5f, Duration=0ms)
+2018-03-11T08:08:52.731 [Info] Function started (Id=c2856c77-38c0-42bb-ba9e-1687cbed2d36)
+2018-03-11T08:08:52.731 [Info] No
+2018-03-11T08:08:52.731 [Info] Function completed (Success, Id=c2856c77-38c0-42bb-ba9e-1687cbed2d36, Duration=1ms)
+2018-03-11T08:09:03.483 [Info] Script for function 'HttpTriggerCSharp1' changed. Reloading.
+2018-03-11T08:09:03.626 [Info] Compilation succeeded.
+2018-03-11T08:10:08.707 [Info] Function started (Id=e105c5e3-5429-4614-81b6-4b5cdbc12b52)
+2018-03-11T08:10:09.051 [Info] Yes
+2018-03-11T08:10:09.051 [Info] Function completed (Success, Id=e105c5e3-5429-4614-81b6-4b5cdbc12b52, Duration=350ms)
+2018-03-11T08:11:09.243 [Info] Function started (Id=707690b3-da83-47eb-84bd-1fe9f9b1c119)
+2018-03-11T08:11:09.243 [Info] No
+2018-03-11T08:11:09.243 [Info] Function completed (Success, Id=707690b3-da83-47eb-84bd-1fe9f9b1c119, Duration=0ms)
+2018-03-11T08:13:09.505 [Info] Function started (Id=6b1e7177-5ea4-4942-8359-7beec31e238d)
+2018-03-11T08:13:09.505 [Info] No
+2018-03-11T08:13:09.505 [Info] Function completed (Success, Id=6b1e7177-5ea4-4942-8359-7beec31e238d, Duration=0ms)
+2018-03-11T08:16:53.057 [Info] Script for function 'HttpTriggerCSharp1' changed. Reloading.
+2018-03-11T08:16:53.229 [Info] Compilation succeeded.
+2018-03-11T08:17:01.498 [Info] Function started (Id=61a46f64-f68a-4483-a7e0-53e584f2f5b4)
+2018-03-11T08:17:01.708 [Info] Yes
+2018-03-11T08:17:01.708 [Info] Function completed (Success, Id=61a46f64-f68a-4483-a7e0-53e584f2f5b4, Duration=210ms)
+2018-03-11T08:18:01.950 [Info] Function started (Id=33dab656-383e-4e12-8608-b995d00884d7)
+2018-03-11T08:18:01.950 [Info] No
+2018-03-11T08:18:01.950 [Info] Function completed (Success, Id=33dab656-383e-4e12-8608-b995d00884d7, Duration=1ms)
+2018-03-11T08:20:02.226 [Info] Function started (Id=07c3a02e-89f6-4fad-b4a0-4424ddb53fc2)
+2018-03-11T08:20:02.226 [Info] No
+2018-03-11T08:20:02.226 [Info] Function completed (Success, Id=07c3a02e-89f6-4fad-b4a0-4424ddb53fc2, Duration=0ms)
+2018-03-11T08:23:02.448 [Info] Function started (Id=d1303e0f-ec55-4dce-95d2-814df02f35e2)
+2018-03-11T08:23:02.448 [Info] No
+2018-03-11T08:23:02.448 [Info] Function completed (Success, Id=d1303e0f-ec55-4dce-95d2-814df02f35e2, Duration=2ms)
+2018-03-11T08:27:02.661 [Info] Function started (Id=f8db1726-0724-4dd7-a718-a27abf9044df)
+2018-03-11T08:27:02.679 [Info] No
+2018-03-11T08:27:02.679 [Info] Function completed (Success, Id=f8db1726-0724-4dd7-a718-a27abf9044df, Duration=8ms)
+

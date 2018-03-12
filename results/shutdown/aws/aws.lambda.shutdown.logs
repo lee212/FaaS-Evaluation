@@ -1,0 +1,927 @@
+[
+    {
+        "ingestionTime": 1520808432989,
+        "timestamp": 1520808432984,
+        "message": "START RequestId: 238a4077-257e-11e8-9686-a59353986421 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520808448138,
+        "timestamp": 1520808432985,
+        "message": "END RequestId: 238a4077-257e-11e8-9686-a59353986421\n"
+    },
+    {
+        "ingestionTime": 1520808448138,
+        "timestamp": 1520808432985,
+        "message": "REPORT RequestId: 238a4077-257e-11e8-9686-a59353986421\tDuration: 0.34 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520784681891,
+        "timestamp": 1520784666634,
+        "message": "START RequestId: cdb0bbb0-2546-11e8-8c5b-511734c8ee8f Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520784681891,
+        "timestamp": 1520784666635,
+        "message": "END RequestId: cdb0bbb0-2546-11e8-8c5b-511734c8ee8f\n"
+    },
+    {
+        "ingestionTime": 1520784681891,
+        "timestamp": 1520784666635,
+        "message": "REPORT RequestId: cdb0bbb0-2546-11e8-8c5b-511734c8ee8f\tDuration: 0.59 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520794569605,
+        "timestamp": 1520794569604,
+        "message": "START RequestId: dc500cfe-255d-11e8-a7e2-6ff5a8e37090 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520794584747,
+        "timestamp": 1520794569605,
+        "message": "END RequestId: dc500cfe-255d-11e8-a7e2-6ff5a8e37090\n"
+    },
+    {
+        "ingestionTime": 1520794584747,
+        "timestamp": 1520794569605,
+        "message": "REPORT RequestId: dc500cfe-255d-11e8-a7e2-6ff5a8e37090\tDuration: 0.33 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520782866076,
+        "timestamp": 1520782866074,
+        "message": "START RequestId: 9c7a9b14-2542-11e8-aee6-6b56b1cf0869 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520782881219,
+        "timestamp": 1520782866075,
+        "message": "END RequestId: 9c7a9b14-2542-11e8-aee6-6b56b1cf0869\n"
+    },
+    {
+        "ingestionTime": 1520782881219,
+        "timestamp": 1520782866075,
+        "message": "REPORT RequestId: 9c7a9b14-2542-11e8-aee6-6b56b1cf0869\tDuration: 0.66 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520801231238,
+        "timestamp": 1520801231234,
+        "message": "START RequestId: 5ef35c17-256d-11e8-ad8e-1dba7113785a Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520801246397,
+        "timestamp": 1520801231234,
+        "message": "END RequestId: 5ef35c17-256d-11e8-ad8e-1dba7113785a\n"
+    },
+    {
+        "ingestionTime": 1520801246397,
+        "timestamp": 1520801231234,
+        "message": "REPORT RequestId: 5ef35c17-256d-11e8-ad8e-1dba7113785a\tDuration: 0.64 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520798950714,
+        "timestamp": 1520798950703,
+        "message": "START RequestId: 0fa83b1a-2568-11e8-8323-d3b13b0f0936 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520798965868,
+        "timestamp": 1520798950704,
+        "message": "END RequestId: 0fa83b1a-2568-11e8-8323-d3b13b0f0936\n"
+    },
+    {
+        "ingestionTime": 1520798965868,
+        "timestamp": 1520798950704,
+        "message": "REPORT RequestId: 0fa83b1a-2568-11e8-8323-d3b13b0f0936\tDuration: 0.64 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520768161477,
+        "timestamp": 1520768161356,
+        "message": "START RequestId: 5fe5ffa4-2520-11e8-8cd6-a5df199c25a9 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520768176616,
+        "timestamp": 1520768161439,
+        "message": "END RequestId: 5fe5ffa4-2520-11e8-8cd6-a5df199c25a9\n"
+    },
+    {
+        "ingestionTime": 1520768176616,
+        "timestamp": 1520768161439,
+        "message": "REPORT RequestId: 5fe5ffa4-2520-11e8-8cd6-a5df199c25a9\tDuration: 15.88 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520769361913,
+        "timestamp": 1520769361757,
+        "message": "START RequestId: 2b656b83-2523-11e8-b372-399e4fda203b Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520769377056,
+        "timestamp": 1520769361781,
+        "message": "END RequestId: 2b656b83-2523-11e8-b372-399e4fda203b\n"
+    },
+    {
+        "ingestionTime": 1520769377056,
+        "timestamp": 1520769361781,
+        "message": "REPORT RequestId: 2b656b83-2523-11e8-b372-399e4fda203b\tDuration: 17.44 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520770622250,
+        "timestamp": 1520770622127,
+        "message": "START RequestId: 1aa1dade-2526-11e8-978e-f9927c469e7a Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520770637412,
+        "timestamp": 1520770622139,
+        "message": "END RequestId: 1aa1dade-2526-11e8-978e-f9927c469e7a\n"
+    },
+    {
+        "ingestionTime": 1520770637412,
+        "timestamp": 1520770622140,
+        "message": "REPORT RequestId: 1aa1dade-2526-11e8-978e-f9927c469e7a\tDuration: 9.26 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520771942646,
+        "timestamp": 1520771942500,
+        "message": "START RequestId: 2da00a49-2529-11e8-be6c-fd6e55f0b469 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520771957811,
+        "timestamp": 1520771942528,
+        "message": "END RequestId: 2da00a49-2529-11e8-be6c-fd6e55f0b469\n"
+    },
+    {
+        "ingestionTime": 1520771957811,
+        "timestamp": 1520771942528,
+        "message": "REPORT RequestId: 2da00a49-2529-11e8-be6c-fd6e55f0b469\tDuration: 20.08 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520773323028,
+        "timestamp": 1520773322903,
+        "message": "START RequestId: 646bb8f2-252c-11e8-982c-db6e675f8b1d Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520773338170,
+        "timestamp": 1520773322906,
+        "message": "END RequestId: 646bb8f2-252c-11e8-982c-db6e675f8b1d\n"
+    },
+    {
+        "ingestionTime": 1520773338170,
+        "timestamp": 1520773322906,
+        "message": "REPORT RequestId: 646bb8f2-252c-11e8-982c-db6e675f8b1d\tDuration: 1.77 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520774763430,
+        "timestamp": 1520774763315,
+        "message": "START RequestId: bef926fc-252f-11e8-a92d-d7ae44fb4830 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520774778568,
+        "timestamp": 1520774763319,
+        "message": "END RequestId: bef926fc-252f-11e8-a92d-d7ae44fb4830\n"
+    },
+    {
+        "ingestionTime": 1520774778568,
+        "timestamp": 1520774763320,
+        "message": "REPORT RequestId: bef926fc-252f-11e8-a92d-d7ae44fb4830\tDuration: 2.81 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520776263753,
+        "timestamp": 1520776263635,
+        "message": "START RequestId: 3d3ba990-2533-11e8-a84b-5550cee1c8f0 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520776278912,
+        "timestamp": 1520776263659,
+        "message": "END RequestId: 3d3ba990-2533-11e8-a84b-5550cee1c8f0\n"
+    },
+    {
+        "ingestionTime": 1520776278912,
+        "timestamp": 1520776263659,
+        "message": "REPORT RequestId: 3d3ba990-2533-11e8-a84b-5550cee1c8f0\tDuration: 1.67 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520786527187,
+        "timestamp": 1520786527171,
+        "message": "START RequestId: 22a84d51-254b-11e8-adde-6f9d9b3fecf4 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520786542328,
+        "timestamp": 1520786527172,
+        "message": "END RequestId: 22a84d51-254b-11e8-adde-6f9d9b3fecf4\n"
+    },
+    {
+        "ingestionTime": 1520786542328,
+        "timestamp": 1520786527172,
+        "message": "REPORT RequestId: 22a84d51-254b-11e8-adde-6f9d9b3fecf4\tDuration: 0.72 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520803571756,
+        "timestamp": 1520803571756,
+        "message": "START RequestId: d2012586-2572-11e8-996c-89bbdb76af57 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520803586905,
+        "timestamp": 1520803571757,
+        "message": "END RequestId: d2012586-2572-11e8-996c-89bbdb76af57\n"
+    },
+    {
+        "ingestionTime": 1520803586905,
+        "timestamp": 1520803571757,
+        "message": "REPORT RequestId: d2012586-2572-11e8-996c-89bbdb76af57\tDuration: 0.55 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756581867,
+        "timestamp": 1520756581857,
+        "message": "START RequestId: 69d7458a-2505-11e8-b756-610bc3a3c081 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756597037,
+        "timestamp": 1520756581857,
+        "message": "Syntax error in module 'lambda_function': invalid syntax (lambda_function.py, line 4)\n\n"
+    },
+    {
+        "ingestionTime": 1520756597037,
+        "timestamp": 1520756581858,
+        "message": "END RequestId: 69d7458a-2505-11e8-b756-610bc3a3c081\n"
+    },
+    {
+        "ingestionTime": 1520756597037,
+        "timestamp": 1520756581858,
+        "message": "REPORT RequestId: 69d7458a-2505-11e8-b756-610bc3a3c081\tDuration: 0.87 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520779444871,
+        "timestamp": 1520779444855,
+        "message": "START RequestId: a542a8c7-253a-11e8-93fa-fbf069e632b2 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520779460004,
+        "timestamp": 1520779444856,
+        "message": "END RequestId: a542a8c7-253a-11e8-93fa-fbf069e632b2\n"
+    },
+    {
+        "ingestionTime": 1520779460004,
+        "timestamp": 1520779444856,
+        "message": "REPORT RequestId: a542a8c7-253a-11e8-93fa-fbf069e632b2\tDuration: 0.85 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520805972389,
+        "timestamp": 1520805972377,
+        "message": "START RequestId: 68e129be-2578-11e8-8af6-29a24a578dc4 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520805987618,
+        "timestamp": 1520805972378,
+        "message": "END RequestId: 68e129be-2578-11e8-8af6-29a24a578dc4\n"
+    },
+    {
+        "ingestionTime": 1520805987618,
+        "timestamp": 1520805972378,
+        "message": "REPORT RequestId: 68e129be-2578-11e8-8af6-29a24a578dc4\tDuration: 0.34 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756706689,
+        "timestamp": 1520756706679,
+        "message": "START RequestId: b44e61ed-2505-11e8-aee6-6b56b1cf0869 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756706680,
+        "message": "END RequestId: b44e61ed-2505-11e8-aee6-6b56b1cf0869\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756706680,
+        "message": "REPORT RequestId: b44e61ed-2505-11e8-aee6-6b56b1cf0869\tDuration: 0.70 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756709777,
+        "message": "START RequestId: b641310a-2505-11e8-a4b9-8fa3fc3ecb0c Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756709778,
+        "message": "END RequestId: b641310a-2505-11e8-a4b9-8fa3fc3ecb0c\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756709778,
+        "message": "REPORT RequestId: b641310a-2505-11e8-a4b9-8fa3fc3ecb0c\tDuration: 0.35 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756710970,
+        "message": "START RequestId: b6f78999-2505-11e8-8b8f-eb15c9c260f4 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756710972,
+        "message": "END RequestId: b6f78999-2505-11e8-8b8f-eb15c9c260f4\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756710972,
+        "message": "REPORT RequestId: b6f78999-2505-11e8-8b8f-eb15c9c260f4\tDuration: 0.61 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756711725,
+        "message": "START RequestId: b769fa47-2505-11e8-8e2f-57f32b4e0f62 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756711727,
+        "message": "END RequestId: b769fa47-2505-11e8-8e2f-57f32b4e0f62\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756711727,
+        "message": "REPORT RequestId: b769fa47-2505-11e8-8e2f-57f32b4e0f62\tDuration: 0.46 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756712434,
+        "message": "START RequestId: b7d69e79-2505-11e8-9eb3-e77c33b71980 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756712436,
+        "message": "END RequestId: b7d69e79-2505-11e8-9eb3-e77c33b71980\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756712436,
+        "message": "REPORT RequestId: b7d69e79-2505-11e8-9eb3-e77c33b71980\tDuration: 0.44 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756713097,
+        "message": "START RequestId: b83c3e63-2505-11e8-b125-7d2e64f72499 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756713113,
+        "message": "END RequestId: b83c3e63-2505-11e8-b125-7d2e64f72499\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756713113,
+        "message": "REPORT RequestId: b83c3e63-2505-11e8-b125-7d2e64f72499\tDuration: 14.65 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756713827,
+        "message": "START RequestId: b8aba212-2505-11e8-a9b0-2f3a24ffa97a Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756713829,
+        "message": "END RequestId: b8aba212-2505-11e8-a9b0-2f3a24ffa97a\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756713829,
+        "message": "REPORT RequestId: b8aba212-2505-11e8-a9b0-2f3a24ffa97a\tDuration: 0.45 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756714893,
+        "message": "START RequestId: b94dd558-2505-11e8-ba6a-65e6da64e9ff Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756714897,
+        "message": "END RequestId: b94dd558-2505-11e8-ba6a-65e6da64e9ff\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756714897,
+        "message": "REPORT RequestId: b94dd558-2505-11e8-ba6a-65e6da64e9ff\tDuration: 0.35 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756715596,
+        "message": "START RequestId: b9b91a42-2505-11e8-bb7f-8dd5dce099c9 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756715599,
+        "message": "END RequestId: b9b91a42-2505-11e8-bb7f-8dd5dce099c9\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756715599,
+        "message": "REPORT RequestId: b9b91a42-2505-11e8-bb7f-8dd5dce099c9\tDuration: 0.38 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756716440,
+        "message": "START RequestId: ba39e2e1-2505-11e8-8f9a-e90b89fd76f1 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756716443,
+        "message": "END RequestId: ba39e2e1-2505-11e8-8f9a-e90b89fd76f1\n"
+    },
+    {
+        "ingestionTime": 1520756721867,
+        "timestamp": 1520756716443,
+        "message": "REPORT RequestId: ba39e2e1-2505-11e8-8f9a-e90b89fd76f1\tDuration: 0.36 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756755690,
+        "timestamp": 1520756755679,
+        "message": "START RequestId: d17cc7e9-2505-11e8-a8fe-bd6b277262ad Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756770837,
+        "timestamp": 1520756755680,
+        "message": "END RequestId: d17cc7e9-2505-11e8-a8fe-bd6b277262ad\n"
+    },
+    {
+        "ingestionTime": 1520756770837,
+        "timestamp": 1520756755680,
+        "message": "REPORT RequestId: d17cc7e9-2505-11e8-a8fe-bd6b277262ad\tDuration: 0.70 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756815891,
+        "timestamp": 1520756815744,
+        "message": "START RequestId: f5694099-2505-11e8-8348-677fad4838da Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756831028,
+        "timestamp": 1520756815755,
+        "message": "END RequestId: f5694099-2505-11e8-8348-677fad4838da\n"
+    },
+    {
+        "ingestionTime": 1520756831028,
+        "timestamp": 1520756815755,
+        "message": "REPORT RequestId: f5694099-2505-11e8-8348-677fad4838da\tDuration: 8.88 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756936042,
+        "timestamp": 1520756935931,
+        "message": "START RequestId: 3d08ac55-2506-11e8-a8d0-4fb68738d587 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756951184,
+        "timestamp": 1520756935993,
+        "message": "END RequestId: 3d08ac55-2506-11e8-a8d0-4fb68738d587\n"
+    },
+    {
+        "ingestionTime": 1520756951184,
+        "timestamp": 1520756935993,
+        "message": "REPORT RequestId: 3d08ac55-2506-11e8-a8d0-4fb68738d587\tDuration: 15.91 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520757116195,
+        "timestamp": 1520757116041,
+        "message": "START RequestId: a862d1d3-2506-11e8-a265-33a412a07046 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520757131383,
+        "timestamp": 1520757116054,
+        "message": "END RequestId: a862d1d3-2506-11e8-a265-33a412a07046\n"
+    },
+    {
+        "ingestionTime": 1520757131383,
+        "timestamp": 1520757116054,
+        "message": "REPORT RequestId: a862d1d3-2506-11e8-a265-33a412a07046\tDuration: 11.07 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520757356332,
+        "timestamp": 1520757356186,
+        "message": "START RequestId: 3784d12f-2507-11e8-a4cb-476f585f2df9 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520757371470,
+        "timestamp": 1520757356195,
+        "message": "END RequestId: 3784d12f-2507-11e8-a4cb-476f585f2df9\n"
+    },
+    {
+        "ingestionTime": 1520757371470,
+        "timestamp": 1520757356195,
+        "message": "REPORT RequestId: 3784d12f-2507-11e8-a4cb-476f585f2df9\tDuration: 1.74 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520757656430,
+        "timestamp": 1520757656301,
+        "message": "START RequestId: ea647151-2507-11e8-845a-5d433745386d Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520757671569,
+        "timestamp": 1520757656304,
+        "message": "END RequestId: ea647151-2507-11e8-845a-5d433745386d\n"
+    },
+    {
+        "ingestionTime": 1520757671569,
+        "timestamp": 1520757656304,
+        "message": "REPORT RequestId: ea647151-2507-11e8-845a-5d433745386d\tDuration: 0.72 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520758016607,
+        "timestamp": 1520758016481,
+        "message": "START RequestId: c115130e-2508-11e8-9f13-6fe0d3e4b930 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520758031750,
+        "timestamp": 1520758016483,
+        "message": "END RequestId: c115130e-2508-11e8-9f13-6fe0d3e4b930\n"
+    },
+    {
+        "ingestionTime": 1520758031750,
+        "timestamp": 1520758016483,
+        "message": "REPORT RequestId: c115130e-2508-11e8-9f13-6fe0d3e4b930\tDuration: 0.74 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520758436978,
+        "timestamp": 1520758436792,
+        "message": "START RequestId: bb9b71eb-2509-11e8-ae9e-47f1cb833dcc Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520758452149,
+        "timestamp": 1520758436814,
+        "message": "END RequestId: bb9b71eb-2509-11e8-ae9e-47f1cb833dcc\n"
+    },
+    {
+        "ingestionTime": 1520758452149,
+        "timestamp": 1520758436814,
+        "message": "REPORT RequestId: bb9b71eb-2509-11e8-ae9e-47f1cb833dcc\tDuration: 16.45 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520758917323,
+        "timestamp": 1520758917173,
+        "message": "START RequestId: d9ef01b9-250a-11e8-80b9-a5c2bf72677d Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520758932470,
+        "timestamp": 1520758917175,
+        "message": "END RequestId: d9ef01b9-250a-11e8-80b9-a5c2bf72677d\n"
+    },
+    {
+        "ingestionTime": 1520758932470,
+        "timestamp": 1520758917175,
+        "message": "REPORT RequestId: d9ef01b9-250a-11e8-80b9-a5c2bf72677d\tDuration: 0.68 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520759457605,
+        "timestamp": 1520759457465,
+        "message": "START RequestId: 1bfa169f-250c-11e8-9986-517db64f3d19 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520759472746,
+        "timestamp": 1520759457473,
+        "message": "END RequestId: 1bfa169f-250c-11e8-9986-517db64f3d19\n"
+    },
+    {
+        "ingestionTime": 1520759472746,
+        "timestamp": 1520759457474,
+        "message": "REPORT RequestId: 1bfa169f-250c-11e8-9986-517db64f3d19\tDuration: 6.44 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520760057944,
+        "timestamp": 1520760057824,
+        "message": "START RequestId: 81d4ceca-250d-11e8-aee6-6b56b1cf0869 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520760073106,
+        "timestamp": 1520760057913,
+        "message": "END RequestId: 81d4ceca-250d-11e8-aee6-6b56b1cf0869\n"
+    },
+    {
+        "ingestionTime": 1520760073106,
+        "timestamp": 1520760057913,
+        "message": "REPORT RequestId: 81d4ceca-250d-11e8-aee6-6b56b1cf0869\tDuration: 39.24 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520760718385,
+        "timestamp": 1520760718237,
+        "message": "START RequestId: 0b740522-250f-11e8-9686-a59353986421 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520760733527,
+        "timestamp": 1520760718254,
+        "message": "END RequestId: 0b740522-250f-11e8-9686-a59353986421\n"
+    },
+    {
+        "ingestionTime": 1520760733527,
+        "timestamp": 1520760718254,
+        "message": "REPORT RequestId: 0b740522-250f-11e8-9686-a59353986421\tDuration: 13.53 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520761438740,
+        "timestamp": 1520761438629,
+        "message": "START RequestId: b8d7ba32-2510-11e8-a798-2b357b7b35d7 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520761453898,
+        "timestamp": 1520761438636,
+        "message": "END RequestId: b8d7ba32-2510-11e8-a798-2b357b7b35d7\n"
+    },
+    {
+        "ingestionTime": 1520761453898,
+        "timestamp": 1520761438636,
+        "message": "REPORT RequestId: b8d7ba32-2510-11e8-a798-2b357b7b35d7\tDuration: 2.75 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520762219120,
+        "timestamp": 1520762219005,
+        "message": "START RequestId: 89fa4803-2512-11e8-be3a-19cfaaafbb03 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520762234278,
+        "timestamp": 1520762219007,
+        "message": "END RequestId: 89fa4803-2512-11e8-be3a-19cfaaafbb03\n"
+    },
+    {
+        "ingestionTime": 1520762234278,
+        "timestamp": 1520762219007,
+        "message": "REPORT RequestId: 89fa4803-2512-11e8-be3a-19cfaaafbb03\tDuration: 0.65 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520763059503,
+        "timestamp": 1520763059373,
+        "message": "START RequestId: 7ee0df72-2514-11e8-8562-31933f316403 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520763074639,
+        "timestamp": 1520763059377,
+        "message": "END RequestId: 7ee0df72-2514-11e8-8562-31933f316403\n"
+    },
+    {
+        "ingestionTime": 1520763074639,
+        "timestamp": 1520763059377,
+        "message": "REPORT RequestId: 7ee0df72-2514-11e8-8562-31933f316403\tDuration: 0.61 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520763959908,
+        "timestamp": 1520763959778,
+        "message": "START RequestId: 978f76ff-2516-11e8-97fe-2f8b2c220271 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520763975079,
+        "timestamp": 1520763959795,
+        "message": "END RequestId: 978f76ff-2516-11e8-97fe-2f8b2c220271\n"
+    },
+    {
+        "ingestionTime": 1520763975079,
+        "timestamp": 1520763959795,
+        "message": "REPORT RequestId: 978f76ff-2516-11e8-97fe-2f8b2c220271\tDuration: 9.45 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520764920344,
+        "timestamp": 1520764920197,
+        "message": "START RequestId: d4043bec-2518-11e8-8cd6-a5df199c25a9 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520764935503,
+        "timestamp": 1520764920213,
+        "message": "END RequestId: d4043bec-2518-11e8-8cd6-a5df199c25a9\n"
+    },
+    {
+        "ingestionTime": 1520764935503,
+        "timestamp": 1520764920214,
+        "message": "REPORT RequestId: d4043bec-2518-11e8-8cd6-a5df199c25a9\tDuration: 14.60 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520765940725,
+        "timestamp": 1520765940605,
+        "message": "START RequestId: 343a7186-251b-11e8-a798-2b357b7b35d7 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520765955884,
+        "timestamp": 1520765940608,
+        "message": "END RequestId: 343a7186-251b-11e8-a798-2b357b7b35d7\n"
+    },
+    {
+        "ingestionTime": 1520765955884,
+        "timestamp": 1520765940608,
+        "message": "REPORT RequestId: 343a7186-251b-11e8-a798-2b357b7b35d7\tDuration: 1.69 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520767021043,
+        "timestamp": 1520767020918,
+        "message": "START RequestId: b8259504-251d-11e8-9a5c-2d3541e88f73 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520767036183,
+        "timestamp": 1520767020993,
+        "message": "END RequestId: b8259504-251d-11e8-9a5c-2d3541e88f73\n"
+    },
+    {
+        "ingestionTime": 1520767036183,
+        "timestamp": 1520767020993,
+        "message": "REPORT RequestId: b8259504-251d-11e8-9a5c-2d3541e88f73\tDuration: 27.93 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756604896,
+        "timestamp": 1520756604886,
+        "message": "START RequestId: 779bbfac-2505-11e8-8ebb-2b08ab1d408c Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756620031,
+        "timestamp": 1520756604887,
+        "message": "name 'isNew' is not defined: NameError\nTraceback (most recent call last):\n  File \"/var/task/lambda_function.py\", line 4, in lambda_handler\n    msg = isNew\nNameError: name 'isNew' is not defined\n\n"
+    },
+    {
+        "ingestionTime": 1520756620031,
+        "timestamp": 1520756604888,
+        "message": "END RequestId: 779bbfac-2505-11e8-8ebb-2b08ab1d408c\n"
+    },
+    {
+        "ingestionTime": 1520756620031,
+        "timestamp": 1520756604888,
+        "message": "REPORT RequestId: 779bbfac-2505-11e8-8ebb-2b08ab1d408c\tDuration: 1.52 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756620031,
+        "timestamp": 1520756608098,
+        "message": "START RequestId: 79a68361-2505-11e8-b219-bb2d654838a6 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756620031,
+        "timestamp": 1520756608100,
+        "message": "name 'isNew' is not defined: NameError\nTraceback (most recent call last):\n  File \"/var/task/lambda_function.py\", line 4, in lambda_handler\n    msg = isNew\nNameError: name 'isNew' is not defined\n\n"
+    },
+    {
+        "ingestionTime": 1520756620031,
+        "timestamp": 1520756608101,
+        "message": "END RequestId: 79a68361-2505-11e8-b219-bb2d654838a6\n"
+    },
+    {
+        "ingestionTime": 1520756620031,
+        "timestamp": 1520756608101,
+        "message": "REPORT RequestId: 79a68361-2505-11e8-b219-bb2d654838a6\tDuration: 0.71 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756694669,
+        "timestamp": 1520756694656,
+        "message": "START RequestId: ad0ffbc4-2505-11e8-8ebb-2b08ab1d408c Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756709810,
+        "timestamp": 1520756694657,
+        "message": "name 'isNew' is not defined: NameError\nTraceback (most recent call last):\n  File \"/var/task/lambda_function.py\", line 4, in lambda_handler\n    msg = isNew\nNameError: name 'isNew' is not defined\n\n"
+    },
+    {
+        "ingestionTime": 1520756709810,
+        "timestamp": 1520756694657,
+        "message": "END RequestId: ad0ffbc4-2505-11e8-8ebb-2b08ab1d408c\n"
+    },
+    {
+        "ingestionTime": 1520756709810,
+        "timestamp": 1520756694657,
+        "message": "REPORT RequestId: ad0ffbc4-2505-11e8-8ebb-2b08ab1d408c\tDuration: 1.47 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520790428476,
+        "timestamp": 1520790428484,
+        "message": "START RequestId: 38014d8b-2554-11e8-996c-89bbdb76af57 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520790443634,
+        "timestamp": 1520790428485,
+        "message": "END RequestId: 38014d8b-2554-11e8-996c-89bbdb76af57\n"
+    },
+    {
+        "ingestionTime": 1520790443634,
+        "timestamp": 1520790428485,
+        "message": "REPORT RequestId: 38014d8b-2554-11e8-996c-89bbdb76af57\tDuration: 0.69 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520781125500,
+        "timestamp": 1520781125493,
+        "message": "START RequestId: 8efdd5d0-253e-11e8-9599-bf94966b07ca Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520781140667,
+        "timestamp": 1520781125494,
+        "message": "END RequestId: 8efdd5d0-253e-11e8-9599-bf94966b07ca\n"
+    },
+    {
+        "ingestionTime": 1520781140667,
+        "timestamp": 1520781125494,
+        "message": "REPORT RequestId: 8efdd5d0-253e-11e8-9599-bf94966b07ca\tDuration: 0.62 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520788447891,
+        "timestamp": 1520788447873,
+        "message": "START RequestId: 9b6b1384-254f-11e8-9ca7-7d584e82adfc Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520788447891,
+        "timestamp": 1520788447873,
+        "message": "END RequestId: 9b6b1384-254f-11e8-9ca7-7d584e82adfc\n"
+    },
+    {
+        "ingestionTime": 1520788447891,
+        "timestamp": 1520788447873,
+        "message": "REPORT RequestId: 9b6b1384-254f-11e8-9ca7-7d584e82adfc\tDuration: 0.32 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520756650302,
+        "timestamp": 1520756650287,
+        "message": "START RequestId: 92b0e27e-2505-11e8-b183-77538dfa03df Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520756665433,
+        "timestamp": 1520756650288,
+        "message": "local variable 'isNew' referenced before assignment: UnboundLocalError\nTraceback (most recent call last):\n  File \"/var/task/lambda_function.py\", line 3, in lambda_handler\n    msg = isNew\nUnboundLocalError: local variable 'isNew' referenced before assignment\n\n"
+    },
+    {
+        "ingestionTime": 1520756665433,
+        "timestamp": 1520756650289,
+        "message": "END RequestId: 92b0e27e-2505-11e8-b183-77538dfa03df\n"
+    },
+    {
+        "ingestionTime": 1520756665433,
+        "timestamp": 1520756650289,
+        "message": "REPORT RequestId: 92b0e27e-2505-11e8-b183-77538dfa03df\tDuration: 1.43 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520792469024,
+        "timestamp": 1520792469024,
+        "message": "START RequestId: f845224c-2558-11e8-8dfc-43af79c73411 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520792484181,
+        "timestamp": 1520792469024,
+        "message": "END RequestId: f845224c-2558-11e8-8dfc-43af79c73411\n"
+    },
+    {
+        "ingestionTime": 1520792484181,
+        "timestamp": 1520792469024,
+        "message": "REPORT RequestId: f845224c-2558-11e8-8dfc-43af79c73411\tDuration: 0.24 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520796730152,
+        "timestamp": 1520796730166,
+        "message": "START RequestId: e4169cc8-2562-11e8-9543-37788a1b9301 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520796745306,
+        "timestamp": 1520796730167,
+        "message": "END RequestId: e4169cc8-2562-11e8-9543-37788a1b9301\n"
+    },
+    {
+        "ingestionTime": 1520796745306,
+        "timestamp": 1520796730167,
+        "message": "REPORT RequestId: e4169cc8-2562-11e8-9543-37788a1b9301\tDuration: 0.73 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520810953590,
+        "timestamp": 1520810953591,
+        "message": "START RequestId: 01ee384f-2584-11e8-803c-051b3c23de4e Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520810968736,
+        "timestamp": 1520810953592,
+        "message": "END RequestId: 01ee384f-2584-11e8-803c-051b3c23de4e\n"
+    },
+    {
+        "ingestionTime": 1520810968736,
+        "timestamp": 1520810953592,
+        "message": "REPORT RequestId: 01ee384f-2584-11e8-803c-051b3c23de4e\tDuration: 0.31 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520777824236,
+        "timestamp": 1520777824228,
+        "message": "START RequestId: df4c47fa-2536-11e8-8c5f-6f071edb89f4 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520777839392,
+        "timestamp": 1520777824228,
+        "message": "END RequestId: df4c47fa-2536-11e8-8c5f-6f071edb89f4\n"
+    },
+    {
+        "ingestionTime": 1520777839392,
+        "timestamp": 1520777824228,
+        "message": "REPORT RequestId: df4c47fa-2536-11e8-8c5f-6f071edb89f4\tDuration: 0.23 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 22 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520813549551,
+        "timestamp": 1520813534117,
+        "message": "START RequestId: 0407baab-258a-11e8-b485-8b375e1c157c Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520813549551,
+        "timestamp": 1520813534118,
+        "message": "END RequestId: 0407baab-258a-11e8-b485-8b375e1c157c\n"
+    },
+    {
+        "ingestionTime": 1520813549551,
+        "timestamp": 1520813534118,
+        "message": "REPORT RequestId: 0407baab-258a-11e8-b485-8b375e1c157c\tDuration: 0.27 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 20 MB\t\n"
+    },
+    {
+        "ingestionTime": 1520816174730,
+        "timestamp": 1520816174729,
+        "message": "START RequestId: 29f5e894-2590-11e8-a6e4-b78532cab4b5 Version: $LATEST\n"
+    },
+    {
+        "ingestionTime": 1520816189887,
+        "timestamp": 1520816174730,
+        "message": "END RequestId: 29f5e894-2590-11e8-a6e4-b78532cab4b5\n"
+    },
+    {
+        "ingestionTime": 1520816189887,
+        "timestamp": 1520816174730,
+        "message": "REPORT RequestId: 29f5e894-2590-11e8-a6e4-b78532cab4b5\tDuration: 0.33 ms\tBilled Duration: 100 ms \tMemory Size: 128 MB\tMax Memory Used: 21 MB\t\n"
+    }
+]

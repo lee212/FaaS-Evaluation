@@ -1,0 +1,4250 @@
+[
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T03:49:06.104660+00:00",
+        "http_request": null,
+        "insert_id": "000000-9dcd0d27-2495-427a-b852-32e734889c18",
+        "labels": {
+            "execution_id": "as4dtfgz8btt"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T03:49:06.636036+00:00",
+        "http_request": null,
+        "insert_id": "000000-063fccf7-4afc-46b7-8bbe-7535208298f3",
+        "labels": {
+            "execution_id": "as4dtfgz8btt"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 532 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T03:50:06.737017+00:00",
+        "http_request": null,
+        "insert_id": "000000-10b1203e-fb8c-4566-9f19-7eb19e834864",
+        "labels": {
+            "execution_id": "as4db0i57do8"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T03:50:06.835893+00:00",
+        "http_request": null,
+        "insert_id": "000000-f896e919-84e8-4e91-bae3-be6dcc608861",
+        "labels": {
+            "execution_id": "as4db0i57do8"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 100 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T03:52:06.938852+00:00",
+        "http_request": null,
+        "insert_id": "000000-1754e8ad-eb5e-4b28-9546-afd6c79e226c",
+        "labels": {
+            "execution_id": "as4d40iji2kk"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T03:52:07.132313+00:00",
+        "http_request": null,
+        "insert_id": "000000-1edea85f-9fc4-47df-834d-e58ed9db2d25",
+        "labels": {
+            "execution_id": "as4d40iji2kk"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 194 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T03:55:07.279293+00:00",
+        "http_request": null,
+        "insert_id": "000000-77a072b1-cce0-4654-ba51-ebccebc895fe",
+        "labels": {
+            "execution_id": "as4dgbkqqm3b"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T03:55:07.334148+00:00",
+        "http_request": null,
+        "insert_id": "000000-737b765f-1788-4cfa-9f46-683442f4a1ef",
+        "labels": {
+            "execution_id": "as4dgbkqqm3b"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 55 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T03:59:07.516989+00:00",
+        "http_request": null,
+        "insert_id": "000000-1aceb8ed-cdb8-4b0a-9a8f-236e5d181d9a",
+        "labels": {
+            "execution_id": "as4di3x35zti"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T03:59:07.532474+00:00",
+        "http_request": null,
+        "insert_id": "000000-645182cb-d947-4907-b122-00b3afd93fb6",
+        "labels": {
+            "execution_id": "as4di3x35zti"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 16 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T04:04:07.699983+00:00",
+        "http_request": null,
+        "insert_id": "000000-e99c3b1d-0026-4041-92c7-8af062e891c1",
+        "labels": {
+            "execution_id": "as4di26y03cq"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T04:04:07.733641+00:00",
+        "http_request": null,
+        "insert_id": "000000-586a9397-797a-46bc-8954-a83a782a4dd0",
+        "labels": {
+            "execution_id": "as4di26y03cq"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 34 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T04:10:07.931496+00:00",
+        "http_request": null,
+        "insert_id": "000000-4f8d140f-c416-4c0c-a498-c5b51ef814e5",
+        "labels": {
+            "execution_id": "as4dcg8o7z63"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T04:10:07.942495+00:00",
+        "http_request": null,
+        "insert_id": "000000-6151906e-cc2a-4b07-9a5e-378346b07a22",
+        "labels": {
+            "execution_id": "as4dcg8o7z63"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 12 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T04:17:08.132055+00:00",
+        "http_request": null,
+        "insert_id": "000000-97114f59-6118-4733-8d1e-25a3aea8dde2",
+        "labels": {
+            "execution_id": "as4d1yjue41i"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T04:17:08.140063+00:00",
+        "http_request": null,
+        "insert_id": "000000-bdb588a0-1646-4785-8c56-c21466349ad1",
+        "labels": {
+            "execution_id": "as4d1yjue41i"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 9 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T04:25:10.041660+00:00",
+        "http_request": null,
+        "insert_id": "000000-7390ba1b-1e09-4680-8f20-9cc715fadc8d",
+        "labels": {
+            "execution_id": "k7vdi9no4gk9"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T04:25:10.089311+00:00",
+        "http_request": null,
+        "insert_id": "000000-9f1a3bf7-2db1-4fe5-8f9e-f6aec247be49",
+        "labels": {
+            "execution_id": "k7vdi9no4gk9"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 48 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T04:34:11.840137+00:00",
+        "http_request": null,
+        "insert_id": "000000-3daa4653-6a2a-493c-9dac-a6960eeba009",
+        "labels": {
+            "execution_id": "ldd8olfeunh7"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T04:34:11.885896+00:00",
+        "http_request": null,
+        "insert_id": "000000-fd7b5bc4-19f0-4386-bc43-bc53a6268c3f",
+        "labels": {
+            "execution_id": "ldd8olfeunh7"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 46 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T04:44:14.331308+00:00",
+        "http_request": null,
+        "insert_id": "000000-8fc2c349-4a84-496a-ae51-b997d7d05f27",
+        "labels": {
+            "execution_id": "6xupka3zdb7l"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T04:44:14.487482+00:00",
+        "http_request": null,
+        "insert_id": "000000-882a8d63-5410-4467-be26-bdeebcf64e31",
+        "labels": {
+            "execution_id": "6xupka3zdb7l"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 157 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:23:09.843873+00:00",
+        "http_request": null,
+        "insert_id": "000000-1fa9fbca-00af-4ecc-ab57-a2174d4ea797",
+        "labels": {
+            "execution_id": "qm9hp8d3tmqs"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:23:09.894050+00:00",
+        "http_request": null,
+        "insert_id": "000000-b3d253be-3270-485d-9750-af47ed04f8a2",
+        "labels": {
+            "execution_id": "qm9hp8d3tmqs"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 51 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:24:10.007336+00:00",
+        "http_request": null,
+        "insert_id": "000000-cfa6c8c9-539c-4db4-b7c2-ead5182bf504",
+        "labels": {
+            "execution_id": "qm9hlprer5ys"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:24:10.015427+00:00",
+        "http_request": null,
+        "insert_id": "000000-e5ca4576-5e6f-4a22-b1d9-b798ea048972",
+        "labels": {
+            "execution_id": "qm9hlprer5ys"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 9 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:26:10.160108+00:00",
+        "http_request": null,
+        "insert_id": "000000-e4af5c33-1250-44b2-afda-fa007e00bc9a",
+        "labels": {
+            "execution_id": "qm9hv4ci9ay0"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:26:10.166580+00:00",
+        "http_request": null,
+        "insert_id": "000000-a16d51b2-fd5d-41f7-8c26-a5ba3f5818a2",
+        "labels": {
+            "execution_id": "qm9hv4ci9ay0"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 7 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:29:10.278833+00:00",
+        "http_request": null,
+        "insert_id": "000000-7dca596d-8a3f-418d-b9d2-09628ad757e3",
+        "labels": {
+            "execution_id": "qm9ha8v8ocp1"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:29:10.334881+00:00",
+        "http_request": null,
+        "insert_id": "000000-6fd2e8ec-ec61-4abb-bd17-b91b22281d49",
+        "labels": {
+            "execution_id": "qm9ha8v8ocp1"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 57 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:33:10.489978+00:00",
+        "http_request": null,
+        "insert_id": "000000-bd83f9d5-9ac7-4a8c-9166-758dd257016a",
+        "labels": {
+            "execution_id": "qm9hccy0zjer"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:33:10.534701+00:00",
+        "http_request": null,
+        "insert_id": "000000-300e3ed9-a862-41e9-8965-063675a8e56e",
+        "labels": {
+            "execution_id": "qm9hccy0zjer"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 45 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:38:10.679389+00:00",
+        "http_request": null,
+        "insert_id": "000000-7b4ce247-ec0c-479c-bfc6-b34002550ab1",
+        "labels": {
+            "execution_id": "qm9hr2a12gfo"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:38:10.737652+00:00",
+        "http_request": null,
+        "insert_id": "000000-66a263b6-160d-47de-a5c0-323220d9ff71",
+        "labels": {
+            "execution_id": "qm9hr2a12gfo"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 59 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:44:10.928093+00:00",
+        "http_request": null,
+        "insert_id": "000000-c8563177-e7ed-4c34-bb5a-5254a704fcea",
+        "labels": {
+            "execution_id": "qm9h8ooamq1s"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:44:10.935747+00:00",
+        "http_request": null,
+        "insert_id": "000000-b9eb43da-e9f5-444a-ab52-65447a0f1b5d",
+        "labels": {
+            "execution_id": "qm9h8ooamq1s"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 8 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:51:11.057374+00:00",
+        "http_request": null,
+        "insert_id": "000000-a43d819e-2b62-4b30-a287-b8aac18fa47e",
+        "labels": {
+            "execution_id": "qm9h5v3gadau"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:51:11.133854+00:00",
+        "http_request": null,
+        "insert_id": "000000-1c39509e-5f95-4ced-8877-cad9322048ff",
+        "labels": {
+            "execution_id": "qm9h5v3gadau"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 77 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:59:11.331657+00:00",
+        "http_request": null,
+        "insert_id": "000000-e460a21d-06c8-4027-ac69-3587c09dc076",
+        "labels": {
+            "execution_id": "qm9hrchg8eoh"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T05:59:11.335217+00:00",
+        "http_request": null,
+        "insert_id": "000000-b8e2f7af-28cf-4c8b-bc91-047edd282145",
+        "labels": {
+            "execution_id": "qm9hrchg8eoh"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 4 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T06:08:11.519423+00:00",
+        "http_request": null,
+        "insert_id": "000000-1795c3fe-37f0-4fe0-b8ab-ee35f849a080",
+        "labels": {
+            "execution_id": "qm9hwt8207j3"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T06:08:11.532531+00:00",
+        "http_request": null,
+        "insert_id": "000000-302341fd-ad04-4d88-8bbd-cce185990a37",
+        "labels": {
+            "execution_id": "qm9hwt8207j3"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 14 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T06:18:11.727064+00:00",
+        "http_request": null,
+        "insert_id": "000000-f937a0d9-d66d-441a-b6e8-939b6470dcde",
+        "labels": {
+            "execution_id": "qm9hlb5syk5b"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T06:18:11.733121+00:00",
+        "http_request": null,
+        "insert_id": "000000-4a3f6fbe-f9de-4e7b-a3ef-817b6836fc3d",
+        "labels": {
+            "execution_id": "qm9hlb5syk5b"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 7 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T06:29:11.843801+00:00",
+        "http_request": null,
+        "insert_id": "000000-f09f6920-618d-475f-8e49-f5928d42a431",
+        "labels": {
+            "execution_id": "qm9hrbu1uxwn"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T06:29:11.931684+00:00",
+        "http_request": null,
+        "insert_id": "000000-e35d80d9-dbaa-445b-8b36-8cf55345228c",
+        "labels": {
+            "execution_id": "qm9hrbu1uxwn"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 89 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T06:41:12.086130+00:00",
+        "http_request": null,
+        "insert_id": "000000-8d4d0a06-deab-42f4-bc93-25fc87dce0a7",
+        "labels": {
+            "execution_id": "qm9hpc6pv547"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T06:41:12.132173+00:00",
+        "http_request": null,
+        "insert_id": "000000-a90ffa0d-a750-4b4b-baf3-4da23a8404be",
+        "labels": {
+            "execution_id": "qm9hpc6pv547"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 47 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T06:54:13.942581+00:00",
+        "http_request": null,
+        "insert_id": "000000-b761bcca-8ce0-4804-9b12-5ad7b008de2e",
+        "labels": {
+            "execution_id": "vvc1ynfduru6"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T06:54:13.989262+00:00",
+        "http_request": null,
+        "insert_id": "000000-b3e553bc-20e2-4e1e-a835-d1cc8d0ed84a",
+        "labels": {
+            "execution_id": "vvc1ynfduru6"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 47 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T07:08:14.171094+00:00",
+        "http_request": null,
+        "insert_id": "000000-b1a7fb7e-e78a-4cf9-88f6-eb40f8e7c1b3",
+        "labels": {
+            "execution_id": "vvc1vehpivlz"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T07:08:14.234199+00:00",
+        "http_request": null,
+        "insert_id": "000000-41c4b406-1d9c-497b-86e5-4486af25eab7",
+        "labels": {
+            "execution_id": "vvc1vehpivlz"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 64 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T07:23:14.432507+00:00",
+        "http_request": null,
+        "insert_id": "000000-1e0f0d47-1542-445c-b6db-4b70d6d872b9",
+        "labels": {
+            "execution_id": "vvc1pgtvw48h"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T07:23:14.437707+00:00",
+        "http_request": null,
+        "insert_id": "000000-3480197e-51d4-4725-913b-a3dbc762cb89",
+        "labels": {
+            "execution_id": "vvc1pgtvw48h"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 6 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T07:39:14.610040+00:00",
+        "http_request": null,
+        "insert_id": "000000-efe52440-e9bf-4e18-8bfa-d96c461508df",
+        "labels": {
+            "execution_id": "vvc1e94vsfbx"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T07:39:14.633808+00:00",
+        "http_request": null,
+        "insert_id": "000000-ba0967ee-4c2b-4a3f-9717-125e5176ade0",
+        "labels": {
+            "execution_id": "vvc1e94vsfbx"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 24 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T07:56:14.845404+00:00",
+        "http_request": null,
+        "insert_id": "000000-ea6c0071-f4cc-44e9-8d0f-8a408e3a3f1e",
+        "labels": {
+            "execution_id": "vvc1sitfircw"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "helloGET",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T07:56:14.935048+00:00",
+        "http_request": null,
+        "insert_id": "000000-6dcb5f25-445c-4cc5-9339-2687930e88c6",
+        "labels": {
+            "execution_id": "vvc1sitfircw"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 90 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:02:41.695000+00:00",
+        "http_request": null,
+        "insert_id": "000000-d848599d-6d98-44ff-afed-d5675eef248b",
+        "labels": {
+            "execution_id": ""
+        },
+        "severity": "DEBUG",
+        "payload": "Code in file index.js can't be loaded.\nIs there a syntax error in your code?\nDetailed stack trace: /user_code/index.js:12\n};\n ^\n\nSyntaxError: Unexpected token ;\n    at createScript (vm.js:56:10)\n    at Object.runInThisContext (vm.js:97:10)\n    at Module._compile (module.js:542:28)\n    at Object.Module._extensions..js (module.js:579:10)\n    at Module.load (module.js:487:32)\n    at tryModuleLoad (module.js:446:12)\n    at Function.Module._load (module.js:438:3)\n    at Module.require (module.js:497:17)\n    at require (internal/module.js:20:19)\n    at getUserFunction (/var/tmp/worker/worker.js:378:24)"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:18:33.424747+00:00",
+        "http_request": null,
+        "insert_id": "000000-87fbe243-ed6c-4fee-8508-55afebe367f8",
+        "labels": {
+            "execution_id": "sk2bc1bvly3f"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:18:33.873000+00:00",
+        "http_request": null,
+        "insert_id": "000000-3120fbc5-d184-485a-be50-eb8c166a4989",
+        "labels": {
+            "execution_id": "sk2bc1bvly3f"
+        },
+        "severity": "INFO",
+        "payload": "false"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:18:33.973936+00:00",
+        "http_request": null,
+        "insert_id": "000000-10e5b4e2-0907-49ec-855d-ccbfc030df31",
+        "labels": {
+            "execution_id": "sk2bc1bvly3f"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 550 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:20:39.416432+00:00",
+        "http_request": null,
+        "insert_id": "000000-a4a00741-0354-4905-bc45-a8643b5ebee1",
+        "labels": {
+            "execution_id": "sk2blnkic4zy"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:20:39.421000+00:00",
+        "http_request": null,
+        "insert_id": "000000-6ab1510d-f04e-4ce0-83d7-d0a279b6455e",
+        "labels": {
+            "execution_id": "sk2blnkic4zy"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:20:39.425657+00:00",
+        "http_request": null,
+        "insert_id": "000000-2a2890af-fb66-4673-ad4f-c6cf2a7c2dfa",
+        "labels": {
+            "execution_id": "sk2blnkic4zy"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 10 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:09.636428+00:00",
+        "http_request": null,
+        "insert_id": "000000-573ae559-cad6-44ed-9e37-5b7f1f1b0330",
+        "labels": {
+            "execution_id": "hlqmenl1ij9e"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:09.946000+00:00",
+        "http_request": null,
+        "insert_id": "000000-fde16e27-651a-4ff1-8c9d-f62e2b6fff59",
+        "labels": {
+            "execution_id": "hlqmenl1ij9e"
+        },
+        "severity": "INFO",
+        "payload": "false"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:10.045232+00:00",
+        "http_request": null,
+        "insert_id": "000000-cb1f7f37-2a3c-4803-ad98-e78474ca6111",
+        "labels": {
+            "execution_id": "hlqmenl1ij9e"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 409 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:11.621089+00:00",
+        "http_request": null,
+        "insert_id": "000000-8b0307dd-442b-443b-85f2-d73c71cbe091",
+        "labels": {
+            "execution_id": "hlqmy4lv2dul"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:11.642000+00:00",
+        "http_request": null,
+        "insert_id": "000000-28b4089b-4f1e-4da7-bded-dd7ae6369c62",
+        "labels": {
+            "execution_id": "hlqmy4lv2dul"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:11.645286+00:00",
+        "http_request": null,
+        "insert_id": "000000-4d7109d1-7169-4fa3-b15e-7099059d6701",
+        "labels": {
+            "execution_id": "hlqmy4lv2dul"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 25 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:12.486418+00:00",
+        "http_request": null,
+        "insert_id": "000000-ce68f249-bd9b-41c5-9f70-0663f5926ae0",
+        "labels": {
+            "execution_id": "hlqmwdm26af5"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:12.543000+00:00",
+        "http_request": null,
+        "insert_id": "000000-bcc52f18-cc2c-4112-9afd-b71bac678d6b",
+        "labels": {
+            "execution_id": "hlqmwdm26af5"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:12.544627+00:00",
+        "http_request": null,
+        "insert_id": "000000-41301e3c-45c0-49f0-b7a1-6976f3f5ccbf",
+        "labels": {
+            "execution_id": "hlqmwdm26af5"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 59 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:13.066307+00:00",
+        "http_request": null,
+        "insert_id": "000000-ba4eb91e-6252-42b1-893c-80d146cd523d",
+        "labels": {
+            "execution_id": "hlqmhq39y55c"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:13.142000+00:00",
+        "http_request": null,
+        "insert_id": "000000-ab3cab30-6f99-4416-9b42-963acae49957",
+        "labels": {
+            "execution_id": "hlqmhq39y55c"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:13.146109+00:00",
+        "http_request": null,
+        "insert_id": "000000-44d0fef9-d20f-4edb-88a0-8163b71ebabb",
+        "labels": {
+            "execution_id": "hlqmhq39y55c"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 80 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:13.664973+00:00",
+        "http_request": null,
+        "insert_id": "000000-daf104c4-b93e-49de-9d54-274112703292",
+        "labels": {
+            "execution_id": "hlqmzj2m7d5v"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:13.666000+00:00",
+        "http_request": null,
+        "insert_id": "000000-cae9e382-3fa4-41e5-b91e-5bd9fe3f58e4",
+        "labels": {
+            "execution_id": "hlqmzj2m7d5v"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:13.668898+00:00",
+        "http_request": null,
+        "insert_id": "000000-8d6f7f25-926f-4b10-944f-9a995e493f7d",
+        "labels": {
+            "execution_id": "hlqmzj2m7d5v"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 5 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:39.588322+00:00",
+        "http_request": null,
+        "insert_id": "000000-14850e25-8fb5-49f7-b30c-cbdd4356e6a0",
+        "labels": {
+            "execution_id": "hlqmpfx2i9j3"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:39.641000+00:00",
+        "http_request": null,
+        "insert_id": "000000-20fd8fe7-2274-460a-bda4-9c65153bb33d",
+        "labels": {
+            "execution_id": "hlqmpfx2i9j3"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:21:39.643919+00:00",
+        "http_request": null,
+        "insert_id": "000000-0b88b726-7cd9-418f-aabf-a62228010112",
+        "labels": {
+            "execution_id": "hlqmpfx2i9j3"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 56 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:23:39.822072+00:00",
+        "http_request": null,
+        "insert_id": "000000-12c6ffe8-5575-4903-8235-b8eec99f32f1",
+        "labels": {
+            "execution_id": "axk42a3me6cq"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:23:40.501000+00:00",
+        "http_request": null,
+        "insert_id": "000000-6a3bf9b1-0cc4-4f2a-ba68-a6eb93c412b8",
+        "labels": {
+            "execution_id": "axk42a3me6cq"
+        },
+        "severity": "INFO",
+        "payload": "false"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:23:40.512414+00:00",
+        "http_request": null,
+        "insert_id": "000000-95e8451c-1d54-49ad-a163-db01d0abdda4",
+        "labels": {
+            "execution_id": "axk42a3me6cq"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 691 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:26:40.677155+00:00",
+        "http_request": null,
+        "insert_id": "000000-11d9f545-1686-4be4-9455-fab71c8cc822",
+        "labels": {
+            "execution_id": "axk42tzeplum"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:26:40.681000+00:00",
+        "http_request": null,
+        "insert_id": "000000-6a53fa66-2237-4837-ae7c-d8bcb7296d24",
+        "labels": {
+            "execution_id": "axk42tzeplum"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:26:40.702826+00:00",
+        "http_request": null,
+        "insert_id": "000000-c80a1419-82e4-49d8-aa03-ed0936fe32f3",
+        "labels": {
+            "execution_id": "axk42tzeplum"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 26 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:30:40.882743+00:00",
+        "http_request": null,
+        "insert_id": "000000-8ac4fcc5-0906-4d39-b337-1e16fc7d6d96",
+        "labels": {
+            "execution_id": "axk4jau3p7qf"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:30:40.903000+00:00",
+        "http_request": null,
+        "insert_id": "000000-4136f90e-0648-479a-8a6f-026b2869f125",
+        "labels": {
+            "execution_id": "axk4jau3p7qf"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:30:40.905887+00:00",
+        "http_request": null,
+        "insert_id": "000000-efc98c10-ff59-4f7a-9b37-49a8aaedd92b",
+        "labels": {
+            "execution_id": "axk4jau3p7qf"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 24 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:35:41.109776+00:00",
+        "http_request": null,
+        "insert_id": "000000-67bee238-2d6d-4d5e-9224-457633dd9607",
+        "labels": {
+            "execution_id": "axk4yz2dxk4e"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:35:41.203000+00:00",
+        "http_request": null,
+        "insert_id": "000000-c3163127-6082-4441-bbc4-8a6086cadd66",
+        "labels": {
+            "execution_id": "axk4yz2dxk4e"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:35:41.211519+00:00",
+        "http_request": null,
+        "insert_id": "000000-6d6e7a1b-aa44-4408-8e68-4f3e08f5507e",
+        "labels": {
+            "execution_id": "axk4yz2dxk4e"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 102 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:41:41.398371+00:00",
+        "http_request": null,
+        "insert_id": "000000-0f53f39f-f140-4b2a-a8fc-578ded609dbf",
+        "labels": {
+            "execution_id": "axk4m7oq1py8"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:41:41.400000+00:00",
+        "http_request": null,
+        "insert_id": "000000-64b290e4-2c80-4e8b-91f7-e0218e8890ed",
+        "labels": {
+            "execution_id": "axk4m7oq1py8"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:41:41.403199+00:00",
+        "http_request": null,
+        "insert_id": "000000-18dc6993-f770-480d-90d0-4a6de60732ef",
+        "labels": {
+            "execution_id": "axk4m7oq1py8"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 5 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:48:41.513831+00:00",
+        "http_request": null,
+        "insert_id": "000000-05ec4e40-3bae-48dc-8c84-68d775aca0b5",
+        "labels": {
+            "execution_id": "axk49g1fc4qt"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:48:41.516000+00:00",
+        "http_request": null,
+        "insert_id": "000000-298de846-bf17-4938-8a5a-b31c92c47e24",
+        "labels": {
+            "execution_id": "axk49g1fc4qt"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:48:41.605858+00:00",
+        "http_request": null,
+        "insert_id": "000000-dd70858d-a9b1-4b2c-b573-6fd638c5d6de",
+        "labels": {
+            "execution_id": "axk49g1fc4qt"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 93 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:56:41.719254+00:00",
+        "http_request": null,
+        "insert_id": "000000-decebe15-90d8-4a52-82b6-e4161d6e6cad",
+        "labels": {
+            "execution_id": "axk4d5tv8eo9"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:56:41.804000+00:00",
+        "http_request": null,
+        "insert_id": "000000-0ff95bd0-d36b-4df8-bad6-90499331da37",
+        "labels": {
+            "execution_id": "axk4d5tv8eo9"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T08:56:41.805494+00:00",
+        "http_request": null,
+        "insert_id": "000000-7f56c64c-ae3f-4f22-83c8-08517377ac57",
+        "labels": {
+            "execution_id": "axk4d5tv8eo9"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 87 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T09:05:42.001320+00:00",
+        "http_request": null,
+        "insert_id": "000000-3f348111-a7ee-4577-9e90-cb123da5cb04",
+        "labels": {
+            "execution_id": "axk4gltiimxp"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T09:05:42.004000+00:00",
+        "http_request": null,
+        "insert_id": "000000-511d911a-e0bc-4c7c-87f7-f7a439104144",
+        "labels": {
+            "execution_id": "axk4gltiimxp"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T09:05:42.005603+00:00",
+        "http_request": null,
+        "insert_id": "000000-887deb5e-1307-4b7d-9226-79a92139863d",
+        "labels": {
+            "execution_id": "axk4gltiimxp"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 5 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T09:15:42.191085+00:00",
+        "http_request": null,
+        "insert_id": "000000-57aabc1d-c86f-46bf-b02d-7f7550c0cc79",
+        "labels": {
+            "execution_id": "axk4uv1gr84x"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T09:15:42.202000+00:00",
+        "http_request": null,
+        "insert_id": "000000-0c1b548b-5bf2-46b9-a783-32f61181ff9e",
+        "labels": {
+            "execution_id": "axk4uv1gr84x"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T09:15:42.204235+00:00",
+        "http_request": null,
+        "insert_id": "000000-036aa757-6383-4537-a8db-9fd26d922d29",
+        "labels": {
+            "execution_id": "axk4uv1gr84x"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 14 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T09:26:42.307711+00:00",
+        "http_request": null,
+        "insert_id": "000000-a29bce1d-baf8-4f92-ab8b-acadd4adc926",
+        "labels": {
+            "execution_id": "axk4s8kwxhpl"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T09:26:42.404000+00:00",
+        "http_request": null,
+        "insert_id": "000000-ccee3c6d-0757-4a26-8876-be19ec055d15",
+        "labels": {
+            "execution_id": "axk4s8kwxhpl"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T09:26:42.407215+00:00",
+        "http_request": null,
+        "insert_id": "000000-089e2b98-9cab-47a9-a388-79dbfbb7f8ac",
+        "labels": {
+            "execution_id": "axk4s8kwxhpl"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 100 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T09:38:42.601657+00:00",
+        "http_request": null,
+        "insert_id": "000000-8167dea1-c3f7-4c59-9d03-ef5eb420a909",
+        "labels": {
+            "execution_id": "axk42kputy0e"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T09:38:42.606000+00:00",
+        "http_request": null,
+        "insert_id": "000000-d678c77a-a1bc-48da-9f8d-362d1b7c1f00",
+        "labels": {
+            "execution_id": "axk42kputy0e"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T09:38:42.608227+00:00",
+        "http_request": null,
+        "insert_id": "000000-1b97e797-732d-41fe-8ac9-9d7d71a30b00",
+        "labels": {
+            "execution_id": "axk42kputy0e"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 29 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T09:51:42.743152+00:00",
+        "http_request": null,
+        "insert_id": "000000-0f60be99-68c3-467b-8cc6-529fe5e26b80",
+        "labels": {
+            "execution_id": "axk44c107725"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T09:51:42.802000+00:00",
+        "http_request": null,
+        "insert_id": "000000-ee9607e8-9cd9-48f8-b304-49b5dc764aba",
+        "labels": {
+            "execution_id": "axk44c107725"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T09:51:42.804051+00:00",
+        "http_request": null,
+        "insert_id": "000000-1a37b038-be25-4cc5-ab0a-70e98c7c2240",
+        "labels": {
+            "execution_id": "axk44c107725"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 61 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T10:05:42.958685+00:00",
+        "http_request": null,
+        "insert_id": "000000-858025a8-3737-44f6-9c89-8e1270dbb6ba",
+        "labels": {
+            "execution_id": "axk4jiq43yyd"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T10:05:43.004000+00:00",
+        "http_request": null,
+        "insert_id": "000000-9c609205-fdd7-4045-b1c6-871c59af8c04",
+        "labels": {
+            "execution_id": "axk4jiq43yyd"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T10:05:43.006873+00:00",
+        "http_request": null,
+        "insert_id": "000000-52b056b9-cba4-44c9-bea5-7c2c15979d04",
+        "labels": {
+            "execution_id": "axk4jiq43yyd"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 49 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T10:20:43.209946+00:00",
+        "http_request": null,
+        "insert_id": "000000-63eba5e6-068e-473f-bf6c-4ee98d483794",
+        "labels": {
+            "execution_id": "axk42ownfqxc"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T10:20:43.403000+00:00",
+        "http_request": null,
+        "insert_id": "000000-e3060786-3910-4adc-9186-92962771f53b",
+        "labels": {
+            "execution_id": "axk42ownfqxc"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T10:20:43.506595+00:00",
+        "http_request": null,
+        "insert_id": "000000-7d28a74c-86d4-469c-a3b3-3a368bd62560",
+        "labels": {
+            "execution_id": "axk42ownfqxc"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 297 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T10:36:43.702035+00:00",
+        "http_request": null,
+        "insert_id": "000000-438651e5-61df-4e59-816e-0e3ca6c43f0e",
+        "labels": {
+            "execution_id": "axk42tz7uexh"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T10:36:43.708000+00:00",
+        "http_request": null,
+        "insert_id": "000000-8f524441-85ee-4e97-bc23-9a9530c6f1a8",
+        "labels": {
+            "execution_id": "axk42tz7uexh"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T10:36:43.710438+00:00",
+        "http_request": null,
+        "insert_id": "000000-678dc926-40a3-41a0-ba30-712413bd5689",
+        "labels": {
+            "execution_id": "axk42tz7uexh"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 9 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T10:53:43.920871+00:00",
+        "http_request": null,
+        "insert_id": "000000-a76c196a-2cfa-471c-98c7-24420a588e9b",
+        "labels": {
+            "execution_id": "axk4yhqq13mi"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T10:53:44.003000+00:00",
+        "http_request": null,
+        "insert_id": "000000-8c57858d-ad1c-4bd4-9955-1f9532b61216",
+        "labels": {
+            "execution_id": "axk4yhqq13mi"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T10:53:44.006870+00:00",
+        "http_request": null,
+        "insert_id": "000000-da89fa35-f820-49ba-b533-66ca7037b21d",
+        "labels": {
+            "execution_id": "axk4yhqq13mi"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 87 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T11:11:44.208691+00:00",
+        "http_request": null,
+        "insert_id": "000000-186b3817-b42e-4470-90f8-82a426a03f4d",
+        "labels": {
+            "execution_id": "axk4383rblzz"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T11:11:44.303000+00:00",
+        "http_request": null,
+        "insert_id": "000000-9bf611aa-ddbd-47b8-b314-dd782e452722",
+        "labels": {
+            "execution_id": "axk4383rblzz"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T11:11:44.309710+00:00",
+        "http_request": null,
+        "insert_id": "000000-7d81a0c6-3199-401e-b588-a056d4ded4d2",
+        "labels": {
+            "execution_id": "axk4383rblzz"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 102 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T11:30:44.515599+00:00",
+        "http_request": null,
+        "insert_id": "000000-0179418c-1b5e-4b2b-ab4c-a4de4728e1ae",
+        "labels": {
+            "execution_id": "axk41ze3ccwu"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T11:30:44.601000+00:00",
+        "http_request": null,
+        "insert_id": "000000-34b2402d-9763-4e53-8053-fe7b52a0619a",
+        "labels": {
+            "execution_id": "axk41ze3ccwu"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T11:30:44.604307+00:00",
+        "http_request": null,
+        "insert_id": "000000-adc3b31f-a652-4893-8cdf-d4a09a183d1a",
+        "labels": {
+            "execution_id": "axk41ze3ccwu"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 89 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T11:50:44.806782+00:00",
+        "http_request": null,
+        "insert_id": "000000-205b6f3e-422f-4189-9eb4-1099933f394a",
+        "labels": {
+            "execution_id": "axk47mi5801f"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T11:50:44.810000+00:00",
+        "http_request": null,
+        "insert_id": "000000-ecfcc854-37ab-4143-b58b-0e9daddaacfc",
+        "labels": {
+            "execution_id": "axk47mi5801f"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T11:50:44.811927+00:00",
+        "http_request": null,
+        "insert_id": "000000-bf1a72d5-c70c-4c62-ac3a-07be939d691a",
+        "labels": {
+            "execution_id": "axk47mi5801f"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 6 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T12:11:44.984771+00:00",
+        "http_request": null,
+        "insert_id": "000000-0bc797fd-0115-4d6a-ba08-0a7cecb12fba",
+        "labels": {
+            "execution_id": "axk4v10x9qvv"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T12:11:45.007000+00:00",
+        "http_request": null,
+        "insert_id": "000000-c25cc63a-9bce-4e7c-81e4-7bfbbbd14cf8",
+        "labels": {
+            "execution_id": "axk4v10x9qvv"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T12:11:45.009925+00:00",
+        "http_request": null,
+        "insert_id": "000000-86a54a80-b3d1-49c6-b6f3-980361627f7e",
+        "labels": {
+            "execution_id": "axk4v10x9qvv"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 26 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T12:33:45.206982+00:00",
+        "http_request": null,
+        "insert_id": "000000-21679cea-90c6-4a1c-bdb0-b21879ec5033",
+        "labels": {
+            "execution_id": "axk4lsxyx3nu"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T12:33:45.304000+00:00",
+        "http_request": null,
+        "insert_id": "000000-e2b6b847-ab81-49a7-ab72-f2658b7e79ba",
+        "labels": {
+            "execution_id": "axk4lsxyx3nu"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T12:33:45.403380+00:00",
+        "http_request": null,
+        "insert_id": "000000-c1e5feb7-6d4f-4c67-8797-4e8d15d5fc4f",
+        "labels": {
+            "execution_id": "axk4lsxyx3nu"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 197 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T12:56:45.611768+00:00",
+        "http_request": null,
+        "insert_id": "000000-41d1a172-87ac-4633-8297-25bd6e2a4183",
+        "labels": {
+            "execution_id": "axk407ld4x1w"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T12:56:45.702000+00:00",
+        "http_request": null,
+        "insert_id": "000000-515cd93f-575a-47ce-b499-8f35581bc26a",
+        "labels": {
+            "execution_id": "axk407ld4x1w"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T12:56:45.703950+00:00",
+        "http_request": null,
+        "insert_id": "000000-b150e328-a5eb-4cdd-b037-e8debf2c6adf",
+        "labels": {
+            "execution_id": "axk407ld4x1w"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 93 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T13:20:47.842884+00:00",
+        "http_request": null,
+        "insert_id": "000000-8974f57d-2204-4aa7-a72d-79d45acdd341",
+        "labels": {
+            "execution_id": "673hgpfk8at0"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T13:20:47.907000+00:00",
+        "http_request": null,
+        "insert_id": "000000-13c80fcc-d317-45db-9861-b4199abfa5b0",
+        "labels": {
+            "execution_id": "673hgpfk8at0"
+        },
+        "severity": "INFO",
+        "payload": "false"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T13:20:47.918713+00:00",
+        "http_request": null,
+        "insert_id": "000000-50ef578e-3230-46f9-9b73-f29dee86d873",
+        "labels": {
+            "execution_id": "673hgpfk8at0"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 77 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T13:45:48.140151+00:00",
+        "http_request": null,
+        "insert_id": "000000-9c185c04-2c61-4a09-8a2a-9f14163e50c4",
+        "labels": {
+            "execution_id": "673h007h035g"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T13:45:48.301000+00:00",
+        "http_request": null,
+        "insert_id": "000000-07be9ed2-68ac-40c3-b036-a95164234c3f",
+        "labels": {
+            "execution_id": "673h007h035g"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T13:45:48.306828+00:00",
+        "http_request": null,
+        "insert_id": "000000-dc8d0767-e4e6-422e-a28a-b56878d3b0f1",
+        "labels": {
+            "execution_id": "673h007h035g"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 167 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T14:11:48.500337+00:00",
+        "http_request": null,
+        "insert_id": "000000-bd0b2c8a-91e1-4375-b237-514f0387d96b",
+        "labels": {
+            "execution_id": "673h7gvzn0r3"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T14:11:48.602000+00:00",
+        "http_request": null,
+        "insert_id": "000000-01cb6dd3-22a5-4e6e-85a0-de4438cf459b",
+        "labels": {
+            "execution_id": "673h7gvzn0r3"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T14:11:48.604582+00:00",
+        "http_request": null,
+        "insert_id": "000000-e5ff41c7-a18a-43d7-a55f-2074f91849c6",
+        "labels": {
+            "execution_id": "673h7gvzn0r3"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 105 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T14:38:48.850222+00:00",
+        "http_request": null,
+        "insert_id": "000000-f78f5f93-6b31-48ce-bc1c-1afc5bce251f",
+        "labels": {
+            "execution_id": "673hys7ma55h"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T14:38:48.902000+00:00",
+        "http_request": null,
+        "insert_id": "000000-c2e00ac8-f14c-428b-be75-19e7c5d65696",
+        "labels": {
+            "execution_id": "673hys7ma55h"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T14:38:48.905873+00:00",
+        "http_request": null,
+        "insert_id": "000000-9c708fcd-aa10-4f60-a498-955edbaa1d0b",
+        "labels": {
+            "execution_id": "673hys7ma55h"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 56 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T15:06:49.053898+00:00",
+        "http_request": null,
+        "insert_id": "000000-835143c5-7f29-4c5f-85cc-88789dec3e7b",
+        "labels": {
+            "execution_id": "673h24z0cnod"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T15:06:49.102000+00:00",
+        "http_request": null,
+        "insert_id": "000000-1c024334-53ae-4236-abec-64ac642479bf",
+        "labels": {
+            "execution_id": "673h24z0cnod"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T15:06:49.107900+00:00",
+        "http_request": null,
+        "insert_id": "000000-dedf05bb-23c6-479c-aff2-86286caeeeab",
+        "labels": {
+            "execution_id": "673h24z0cnod"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 55 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T15:35:49.237580+00:00",
+        "http_request": null,
+        "insert_id": "000000-33414180-82cf-4194-816c-abc676b8a8ae",
+        "labels": {
+            "execution_id": "673huroaqdw0"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T15:35:49.240000+00:00",
+        "http_request": null,
+        "insert_id": "000000-6c07833c-2f10-48b7-a546-67a566cf6e7d",
+        "labels": {
+            "execution_id": "673huroaqdw0"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T15:35:49.241703+00:00",
+        "http_request": null,
+        "insert_id": "000000-8fd7011f-a405-4389-aaa8-9e19858f6f85",
+        "labels": {
+            "execution_id": "673huroaqdw0"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 5 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T16:05:51.443618+00:00",
+        "http_request": null,
+        "insert_id": "000000-82c68527-4bbe-4843-832f-f45510026c32",
+        "labels": {
+            "execution_id": "htoap8ptst3e"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T16:05:51.507000+00:00",
+        "http_request": null,
+        "insert_id": "000000-7c69e880-c566-4c0b-bd0b-94d4193f0bbf",
+        "labels": {
+            "execution_id": "htoap8ptst3e"
+        },
+        "severity": "INFO",
+        "payload": "false"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T16:05:51.517992+00:00",
+        "http_request": null,
+        "insert_id": "000000-4a80ad58-80e5-4ad0-a61b-f359e63ea7bf",
+        "labels": {
+            "execution_id": "htoap8ptst3e"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 75 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T16:36:51.743400+00:00",
+        "http_request": null,
+        "insert_id": "000000-f149b6be-40c6-43ed-8e32-270c12254d1e",
+        "labels": {
+            "execution_id": "htoa5859se66"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T16:36:51.749000+00:00",
+        "http_request": null,
+        "insert_id": "000000-c77dd66a-34ff-43ef-a398-2792f875891d",
+        "labels": {
+            "execution_id": "htoa5859se66"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T16:36:51.753999+00:00",
+        "http_request": null,
+        "insert_id": "000000-2ca07c44-1b6c-44ac-a15a-ab63aae47dd1",
+        "labels": {
+            "execution_id": "htoa5859se66"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 11 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T17:08:51.969374+00:00",
+        "http_request": null,
+        "insert_id": "000000-ace01657-96d8-494f-9213-37a406571c79",
+        "labels": {
+            "execution_id": "htoaq2t5tlbp"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T17:08:52.004000+00:00",
+        "http_request": null,
+        "insert_id": "000000-45112947-6643-4b8d-a234-5fae370303cb",
+        "labels": {
+            "execution_id": "htoaq2t5tlbp"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T17:08:52.006677+00:00",
+        "http_request": null,
+        "insert_id": "000000-ce9db5e1-7cae-485c-801c-cb40e1ab2474",
+        "labels": {
+            "execution_id": "htoaq2t5tlbp"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 38 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T17:41:52.229945+00:00",
+        "http_request": null,
+        "insert_id": "000000-78f19f16-4fa7-40a0-9807-fa96c58029ff",
+        "labels": {
+            "execution_id": "htoarkmimmhz"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T17:41:52.238000+00:00",
+        "http_request": null,
+        "insert_id": "000000-04c43bed-7b3b-415e-8f34-b7b68a8975e5",
+        "labels": {
+            "execution_id": "htoarkmimmhz"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T17:41:52.240773+00:00",
+        "http_request": null,
+        "insert_id": "000000-029ebc99-770d-4163-9d9b-3686c2483800",
+        "labels": {
+            "execution_id": "htoarkmimmhz"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 11 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T18:15:52.408149+00:00",
+        "http_request": null,
+        "insert_id": "000000-a9951713-cd7b-4b72-b837-9c1f533b418b",
+        "labels": {
+            "execution_id": "htoalpmz54qd"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T18:15:52.502000+00:00",
+        "http_request": null,
+        "insert_id": "000000-11c00cf9-6c18-40e1-9209-c13311e9a67f",
+        "labels": {
+            "execution_id": "htoalpmz54qd"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T18:15:52.505669+00:00",
+        "http_request": null,
+        "insert_id": "000000-dec08cdd-7b39-4956-9e12-1aefc33a30c2",
+        "labels": {
+            "execution_id": "htoalpmz54qd"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 98 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T18:50:54.847547+00:00",
+        "http_request": null,
+        "insert_id": "000000-6dd08846-2330-468f-8bf1-d511915f16a7",
+        "labels": {
+            "execution_id": "45ytjbydkhge"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T18:50:54.905000+00:00",
+        "http_request": null,
+        "insert_id": "000000-276d6f0a-d049-4bc1-ae71-82b91a3c2592",
+        "labels": {
+            "execution_id": "45ytjbydkhge"
+        },
+        "severity": "INFO",
+        "payload": "false"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T18:50:54.915202+00:00",
+        "http_request": null,
+        "insert_id": "000000-47daf383-5b2b-4b8c-8cb2-91f46b222845",
+        "labels": {
+            "execution_id": "45ytjbydkhge"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 68 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T19:26:55.078588+00:00",
+        "http_request": null,
+        "insert_id": "000000-b66a9df5-2e95-4033-b48c-b1dad3af724d",
+        "labels": {
+            "execution_id": "45ytj68793pi"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T19:26:55.084000+00:00",
+        "http_request": null,
+        "insert_id": "000000-b165f0d5-e6af-497f-9a9d-c1b440a29e66",
+        "labels": {
+            "execution_id": "45ytj68793pi"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T19:26:55.087607+00:00",
+        "http_request": null,
+        "insert_id": "000000-f9fe83e5-e0ca-4f1a-bebe-2b6e4995ef02",
+        "labels": {
+            "execution_id": "45ytj68793pi"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 10 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T20:03:57.243955+00:00",
+        "http_request": null,
+        "insert_id": "000000-174143c6-617f-460c-84ce-dd250862a59e",
+        "labels": {
+            "execution_id": "m93artyzmx7k"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T20:03:57.313000+00:00",
+        "http_request": null,
+        "insert_id": "000000-2aeb135a-f960-455b-a5d8-dda2514ff684",
+        "labels": {
+            "execution_id": "m93artyzmx7k"
+        },
+        "severity": "INFO",
+        "payload": "false"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T20:03:57.325150+00:00",
+        "http_request": null,
+        "insert_id": "000000-b245d069-bfb9-406e-8f88-b5ace66e8f78",
+        "labels": {
+            "execution_id": "m93artyzmx7k"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 82 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T20:41:57.458531+00:00",
+        "http_request": null,
+        "insert_id": "000000-0a77eadd-119a-435b-8ea2-c61db7f1a122",
+        "labels": {
+            "execution_id": "m93a78g8si0z"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T20:41:57.464000+00:00",
+        "http_request": null,
+        "insert_id": "000000-128d8ea3-7faa-4682-8c62-1a8ca9170e8d",
+        "labels": {
+            "execution_id": "m93a78g8si0z"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T20:41:57.467641+00:00",
+        "http_request": null,
+        "insert_id": "000000-c72ce8d5-dd9e-434d-915d-f66185cf7243",
+        "labels": {
+            "execution_id": "m93a78g8si0z"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 10 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T21:20:59.541403+00:00",
+        "http_request": null,
+        "insert_id": "000000-736d0bd0-d1f3-4d51-aaaa-eb2b887e6e30",
+        "labels": {
+            "execution_id": "howfo9br0k4y"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T21:20:59.593000+00:00",
+        "http_request": null,
+        "insert_id": "000000-6563036a-086c-419f-838d-82cd6a2e4729",
+        "labels": {
+            "execution_id": "howfo9br0k4y"
+        },
+        "severity": "INFO",
+        "payload": "false"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T21:20:59.603480+00:00",
+        "http_request": null,
+        "insert_id": "000000-593e2858-4e2e-4831-a03b-2b78d24d67c7",
+        "labels": {
+            "execution_id": "howfo9br0k4y"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 63 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T22:01:01.537440+00:00",
+        "http_request": null,
+        "insert_id": "000000-71c2f192-ea1b-413a-8836-7237de3fe9af",
+        "labels": {
+            "execution_id": "4u2c05n1sjxa"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T22:01:01.594000+00:00",
+        "http_request": null,
+        "insert_id": "000000-f5d594f9-5324-44a3-b0bc-1542ce71f5d6",
+        "labels": {
+            "execution_id": "4u2c05n1sjxa"
+        },
+        "severity": "INFO",
+        "payload": "false"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T22:01:01.604254+00:00",
+        "http_request": null,
+        "insert_id": "000000-ba31c241-f357-4b3c-a1ef-31f683f0748f",
+        "labels": {
+            "execution_id": "4u2c05n1sjxa"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 68 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T22:42:03.849603+00:00",
+        "http_request": null,
+        "insert_id": "000000-bfebd393-443a-4e32-882e-8db806a203e5",
+        "labels": {
+            "execution_id": "3wpgpk4uymyw"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T22:42:03.903000+00:00",
+        "http_request": null,
+        "insert_id": "000000-37bf2e01-1c91-4d01-bc22-c08dbe1c0c39",
+        "labels": {
+            "execution_id": "3wpgpk4uymyw"
+        },
+        "severity": "INFO",
+        "payload": "false"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T22:42:03.913777+00:00",
+        "http_request": null,
+        "insert_id": "000000-6140c55d-730c-4995-ab27-2b8d709d872d",
+        "labels": {
+            "execution_id": "3wpgpk4uymyw"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 65 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T23:24:04.051601+00:00",
+        "http_request": null,
+        "insert_id": "000000-f0b5b0d2-b5cb-49a0-9961-6f2bbea031c0",
+        "labels": {
+            "execution_id": "3wpg5dfw0hgb"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T23:24:04.057000+00:00",
+        "http_request": null,
+        "insert_id": "000000-6b32efbb-e5fd-4733-ad1f-3e48f7d2b01a",
+        "labels": {
+            "execution_id": "3wpg5dfw0hgb"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-11T23:24:04.061530+00:00",
+        "http_request": null,
+        "insert_id": "000000-ecfd695c-d6bc-4c35-a8a6-a09404f5b4aa",
+        "labels": {
+            "execution_id": "3wpg5dfw0hgb"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 11 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T00:07:06.044275+00:00",
+        "http_request": null,
+        "insert_id": "000000-eab8ff0f-a13f-4e31-a1a5-6e97d0eab899",
+        "labels": {
+            "execution_id": "fe8hch2z3nzn"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T00:07:06.096000+00:00",
+        "http_request": null,
+        "insert_id": "000000-f7b002ac-c0f0-4196-8fa9-6a55ece60496",
+        "labels": {
+            "execution_id": "fe8hch2z3nzn"
+        },
+        "severity": "INFO",
+        "payload": "false"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T00:07:06.106078+00:00",
+        "http_request": null,
+        "insert_id": "000000-0df273cf-cbca-4dd4-b700-b1496ed18144",
+        "labels": {
+            "execution_id": "fe8hch2z3nzn"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 62 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T00:51:06.308166+00:00",
+        "http_request": null,
+        "insert_id": "000000-8019a6ee-88aa-4bf6-9090-b1d109f1fc2e",
+        "labels": {
+            "execution_id": "fe8hmaijrv7a"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T00:51:06.406000+00:00",
+        "http_request": null,
+        "insert_id": "000000-0cc8ec2c-d895-413a-88e1-59921fbaaf81",
+        "labels": {
+            "execution_id": "fe8hmaijrv7a"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T00:51:06.410215+00:00",
+        "http_request": null,
+        "insert_id": "000000-5e053f73-143f-4a76-b069-1bfca631f46a",
+        "labels": {
+            "execution_id": "fe8hmaijrv7a"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 103 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:39:05.645213+00:00",
+        "http_request": null,
+        "insert_id": "000000-1a2b2b8b-fd96-434b-81b5-f3e30552d05f",
+        "labels": {
+            "execution_id": "lbeojreada07"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:39:05.737000+00:00",
+        "http_request": null,
+        "insert_id": "000000-5a663159-752e-406c-9c14-84c8046922e5",
+        "labels": {
+            "execution_id": "lbeojreada07"
+        },
+        "severity": "INFO",
+        "payload": "false"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:39:05.750707+00:00",
+        "http_request": null,
+        "insert_id": "000000-b5c2b57b-dffb-415f-9bc1-aeebcfafb01f",
+        "labels": {
+            "execution_id": "lbeojreada07"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 106 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:40:05.908347+00:00",
+        "http_request": null,
+        "insert_id": "000000-ea35d43c-a6cf-46cb-bbef-77b6dbdc0bc9",
+        "labels": {
+            "execution_id": "lbeoq79t1gp9"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:40:06.005000+00:00",
+        "http_request": null,
+        "insert_id": "000000-e563b853-ea08-402b-94cf-d57a6936ee86",
+        "labels": {
+            "execution_id": "lbeoq79t1gp9"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:40:06.009855+00:00",
+        "http_request": null,
+        "insert_id": "000000-9212b2c7-085e-4ad8-bb86-d9323b674866",
+        "labels": {
+            "execution_id": "lbeoq79t1gp9"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 102 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:42:06.137192+00:00",
+        "http_request": null,
+        "insert_id": "000000-fb1b811b-f23d-4a9c-8c22-55e49bb0e4b0",
+        "labels": {
+            "execution_id": "lbeowwl4e85u"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:42:06.141000+00:00",
+        "http_request": null,
+        "insert_id": "000000-18bc540f-90ab-4c90-858c-0fd112e144b2",
+        "labels": {
+            "execution_id": "lbeowwl4e85u"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:42:06.204032+00:00",
+        "http_request": null,
+        "insert_id": "000000-e9f478e5-3f90-460e-9966-d6128e31d8ff",
+        "labels": {
+            "execution_id": "lbeowwl4e85u"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 67 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:45:06.418868+00:00",
+        "http_request": null,
+        "insert_id": "000000-8f7ec587-6b31-41e5-9603-9ba74e5cd0b6",
+        "labels": {
+            "execution_id": "lbeot552k5ay"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:45:06.503000+00:00",
+        "http_request": null,
+        "insert_id": "000000-637fb147-920c-4f94-adf3-9f0559a0d209",
+        "labels": {
+            "execution_id": "lbeot552k5ay"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:45:06.504843+00:00",
+        "http_request": null,
+        "insert_id": "000000-4635e422-f65f-4fa0-9f20-19bea6c4e0bc",
+        "labels": {
+            "execution_id": "lbeot552k5ay"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 87 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:49:06.632243+00:00",
+        "http_request": null,
+        "insert_id": "000000-f30c6f83-df14-429e-9340-5effc86745c4",
+        "labels": {
+            "execution_id": "lbeouzjc1phw"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:49:06.706000+00:00",
+        "http_request": null,
+        "insert_id": "000000-95160654-231f-4616-b8f3-cc2c89579dec",
+        "labels": {
+            "execution_id": "lbeouzjc1phw"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:49:06.708354+00:00",
+        "http_request": null,
+        "insert_id": "000000-19f2a11b-cffb-43c9-af10-00bf6d6f4429",
+        "labels": {
+            "execution_id": "lbeouzjc1phw"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 77 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:54:06.872443+00:00",
+        "http_request": null,
+        "insert_id": "000000-9a425fa5-4f6b-43a7-935d-a1e6369d16f2",
+        "labels": {
+            "execution_id": "lbeohj37m0ss"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:54:06.905000+00:00",
+        "http_request": null,
+        "insert_id": "000000-6190eb48-0bc5-4d05-b561-72bca8def2b7",
+        "labels": {
+            "execution_id": "lbeohj37m0ss"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T01:54:07.002815+00:00",
+        "http_request": null,
+        "insert_id": "000000-42b64234-1069-4959-87c0-dd869f70a403",
+        "labels": {
+            "execution_id": "lbeohj37m0ss"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 131 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T02:00:07.238156+00:00",
+        "http_request": null,
+        "insert_id": "000000-79c4071b-5df7-46b3-9e9d-f99940cccaef",
+        "labels": {
+            "execution_id": "lbeomyzc4que"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T02:00:07.302000+00:00",
+        "http_request": null,
+        "insert_id": "000000-324bdeb9-3b6d-4efc-9b4a-50ffe587d258",
+        "labels": {
+            "execution_id": "lbeomyzc4que"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T02:00:07.304081+00:00",
+        "http_request": null,
+        "insert_id": "000000-2e0a7b8e-5d91-48e5-acad-0dcc09485b4f",
+        "labels": {
+            "execution_id": "lbeomyzc4que"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 67 ms, finished with status code: 200"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T02:07:07.466400+00:00",
+        "http_request": null,
+        "insert_id": "000000-e62328b0-fc9a-4e86-8a8c-e426adbb9be8",
+        "labels": {
+            "execution_id": "lbeo89zf5n5l"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution started"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T02:07:07.508000+00:00",
+        "http_request": null,
+        "insert_id": "000000-3a9ce0d9-20f4-421c-898e-072c3aed7e95",
+        "labels": {
+            "execution_id": "lbeo89zf5n5l"
+        },
+        "severity": "INFO",
+        "payload": "true"
+    },
+    {
+        "resource": [
+            "cloud_function",
+            {
+                "region": "us-central1",
+                "function_name": "shutdown",
+                "project_id": "capable-shard-436"
+            }
+        ],
+        "timestamp": "2018-03-12T02:07:07.511621+00:00",
+        "http_request": null,
+        "insert_id": "000000-05957d45-9a00-4a24-9519-812eb60361b1",
+        "labels": {
+            "execution_id": "lbeo89zf5n5l"
+        },
+        "severity": "DEBUG",
+        "payload": "Function execution took 46 ms, finished with status code: 200"
+    }
+]

@@ -1,0 +1,2022 @@
+[
+    {
+        "ingestionTime": 1520412685146,
+        "message": "START RequestId: b78aff9c-21e4-11e8-9ec6-9556abb251ba Version: $LATEST\n",
+        "timestamp": 1520412685075
+    },
+    {
+        "ingestionTime": 1520412686891,
+        "message": "{'result': {'cnt': 323, 'elapsed': 0.7057557106018066, 's3d_elapsed': 1.1023452281951904}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00025', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686885
+    },
+    {
+        "ingestionTime": 1520412686914,
+        "message": "END RequestId: b78aff9c-21e4-11e8-9ec6-9556abb251ba\n",
+        "timestamp": 1520412686909
+    },
+    {
+        "ingestionTime": 1520412686914,
+        "message": "REPORT RequestId: b78aff9c-21e4-11e8-9ec6-9556abb251ba\tDuration: 1832.23 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686909
+    },
+    {
+        "ingestionTime": 1520412685143,
+        "message": "START RequestId: b787f283-21e4-11e8-ad39-cf6354bf4b1d Version: $LATEST\n",
+        "timestamp": 1520412685065
+    },
+    {
+        "ingestionTime": 1520412687361,
+        "message": "{'result': {'cnt': 331, 'elapsed': 0.7009201049804688, 's3d_elapsed': 1.5834033489227295}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00057', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687351
+    },
+    {
+        "ingestionTime": 1520412687383,
+        "message": "END RequestId: b787f283-21e4-11e8-ad39-cf6354bf4b1d\n",
+        "timestamp": 1520412687373
+    },
+    {
+        "ingestionTime": 1520412687383,
+        "message": "REPORT RequestId: b787f283-21e4-11e8-ad39-cf6354bf4b1d\tDuration: 2307.22 ms\tBilled Duration: 2400 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687373
+    },
+    {
+        "ingestionTime": 1520412685169,
+        "message": "START RequestId: b789ee8f-21e4-11e8-95e3-3fd4129f3047 Version: $LATEST\n",
+        "timestamp": 1520412685089
+    },
+    {
+        "ingestionTime": 1520412687169,
+        "message": "{'result': {'cnt': 326, 'elapsed': 0.7049057483673096, 's3d_elapsed': 1.3513069152832031}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00060', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687148
+    },
+    {
+        "ingestionTime": 1520412702238,
+        "message": "END RequestId: b789ee8f-21e4-11e8-95e3-3fd4129f3047\n",
+        "timestamp": 1520412687172
+    },
+    {
+        "ingestionTime": 1520412702238,
+        "message": "REPORT RequestId: b789ee8f-21e4-11e8-95e3-3fd4129f3047\tDuration: 2079.86 ms\tBilled Duration: 2100 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687172
+    },
+    {
+        "ingestionTime": 1520412685180,
+        "message": "START RequestId: b78e5b00-21e4-11e8-805b-555d5b2ff84d Version: $LATEST\n",
+        "timestamp": 1520412685115
+    },
+    {
+        "ingestionTime": 1520412687032,
+        "message": "{'result': {'cnt': 327, 'elapsed': 0.6988251209259033, 's3d_elapsed': 1.1998093128204346}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00083', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687026
+    },
+    {
+        "ingestionTime": 1520412687055,
+        "message": "END RequestId: b78e5b00-21e4-11e8-805b-555d5b2ff84d\n",
+        "timestamp": 1520412687048
+    },
+    {
+        "ingestionTime": 1520412687055,
+        "message": "REPORT RequestId: b78e5b00-21e4-11e8-805b-555d5b2ff84d\tDuration: 1921.53 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687048
+    },
+    {
+        "ingestionTime": 1520412685138,
+        "message": "START RequestId: b7835e76-21e4-11e8-bb69-cf183a952517 Version: $LATEST\n",
+        "timestamp": 1520412685036
+    },
+    {
+        "ingestionTime": 1520412687751,
+        "message": "{'result': {'cnt': 329, 'elapsed': 0.7308578491210938, 's3d_elapsed': 1.968083143234253}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00002', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687737
+    },
+    {
+        "ingestionTime": 1520412687783,
+        "message": "END RequestId: b7835e76-21e4-11e8-bb69-cf183a952517\n",
+        "timestamp": 1520412687770
+    },
+    {
+        "ingestionTime": 1520412687783,
+        "message": "REPORT RequestId: b7835e76-21e4-11e8-bb69-cf183a952517\tDuration: 2731.48 ms\tBilled Duration: 2800 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687770
+    },
+    {
+        "ingestionTime": 1520412685166,
+        "message": "START RequestId: b78de5ed-21e4-11e8-a252-6fdc2f5568d5 Version: $LATEST\n",
+        "timestamp": 1520412685139
+    },
+    {
+        "ingestionTime": 1520412687012,
+        "message": "{'result': {'cnt': 326, 'elapsed': 0.6888229846954346, 's3d_elapsed': 1.2053375244140625}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00080', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687035
+    },
+    {
+        "ingestionTime": 1520412687034,
+        "message": "END RequestId: b78de5ed-21e4-11e8-a252-6fdc2f5568d5\n",
+        "timestamp": 1520412687059
+    },
+    {
+        "ingestionTime": 1520412687034,
+        "message": "REPORT RequestId: b78de5ed-21e4-11e8-a252-6fdc2f5568d5\tDuration: 1918.00 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687059
+    },
+    {
+        "ingestionTime": 1520412685185,
+        "message": "START RequestId: b7877cd4-21e4-11e8-a719-ef6558505513 Version: $LATEST\n",
+        "timestamp": 1520412685057
+    },
+    {
+        "ingestionTime": 1520412687061,
+        "message": "{'result': {'cnt': 329, 'elapsed': 0.702512264251709, 's3d_elapsed': 1.2807643413543701}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00029', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687043
+    },
+    {
+        "ingestionTime": 1520412687084,
+        "message": "END RequestId: b7877cd4-21e4-11e8-a719-ef6558505513\n",
+        "timestamp": 1520412687067
+    },
+    {
+        "ingestionTime": 1520412687084,
+        "message": "REPORT RequestId: b7877cd4-21e4-11e8-a719-ef6558505513\tDuration: 2006.97 ms\tBilled Duration: 2100 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687067
+    },
+    {
+        "ingestionTime": 1520412685147,
+        "message": "START RequestId: b7870780-21e4-11e8-9127-b5b0c928946b Version: $LATEST\n",
+        "timestamp": 1520412685071
+    },
+    {
+        "ingestionTime": 1520412687369,
+        "message": "{'result': {'cnt': 331, 'elapsed': 0.6890630722045898, 's3d_elapsed': 1.5982801914215088}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00026', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687361
+    },
+    {
+        "ingestionTime": 1520412687394,
+        "message": "END RequestId: b7870780-21e4-11e8-9127-b5b0c928946b\n",
+        "timestamp": 1520412687387
+    },
+    {
+        "ingestionTime": 1520412687394,
+        "message": "REPORT RequestId: b7870780-21e4-11e8-9127-b5b0c928946b\tDuration: 2312.73 ms\tBilled Duration: 2400 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687387
+    },
+    {
+        "ingestionTime": 1520412685102,
+        "message": "START RequestId: b781b0d3-21e4-11e8-9ec4-ed7cb5a62c33 Version: $LATEST\n",
+        "timestamp": 1520412685026
+    },
+    {
+        "ingestionTime": 1520412686881,
+        "message": "{'result': {'cnt': 334, 'elapsed': 0.6956541538238525, 's3d_elapsed': 1.146789312362671}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00001', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686871
+    },
+    {
+        "ingestionTime": 1520412686903,
+        "message": "END RequestId: b781b0d3-21e4-11e8-9ec4-ed7cb5a62c33\n",
+        "timestamp": 1520412686895
+    },
+    {
+        "ingestionTime": 1520412686903,
+        "message": "REPORT RequestId: b781b0d3-21e4-11e8-9ec4-ed7cb5a62c33\tDuration: 1866.75 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686895
+    },
+    {
+        "ingestionTime": 1520412685123,
+        "message": "START RequestId: b786b941-21e4-11e8-af65-8978148fb204 Version: $LATEST\n",
+        "timestamp": 1520412685036
+    },
+    {
+        "ingestionTime": 1520412687271,
+        "message": "{'result': {'cnt': 334, 'elapsed': 0.7003495693206787, 's3d_elapsed': 1.5053937435150146}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00010', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687244
+    },
+    {
+        "ingestionTime": 1520412687294,
+        "message": "END RequestId: b786b941-21e4-11e8-af65-8978148fb204\n",
+        "timestamp": 1520412687267
+    },
+    {
+        "ingestionTime": 1520412702329,
+        "message": "REPORT RequestId: b786b941-21e4-11e8-af65-8978148fb204\tDuration: 2228.88 ms\tBilled Duration: 2300 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687267
+    },
+    {
+        "ingestionTime": 1520412685308,
+        "message": "START RequestId: b789037e-21e4-11e8-888f-85c5120f338c Version: $LATEST\n",
+        "timestamp": 1520412685070
+    },
+    {
+        "ingestionTime": 1520412686857,
+        "message": "{'result': {'cnt': 328, 'elapsed': 0.6921870708465576, 's3d_elapsed': 1.0811874866485596}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00068', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686845
+    },
+    {
+        "ingestionTime": 1520412686880,
+        "message": "END RequestId: b789037e-21e4-11e8-888f-85c5120f338c\n",
+        "timestamp": 1520412686868
+    },
+    {
+        "ingestionTime": 1520412686880,
+        "message": "REPORT RequestId: b789037e-21e4-11e8-888f-85c5120f338c\tDuration: 1796.76 ms\tBilled Duration: 1800 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686868
+    },
+    {
+        "ingestionTime": 1520412685173,
+        "message": "START RequestId: b7861d42-21e4-11e8-9eeb-45bca9f7423b Version: $LATEST\n",
+        "timestamp": 1520412685049
+    },
+    {
+        "ingestionTime": 1520412686894,
+        "message": "{'result': {'cnt': 329, 'elapsed': 0.7089722156524658, 's3d_elapsed': 1.1075894832611084}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00019', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686877
+    },
+    {
+        "ingestionTime": 1520412686918,
+        "message": "END RequestId: b7861d42-21e4-11e8-9eeb-45bca9f7423b\n",
+        "timestamp": 1520412686902
+    },
+    {
+        "ingestionTime": 1520412686918,
+        "message": "REPORT RequestId: b7861d42-21e4-11e8-9eeb-45bca9f7423b\tDuration: 1841.42 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686902
+    },
+    {
+        "ingestionTime": 1520412685337,
+        "message": "START RequestId: b7916898-21e4-11e8-9961-b1677c969964 Version: $LATEST\n",
+        "timestamp": 1520412685122
+    },
+    {
+        "ingestionTime": 1520412687405,
+        "message": "{'result': {'cnt': 326, 'elapsed': 0.7014932632446289, 's3d_elapsed': 1.5598993301391602}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00093', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687386
+    },
+    {
+        "ingestionTime": 1520412687427,
+        "message": "END RequestId: b7916898-21e4-11e8-9961-b1677c969964\n",
+        "timestamp": 1520412687410
+    },
+    {
+        "ingestionTime": 1520412687427,
+        "message": "REPORT RequestId: b7916898-21e4-11e8-9961-b1677c969964\tDuration: 2285.45 ms\tBilled Duration: 2300 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687410
+    },
+    {
+        "ingestionTime": 1520412685172,
+        "message": "START RequestId: b78a631a-21e4-11e8-99e1-c1e6b2cb8a2a Version: $LATEST\n",
+        "timestamp": 1520412685082
+    },
+    {
+        "ingestionTime": 1520412687240,
+        "message": "{'result': {'cnt': 327, 'elapsed': 0.7177588939666748, 's3d_elapsed': 1.4184300899505615}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00050', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687220
+    },
+    {
+        "ingestionTime": 1520412687265,
+        "message": "END RequestId: b78a631a-21e4-11e8-99e1-c1e6b2cb8a2a\n",
+        "timestamp": 1520412687244
+    },
+    {
+        "ingestionTime": 1520412687265,
+        "message": "REPORT RequestId: b78a631a-21e4-11e8-99e1-c1e6b2cb8a2a\tDuration: 2160.48 ms\tBilled Duration: 2200 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687244
+    },
+    {
+        "ingestionTime": 1520412685201,
+        "message": "START RequestId: b790f359-21e4-11e8-b1fd-ed57a0050edb Version: $LATEST\n",
+        "timestamp": 1520412685112
+    },
+    {
+        "ingestionTime": 1520412686916,
+        "message": "{'result': {'cnt': 327, 'elapsed': 0.6972966194152832, 's3d_elapsed': 1.0868308544158936}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00092', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686898
+    },
+    {
+        "ingestionTime": 1520412686941,
+        "message": "END RequestId: b790f359-21e4-11e8-b1fd-ed57a0050edb\n",
+        "timestamp": 1520412686923
+    },
+    {
+        "ingestionTime": 1520412686941,
+        "message": "REPORT RequestId: b790f359-21e4-11e8-b1fd-ed57a0050edb\tDuration: 1809.52 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686923
+    },
+    {
+        "ingestionTime": 1520412685138,
+        "message": "START RequestId: b789edde-21e4-11e8-a7be-dbb3e53b4d37 Version: $LATEST\n",
+        "timestamp": 1520412685081
+    },
+    {
+        "ingestionTime": 1520412686988,
+        "message": "{'result': {'cnt': 325, 'elapsed': 0.7026290893554688, 's3d_elapsed': 1.189152717590332}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00031', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686974
+    },
+    {
+        "ingestionTime": 1520412702026,
+        "message": "END RequestId: b789edde-21e4-11e8-a7be-dbb3e53b4d37\n",
+        "timestamp": 1520412686997
+    },
+    {
+        "ingestionTime": 1520412702026,
+        "message": "REPORT RequestId: b789edde-21e4-11e8-a7be-dbb3e53b4d37\tDuration: 1915.05 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 385 MB\t\n",
+        "timestamp": 1520412686997
+    },
+    {
+        "ingestionTime": 1520412685150,
+        "message": "START RequestId: b788b575-21e4-11e8-b17e-67e2d3e428e9 Version: $LATEST\n",
+        "timestamp": 1520412685082
+    },
+    {
+        "ingestionTime": 1520412687001,
+        "message": "{'result': {'cnt': 329, 'elapsed': 0.7022504806518555, 's3d_elapsed': 1.206186056137085}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00037', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686994
+    },
+    {
+        "ingestionTime": 1520412687031,
+        "message": "END RequestId: b788b575-21e4-11e8-b17e-67e2d3e428e9\n",
+        "timestamp": 1520412687023
+    },
+    {
+        "ingestionTime": 1520412687031,
+        "message": "REPORT RequestId: b788b575-21e4-11e8-b17e-67e2d3e428e9\tDuration: 1938.39 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687023
+    },
+    {
+        "ingestionTime": 1520412685204,
+        "message": "START RequestId: b7902f26-21e4-11e8-921a-2b25a2f689e4 Version: $LATEST\n",
+        "timestamp": 1520412685115
+    },
+    {
+        "ingestionTime": 1520412687005,
+        "message": "{'result': {'cnt': 327, 'elapsed': 0.6945757865905762, 's3d_elapsed': 1.1774024963378906}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00088', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686990
+    },
+    {
+        "ingestionTime": 1520412687028,
+        "message": "END RequestId: b7902f26-21e4-11e8-921a-2b25a2f689e4\n",
+        "timestamp": 1520412687014
+    },
+    {
+        "ingestionTime": 1520412687028,
+        "message": "REPORT RequestId: b7902f26-21e4-11e8-921a-2b25a2f689e4\tDuration: 1896.22 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687014
+    },
+    {
+        "ingestionTime": 1520412685193,
+        "message": "START RequestId: b79167ca-21e4-11e8-ac92-4d07736ae65c Version: $LATEST\n",
+        "timestamp": 1520412685117
+    },
+    {
+        "ingestionTime": 1520412686977,
+        "message": "{'result': {'cnt': 333, 'elapsed': 0.700096845626831, 's3d_elapsed': 1.1440560817718506}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00095', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686965
+    },
+    {
+        "ingestionTime": 1520412687000,
+        "message": "END RequestId: b79167ca-21e4-11e8-ac92-4d07736ae65c\n",
+        "timestamp": 1520412686988
+    },
+    {
+        "ingestionTime": 1520412687000,
+        "message": "REPORT RequestId: b79167ca-21e4-11e8-ac92-4d07736ae65c\tDuration: 1867.22 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686988
+    },
+    {
+        "ingestionTime": 1520412685080,
+        "message": "START RequestId: b779e8dd-21e4-11e8-954f-b5625620664e Version: $LATEST\n",
+        "timestamp": 1520412684979
+    },
+    {
+        "ingestionTime": 1520412687036,
+        "message": "{'result': {'cnt': 325, 'elapsed': 0.705277681350708, 's3d_elapsed': 1.3426222801208496}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00064', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687029
+    },
+    {
+        "ingestionTime": 1520412687060,
+        "message": "END RequestId: b779e8dd-21e4-11e8-954f-b5625620664e\n",
+        "timestamp": 1520412687051
+    },
+    {
+        "ingestionTime": 1520412687060,
+        "message": "REPORT RequestId: b779e8dd-21e4-11e8-954f-b5625620664e\tDuration: 2071.02 ms\tBilled Duration: 2100 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687051
+    },
+    {
+        "ingestionTime": 1520412685160,
+        "message": "START RequestId: b78be9a1-21e4-11e8-9570-73b694040360 Version: $LATEST\n",
+        "timestamp": 1520412685088
+    },
+    {
+        "ingestionTime": 1520412686958,
+        "message": "{'result': {'cnt': 324, 'elapsed': 0.701085090637207, 's3d_elapsed': 1.145153284072876}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00071', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686945
+    },
+    {
+        "ingestionTime": 1520412686984,
+        "message": "END RequestId: b78be9a1-21e4-11e8-9570-73b694040360\n",
+        "timestamp": 1520412686971
+    },
+    {
+        "ingestionTime": 1520412686984,
+        "message": "REPORT RequestId: b78be9a1-21e4-11e8-9570-73b694040360\tDuration: 1872.04 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686971
+    },
+    {
+        "ingestionTime": 1520412685144,
+        "message": "START RequestId: b78755c0-21e4-11e8-b8b1-8f3ac920f0e5 Version: $LATEST\n",
+        "timestamp": 1520412685067
+    },
+    {
+        "ingestionTime": 1520412687151,
+        "message": "{'result': {'cnt': 332, 'elapsed': 0.7051892280578613, 's3d_elapsed': 1.3570868968963623}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00013', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687131
+    },
+    {
+        "ingestionTime": 1520412687177,
+        "message": "END RequestId: b78755c0-21e4-11e8-b8b1-8f3ac920f0e5\n",
+        "timestamp": 1520412687157
+    },
+    {
+        "ingestionTime": 1520412687177,
+        "message": "REPORT RequestId: b78755c0-21e4-11e8-b8b1-8f3ac920f0e5\tDuration: 2088.13 ms\tBilled Duration: 2100 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687157
+    },
+    {
+        "ingestionTime": 1520412685113,
+        "message": "START RequestId: b784486e-21e4-11e8-98b5-29c30546540f Version: $LATEST\n",
+        "timestamp": 1520412685045
+    },
+    {
+        "ingestionTime": 1520412687322,
+        "message": "{'result': {'cnt': 333, 'elapsed': 0.6981897354125977, 's3d_elapsed': 1.5720131397247314}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00004', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687318
+    },
+    {
+        "ingestionTime": 1520412687347,
+        "message": "END RequestId: b784486e-21e4-11e8-98b5-29c30546540f\n",
+        "timestamp": 1520412687344
+    },
+    {
+        "ingestionTime": 1520412687347,
+        "message": "REPORT RequestId: b784486e-21e4-11e8-98b5-29c30546540f\tDuration: 2295.91 ms\tBilled Duration: 2300 ms \tMemory Size: 3008 MB\tMax Memory Used: 385 MB\t\n",
+        "timestamp": 1520412687344
+    },
+    {
+        "ingestionTime": 1520412685129,
+        "message": "START RequestId: b787a3d9-21e4-11e8-83b3-c33d57244d42 Version: $LATEST\n",
+        "timestamp": 1520412685062
+    },
+    {
+        "ingestionTime": 1520412686836,
+        "message": "{'result': {'cnt': 328, 'elapsed': 0.7014496326446533, 's3d_elapsed': 1.066253423690796}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00034', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686832
+    },
+    {
+        "ingestionTime": 1520412686858,
+        "message": "END RequestId: b787a3d9-21e4-11e8-83b3-c33d57244d42\n",
+        "timestamp": 1520412686855
+    },
+    {
+        "ingestionTime": 1520412686858,
+        "message": "REPORT RequestId: b787a3d9-21e4-11e8-83b3-c33d57244d42\tDuration: 1790.68 ms\tBilled Duration: 1800 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686855
+    },
+    {
+        "ingestionTime": 1520412685134,
+        "message": "START RequestId: b7877cbf-21e4-11e8-b5f8-33e28bfff999 Version: $LATEST\n",
+        "timestamp": 1520412685085
+    },
+    {
+        "ingestionTime": 1520412687644,
+        "message": "{'result': {'cnt': 331, 'elapsed': 0.6922874450683594, 's3d_elapsed': 1.8656032085418701}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00032', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687656
+    },
+    {
+        "ingestionTime": 1520412687670,
+        "message": "END RequestId: b7877cbf-21e4-11e8-b5f8-33e28bfff999\n",
+        "timestamp": 1520412687681
+    },
+    {
+        "ingestionTime": 1520412687670,
+        "message": "REPORT RequestId: b7877cbf-21e4-11e8-b5f8-33e28bfff999\tDuration: 2583.70 ms\tBilled Duration: 2600 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687681
+    },
+    {
+        "ingestionTime": 1520412685198,
+        "message": "START RequestId: b792523c-21e4-11e8-b21c-355a5c49fe6c Version: $LATEST\n",
+        "timestamp": 1520412685130
+    },
+    {
+        "ingestionTime": 1520412686992,
+        "message": "{'result': {'cnt': 327, 'elapsed': 0.711137056350708, 's3d_elapsed': 1.1260573863983154}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00099', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686980
+    },
+    {
+        "ingestionTime": 1520412687013,
+        "message": "END RequestId: b792523c-21e4-11e8-b21c-355a5c49fe6c\n",
+        "timestamp": 1520412687003
+    },
+    {
+        "ingestionTime": 1520412687013,
+        "message": "REPORT RequestId: b792523c-21e4-11e8-b21c-355a5c49fe6c\tDuration: 1860.77 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687003
+    },
+    {
+        "ingestionTime": 1520412685110,
+        "message": "START RequestId: b7864444-21e4-11e8-bc5c-a97525d29678 Version: $LATEST\n",
+        "timestamp": 1520412685043
+    },
+    {
+        "ingestionTime": 1520412686910,
+        "message": "{'result': {'cnt': 326, 'elapsed': 0.6998825073242188, 's3d_elapsed': 1.1546826362609863}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00017', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686899
+    },
+    {
+        "ingestionTime": 1520412686936,
+        "message": "END RequestId: b7864444-21e4-11e8-bc5c-a97525d29678\n",
+        "timestamp": 1520412686925
+    },
+    {
+        "ingestionTime": 1520412686936,
+        "message": "REPORT RequestId: b7864444-21e4-11e8-bc5c-a97525d29678\tDuration: 1880.43 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686925
+    },
+    {
+        "ingestionTime": 1520412685138,
+        "message": "START RequestId: b7881988-21e4-11e8-8bd7-45f3cca55475 Version: $LATEST\n",
+        "timestamp": 1520412685070
+    },
+    {
+        "ingestionTime": 1520412687737,
+        "message": "{'result': {'cnt': 332, 'elapsed': 0.7069644927978516, 's3d_elapsed': 1.8599777221679688}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00052', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687639
+    },
+    {
+        "ingestionTime": 1520412702778,
+        "message": "END RequestId: b7881988-21e4-11e8-8bd7-45f3cca55475\n",
+        "timestamp": 1520412687663
+    },
+    {
+        "ingestionTime": 1520412702778,
+        "message": "REPORT RequestId: b7881988-21e4-11e8-8bd7-45f3cca55475\tDuration: 2591.47 ms\tBilled Duration: 2600 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687663
+    },
+    {
+        "ingestionTime": 1520412685115,
+        "message": "START RequestId: b7855a30-21e4-11e8-8447-073f7925656e Version: $LATEST\n",
+        "timestamp": 1520412685048
+    },
+    {
+        "ingestionTime": 1520412686869,
+        "message": "{'result': {'cnt': 332, 'elapsed': 0.6854376792907715, 's3d_elapsed': 1.1151888370513916}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00008', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686850
+    },
+    {
+        "ingestionTime": 1520412701913,
+        "message": "END RequestId: b7855a30-21e4-11e8-8447-073f7925656e\n",
+        "timestamp": 1520412686875
+    },
+    {
+        "ingestionTime": 1520412701913,
+        "message": "REPORT RequestId: b7855a30-21e4-11e8-8447-073f7925656e\tDuration: 1825.80 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686875
+    },
+    {
+        "ingestionTime": 1520412685134,
+        "message": "START RequestId: b787082d-21e4-11e8-935c-037bfc2e14f1 Version: $LATEST\n",
+        "timestamp": 1520412685073
+    },
+    {
+        "ingestionTime": 1520412687234,
+        "message": "{'result': {'cnt': 334, 'elapsed': 0.7204675674438477, 's3d_elapsed': 1.432905673980713}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00045', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687229
+    },
+    {
+        "ingestionTime": 1520412687257,
+        "message": "END RequestId: b787082d-21e4-11e8-935c-037bfc2e14f1\n",
+        "timestamp": 1520412687252
+    },
+    {
+        "ingestionTime": 1520412687257,
+        "message": "REPORT RequestId: b787082d-21e4-11e8-935c-037bfc2e14f1\tDuration: 2176.87 ms\tBilled Duration: 2200 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687252
+    },
+    {
+        "ingestionTime": 1520412685161,
+        "message": "START RequestId: b78e0cdb-21e4-11e8-838a-99f7d7caa93b Version: $LATEST\n",
+        "timestamp": 1520412685103
+    },
+    {
+        "ingestionTime": 1520412687308,
+        "message": "{'result': {'cnt': 328, 'elapsed': 0.6944928169250488, 's3d_elapsed': 1.5081887245178223}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00079', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687308
+    },
+    {
+        "ingestionTime": 1520412687331,
+        "message": "END RequestId: b78e0cdb-21e4-11e8-838a-99f7d7caa93b\n",
+        "timestamp": 1520412687330
+    },
+    {
+        "ingestionTime": 1520412687331,
+        "message": "REPORT RequestId: b78e0cdb-21e4-11e8-838a-99f7d7caa93b\tDuration: 2225.76 ms\tBilled Duration: 2300 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687331
+    },
+    {
+        "ingestionTime": 1520412685188,
+        "message": "START RequestId: b78819af-21e4-11e8-abd4-456a5d6b2078 Version: $LATEST\n",
+        "timestamp": 1520412685057
+    },
+    {
+        "ingestionTime": 1520412687572,
+        "message": "{'result': {'cnt': 332, 'elapsed': 0.6981520652770996, 's3d_elapsed': 1.7927939891815186}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00028', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687551
+    },
+    {
+        "ingestionTime": 1520412687605,
+        "message": "END RequestId: b78819af-21e4-11e8-abd4-456a5d6b2078\n",
+        "timestamp": 1520412687584
+    },
+    {
+        "ingestionTime": 1520412687605,
+        "message": "REPORT RequestId: b78819af-21e4-11e8-abd4-456a5d6b2078\tDuration: 2523.91 ms\tBilled Duration: 2600 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687584
+    },
+    {
+        "ingestionTime": 1520412685155,
+        "message": "START RequestId: b7897906-21e4-11e8-b423-a5304707064a Version: $LATEST\n",
+        "timestamp": 1520412685076
+    },
+    {
+        "ingestionTime": 1520412687993,
+        "message": "{'result': {'cnt': 327, 'elapsed': 0.7085609436035156, 's3d_elapsed': 2.1906206607818604}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00035', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687979
+    },
+    {
+        "ingestionTime": 1520412688015,
+        "message": "END RequestId: b7897906-21e4-11e8-b423-a5304707064a\n",
+        "timestamp": 1520412688001
+    },
+    {
+        "ingestionTime": 1520412688015,
+        "message": "REPORT RequestId: b7897906-21e4-11e8-b423-a5304707064a\tDuration: 2922.06 ms\tBilled Duration: 3000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412688001
+    },
+    {
+        "ingestionTime": 1520412685195,
+        "message": "START RequestId: b791b60d-21e4-11e8-a784-b184e3739c0a Version: $LATEST\n",
+        "timestamp": 1520412685127
+    },
+    {
+        "ingestionTime": 1520412687223,
+        "message": "{'result': {'cnt': 325, 'elapsed': 0.7141335010528564, 's3d_elapsed': 1.3704729080200195}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00097', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687213
+    },
+    {
+        "ingestionTime": 1520412687247,
+        "message": "END RequestId: b791b60d-21e4-11e8-a784-b184e3739c0a\n",
+        "timestamp": 1520412687237
+    },
+    {
+        "ingestionTime": 1520412687247,
+        "message": "REPORT RequestId: b791b60d-21e4-11e8-a784-b184e3739c0a\tDuration: 2108.77 ms\tBilled Duration: 2200 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687237
+    },
+    {
+        "ingestionTime": 1520412685153,
+        "message": "START RequestId: b786932f-21e4-11e8-9b24-810b8a56006b Version: $LATEST\n",
+        "timestamp": 1520412685071
+    },
+    {
+        "ingestionTime": 1520412686889,
+        "message": "{'result': {'cnt': 332, 'elapsed': 0.7025344371795654, 's3d_elapsed': 1.1137747764587402}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00016', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686890
+    },
+    {
+        "ingestionTime": 1520412686913,
+        "message": "END RequestId: b786932f-21e4-11e8-9b24-810b8a56006b\n",
+        "timestamp": 1520412686915
+    },
+    {
+        "ingestionTime": 1520412686913,
+        "message": "REPORT RequestId: b786932f-21e4-11e8-9b24-810b8a56006b\tDuration: 1841.11 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 385 MB\t\n",
+        "timestamp": 1520412686915
+    },
+    {
+        "ingestionTime": 1520412685199,
+        "message": "START RequestId: b78867b2-21e4-11e8-bed7-873e27a78061 Version: $LATEST\n",
+        "timestamp": 1520412685067
+    },
+    {
+        "ingestionTime": 1520412687386,
+        "message": "{'result': {'cnt': 328, 'elapsed': 0.7048418521881104, 's3d_elapsed': 1.6030335426330566}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00039', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687378
+    },
+    {
+        "ingestionTime": 1520412687412,
+        "message": "END RequestId: b78867b2-21e4-11e8-bed7-873e27a78061\n",
+        "timestamp": 1520412687405
+    },
+    {
+        "ingestionTime": 1520412687412,
+        "message": "REPORT RequestId: b78867b2-21e4-11e8-bed7-873e27a78061\tDuration: 2334.50 ms\tBilled Duration: 2400 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687405
+    },
+    {
+        "ingestionTime": 1520412685127,
+        "message": "START RequestId: b788b5b2-21e4-11e8-a0ca-f507ab899d1f Version: $LATEST\n",
+        "timestamp": 1520412685056
+    },
+    {
+        "ingestionTime": 1520412687234,
+        "message": "{'result': {'cnt': 331, 'elapsed': 0.7039651870727539, 's3d_elapsed': 1.4544825553894043}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00030', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687216
+    },
+    {
+        "ingestionTime": 1520412687260,
+        "message": "END RequestId: b788b5b2-21e4-11e8-a0ca-f507ab899d1f\n",
+        "timestamp": 1520412687242
+    },
+    {
+        "ingestionTime": 1520412687260,
+        "message": "REPORT RequestId: b788b5b2-21e4-11e8-a0ca-f507ab899d1f\tDuration: 2184.39 ms\tBilled Duration: 2200 ms \tMemory Size: 3008 MB\tMax Memory Used: 385 MB\t\n",
+        "timestamp": 1520412687242
+    },
+    {
+        "ingestionTime": 1520412685153,
+        "message": "START RequestId: b7881955-21e4-11e8-a04b-898c1ebe52e4 Version: $LATEST\n",
+        "timestamp": 1520412685040
+    },
+    {
+        "ingestionTime": 1520412686902,
+        "message": "{'result': {'cnt': 325, 'elapsed': 0.6933369636535645, 's3d_elapsed': 1.1513466835021973}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00049', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686887
+    },
+    {
+        "ingestionTime": 1520412701956,
+        "message": "END RequestId: b7881955-21e4-11e8-a04b-898c1ebe52e4\n",
+        "timestamp": 1520412686911
+    },
+    {
+        "ingestionTime": 1520412701956,
+        "message": "REPORT RequestId: b7881955-21e4-11e8-a04b-898c1ebe52e4\tDuration: 1868.85 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 385 MB\t\n",
+        "timestamp": 1520412686911
+    },
+    {
+        "ingestionTime": 1520412685159,
+        "message": "START RequestId: b78978f7-21e4-11e8-9f5f-1301fd47ad65 Version: $LATEST\n",
+        "timestamp": 1520412685084
+    },
+    {
+        "ingestionTime": 1520412686994,
+        "message": "{'result': {'cnt': 331, 'elapsed': 0.6947116851806641, 's3d_elapsed': 1.1887900829315186}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00043', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686982
+    },
+    {
+        "ingestionTime": 1520412687020,
+        "message": "END RequestId: b78978f7-21e4-11e8-9f5f-1301fd47ad65\n",
+        "timestamp": 1520412687007
+    },
+    {
+        "ingestionTime": 1520412702041,
+        "message": "REPORT RequestId: b78978f7-21e4-11e8-9f5f-1301fd47ad65\tDuration: 1909.09 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687007
+    },
+    {
+        "ingestionTime": 1520412685137,
+        "message": "START RequestId: b789c689-21e4-11e8-ae2e-772326f88593 Version: $LATEST\n",
+        "timestamp": 1520412685077
+    },
+    {
+        "ingestionTime": 1520412687093,
+        "message": "{'result': {'cnt': 335, 'elapsed': 0.7147400379180908, 's3d_elapsed': 1.2866997718811035}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00062', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687082
+    },
+    {
+        "ingestionTime": 1520412687116,
+        "message": "END RequestId: b789c689-21e4-11e8-ae2e-772326f88593\n",
+        "timestamp": 1520412687106
+    },
+    {
+        "ingestionTime": 1520412687116,
+        "message": "REPORT RequestId: b789c689-21e4-11e8-ae2e-772326f88593\tDuration: 2026.04 ms\tBilled Duration: 2100 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687106
+    },
+    {
+        "ingestionTime": 1520412685150,
+        "message": "START RequestId: b78a3c47-21e4-11e8-b990-3722f0c0308a Version: $LATEST\n",
+        "timestamp": 1520412685076
+    },
+    {
+        "ingestionTime": 1520412687011,
+        "message": "{'result': {'cnt': 323, 'elapsed': 0.7326836585998535, 's3d_elapsed': 1.1849122047424316}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00061', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686996
+    },
+    {
+        "ingestionTime": 1520412687038,
+        "message": "END RequestId: b78a3c47-21e4-11e8-b990-3722f0c0308a\n",
+        "timestamp": 1520412687022
+    },
+    {
+        "ingestionTime": 1520412687038,
+        "message": "REPORT RequestId: b78a3c47-21e4-11e8-b990-3722f0c0308a\tDuration: 1943.60 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687022
+    },
+    {
+        "ingestionTime": 1520412685180,
+        "message": "START RequestId: b78d97e2-21e4-11e8-85d9-313f7d04b812 Version: $LATEST\n",
+        "timestamp": 1520412685098
+    },
+    {
+        "ingestionTime": 1520412687190,
+        "message": "{'result': {'cnt': 328, 'elapsed': 0.7045173645019531, 's3d_elapsed': 1.3667347431182861}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00076', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687172
+    },
+    {
+        "ingestionTime": 1520412702230,
+        "message": "END RequestId: b78d97e2-21e4-11e8-85d9-313f7d04b812\n",
+        "timestamp": 1520412687195
+    },
+    {
+        "ingestionTime": 1520412702230,
+        "message": "REPORT RequestId: b78d97e2-21e4-11e8-85d9-313f7d04b812\tDuration: 2094.07 ms\tBilled Duration: 2100 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687195
+    },
+    {
+        "ingestionTime": 1520412685166,
+        "message": "START RequestId: b78c5f38-21e4-11e8-b423-a5304707064a Version: $LATEST\n",
+        "timestamp": 1520412685083
+    },
+    {
+        "ingestionTime": 1520412687013,
+        "message": "{'result': {'cnt': 330, 'elapsed': 0.6943411827087402, 's3d_elapsed': 1.2151591777801514}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00073', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686996
+    },
+    {
+        "ingestionTime": 1520412702071,
+        "message": "END RequestId: b78c5f38-21e4-11e8-b423-a5304707064a\n",
+        "timestamp": 1520412687018
+    },
+    {
+        "ingestionTime": 1520412702071,
+        "message": "REPORT RequestId: b78c5f38-21e4-11e8-b423-a5304707064a\tDuration: 1932.55 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687018
+    },
+    {
+        "ingestionTime": 1520412685229,
+        "message": "START RequestId: b7807893-21e4-11e8-ad41-c3ef387f01ee Version: $LATEST\n",
+        "timestamp": 1520412685026
+    },
+    {
+        "ingestionTime": 1520412775199,
+        "message": "END RequestId: b7807893-21e4-11e8-ad41-c3ef387f01ee\n",
+        "timestamp": 1520412775117
+    },
+    {
+        "ingestionTime": 1520412775199,
+        "message": "REPORT RequestId: b7807893-21e4-11e8-ad41-c3ef387f01ee\tDuration: 90090.51 ms\tBilled Duration: 90000 ms \tMemory Size: 3008 MB\tMax Memory Used: 385 MB\t\n",
+        "timestamp": 1520412775117
+    },
+    {
+        "ingestionTime": 1520412775199,
+        "message": "2018-03-07T08:52:55.117Z b7807893-21e4-11e8-ad41-c3ef387f01ee Task timed out after 90.09 seconds\n\n",
+        "timestamp": 1520412775117
+    },
+    {
+        "ingestionTime": 1520412831345,
+        "message": "START RequestId: b7807893-21e4-11e8-ad41-c3ef387f01ee Version: $LATEST\n",
+        "timestamp": 1520412831297
+    },
+    {
+        "ingestionTime": 1520412833245,
+        "message": "{'result': {'cnt': 328, 'elapsed': 0.7097563743591309, 's3d_elapsed': 1.2162764072418213}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00059', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412833234
+    },
+    {
+        "ingestionTime": 1520412833267,
+        "message": "END RequestId: b7807893-21e4-11e8-ad41-c3ef387f01ee\n",
+        "timestamp": 1520412833257
+    },
+    {
+        "ingestionTime": 1520412833267,
+        "message": "REPORT RequestId: b7807893-21e4-11e8-ad41-c3ef387f01ee\tDuration: 1956.81 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 184 MB\t\n",
+        "timestamp": 1520412833257
+    },
+    {
+        "ingestionTime": 1520412685186,
+        "message": "START RequestId: b78f1dc1-21e4-11e8-8968-05a9d8ccde73 Version: $LATEST\n",
+        "timestamp": 1520412685110
+    },
+    {
+        "ingestionTime": 1520412687015,
+        "message": "{'result': {'cnt': 322, 'elapsed': 0.7011027336120605, 's3d_elapsed': 1.1908020973205566}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00084', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687005
+    },
+    {
+        "ingestionTime": 1520412687037,
+        "message": "END RequestId: b78f1dc1-21e4-11e8-8968-05a9d8ccde73\n",
+        "timestamp": 1520412687027
+    },
+    {
+        "ingestionTime": 1520412687037,
+        "message": "REPORT RequestId: b78f1dc1-21e4-11e8-8968-05a9d8ccde73\tDuration: 1914.72 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687027
+    },
+    {
+        "ingestionTime": 1520412685142,
+        "message": "START RequestId: b78a8a77-21e4-11e8-b423-a5304707064a Version: $LATEST\n",
+        "timestamp": 1520412685075
+    },
+    {
+        "ingestionTime": 1520412687809,
+        "message": "{'result': {'cnt': 328, 'elapsed': 0.700768232345581, 's3d_elapsed': 2.0168492794036865}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00038', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687795
+    },
+    {
+        "ingestionTime": 1520412687836,
+        "message": "END RequestId: b78a8a77-21e4-11e8-b423-a5304707064a\n",
+        "timestamp": 1520412687822
+    },
+    {
+        "ingestionTime": 1520412687836,
+        "message": "REPORT RequestId: b78a8a77-21e4-11e8-b423-a5304707064a\tDuration: 2745.35 ms\tBilled Duration: 2800 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687822
+    },
+    {
+        "ingestionTime": 1520412685170,
+        "message": "START RequestId: b78e81c3-21e4-11e8-8428-9ffd7eb2514a Version: $LATEST\n",
+        "timestamp": 1520412685094
+    },
+    {
+        "ingestionTime": 1520412687014,
+        "message": "{'result': {'cnt': 337, 'elapsed': 0.7052783966064453, 's3d_elapsed': 1.1863954067230225}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00081', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686999
+    },
+    {
+        "ingestionTime": 1520412702062,
+        "message": "END RequestId: b78e81c3-21e4-11e8-8428-9ffd7eb2514a\n",
+        "timestamp": 1520412687024
+    },
+    {
+        "ingestionTime": 1520412702062,
+        "message": "REPORT RequestId: b78e81c3-21e4-11e8-8428-9ffd7eb2514a\tDuration: 1915.76 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687024
+    },
+    {
+        "ingestionTime": 1520412685175,
+        "message": "START RequestId: b78fbae5-21e4-11e8-bbc9-150e39eb99b6 Version: $LATEST\n",
+        "timestamp": 1520412685115
+    },
+    {
+        "ingestionTime": 1520412687077,
+        "message": "{'result': {'cnt': 331, 'elapsed': 0.702214241027832, 's3d_elapsed': 1.2248892784118652}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00087', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687044
+    },
+    {
+        "ingestionTime": 1520412702114,
+        "message": "END RequestId: b78fbae5-21e4-11e8-bbc9-150e39eb99b6\n",
+        "timestamp": 1520412687067
+    },
+    {
+        "ingestionTime": 1520412702114,
+        "message": "REPORT RequestId: b78fbae5-21e4-11e8-bbc9-150e39eb99b6\tDuration: 1950.03 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687067
+    },
+    {
+        "ingestionTime": 1520412685155,
+        "message": "START RequestId: b7861d08-21e4-11e8-9bc2-afee8d240a1b Version: $LATEST\n",
+        "timestamp": 1520412685080
+    },
+    {
+        "ingestionTime": 1520412687214,
+        "message": "{'result': {'cnt': 328, 'elapsed': 0.7026903629302979, 's3d_elapsed': 1.4145748615264893}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00015', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687200
+    },
+    {
+        "ingestionTime": 1520412687238,
+        "message": "END RequestId: b7861d08-21e4-11e8-9bc2-afee8d240a1b\n",
+        "timestamp": 1520412687223
+    },
+    {
+        "ingestionTime": 1520412687238,
+        "message": "REPORT RequestId: b7861d08-21e4-11e8-9bc2-afee8d240a1b\tDuration: 2140.71 ms\tBilled Duration: 2200 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687223
+    },
+    {
+        "ingestionTime": 1520412685201,
+        "message": "START RequestId: b79204d0-21e4-11e8-ae0e-4ddd79aaf854 Version: $LATEST\n",
+        "timestamp": 1520412685132
+    },
+    {
+        "ingestionTime": 1520412688088,
+        "message": "{'result': {'cnt': 334, 'elapsed': 0.6898016929626465, 's3d_elapsed': 2.2574222087860107}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00098', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412688083
+    },
+    {
+        "ingestionTime": 1520412688110,
+        "message": "END RequestId: b79204d0-21e4-11e8-ae0e-4ddd79aaf854\n",
+        "timestamp": 1520412688105
+    },
+    {
+        "ingestionTime": 1520412688110,
+        "message": "REPORT RequestId: b79204d0-21e4-11e8-ae0e-4ddd79aaf854\tDuration: 2970.39 ms\tBilled Duration: 3000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412688105
+    },
+    {
+        "ingestionTime": 1520412685144,
+        "message": "START RequestId: b789c6c9-21e4-11e8-a137-5704d630c332 Version: $LATEST\n",
+        "timestamp": 1520412685077
+    },
+    {
+        "ingestionTime": 1520412687609,
+        "message": "{'result': {'cnt': 326, 'elapsed': 0.7086689472198486, 's3d_elapsed': 1.816075086593628}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00063', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687605
+    },
+    {
+        "ingestionTime": 1520412687643,
+        "message": "END RequestId: b789c6c9-21e4-11e8-a137-5704d630c332\n",
+        "timestamp": 1520412687637
+    },
+    {
+        "ingestionTime": 1520412687643,
+        "message": "REPORT RequestId: b789c6c9-21e4-11e8-a137-5704d630c332\tDuration: 2556.82 ms\tBilled Duration: 2600 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687637
+    },
+    {
+        "ingestionTime": 1520412685160,
+        "message": "START RequestId: b78d22aa-21e4-11e8-9a40-fd1db7582fdb Version: $LATEST\n",
+        "timestamp": 1520412685104
+    },
+    {
+        "ingestionTime": 1520412686949,
+        "message": "{'result': {'cnt': 335, 'elapsed': 0.697368860244751, 's3d_elapsed': 1.1315267086029053}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00077', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686946
+    },
+    {
+        "ingestionTime": 1520412686975,
+        "message": "END RequestId: b78d22aa-21e4-11e8-9a40-fd1db7582fdb\n",
+        "timestamp": 1520412686971
+    },
+    {
+        "ingestionTime": 1520412686975,
+        "message": "REPORT RequestId: b78d22aa-21e4-11e8-9a40-fd1db7582fdb\tDuration: 1854.27 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686971
+    },
+    {
+        "ingestionTime": 1520412685170,
+        "message": "START RequestId: b78e81b8-21e4-11e8-8b83-b70e685da223 Version: $LATEST\n",
+        "timestamp": 1520412685105
+    },
+    {
+        "ingestionTime": 1520412687087,
+        "message": "{'result': {'cnt': 329, 'elapsed': 0.7053489685058594, 's3d_elapsed': 1.2642309665679932}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00082', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687076
+    },
+    {
+        "ingestionTime": 1520412702126,
+        "message": "END RequestId: b78e81b8-21e4-11e8-8b83-b70e685da223\n",
+        "timestamp": 1520412687098
+    },
+    {
+        "ingestionTime": 1520412702126,
+        "message": "REPORT RequestId: b78e81b8-21e4-11e8-8b83-b70e685da223\tDuration: 1992.31 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687098
+    },
+    {
+        "ingestionTime": 1520412685135,
+        "message": "START RequestId: b787f1f0-21e4-11e8-afaf-d92ffc83dd55 Version: $LATEST\n",
+        "timestamp": 1520412685062
+    },
+    {
+        "ingestionTime": 1520412687569,
+        "message": "{'result': {'cnt': 328, 'elapsed': 0.7019879817962646, 's3d_elapsed': 1.786400556564331}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00027', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687553
+    },
+    {
+        "ingestionTime": 1520412687595,
+        "message": "END RequestId: b787f1f0-21e4-11e8-afaf-d92ffc83dd55\n",
+        "timestamp": 1520412687579
+    },
+    {
+        "ingestionTime": 1520412687595,
+        "message": "REPORT RequestId: b787f1f0-21e4-11e8-afaf-d92ffc83dd55\tDuration: 2514.54 ms\tBilled Duration: 2600 ms \tMemory Size: 3008 MB\tMax Memory Used: 385 MB\t\n",
+        "timestamp": 1520412687579
+    },
+    {
+        "ingestionTime": 1520412685141,
+        "message": "START RequestId: b7870856-21e4-11e8-bfd7-87829308c0e3 Version: $LATEST\n",
+        "timestamp": 1520412685055
+    },
+    {
+        "ingestionTime": 1520412686873,
+        "message": "{'result': {'cnt': 333, 'elapsed': 0.6997108459472656, 's3d_elapsed': 1.0980522632598877}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00018', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686853
+    },
+    {
+        "ingestionTime": 1520412686897,
+        "message": "END RequestId: b7870856-21e4-11e8-bfd7-87829308c0e3\n",
+        "timestamp": 1520412686877
+    },
+    {
+        "ingestionTime": 1520412686897,
+        "message": "REPORT RequestId: b7870856-21e4-11e8-bfd7-87829308c0e3\tDuration: 1821.44 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686877
+    },
+    {
+        "ingestionTime": 1520412685134,
+        "message": "START RequestId: b787f28a-21e4-11e8-aa22-c103bc81b6b8 Version: $LATEST\n",
+        "timestamp": 1520412685058
+    },
+    {
+        "ingestionTime": 1520412686896,
+        "message": "{'result': {'cnt': 333, 'elapsed': 0.7119016647338867, 's3d_elapsed': 1.1058509349822998}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00051', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686877
+    },
+    {
+        "ingestionTime": 1520412686921,
+        "message": "END RequestId: b787f28a-21e4-11e8-aa22-c103bc81b6b8\n",
+        "timestamp": 1520412686902
+    },
+    {
+        "ingestionTime": 1520412686921,
+        "message": "REPORT RequestId: b787f28a-21e4-11e8-aa22-c103bc81b6b8\tDuration: 1842.95 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686902
+    },
+    {
+        "ingestionTime": 1520412685194,
+        "message": "START RequestId: b78f1e9d-21e4-11e8-ae0e-4ddd79aaf854 Version: $LATEST\n",
+        "timestamp": 1520412685112
+    },
+    {
+        "ingestionTime": 1520412687158,
+        "message": "{'result': {'cnt': 329, 'elapsed': 0.7126574516296387, 's3d_elapsed': 1.323662519454956}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00085', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687150
+    },
+    {
+        "ingestionTime": 1520412687182,
+        "message": "END RequestId: b78f1e9d-21e4-11e8-ae0e-4ddd79aaf854\n",
+        "timestamp": 1520412687174
+    },
+    {
+        "ingestionTime": 1520412687182,
+        "message": "REPORT RequestId: b78f1e9d-21e4-11e8-ae0e-4ddd79aaf854\tDuration: 2060.31 ms\tBilled Duration: 2100 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687174
+    },
+    {
+        "ingestionTime": 1520412685120,
+        "message": "START RequestId: b7861d33-21e4-11e8-bc5c-a97525d29678 Version: $LATEST\n",
+        "timestamp": 1520412685047
+    },
+    {
+        "ingestionTime": 1520412686847,
+        "message": "{'result': {'cnt': 324, 'elapsed': 0.6964740753173828, 's3d_elapsed': 1.0870380401611328}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00007', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686833
+    },
+    {
+        "ingestionTime": 1520412686871,
+        "message": "END RequestId: b7861d33-21e4-11e8-bc5c-a97525d29678\n",
+        "timestamp": 1520412686856
+    },
+    {
+        "ingestionTime": 1520412686871,
+        "message": "REPORT RequestId: b7861d33-21e4-11e8-bc5c-a97525d29678\tDuration: 1806.29 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686856
+    },
+    {
+        "ingestionTime": 1520412685200,
+        "message": "START RequestId: b790089d-21e4-11e8-959d-8d55b4cd3487 Version: $LATEST\n",
+        "timestamp": 1520412685118
+    },
+    {
+        "ingestionTime": 1520412687075,
+        "message": "{'result': {'cnt': 332, 'elapsed': 0.6957080364227295, 's3d_elapsed': 1.2344677448272705}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00086', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687061
+    },
+    {
+        "ingestionTime": 1520412687100,
+        "message": "END RequestId: b790089d-21e4-11e8-959d-8d55b4cd3487\n",
+        "timestamp": 1520412687086
+    },
+    {
+        "ingestionTime": 1520412687100,
+        "message": "REPORT RequestId: b790089d-21e4-11e8-959d-8d55b4cd3487\tDuration: 1955.53 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687086
+    },
+    {
+        "ingestionTime": 1520412685252,
+        "message": "START RequestId: b78ab161-21e4-11e8-8447-073f7925656e Version: $LATEST\n",
+        "timestamp": 1520412685086
+    },
+    {
+        "ingestionTime": 1520412687262,
+        "message": "{'result': {'cnt': 326, 'elapsed': 0.6907744407653809, 's3d_elapsed': 1.4806485176086426}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00055', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687260
+    },
+    {
+        "ingestionTime": 1520412687288,
+        "message": "END RequestId: b78ab161-21e4-11e8-8447-073f7925656e\n",
+        "timestamp": 1520412687286
+    },
+    {
+        "ingestionTime": 1520412687288,
+        "message": "REPORT RequestId: b78ab161-21e4-11e8-8447-073f7925656e\tDuration: 2197.23 ms\tBilled Duration: 2200 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687286
+    },
+    {
+        "ingestionTime": 1520412685128,
+        "message": "START RequestId: b7877d31-21e4-11e8-badd-87ca6e0fe0ac Version: $LATEST\n",
+        "timestamp": 1520412685035
+    },
+    {
+        "ingestionTime": 1520412687289,
+        "message": "{'result': {'cnt': 326, 'elapsed': 0.7059190273284912, 's3d_elapsed': 1.5068738460540771}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00066', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687251
+    },
+    {
+        "ingestionTime": 1520412687313,
+        "message": "END RequestId: b7877d31-21e4-11e8-badd-87ca6e0fe0ac\n",
+        "timestamp": 1520412687275
+    },
+    {
+        "ingestionTime": 1520412687313,
+        "message": "REPORT RequestId: b7877d31-21e4-11e8-badd-87ca6e0fe0ac\tDuration: 2237.14 ms\tBilled Duration: 2300 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687275
+    },
+    {
+        "ingestionTime": 1520412685255,
+        "message": "START RequestId: b7853327-21e4-11e8-80d5-5b47c05906e1 Version: $LATEST\n",
+        "timestamp": 1520412685051
+    },
+    {
+        "ingestionTime": 1520412687110,
+        "message": "{'result': {'cnt': 329, 'elapsed': 0.7212967872619629, 's3d_elapsed': 1.3268053531646729}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00020', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687102
+    },
+    {
+        "ingestionTime": 1520412687146,
+        "message": "END RequestId: b7853327-21e4-11e8-80d5-5b47c05906e1\n",
+        "timestamp": 1520412687139
+    },
+    {
+        "ingestionTime": 1520412687146,
+        "message": "REPORT RequestId: b7853327-21e4-11e8-80d5-5b47c05906e1\tDuration: 2084.90 ms\tBilled Duration: 2100 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687139
+    },
+    {
+        "ingestionTime": 1520412685164,
+        "message": "START RequestId: b78692cf-21e4-11e8-9311-31ce0a1f72d6 Version: $LATEST\n",
+        "timestamp": 1520412685059
+    },
+    {
+        "ingestionTime": 1520412687303,
+        "message": "{'result': {'cnt': 330, 'elapsed': 0.7048261165618896, 's3d_elapsed': 1.5365545749664307}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00012', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687301
+    },
+    {
+        "ingestionTime": 1520412687330,
+        "message": "END RequestId: b78692cf-21e4-11e8-9311-31ce0a1f72d6\n",
+        "timestamp": 1520412687326
+    },
+    {
+        "ingestionTime": 1520412687330,
+        "message": "REPORT RequestId: b78692cf-21e4-11e8-9311-31ce0a1f72d6\tDuration: 2267.09 ms\tBilled Duration: 2300 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687326
+    },
+    {
+        "ingestionTime": 1520412685127,
+        "message": "START RequestId: b7877c98-21e4-11e8-b4ec-07fb5c160d0f Version: $LATEST\n",
+        "timestamp": 1520412685060
+    },
+    {
+        "ingestionTime": 1520412686982,
+        "message": "{'result': {'cnt': 335, 'elapsed': 0.6835248470306396, 's3d_elapsed': 1.2241003513336182}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00023', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686970
+    },
+    {
+        "ingestionTime": 1520412687006,
+        "message": "END RequestId: b7877c98-21e4-11e8-b4ec-07fb5c160d0f\n",
+        "timestamp": 1520412686995
+    },
+    {
+        "ingestionTime": 1520412687006,
+        "message": "REPORT RequestId: b7877c98-21e4-11e8-b4ec-07fb5c160d0f\tDuration: 1932.68 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686995
+    },
+    {
+        "ingestionTime": 1520412685162,
+        "message": "START RequestId: b78de582-21e4-11e8-8428-9ffd7eb2514a Version: $LATEST\n",
+        "timestamp": 1520412685092
+    },
+    {
+        "ingestionTime": 1520412687031,
+        "message": "{'result': {'cnt': 326, 'elapsed': 0.6893346309661865, 's3d_elapsed': 1.2373061180114746}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00078', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687021
+    },
+    {
+        "ingestionTime": 1520412687060,
+        "message": "END RequestId: b78de582-21e4-11e8-8428-9ffd7eb2514a\n",
+        "timestamp": 1520412687046
+    },
+    {
+        "ingestionTime": 1520412687060,
+        "message": "REPORT RequestId: b78de582-21e4-11e8-8428-9ffd7eb2514a\tDuration: 1951.75 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687046
+    },
+    {
+        "ingestionTime": 1520412685138,
+        "message": "START RequestId: b7881910-21e4-11e8-85b8-ab44987168b0 Version: $LATEST\n",
+        "timestamp": 1520412685076
+    },
+    {
+        "ingestionTime": 1520412687742,
+        "message": "{'result': {'cnt': 324, 'elapsed': 0.7050187587738037, 's3d_elapsed': 1.954291582107544}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00053', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687738
+    },
+    {
+        "ingestionTime": 1520412687763,
+        "message": "END RequestId: b7881910-21e4-11e8-85b8-ab44987168b0\n",
+        "timestamp": 1520412687760
+    },
+    {
+        "ingestionTime": 1520412687763,
+        "message": "REPORT RequestId: b7881910-21e4-11e8-85b8-ab44987168b0\tDuration: 2681.76 ms\tBilled Duration: 2700 ms \tMemory Size: 3008 MB\tMax Memory Used: 385 MB\t\n",
+        "timestamp": 1520412687760
+    },
+    {
+        "ingestionTime": 1520412685206,
+        "message": "START RequestId: b791b63c-21e4-11e8-a700-5d12375b8f0a Version: $LATEST\n",
+        "timestamp": 1520412685133
+    },
+    {
+        "ingestionTime": 1520412687435,
+        "message": "{'result': {'cnt': 331, 'elapsed': 0.702096700668335, 's3d_elapsed': 1.5965726375579834}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00094', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687434
+    },
+    {
+        "ingestionTime": 1520412687459,
+        "message": "END RequestId: b791b63c-21e4-11e8-a700-5d12375b8f0a\n",
+        "timestamp": 1520412687457
+    },
+    {
+        "ingestionTime": 1520412687459,
+        "message": "REPORT RequestId: b791b63c-21e4-11e8-a700-5d12375b8f0a\tDuration: 2321.72 ms\tBilled Duration: 2400 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687457
+    },
+    {
+        "ingestionTime": 1520412685244,
+        "message": "START RequestId: b7866bcd-21e4-11e8-a4f6-cb89c4bf7ae0 Version: $LATEST\n",
+        "timestamp": 1520412685069
+    },
+    {
+        "ingestionTime": 1520412686887,
+        "message": "{'result': {'cnt': 332, 'elapsed': 0.7023348808288574, 's3d_elapsed': 1.1079745292663574}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00024', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686883
+    },
+    {
+        "ingestionTime": 1520412686914,
+        "message": "END RequestId: b7866bcd-21e4-11e8-a4f6-cb89c4bf7ae0\n",
+        "timestamp": 1520412686907
+    },
+    {
+        "ingestionTime": 1520412686914,
+        "message": "REPORT RequestId: b7866bcd-21e4-11e8-a4f6-cb89c4bf7ae0\tDuration: 1835.21 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686907
+    },
+    {
+        "ingestionTime": 1520412685136,
+        "message": "START RequestId: b78580f7-21e4-11e8-83b3-c33d57244d42 Version: $LATEST\n",
+        "timestamp": 1520412685062
+    },
+    {
+        "ingestionTime": 1520412687358,
+        "message": "{'result': {'cnt': 325, 'elapsed': 0.7365415096282959, 's3d_elapsed': 1.5464379787445068}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00006', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687349
+    },
+    {
+        "ingestionTime": 1520412687387,
+        "message": "END RequestId: b78580f7-21e4-11e8-83b3-c33d57244d42\n",
+        "timestamp": 1520412687378
+    },
+    {
+        "ingestionTime": 1520412687387,
+        "message": "REPORT RequestId: b78580f7-21e4-11e8-83b3-c33d57244d42\tDuration: 2312.37 ms\tBilled Duration: 2400 ms \tMemory Size: 3008 MB\tMax Memory Used: 386 MB\t\n",
+        "timestamp": 1520412687378
+    },
+    {
+        "ingestionTime": 1520412685151,
+        "message": "START RequestId: b7890416-21e4-11e8-b6c8-919d8fd4bc1f Version: $LATEST\n",
+        "timestamp": 1520412685075
+    },
+    {
+        "ingestionTime": 1520412687529,
+        "message": "{'result': {'cnt': 329, 'elapsed': 0.6986432075500488, 's3d_elapsed': 1.7379708290100098}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00058', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687521
+    },
+    {
+        "ingestionTime": 1520412687555,
+        "message": "END RequestId: b7890416-21e4-11e8-b6c8-919d8fd4bc1f\n",
+        "timestamp": 1520412687547
+    },
+    {
+        "ingestionTime": 1520412687555,
+        "message": "REPORT RequestId: b7890416-21e4-11e8-b6c8-919d8fd4bc1f\tDuration: 2462.48 ms\tBilled Duration: 2500 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687547
+    },
+    {
+        "ingestionTime": 1520412685154,
+        "message": "START RequestId: b78b26ab-21e4-11e8-bb69-cf183a952517 Version: $LATEST\n",
+        "timestamp": 1520412685077
+    },
+    {
+        "ingestionTime": 1520412687025,
+        "message": "{'result': {'cnt': 327, 'elapsed': 0.7057971954345703, 's3d_elapsed': 1.2242109775543213}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00069', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687010
+    },
+    {
+        "ingestionTime": 1520412687049,
+        "message": "END RequestId: b78b26ab-21e4-11e8-bb69-cf183a952517\n",
+        "timestamp": 1520412687033
+    },
+    {
+        "ingestionTime": 1520412687049,
+        "message": "REPORT RequestId: b78b26ab-21e4-11e8-bb69-cf183a952517\tDuration: 1953.74 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687033
+    },
+    {
+        "ingestionTime": 1520412685117,
+        "message": "START RequestId: b785332c-21e4-11e8-b280-1b6650c5fcde Version: $LATEST\n",
+        "timestamp": 1520412685036
+    },
+    {
+        "ingestionTime": 1520412687379,
+        "message": "{'result': {'cnt': 326, 'elapsed': 0.6988046169281006, 's3d_elapsed': 1.6232020854949951}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00021', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687359
+    },
+    {
+        "ingestionTime": 1520412687402,
+        "message": "END RequestId: b785332c-21e4-11e8-b280-1b6650c5fcde\n",
+        "timestamp": 1520412687381
+    },
+    {
+        "ingestionTime": 1520412687402,
+        "message": "REPORT RequestId: b785332c-21e4-11e8-b280-1b6650c5fcde\tDuration: 2344.95 ms\tBilled Duration: 2400 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687381
+    },
+    {
+        "ingestionTime": 1520412685136,
+        "message": "START RequestId: b789c76e-21e4-11e8-bbed-5191498b0c03 Version: $LATEST\n",
+        "timestamp": 1520412685080
+    },
+    {
+        "ingestionTime": 1520412686892,
+        "message": "{'result': {'cnt': 327, 'elapsed': 0.7017428874969482, 's3d_elapsed': 1.1045520305633545}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00044', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686888
+    },
+    {
+        "ingestionTime": 1520412686918,
+        "message": "END RequestId: b789c76e-21e4-11e8-bbed-5191498b0c03\n",
+        "timestamp": 1520412686913
+    },
+    {
+        "ingestionTime": 1520412686918,
+        "message": "REPORT RequestId: b789c76e-21e4-11e8-bbed-5191498b0c03\tDuration: 1831.76 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686913
+    },
+    {
+        "ingestionTime": 1520412685105,
+        "message": "START RequestId: b780c6b5-21e4-11e8-885c-43a5af750b19 Version: $LATEST\n",
+        "timestamp": 1520412685010
+    },
+    {
+        "ingestionTime": 1520412687343,
+        "message": "{'result': {'cnt': 329, 'elapsed': 0.7042465209960938, 's3d_elapsed': 1.6059954166412354}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00065', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687321
+    },
+    {
+        "ingestionTime": 1520412687367,
+        "message": "END RequestId: b780c6b5-21e4-11e8-885c-43a5af750b19\n",
+        "timestamp": 1520412687345
+    },
+    {
+        "ingestionTime": 1520412687367,
+        "message": "REPORT RequestId: b780c6b5-21e4-11e8-885c-43a5af750b19\tDuration: 2334.43 ms\tBilled Duration: 2400 ms \tMemory Size: 3008 MB\tMax Memory Used: 385 MB\t\n",
+        "timestamp": 1520412687345
+    },
+    {
+        "ingestionTime": 1520412685167,
+        "message": "START RequestId: b7892b03-21e4-11e8-bb46-ad1b8c3f7313 Version: $LATEST\n",
+        "timestamp": 1520412685063
+    },
+    {
+        "ingestionTime": 1520412687033,
+        "message": "{'result': {'cnt': 327, 'elapsed': 0.6999795436859131, 's3d_elapsed': 1.2479100227355957}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00056', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687013
+    },
+    {
+        "ingestionTime": 1520412687059,
+        "message": "END RequestId: b7892b03-21e4-11e8-bb46-ad1b8c3f7313\n",
+        "timestamp": 1520412687040
+    },
+    {
+        "ingestionTime": 1520412687059,
+        "message": "REPORT RequestId: b7892b03-21e4-11e8-bb46-ad1b8c3f7313\tDuration: 1974.30 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687040
+    },
+    {
+        "ingestionTime": 1520412685139,
+        "message": "START RequestId: b7888e32-21e4-11e8-945e-57d2e3eeb3b7 Version: $LATEST\n",
+        "timestamp": 1520412685075
+    },
+    {
+        "ingestionTime": 1520412687312,
+        "message": "{'result': {'cnt': 326, 'elapsed': 0.7028734683990479, 's3d_elapsed': 1.5310227870941162}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00047', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687310
+    },
+    {
+        "ingestionTime": 1520412687338,
+        "message": "END RequestId: b7888e32-21e4-11e8-945e-57d2e3eeb3b7\n",
+        "timestamp": 1520412687335
+    },
+    {
+        "ingestionTime": 1520412687338,
+        "message": "REPORT RequestId: b7888e32-21e4-11e8-945e-57d2e3eeb3b7\tDuration: 2259.71 ms\tBilled Duration: 2300 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687335
+    },
+    {
+        "ingestionTime": 1520412685132,
+        "message": "START RequestId: b788dcf7-21e4-11e8-aefb-7b6dbbf3f39c Version: $LATEST\n",
+        "timestamp": 1520412685083
+    },
+    {
+        "ingestionTime": 1520412687029,
+        "message": "{'result': {'cnt': 332, 'elapsed': 0.7058405876159668, 's3d_elapsed': 1.2445549964904785}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00046', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687035
+    },
+    {
+        "ingestionTime": 1520412687053,
+        "message": "END RequestId: b788dcf7-21e4-11e8-aefb-7b6dbbf3f39c\n",
+        "timestamp": 1520412687061
+    },
+    {
+        "ingestionTime": 1520412687053,
+        "message": "REPORT RequestId: b788dcf7-21e4-11e8-aefb-7b6dbbf3f39c\tDuration: 1976.46 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687061
+    },
+    {
+        "ingestionTime": 1520412685138,
+        "message": "START RequestId: b7888ee2-21e4-11e8-891e-6576f6906236 Version: $LATEST\n",
+        "timestamp": 1520412685086
+    },
+    {
+        "ingestionTime": 1520412687115,
+        "message": "{'result': {'cnt': 333, 'elapsed': 0.6995635032653809, 's3d_elapsed': 1.3263354301452637}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00067', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687116
+    },
+    {
+        "ingestionTime": 1520412687138,
+        "message": "END RequestId: b7888ee2-21e4-11e8-891e-6576f6906236\n",
+        "timestamp": 1520412687139
+    },
+    {
+        "ingestionTime": 1520412687138,
+        "message": "REPORT RequestId: b7888ee2-21e4-11e8-891e-6576f6906236\tDuration: 2049.21 ms\tBilled Duration: 2100 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687139
+    },
+    {
+        "ingestionTime": 1520412685196,
+        "message": "START RequestId: b78559b5-21e4-11e8-82d9-c1da584b74f1 Version: $LATEST\n",
+        "timestamp": 1520412685058
+    },
+    {
+        "ingestionTime": 1520412686970,
+        "message": "{'result': {'cnt': 332, 'elapsed': 0.7258987426757812, 's3d_elapsed': 1.1776282787322998}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00005', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686964
+    },
+    {
+        "ingestionTime": 1520412687002,
+        "message": "END RequestId: b78559b5-21e4-11e8-82d9-c1da584b74f1\n",
+        "timestamp": 1520412686997
+    },
+    {
+        "ingestionTime": 1520412687002,
+        "message": "REPORT RequestId: b78559b5-21e4-11e8-82d9-c1da584b74f1\tDuration: 1936.28 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686997
+    },
+    {
+        "ingestionTime": 1520412685266,
+        "message": "START RequestId: b790f274-21e4-11e8-963a-69201a92623e Version: $LATEST\n",
+        "timestamp": 1520412685116
+    },
+    {
+        "ingestionTime": 1520412686889,
+        "message": "{'result': {'cnt': 326, 'elapsed': 0.7092728614807129, 's3d_elapsed': 1.0407731533050537}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00091', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686878
+    },
+    {
+        "ingestionTime": 1520412686916,
+        "message": "END RequestId: b790f274-21e4-11e8-963a-69201a92623e\n",
+        "timestamp": 1520412686901
+    },
+    {
+        "ingestionTime": 1520412701960,
+        "message": "REPORT RequestId: b790f274-21e4-11e8-963a-69201a92623e\tDuration: 1773.81 ms\tBilled Duration: 1800 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686901
+    },
+    {
+        "ingestionTime": 1520412685122,
+        "message": "START RequestId: b7864423-21e4-11e8-9165-4dbf2fc20ec2 Version: $LATEST\n",
+        "timestamp": 1520412685043
+    },
+    {
+        "ingestionTime": 1520412686973,
+        "message": "{'result': {'cnt': 332, 'elapsed': 0.7069332599639893, 's3d_elapsed': 1.2012879848480225}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00014', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686954
+    },
+    {
+        "ingestionTime": 1520412686999,
+        "message": "END RequestId: b7864423-21e4-11e8-9165-4dbf2fc20ec2\n",
+        "timestamp": 1520412686980
+    },
+    {
+        "ingestionTime": 1520412686999,
+        "message": "REPORT RequestId: b7864423-21e4-11e8-9165-4dbf2fc20ec2\tDuration: 1934.36 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686980
+    },
+    {
+        "ingestionTime": 1520412685197,
+        "message": "START RequestId: b791b650-21e4-11e8-9b46-d7a3cb7a1a43 Version: $LATEST\n",
+        "timestamp": 1520412685124
+    },
+    {
+        "ingestionTime": 1520412686943,
+        "message": "{'result': {'cnt': 331, 'elapsed': 0.6907353401184082, 's3d_elapsed': 1.1044414043426514}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00096', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686930
+    },
+    {
+        "ingestionTime": 1520412686968,
+        "message": "END RequestId: b791b650-21e4-11e8-9b46-d7a3cb7a1a43\n",
+        "timestamp": 1520412686954
+    },
+    {
+        "ingestionTime": 1520412701999,
+        "message": "REPORT RequestId: b791b650-21e4-11e8-9b46-d7a3cb7a1a43\tDuration: 1826.94 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686954
+    },
+    {
+        "ingestionTime": 1520412685153,
+        "message": "START RequestId: b78a14b1-21e4-11e8-bce9-cb20686b987c Version: $LATEST\n",
+        "timestamp": 1520412685078
+    },
+    {
+        "ingestionTime": 1520412686966,
+        "message": "{'result': {'cnt': 329, 'elapsed': 0.7043139934539795, 's3d_elapsed': 1.158665657043457}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00036', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686954
+    },
+    {
+        "ingestionTime": 1520412686992,
+        "message": "END RequestId: b78a14b1-21e4-11e8-bce9-cb20686b987c\n",
+        "timestamp": 1520412686980
+    },
+    {
+        "ingestionTime": 1520412686992,
+        "message": "REPORT RequestId: b78a14b1-21e4-11e8-bce9-cb20686b987c\tDuration: 1888.91 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686980
+    },
+    {
+        "ingestionTime": 1520412685132,
+        "message": "START RequestId: b78818d2-21e4-11e8-af65-8978148fb204 Version: $LATEST\n",
+        "timestamp": 1520412685061
+    },
+    {
+        "ingestionTime": 1520412687090,
+        "message": "{'result': {'cnt': 333, 'elapsed': 0.7053942680358887, 's3d_elapsed': 1.3112986087799072}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00048', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687081
+    },
+    {
+        "ingestionTime": 1520412687114,
+        "message": "END RequestId: b78818d2-21e4-11e8-af65-8978148fb204\n",
+        "timestamp": 1520412687106
+    },
+    {
+        "ingestionTime": 1520412687114,
+        "message": "REPORT RequestId: b78818d2-21e4-11e8-af65-8978148fb204\tDuration: 2041.78 ms\tBilled Duration: 2100 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687106
+    },
+    {
+        "ingestionTime": 1520412685156,
+        "message": "START RequestId: b78b4dd9-21e4-11e8-beb5-b9a73d178233 Version: $LATEST\n",
+        "timestamp": 1520412685077
+    },
+    {
+        "ingestionTime": 1520412687049,
+        "message": "{'result': {'cnt': 328, 'elapsed': 0.7026243209838867, 's3d_elapsed': 1.2441184520721436}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00070', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687026
+    },
+    {
+        "ingestionTime": 1520412687075,
+        "message": "END RequestId: b78b4dd9-21e4-11e8-beb5-b9a73d178233\n",
+        "timestamp": 1520412687052
+    },
+    {
+        "ingestionTime": 1520412687075,
+        "message": "REPORT RequestId: b78b4dd9-21e4-11e8-beb5-b9a73d178233\tDuration: 1973.27 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687052
+    },
+    {
+        "ingestionTime": 1520412685169,
+        "message": "START RequestId: b78a14f6-21e4-11e8-9eb1-a77e9b25f87d Version: $LATEST\n",
+        "timestamp": 1520412685097
+    },
+    {
+        "ingestionTime": 1520412687028,
+        "message": "{'result': {'cnt': 330, 'elapsed': 0.6999385356903076, 's3d_elapsed': 1.2071619033813477}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00040', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687016
+    },
+    {
+        "ingestionTime": 1520412687053,
+        "message": "END RequestId: b78a14f6-21e4-11e8-9eb1-a77e9b25f87d\n",
+        "timestamp": 1520412687041
+    },
+    {
+        "ingestionTime": 1520412687053,
+        "message": "REPORT RequestId: b78a14f6-21e4-11e8-9eb1-a77e9b25f87d\tDuration: 1932.45 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687041
+    },
+    {
+        "ingestionTime": 1520412685131,
+        "message": "START RequestId: b787cb78-21e4-11e8-9ae4-277ce32b9ec1 Version: $LATEST\n",
+        "timestamp": 1520412685061
+    },
+    {
+        "ingestionTime": 1520412686946,
+        "message": "{'result': {'cnt': 324, 'elapsed': 0.7053506374359131, 's3d_elapsed': 1.1686668395996094}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00022', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686937
+    },
+    {
+        "ingestionTime": 1520412686969,
+        "message": "END RequestId: b787cb78-21e4-11e8-9ae4-277ce32b9ec1\n",
+        "timestamp": 1520412686960
+    },
+    {
+        "ingestionTime": 1520412686969,
+        "message": "REPORT RequestId: b787cb78-21e4-11e8-9ae4-277ce32b9ec1\tDuration: 1897.35 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686960
+    },
+    {
+        "ingestionTime": 1520412685193,
+        "message": "START RequestId: b7897860-21e4-11e8-9b24-810b8a56006b Version: $LATEST\n",
+        "timestamp": 1520412685069
+    },
+    {
+        "ingestionTime": 1520412686859,
+        "message": "{'result': {'cnt': 329, 'elapsed': 0.706822395324707, 's3d_elapsed': 1.0636262893676758}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00041', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686840
+    },
+    {
+        "ingestionTime": 1520412686882,
+        "message": "END RequestId: b7897860-21e4-11e8-9b24-810b8a56006b\n",
+        "timestamp": 1520412686863
+    },
+    {
+        "ingestionTime": 1520412686882,
+        "message": "REPORT RequestId: b7897860-21e4-11e8-9b24-810b8a56006b\tDuration: 1793.58 ms\tBilled Duration: 1800 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686863
+    },
+    {
+        "ingestionTime": 1520412685160,
+        "message": "START RequestId: b788dcf0-21e4-11e8-85d9-313f7d04b812 Version: $LATEST\n",
+        "timestamp": 1520412685068
+    },
+    {
+        "ingestionTime": 1520412687180,
+        "message": "{'result': {'cnt': 329, 'elapsed': 0.7125189304351807, 's3d_elapsed': 1.3691837787628174}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00033', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687153
+    },
+    {
+        "ingestionTime": 1520412687203,
+        "message": "END RequestId: b788dcf0-21e4-11e8-85d9-313f7d04b812\n",
+        "timestamp": 1520412687176
+    },
+    {
+        "ingestionTime": 1520412687203,
+        "message": "REPORT RequestId: b788dcf0-21e4-11e8-85d9-313f7d04b812\tDuration: 2104.75 ms\tBilled Duration: 2200 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687176
+    },
+    {
+        "ingestionTime": 1520412685140,
+        "message": "START RequestId: b785cef4-21e4-11e8-968f-41856d43b56d Version: $LATEST\n",
+        "timestamp": 1520412685056
+    },
+    {
+        "ingestionTime": 1520412687176,
+        "message": "{'result': {'cnt': 325, 'elapsed': 0.7088079452514648, 's3d_elapsed': 1.384939193725586}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00009', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687153
+    },
+    {
+        "ingestionTime": 1520412687198,
+        "message": "END RequestId: b785cef4-21e4-11e8-968f-41856d43b56d\n",
+        "timestamp": 1520412687176
+    },
+    {
+        "ingestionTime": 1520412687198,
+        "message": "REPORT RequestId: b785cef4-21e4-11e8-968f-41856d43b56d\tDuration: 2117.16 ms\tBilled Duration: 2200 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687176
+    },
+    {
+        "ingestionTime": 1520412685062,
+        "message": "START RequestId: b771360b-21e4-11e8-9412-79adf5bb4ca6 Version: $LATEST\n",
+        "timestamp": 1520412684927
+    },
+    {
+        "ingestionTime": 1520412686721,
+        "message": "{'result': {'cnt': 328, 'elapsed': 0.7036654949188232, 's3d_elapsed': 1.0705244541168213}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00000', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686702
+    },
+    {
+        "ingestionTime": 1520412686753,
+        "message": "END RequestId: b771360b-21e4-11e8-9412-79adf5bb4ca6\n",
+        "timestamp": 1520412686734
+    },
+    {
+        "ingestionTime": 1520412686753,
+        "message": "REPORT RequestId: b771360b-21e4-11e8-9412-79adf5bb4ca6\tDuration: 1806.13 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686734
+    },
+    {
+        "ingestionTime": 1520412685133,
+        "message": "START RequestId: b785f663-21e4-11e8-8053-fdc3f38d17f7 Version: $LATEST\n",
+        "timestamp": 1520412685058
+    },
+    {
+        "ingestionTime": 1520412687216,
+        "message": "{'result': {'cnt': 329, 'elapsed': 0.7113931179046631, 's3d_elapsed': 1.4191710948944092}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00011', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687202
+    },
+    {
+        "ingestionTime": 1520412687241,
+        "message": "END RequestId: b785f663-21e4-11e8-8053-fdc3f38d17f7\n",
+        "timestamp": 1520412687226
+    },
+    {
+        "ingestionTime": 1520412687241,
+        "message": "REPORT RequestId: b785f663-21e4-11e8-8053-fdc3f38d17f7\tDuration: 2155.35 ms\tBilled Duration: 2200 ms \tMemory Size: 3008 MB\tMax Memory Used: 385 MB\t\n",
+        "timestamp": 1520412687226
+    },
+    {
+        "ingestionTime": 1520412685260,
+        "message": "START RequestId: b7907da4-21e4-11e8-bb96-55bc8f3b6fb9 Version: $LATEST\n",
+        "timestamp": 1520412685109
+    },
+    {
+        "ingestionTime": 1520412686904,
+        "message": "{'result': {'cnt': 331, 'elapsed': 0.697209358215332, 's3d_elapsed': 1.0676844120025635}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00089', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686880
+    },
+    {
+        "ingestionTime": 1520412686926,
+        "message": "END RequestId: b7907da4-21e4-11e8-bb96-55bc8f3b6fb9\n",
+        "timestamp": 1520412686903
+    },
+    {
+        "ingestionTime": 1520412686926,
+        "message": "REPORT RequestId: b7907da4-21e4-11e8-bb96-55bc8f3b6fb9\tDuration: 1792.31 ms\tBilled Duration: 1800 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686903
+    },
+    {
+        "ingestionTime": 1520412685147,
+        "message": "START RequestId: b788dc2b-21e4-11e8-ac92-4d07736ae65c Version: $LATEST\n",
+        "timestamp": 1520412685073
+    },
+    {
+        "ingestionTime": 1520412688172,
+        "message": "{'result': {'cnt': 331, 'elapsed': 0.7093937397003174, 's3d_elapsed': 2.3725574016571045}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00054', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412688158
+    },
+    {
+        "ingestionTime": 1520412688193,
+        "message": "END RequestId: b788dc2b-21e4-11e8-ac92-4d07736ae65c\n",
+        "timestamp": 1520412688180
+    },
+    {
+        "ingestionTime": 1520412688193,
+        "message": "REPORT RequestId: b788dc2b-21e4-11e8-ac92-4d07736ae65c\tDuration: 3104.72 ms\tBilled Duration: 3200 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412688180
+    },
+    {
+        "ingestionTime": 1520412685211,
+        "message": "START RequestId: b7907da1-21e4-11e8-9f73-e9187edad82a Version: $LATEST\n",
+        "timestamp": 1520412685131
+    },
+    {
+        "ingestionTime": 1520412687470,
+        "message": "{'result': {'cnt': 334, 'elapsed': 0.6966457366943359, 's3d_elapsed': 1.6302719116210938}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00090', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687461
+    },
+    {
+        "ingestionTime": 1520412687493,
+        "message": "END RequestId: b7907da1-21e4-11e8-9f73-e9187edad82a\n",
+        "timestamp": 1520412687483
+    },
+    {
+        "ingestionTime": 1520412687493,
+        "message": "REPORT RequestId: b7907da1-21e4-11e8-9f73-e9187edad82a\tDuration: 2349.97 ms\tBilled Duration: 2400 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687483
+    },
+    {
+        "ingestionTime": 1520412685255,
+        "message": "START RequestId: b7847023-21e4-11e8-9d90-033a2057d49a Version: $LATEST\n",
+        "timestamp": 1520412685052
+    },
+    {
+        "ingestionTime": 1520412686971,
+        "message": "{'result': {'cnt': 328, 'elapsed': 0.7184784412384033, 's3d_elapsed': 1.1920435428619385}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00003', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686965
+    },
+    {
+        "ingestionTime": 1520412686995,
+        "message": "END RequestId: b7847023-21e4-11e8-9d90-033a2057d49a\n",
+        "timestamp": 1520412686987
+    },
+    {
+        "ingestionTime": 1520412686995,
+        "message": "REPORT RequestId: b7847023-21e4-11e8-9d90-033a2057d49a\tDuration: 1933.53 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686987
+    },
+    {
+        "ingestionTime": 1520412685256,
+        "message": "START RequestId: b78ab0e3-21e4-11e8-a40f-8fae5dbe5886 Version: $LATEST\n",
+        "timestamp": 1520412685076
+    },
+    {
+        "ingestionTime": 1520412687140,
+        "message": "{'result': {'cnt': 325, 'elapsed': 0.7079980373382568, 's3d_elapsed': 1.3439998626708984}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00042', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687131
+    },
+    {
+        "ingestionTime": 1520412687164,
+        "message": "END RequestId: b78ab0e3-21e4-11e8-a40f-8fae5dbe5886\n",
+        "timestamp": 1520412687154
+    },
+    {
+        "ingestionTime": 1520412687164,
+        "message": "REPORT RequestId: b78ab0e3-21e4-11e8-a40f-8fae5dbe5886\tDuration: 2076.14 ms\tBilled Duration: 2100 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687154
+    },
+    {
+        "ingestionTime": 1520412685168,
+        "message": "START RequestId: b78c37a4-21e4-11e8-b834-f5dd365249c1 Version: $LATEST\n",
+        "timestamp": 1520412685088
+    },
+    {
+        "ingestionTime": 1520412687063,
+        "message": "{'result': {'cnt': 326, 'elapsed': 0.7155559062957764, 's3d_elapsed': 1.239471435546875}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00072', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687045
+    },
+    {
+        "ingestionTime": 1520412687089,
+        "message": "END RequestId: b78c37a4-21e4-11e8-b834-f5dd365249c1\n",
+        "timestamp": 1520412687071
+    },
+    {
+        "ingestionTime": 1520412687089,
+        "message": "REPORT RequestId: b78c37a4-21e4-11e8-b834-f5dd365249c1\tDuration: 1981.35 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687071
+    },
+    {
+        "ingestionTime": 1520412685163,
+        "message": "START RequestId: b78cad94-21e4-11e8-ac6d-6fc3a9f6721d Version: $LATEST\n",
+        "timestamp": 1520412685092
+    },
+    {
+        "ingestionTime": 1520412686957,
+        "message": "{'result': {'cnt': 328, 'elapsed': 0.7054908275604248, 's3d_elapsed': 1.138824462890625}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00074', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412686947
+    },
+    {
+        "ingestionTime": 1520412686982,
+        "message": "END RequestId: b78cad94-21e4-11e8-ac6d-6fc3a9f6721d\n",
+        "timestamp": 1520412686972
+    },
+    {
+        "ingestionTime": 1520412686982,
+        "message": "REPORT RequestId: b78cad94-21e4-11e8-ac6d-6fc3a9f6721d\tDuration: 1869.74 ms\tBilled Duration: 1900 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412686972
+    },
+    {
+        "ingestionTime": 1520412685241,
+        "message": "START RequestId: b78cfb8d-21e4-11e8-bd31-db26d70cb872 Version: $LATEST\n",
+        "timestamp": 1520412685086
+    },
+    {
+        "ingestionTime": 1520412687042,
+        "message": "{'result': {'cnt': 323, 'elapsed': 0.7050502300262451, 's3d_elapsed': 1.2160203456878662}, 'input': {'event': {'x': 1000, 'key': 'pavlo/text/5nodes/rankings/part-00075', 'function_name': 'bigdata-scan', 'bucket': 'big-data-benchmark'}, 'line_count': 900001}}\n",
+        "timestamp": 1520412687018
+    },
+    {
+        "ingestionTime": 1520412687065,
+        "message": "END RequestId: b78cfb8d-21e4-11e8-bd31-db26d70cb872\n",
+        "timestamp": 1520412687044
+    },
+    {
+        "ingestionTime": 1520412687065,
+        "message": "REPORT RequestId: b78cfb8d-21e4-11e8-bd31-db26d70cb872\tDuration: 1954.28 ms\tBilled Duration: 2000 ms \tMemory Size: 3008 MB\tMax Memory Used: 376 MB\t\n",
+        "timestamp": 1520412687044
+    }
+]

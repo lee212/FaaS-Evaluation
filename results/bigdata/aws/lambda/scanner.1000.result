@@ -1,0 +1,2702 @@
+[
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:24 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80c-0ceae80efcc7eb6e2616ae12;sampled=0",
+                "x-amzn-requestid": "b771360b-21e4-11e8-9412-79adf5bb4ca6"
+            },
+            "RequestId": "b771360b-21e4-11e8-9412-79adf5bb4ca6"
+        },
+        "client_info": {
+            "elapsed_time": 0.25798797607421875,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00000",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:24 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80c-5f60e4d4423ff5e070361174;sampled=0",
+                "x-amzn-requestid": "b781b0d3-21e4-11e8-9ec4-ed7cb5a62c33"
+            },
+            "RequestId": "b781b0d3-21e4-11e8-9ec4-ed7cb5a62c33"
+        },
+        "client_info": {
+            "elapsed_time": 0.35861754417419434,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00001",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80c-ee5e57e6a02df12bd6a384ac;sampled=0",
+                "x-amzn-requestid": "b7835e76-21e4-11e8-bb69-cf183a952517"
+            },
+            "RequestId": "b7835e76-21e4-11e8-bb69-cf183a952517"
+        },
+        "client_info": {
+            "elapsed_time": 0.36954188346862793,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00002",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80c-c2b58c50c2a943fc0d8cb78a;sampled=0",
+                "x-amzn-requestid": "b7847023-21e4-11e8-9d90-033a2057d49a"
+            },
+            "RequestId": "b7847023-21e4-11e8-9d90-033a2057d49a"
+        },
+        "client_info": {
+            "elapsed_time": 0.3740670680999756,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00003",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80c-3ccc377432b14a366e41c7dc;sampled=0",
+                "x-amzn-requestid": "b784486e-21e4-11e8-98b5-29c30546540f"
+            },
+            "RequestId": "b784486e-21e4-11e8-98b5-29c30546540f"
+        },
+        "client_info": {
+            "elapsed_time": 0.3652980327606201,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00004",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-68dd42a07fa35da0a7fb33a0;sampled=0",
+                "x-amzn-requestid": "b78559b5-21e4-11e8-82d9-c1da584b74f1"
+            },
+            "RequestId": "b78559b5-21e4-11e8-82d9-c1da584b74f1"
+        },
+        "client_info": {
+            "elapsed_time": 0.3817744255065918,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00005",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-b004749c9538297265c6bd72;sampled=0",
+                "x-amzn-requestid": "b78580f7-21e4-11e8-83b3-c33d57244d42"
+            },
+            "RequestId": "b78580f7-21e4-11e8-83b3-c33d57244d42"
+        },
+        "client_info": {
+            "elapsed_time": 0.37267255783081055,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00006",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-00fd621037625c180d3ffed0;sampled=0",
+                "x-amzn-requestid": "b7861d33-21e4-11e8-bc5c-a97525d29678"
+            },
+            "RequestId": "b7861d33-21e4-11e8-bc5c-a97525d29678"
+        },
+        "client_info": {
+            "elapsed_time": 0.38199543952941895,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00007",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-41089b984ceb155f5dd8a88b;sampled=0",
+                "x-amzn-requestid": "b7855a30-21e4-11e8-8447-073f7925656e"
+            },
+            "RequestId": "b7855a30-21e4-11e8-8447-073f7925656e"
+        },
+        "client_info": {
+            "elapsed_time": 0.365370512008667,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00008",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-1c378907424272fd4a5496b9;sampled=0",
+                "x-amzn-requestid": "b785cef4-21e4-11e8-968f-41856d43b56d"
+            },
+            "RequestId": "b785cef4-21e4-11e8-968f-41856d43b56d"
+        },
+        "client_info": {
+            "elapsed_time": 0.37089014053344727,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00009",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-3ee1af7bfc99a7fb7222bf64;sampled=0",
+                "x-amzn-requestid": "b786b941-21e4-11e8-af65-8978148fb204"
+            },
+            "RequestId": "b786b941-21e4-11e8-af65-8978148fb204"
+        },
+        "client_info": {
+            "elapsed_time": 0.39472293853759766,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00010",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-10b660ca17e7ec14956af17a;sampled=0",
+                "x-amzn-requestid": "b785f663-21e4-11e8-8053-fdc3f38d17f7"
+            },
+            "RequestId": "b785f663-21e4-11e8-8053-fdc3f38d17f7"
+        },
+        "client_info": {
+            "elapsed_time": 0.41034483909606934,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00011",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-0506fe70cef97124a8ce36e4;sampled=0",
+                "x-amzn-requestid": "b78692cf-21e4-11e8-9311-31ce0a1f72d6"
+            },
+            "RequestId": "b78692cf-21e4-11e8-9311-31ce0a1f72d6"
+        },
+        "client_info": {
+            "elapsed_time": 0.37398862838745117,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00012",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-426195d042a285a8c57a9638;sampled=0",
+                "x-amzn-requestid": "b78755c0-21e4-11e8-b8b1-8f3ac920f0e5"
+            },
+            "RequestId": "b78755c0-21e4-11e8-b8b1-8f3ac920f0e5"
+        },
+        "client_info": {
+            "elapsed_time": 0.3792252540588379,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00013",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-8e9ba86cee7dc7fe51dd7218;sampled=0",
+                "x-amzn-requestid": "b7864423-21e4-11e8-9165-4dbf2fc20ec2"
+            },
+            "RequestId": "b7864423-21e4-11e8-9165-4dbf2fc20ec2"
+        },
+        "client_info": {
+            "elapsed_time": 0.4336068630218506,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00014",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-d9322b588c1079c848464228;sampled=0",
+                "x-amzn-requestid": "b7861d08-21e4-11e8-9bc2-afee8d240a1b"
+            },
+            "RequestId": "b7861d08-21e4-11e8-9bc2-afee8d240a1b"
+        },
+        "client_info": {
+            "elapsed_time": 0.36577677726745605,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00015",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-012bfd17c29f65a43ba28523;sampled=0",
+                "x-amzn-requestid": "b786932f-21e4-11e8-9b24-810b8a56006b"
+            },
+            "RequestId": "b786932f-21e4-11e8-9b24-810b8a56006b"
+        },
+        "client_info": {
+            "elapsed_time": 0.42491602897644043,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00016",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-fdc07e48129cf2d0797f29c8;sampled=0",
+                "x-amzn-requestid": "b7864444-21e4-11e8-bc5c-a97525d29678"
+            },
+            "RequestId": "b7864444-21e4-11e8-bc5c-a97525d29678"
+        },
+        "client_info": {
+            "elapsed_time": 0.3653068542480469,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00017",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-144bf6b8f027191a9c0d387e;sampled=0",
+                "x-amzn-requestid": "b7870856-21e4-11e8-bfd7-87829308c0e3"
+            },
+            "RequestId": "b7870856-21e4-11e8-bfd7-87829308c0e3"
+        },
+        "client_info": {
+            "elapsed_time": 0.37783169746398926,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00018",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-b7044f941a3b4a6653cce11e;sampled=0",
+                "x-amzn-requestid": "b7861d42-21e4-11e8-9eeb-45bca9f7423b"
+            },
+            "RequestId": "b7861d42-21e4-11e8-9eeb-45bca9f7423b"
+        },
+        "client_info": {
+            "elapsed_time": 0.3597121238708496,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00019",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-f0e554ba00ee2463928da85e;sampled=0",
+                "x-amzn-requestid": "b7853327-21e4-11e8-80d5-5b47c05906e1"
+            },
+            "RequestId": "b7853327-21e4-11e8-80d5-5b47c05906e1"
+        },
+        "client_info": {
+            "elapsed_time": 0.3688831329345703,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00020",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-75a40db2f668087fa8953df4;sampled=0",
+                "x-amzn-requestid": "b785332c-21e4-11e8-b280-1b6650c5fcde"
+            },
+            "RequestId": "b785332c-21e4-11e8-b280-1b6650c5fcde"
+        },
+        "client_info": {
+            "elapsed_time": 0.35251545906066895,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00021",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-b3decfa3228b08cffcef672e;sampled=0",
+                "x-amzn-requestid": "b787cb78-21e4-11e8-9ae4-277ce32b9ec1"
+            },
+            "RequestId": "b787cb78-21e4-11e8-9ae4-277ce32b9ec1"
+        },
+        "client_info": {
+            "elapsed_time": 0.37726831436157227,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00022",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-96c659a4b3eb06b478ee3d3c;sampled=0",
+                "x-amzn-requestid": "b7877c98-21e4-11e8-b4ec-07fb5c160d0f"
+            },
+            "RequestId": "b7877c98-21e4-11e8-b4ec-07fb5c160d0f"
+        },
+        "client_info": {
+            "elapsed_time": 0.39243483543395996,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00023",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-87c07bc059f23f70343c2220;sampled=0",
+                "x-amzn-requestid": "b7866bcd-21e4-11e8-a4f6-cb89c4bf7ae0"
+            },
+            "RequestId": "b7866bcd-21e4-11e8-a4f6-cb89c4bf7ae0"
+        },
+        "client_info": {
+            "elapsed_time": 0.3843357563018799,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00024",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-295dc44a6d1a2c1ea9487e24;sampled=0",
+                "x-amzn-requestid": "b78aff9c-21e4-11e8-9ec6-9556abb251ba"
+            },
+            "RequestId": "b78aff9c-21e4-11e8-9ec6-9556abb251ba"
+        },
+        "client_info": {
+            "elapsed_time": 0.38817572593688965,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00025",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-2d15720a1c5b98e276cf2b66;sampled=0",
+                "x-amzn-requestid": "b7870780-21e4-11e8-9127-b5b0c928946b"
+            },
+            "RequestId": "b7870780-21e4-11e8-9127-b5b0c928946b"
+        },
+        "client_info": {
+            "elapsed_time": 0.37094926834106445,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00026",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-8f03f5b03feaf59ce3a15f10;sampled=0",
+                "x-amzn-requestid": "b787f1f0-21e4-11e8-afaf-d92ffc83dd55"
+            },
+            "RequestId": "b787f1f0-21e4-11e8-afaf-d92ffc83dd55"
+        },
+        "client_info": {
+            "elapsed_time": 0.36397719383239746,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00027",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-e05c9dfa0173847c00a8d7c8;sampled=0",
+                "x-amzn-requestid": "b78819af-21e4-11e8-abd4-456a5d6b2078"
+            },
+            "RequestId": "b78819af-21e4-11e8-abd4-456a5d6b2078"
+        },
+        "client_info": {
+            "elapsed_time": 0.364058256149292,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00028",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-d4a64ce8f3edd4c4e4316c64;sampled=0",
+                "x-amzn-requestid": "b7877cd4-21e4-11e8-a719-ef6558505513"
+            },
+            "RequestId": "b7877cd4-21e4-11e8-a719-ef6558505513"
+        },
+        "client_info": {
+            "elapsed_time": 0.39623475074768066,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00029",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-b1101f961fe41f066244b102;sampled=0",
+                "x-amzn-requestid": "b788b5b2-21e4-11e8-a0ca-f507ab899d1f"
+            },
+            "RequestId": "b788b5b2-21e4-11e8-a0ca-f507ab899d1f"
+        },
+        "client_info": {
+            "elapsed_time": 0.41260695457458496,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00030",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-1033b4943600c85067110418;sampled=0",
+                "x-amzn-requestid": "b789edde-21e4-11e8-a7be-dbb3e53b4d37"
+            },
+            "RequestId": "b789edde-21e4-11e8-a7be-dbb3e53b4d37"
+        },
+        "client_info": {
+            "elapsed_time": 0.3763713836669922,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00031",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-c2cb3d94a4fdfebcf118b338;sampled=0",
+                "x-amzn-requestid": "b7877cbf-21e4-11e8-b5f8-33e28bfff999"
+            },
+            "RequestId": "b7877cbf-21e4-11e8-b5f8-33e28bfff999"
+        },
+        "client_info": {
+            "elapsed_time": 0.3829991817474365,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00032",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-4b4127912e9b3c4265cd4a28;sampled=0",
+                "x-amzn-requestid": "b788dcf0-21e4-11e8-85d9-313f7d04b812"
+            },
+            "RequestId": "b788dcf0-21e4-11e8-85d9-313f7d04b812"
+        },
+        "client_info": {
+            "elapsed_time": 0.3753852844238281,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00033",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-bf6b4cf8bcf124e067770868;sampled=0",
+                "x-amzn-requestid": "b787a3d9-21e4-11e8-83b3-c33d57244d42"
+            },
+            "RequestId": "b787a3d9-21e4-11e8-83b3-c33d57244d42"
+        },
+        "client_info": {
+            "elapsed_time": 0.39151763916015625,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00034",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-9dbfa044db57470dc7b6d60e;sampled=0",
+                "x-amzn-requestid": "b7897906-21e4-11e8-b423-a5304707064a"
+            },
+            "RequestId": "b7897906-21e4-11e8-b423-a5304707064a"
+        },
+        "client_info": {
+            "elapsed_time": 0.3788936138153076,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00035",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-7318d1a147bd069bb9fea27b;sampled=0",
+                "x-amzn-requestid": "b78a14b1-21e4-11e8-bce9-cb20686b987c"
+            },
+            "RequestId": "b78a14b1-21e4-11e8-bce9-cb20686b987c"
+        },
+        "client_info": {
+            "elapsed_time": 0.3770768642425537,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00036",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-e502abca9d8ee061ee142d82;sampled=0",
+                "x-amzn-requestid": "b788b575-21e4-11e8-b17e-67e2d3e428e9"
+            },
+            "RequestId": "b788b575-21e4-11e8-b17e-67e2d3e428e9"
+        },
+        "client_info": {
+            "elapsed_time": 0.3716278076171875,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00037",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-8bdcb9fd83ee1749a2901ae9;sampled=0",
+                "x-amzn-requestid": "b78a8a77-21e4-11e8-b423-a5304707064a"
+            },
+            "RequestId": "b78a8a77-21e4-11e8-b423-a5304707064a"
+        },
+        "client_info": {
+            "elapsed_time": 0.4031097888946533,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00038",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-f5338b4e65301b215a04dc1e;sampled=0",
+                "x-amzn-requestid": "b78867b2-21e4-11e8-bed7-873e27a78061"
+            },
+            "RequestId": "b78867b2-21e4-11e8-bed7-873e27a78061"
+        },
+        "client_info": {
+            "elapsed_time": 0.4033341407775879,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00039",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-1f1662843b6ba88ccef04a1e;sampled=0",
+                "x-amzn-requestid": "b78a14f6-21e4-11e8-9eb1-a77e9b25f87d"
+            },
+            "RequestId": "b78a14f6-21e4-11e8-9eb1-a77e9b25f87d"
+        },
+        "client_info": {
+            "elapsed_time": 0.38459253311157227,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00040",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-06ddf79ad14131dc38b5047a;sampled=0",
+                "x-amzn-requestid": "b7897860-21e4-11e8-9b24-810b8a56006b"
+            },
+            "RequestId": "b7897860-21e4-11e8-9b24-810b8a56006b"
+        },
+        "client_info": {
+            "elapsed_time": 0.37933969497680664,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00041",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-25bc13cc82b752dc18825cf6;sampled=0",
+                "x-amzn-requestid": "b78ab0e3-21e4-11e8-a40f-8fae5dbe5886"
+            },
+            "RequestId": "b78ab0e3-21e4-11e8-a40f-8fae5dbe5886"
+        },
+        "client_info": {
+            "elapsed_time": 0.38818955421447754,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00042",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-50d86480b44acdc0fd575f50;sampled=0",
+                "x-amzn-requestid": "b78978f7-21e4-11e8-9f5f-1301fd47ad65"
+            },
+            "RequestId": "b78978f7-21e4-11e8-9f5f-1301fd47ad65"
+        },
+        "client_info": {
+            "elapsed_time": 0.3516213893890381,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00043",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-c9fd81976f6c5e50f52f0f2a;sampled=0",
+                "x-amzn-requestid": "b789c76e-21e4-11e8-bbed-5191498b0c03"
+            },
+            "RequestId": "b789c76e-21e4-11e8-bbed-5191498b0c03"
+        },
+        "client_info": {
+            "elapsed_time": 0.38230276107788086,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00044",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-c32c72657010d72b14f915cc;sampled=0",
+                "x-amzn-requestid": "b787082d-21e4-11e8-935c-037bfc2e14f1"
+            },
+            "RequestId": "b787082d-21e4-11e8-935c-037bfc2e14f1"
+        },
+        "client_info": {
+            "elapsed_time": 0.3350505828857422,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00045",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-ad19e59ed64db7aee18680ec;sampled=0",
+                "x-amzn-requestid": "b788dcf7-21e4-11e8-aefb-7b6dbbf3f39c"
+            },
+            "RequestId": "b788dcf7-21e4-11e8-aefb-7b6dbbf3f39c"
+        },
+        "client_info": {
+            "elapsed_time": 0.3511054515838623,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00046",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-5d4d37e606dff2f83bbdfa33;sampled=0",
+                "x-amzn-requestid": "b7888e32-21e4-11e8-945e-57d2e3eeb3b7"
+            },
+            "RequestId": "b7888e32-21e4-11e8-945e-57d2e3eeb3b7"
+        },
+        "client_info": {
+            "elapsed_time": 0.35138583183288574,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00047",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-692a43f20dc80c88d1396a38;sampled=0",
+                "x-amzn-requestid": "b78818d2-21e4-11e8-af65-8978148fb204"
+            },
+            "RequestId": "b78818d2-21e4-11e8-af65-8978148fb204"
+        },
+        "client_info": {
+            "elapsed_time": 0.3396599292755127,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00048",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-7760aae537aaabab40f81916;sampled=0",
+                "x-amzn-requestid": "b7881955-21e4-11e8-a04b-898c1ebe52e4"
+            },
+            "RequestId": "b7881955-21e4-11e8-a04b-898c1ebe52e4"
+        },
+        "client_info": {
+            "elapsed_time": 0.3558619022369385,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00049",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-82570ca88281352812717648;sampled=0",
+                "x-amzn-requestid": "b78a631a-21e4-11e8-99e1-c1e6b2cb8a2a"
+            },
+            "RequestId": "b78a631a-21e4-11e8-99e1-c1e6b2cb8a2a"
+        },
+        "client_info": {
+            "elapsed_time": 0.3612833023071289,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00050",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-49e83aa85019e500c8960bca;sampled=0",
+                "x-amzn-requestid": "b787f28a-21e4-11e8-aa22-c103bc81b6b8"
+            },
+            "RequestId": "b787f28a-21e4-11e8-aa22-c103bc81b6b8"
+        },
+        "client_info": {
+            "elapsed_time": 0.35504579544067383,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00051",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-1e791d100d4b6ed00b04f190;sampled=0",
+                "x-amzn-requestid": "b7881988-21e4-11e8-8bd7-45f3cca55475"
+            },
+            "RequestId": "b7881988-21e4-11e8-8bd7-45f3cca55475"
+        },
+        "client_info": {
+            "elapsed_time": 0.3640711307525635,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00052",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-e5804c64b62dbda4f8c68c58;sampled=0",
+                "x-amzn-requestid": "b7881910-21e4-11e8-85b8-ab44987168b0"
+            },
+            "RequestId": "b7881910-21e4-11e8-85b8-ab44987168b0"
+        },
+        "client_info": {
+            "elapsed_time": 0.3546478748321533,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00053",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-9e70b3ac72a3d1345acd7964;sampled=0",
+                "x-amzn-requestid": "b788dc2b-21e4-11e8-ac92-4d07736ae65c"
+            },
+            "RequestId": "b788dc2b-21e4-11e8-ac92-4d07736ae65c"
+        },
+        "client_info": {
+            "elapsed_time": 0.3657567501068115,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00054",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-ab12132e5eb986d481252699;sampled=0",
+                "x-amzn-requestid": "b78ab161-21e4-11e8-8447-073f7925656e"
+            },
+            "RequestId": "b78ab161-21e4-11e8-8447-073f7925656e"
+        },
+        "client_info": {
+            "elapsed_time": 0.34108829498291016,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00055",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-43dd04266a1cc9363db8ab7d;sampled=0",
+                "x-amzn-requestid": "b7892b03-21e4-11e8-bb46-ad1b8c3f7313"
+            },
+            "RequestId": "b7892b03-21e4-11e8-bb46-ad1b8c3f7313"
+        },
+        "client_info": {
+            "elapsed_time": 0.3685729503631592,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00056",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-aac8124671c66ab0c19bfe08;sampled=0",
+                "x-amzn-requestid": "b787f283-21e4-11e8-ad39-cf6354bf4b1d"
+            },
+            "RequestId": "b787f283-21e4-11e8-ad39-cf6354bf4b1d"
+        },
+        "client_info": {
+            "elapsed_time": 0.3836486339569092,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00057",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-d2747c04dd434c3440216838;sampled=0",
+                "x-amzn-requestid": "b7890416-21e4-11e8-b6c8-919d8fd4bc1f"
+            },
+            "RequestId": "b7890416-21e4-11e8-b6c8-919d8fd4bc1f"
+        },
+        "client_info": {
+            "elapsed_time": 0.3546271324157715,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00058",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:24 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80c-187db98bae78413c4a557042;sampled=0",
+                "x-amzn-requestid": "b7807893-21e4-11e8-ad41-c3ef387f01ee"
+            },
+            "RequestId": "b7807893-21e4-11e8-ad41-c3ef387f01ee"
+        },
+        "client_info": {
+            "elapsed_time": 0.27669262886047363,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00059",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-f1c1624c30e00f58df15a2b4;sampled=0",
+                "x-amzn-requestid": "b789ee8f-21e4-11e8-95e3-3fd4129f3047"
+            },
+            "RequestId": "b789ee8f-21e4-11e8-95e3-3fd4129f3047"
+        },
+        "client_info": {
+            "elapsed_time": 0.3417696952819824,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00060",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-0fea51709b1624b095c8a8a8;sampled=0",
+                "x-amzn-requestid": "b78a3c47-21e4-11e8-b990-3722f0c0308a"
+            },
+            "RequestId": "b78a3c47-21e4-11e8-b990-3722f0c0308a"
+        },
+        "client_info": {
+            "elapsed_time": 0.38276028633117676,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00061",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-199f77cd2d7248013a6ec4a0;sampled=0",
+                "x-amzn-requestid": "b789c689-21e4-11e8-ae2e-772326f88593"
+            },
+            "RequestId": "b789c689-21e4-11e8-ae2e-772326f88593"
+        },
+        "client_info": {
+            "elapsed_time": 0.348618745803833,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00062",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-e0a430da1c1ba96008c175fc;sampled=0",
+                "x-amzn-requestid": "b789c6c9-21e4-11e8-a137-5704d630c332"
+            },
+            "RequestId": "b789c6c9-21e4-11e8-a137-5704d630c332"
+        },
+        "client_info": {
+            "elapsed_time": 0.3636348247528076,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00063",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:24 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80c-1f5195bc0ed4e93cb0f48568;sampled=0",
+                "x-amzn-requestid": "b779e8dd-21e4-11e8-954f-b5625620664e"
+            },
+            "RequestId": "b779e8dd-21e4-11e8-954f-b5625620664e"
+        },
+        "client_info": {
+            "elapsed_time": 0.04531550407409668,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00064",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:24 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80c-dc7cd9022ae0134644438da0;sampled=0",
+                "x-amzn-requestid": "b780c6b5-21e4-11e8-885c-43a5af750b19"
+            },
+            "RequestId": "b780c6b5-21e4-11e8-885c-43a5af750b19"
+        },
+        "client_info": {
+            "elapsed_time": 0.044002532958984375,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00065",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-748daa567a6121009a22b57c;sampled=0",
+                "x-amzn-requestid": "b7877d31-21e4-11e8-badd-87ca6e0fe0ac"
+            },
+            "RequestId": "b7877d31-21e4-11e8-badd-87ca6e0fe0ac"
+        },
+        "client_info": {
+            "elapsed_time": 0.08220863342285156,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00066",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-648d33a7ceda923b8a56388b;sampled=0",
+                "x-amzn-requestid": "b7888ee2-21e4-11e8-891e-6576f6906236"
+            },
+            "RequestId": "b7888ee2-21e4-11e8-891e-6576f6906236"
+        },
+        "client_info": {
+            "elapsed_time": 0.08244085311889648,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00067",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-f6c32bd4541fa0946754465c;sampled=0",
+                "x-amzn-requestid": "b789037e-21e4-11e8-888f-85c5120f338c"
+            },
+            "RequestId": "b789037e-21e4-11e8-888f-85c5120f338c"
+        },
+        "client_info": {
+            "elapsed_time": 0.07548403739929199,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00068",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-120faf53d8501492e390a87c;sampled=0",
+                "x-amzn-requestid": "b78b26ab-21e4-11e8-bb69-cf183a952517"
+            },
+            "RequestId": "b78b26ab-21e4-11e8-bb69-cf183a952517"
+        },
+        "client_info": {
+            "elapsed_time": 0.08613109588623047,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00069",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-64c3ba23dc39ca3dbcb3c3e7;sampled=0",
+                "x-amzn-requestid": "b78b4dd9-21e4-11e8-beb5-b9a73d178233"
+            },
+            "RequestId": "b78b4dd9-21e4-11e8-beb5-b9a73d178233"
+        },
+        "client_info": {
+            "elapsed_time": 0.05366706848144531,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00070",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-327f72793e80385207efec6e;sampled=0",
+                "x-amzn-requestid": "b78be9a1-21e4-11e8-9570-73b694040360"
+            },
+            "RequestId": "b78be9a1-21e4-11e8-9570-73b694040360"
+        },
+        "client_info": {
+            "elapsed_time": 0.05396318435668945,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00071",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-8f737d4814141f8445e495c2;sampled=0",
+                "x-amzn-requestid": "b78c37a4-21e4-11e8-b834-f5dd365249c1"
+            },
+            "RequestId": "b78c37a4-21e4-11e8-b834-f5dd365249c1"
+        },
+        "client_info": {
+            "elapsed_time": 0.0603938102722168,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00072",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-5916ae033f54a2ae3b30d2ca;sampled=0",
+                "x-amzn-requestid": "b78c5f38-21e4-11e8-b423-a5304707064a"
+            },
+            "RequestId": "b78c5f38-21e4-11e8-b423-a5304707064a"
+        },
+        "client_info": {
+            "elapsed_time": 0.06175041198730469,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00073",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-756d7ce46661fbd242a65c6e;sampled=0",
+                "x-amzn-requestid": "b78cad94-21e4-11e8-ac6d-6fc3a9f6721d"
+            },
+            "RequestId": "b78cad94-21e4-11e8-ac6d-6fc3a9f6721d"
+        },
+        "client_info": {
+            "elapsed_time": 0.055341482162475586,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00074",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-3ae08c195268a7fccd803ce0;sampled=0",
+                "x-amzn-requestid": "b78cfb8d-21e4-11e8-bd31-db26d70cb872"
+            },
+            "RequestId": "b78cfb8d-21e4-11e8-bd31-db26d70cb872"
+        },
+        "client_info": {
+            "elapsed_time": 0.05651545524597168,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00075",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-36201b4883c9657c419e5ba2;sampled=0",
+                "x-amzn-requestid": "b78d97e2-21e4-11e8-85d9-313f7d04b812"
+            },
+            "RequestId": "b78d97e2-21e4-11e8-85d9-313f7d04b812"
+        },
+        "client_info": {
+            "elapsed_time": 0.04937410354614258,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00076",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-925348b8f5fbf700c2bb3020;sampled=0",
+                "x-amzn-requestid": "b78d22aa-21e4-11e8-9a40-fd1db7582fdb"
+            },
+            "RequestId": "b78d22aa-21e4-11e8-9a40-fd1db7582fdb"
+        },
+        "client_info": {
+            "elapsed_time": 0.07237005233764648,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00077",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-fe5411c0fda851c8e2e0af98;sampled=0",
+                "x-amzn-requestid": "b78de582-21e4-11e8-8428-9ffd7eb2514a"
+            },
+            "RequestId": "b78de582-21e4-11e8-8428-9ffd7eb2514a"
+        },
+        "client_info": {
+            "elapsed_time": 0.07017374038696289,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00078",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-914073401e895a208cb67180;sampled=0",
+                "x-amzn-requestid": "b78e0cdb-21e4-11e8-838a-99f7d7caa93b"
+            },
+            "RequestId": "b78e0cdb-21e4-11e8-838a-99f7d7caa93b"
+        },
+        "client_info": {
+            "elapsed_time": 0.059105634689331055,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00079",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-7a09c9c88cfa6bbc14cf7ddc;sampled=0",
+                "x-amzn-requestid": "b78de5ed-21e4-11e8-a252-6fdc2f5568d5"
+            },
+            "RequestId": "b78de5ed-21e4-11e8-a252-6fdc2f5568d5"
+        },
+        "client_info": {
+            "elapsed_time": 0.05069375038146973,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00080",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-5a5ae54827bac76819afb7f0;sampled=0",
+                "x-amzn-requestid": "b78e81c3-21e4-11e8-8428-9ffd7eb2514a"
+            },
+            "RequestId": "b78e81c3-21e4-11e8-8428-9ffd7eb2514a"
+        },
+        "client_info": {
+            "elapsed_time": 0.056693077087402344,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00081",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-4bd3f05c5660bd3e80cedded;sampled=0",
+                "x-amzn-requestid": "b78e81b8-21e4-11e8-8b83-b70e685da223"
+            },
+            "RequestId": "b78e81b8-21e4-11e8-8b83-b70e685da223"
+        },
+        "client_info": {
+            "elapsed_time": 0.05970478057861328,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00082",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-72def034881fe7f484a9a0b2;sampled=0",
+                "x-amzn-requestid": "b78e5b00-21e4-11e8-805b-555d5b2ff84d"
+            },
+            "RequestId": "b78e5b00-21e4-11e8-805b-555d5b2ff84d"
+        },
+        "client_info": {
+            "elapsed_time": 0.06362295150756836,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00083",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-65f346b0180af5202f7ca1c8;sampled=0",
+                "x-amzn-requestid": "b78f1dc1-21e4-11e8-8968-05a9d8ccde73"
+            },
+            "RequestId": "b78f1dc1-21e4-11e8-8968-05a9d8ccde73"
+        },
+        "client_info": {
+            "elapsed_time": 0.06341910362243652,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00084",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-9b0b4b102c108b90fe0488c2;sampled=0",
+                "x-amzn-requestid": "b78f1e9d-21e4-11e8-ae0e-4ddd79aaf854"
+            },
+            "RequestId": "b78f1e9d-21e4-11e8-ae0e-4ddd79aaf854"
+        },
+        "client_info": {
+            "elapsed_time": 0.050177812576293945,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00085",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-ff679232db70cbf4f3e324fe;sampled=0",
+                "x-amzn-requestid": "b790089d-21e4-11e8-959d-8d55b4cd3487"
+            },
+            "RequestId": "b790089d-21e4-11e8-959d-8d55b4cd3487"
+        },
+        "client_info": {
+            "elapsed_time": 0.06552720069885254,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00086",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-ee3e1d5d28c855bbfae24013;sampled=0",
+                "x-amzn-requestid": "b78fbae5-21e4-11e8-bbc9-150e39eb99b6"
+            },
+            "RequestId": "b78fbae5-21e4-11e8-bbc9-150e39eb99b6"
+        },
+        "client_info": {
+            "elapsed_time": 0.051156044006347656,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00087",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-bb037f9a32f6c2c2a2b0996e;sampled=0",
+                "x-amzn-requestid": "b7902f26-21e4-11e8-921a-2b25a2f689e4"
+            },
+            "RequestId": "b7902f26-21e4-11e8-921a-2b25a2f689e4"
+        },
+        "client_info": {
+            "elapsed_time": 0.05316948890686035,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00088",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-23101d20f90fa22c76f6801c;sampled=0",
+                "x-amzn-requestid": "b7907da4-21e4-11e8-bb96-55bc8f3b6fb9"
+            },
+            "RequestId": "b7907da4-21e4-11e8-bb96-55bc8f3b6fb9"
+        },
+        "client_info": {
+            "elapsed_time": 0.051172733306884766,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00089",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-2302406ecbd9887db043cc0d;sampled=0",
+                "x-amzn-requestid": "b7907da1-21e4-11e8-9f73-e9187edad82a"
+            },
+            "RequestId": "b7907da1-21e4-11e8-9f73-e9187edad82a"
+        },
+        "client_info": {
+            "elapsed_time": 0.06144285202026367,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00090",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-e9d71a70c08a43b07820f830;sampled=0",
+                "x-amzn-requestid": "b790f274-21e4-11e8-963a-69201a92623e"
+            },
+            "RequestId": "b790f274-21e4-11e8-963a-69201a92623e"
+        },
+        "client_info": {
+            "elapsed_time": 0.04786968231201172,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00091",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-34dbc9421a3f9015805fc6f3;sampled=0",
+                "x-amzn-requestid": "b790f359-21e4-11e8-b1fd-ed57a0050edb"
+            },
+            "RequestId": "b790f359-21e4-11e8-b1fd-ed57a0050edb"
+        },
+        "client_info": {
+            "elapsed_time": 0.054070234298706055,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00092",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-d3f5b80a06721032ced8e554;sampled=0",
+                "x-amzn-requestid": "b7916898-21e4-11e8-9961-b1677c969964"
+            },
+            "RequestId": "b7916898-21e4-11e8-9961-b1677c969964"
+        },
+        "client_info": {
+            "elapsed_time": 0.055437326431274414,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00093",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-2492e8e04a5bd790de3ee928;sampled=0",
+                "x-amzn-requestid": "b791b63c-21e4-11e8-a700-5d12375b8f0a"
+            },
+            "RequestId": "b791b63c-21e4-11e8-a700-5d12375b8f0a"
+        },
+        "client_info": {
+            "elapsed_time": 0.05061960220336914,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00094",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-4a8d952e2184322ecdaaa4da;sampled=0",
+                "x-amzn-requestid": "b79167ca-21e4-11e8-ac92-4d07736ae65c"
+            },
+            "RequestId": "b79167ca-21e4-11e8-ac92-4d07736ae65c"
+        },
+        "client_info": {
+            "elapsed_time": 0.05530858039855957,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00095",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-e2df676858b30e08bb9c9758;sampled=0",
+                "x-amzn-requestid": "b791b650-21e4-11e8-9b46-d7a3cb7a1a43"
+            },
+            "RequestId": "b791b650-21e4-11e8-9b46-d7a3cb7a1a43"
+        },
+        "client_info": {
+            "elapsed_time": 0.04987215995788574,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00096",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-2077e018a4c6683c4ec50f10;sampled=0",
+                "x-amzn-requestid": "b791b60d-21e4-11e8-a784-b184e3739c0a"
+            },
+            "RequestId": "b791b60d-21e4-11e8-a784-b184e3739c0a"
+        },
+        "client_info": {
+            "elapsed_time": 0.0501708984375,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00097",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-f706cb5bb6a4249015102364;sampled=0",
+                "x-amzn-requestid": "b79204d0-21e4-11e8-ae0e-4ddd79aaf854"
+            },
+            "RequestId": "b79204d0-21e4-11e8-ae0e-4ddd79aaf854"
+        },
+        "client_info": {
+            "elapsed_time": 0.04306983947753906,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00098",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    },
+    {
+        "StatusCode": 202,
+        "ResponseMetadata": {
+            "RetryAttempts": 0,
+            "HTTPStatusCode": 202,
+            "HTTPHeaders": {
+                "content-length": "0",
+                "connection": "keep-alive",
+                "date": "Wed, 07 Mar 2018 08:51:25 GMT",
+                "x-amzn-remapped-content-length": "0",
+                "x-amzn-trace-id": "root=1-5a9fa80d-334e7ac5d1381e70d222129e;sampled=0",
+                "x-amzn-requestid": "b792523c-21e4-11e8-b21c-355a5c49fe6c"
+            },
+            "RequestId": "b792523c-21e4-11e8-b21c-355a5c49fe6c"
+        },
+        "client_info": {
+            "elapsed_time": 0.04974627494812012,
+            "return_value": "b''",
+            "payload": {
+                "x": 1000,
+                "key": "pavlo/text/5nodes/rankings/part-00099",
+                "function_name": "bigdata-scan",
+                "bucket": "big-data-benchmark"
+            },
+            "invocation_type": "Event"
+        }
+    }
+]

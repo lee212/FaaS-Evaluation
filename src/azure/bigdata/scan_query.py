@@ -9,6 +9,22 @@ from azure.storage.blob import BlockBlobService
 venv_end = time.time()
 
 def main():
+    """
+        Test run:
+        curl -X POST -d "{\"account_name\":None, \"account_key\": None, 
+                        \"bucket\": \"pavlo\",\"fname\":
+                        \"text/5nodes/rankings/part-00000\",
+                        \"x\": 1000}"
+                        'https://test.azurewebsites.net/api/HttpTriggerPython31'
+        Sample Params:
+        {
+            "account_name": xxx,
+            "account_key": xxx,
+            "bucket": "pavlo",
+            "fname": "text/5nodes/rankings/part-00000",
+            "x": 1000
+        }
+    """
     #container_name="pavlo"
     #blob_name="text/5nodes/rankings/part-00000"
 

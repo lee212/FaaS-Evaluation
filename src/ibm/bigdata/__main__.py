@@ -14,7 +14,7 @@ Sample Param:
   "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::",
   "resource_instance_id": "crn:v1:bluemix:public:cloud-object-storage:global:"
 },
-"service_endpoint": "s3.us-south.objectstorage.softlayer.net",
+"service_endpoint": "https://s3.us-south.objectstorage.softlayer.net",
 "bucket": "bigdata-benchmark",
 "key": "pavlo/text/5nodes/rankings/part-00000",
 "x": 1000

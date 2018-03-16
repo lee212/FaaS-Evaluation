@@ -1,14 +1,40 @@
 import os
 import json
 import time
+import tarfile
+import hashlib
+import urllib
+import sys, os.path
+
+work_path = "/local/Temp/"
+asb_download_url = 'https://venv.blob.core.windows.net/azure-storage-blob/asb.tar.gz'
+asb_venv = work_path + "azure-storage-blob/Lib/site-packages"
+
+# "2.7.8 (default, Jun 30 2014, 16:03:49) [MSC v.1500 32 bit (Intel)]"
+_urlretrieve = urllib.urlretrieve
+
+# Initial download if venv is not available to load
+def download_venv(venv_path, url, fhash=None):
+    if not os.path.isdir(venv_path):
+        filepath = work_path + os.path.basename(url)
+        if not os.path.isfile(filepath):
+            _urlretrieve(url, filepath)
+        if fhash:
+            hstr = hashlib.md5(open(filepath, 'rb').read()).hexdigest()
+            if hstr != fhash:
+                print 'md5sum is incorrect'
+        c = tarfile.open(filepath)
+        c.extractall(work_path)
+        c.close()
+        os.remove(filepath)
 
 venv_start = time.time()
-import sys, os.path
-sys.path.append(os.path.abspath(os.path.join("/home/", 'azure-storage-blob/Lib/site-packages')))
+download_venv(asb_venv, asb_download_url)
+sys.path.append(asb_venv)
 from azure.storage.blob import BlockBlobService
 venv_end = time.time()
 
-def main():
+def scan_file():
     """
         Test run:
         curl -X POST -d "{\"account_name\":None, \"account_key\": None, 
@@ -66,5 +92,8 @@ def main():
     print (result)
     response.write(json.dumps(result))
     response.close()
+
+def main():
+    scan_file()
 
 main()

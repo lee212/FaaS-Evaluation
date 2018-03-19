@@ -1,0 +1,1502 @@
+[
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 69.69902658462524,
+                "elapsed": 28.030576705932617,
+                "cnt": 328
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00000",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 43.129796504974365,
+                "elapsed": 34.491451263427734,
+                "cnt": 334
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00001",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 89.4322440624237,
+                "elapsed": 12.355681657791138,
+                "cnt": 329
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00002",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 25.35723352432251,
+                "elapsed": 7.038901090621948,
+                "cnt": 328
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00003",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 97.33006358146667,
+                "elapsed": 6.182536363601685,
+                "cnt": 333
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00004",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 48.097341775894165,
+                "elapsed": 36.60131573677063,
+                "cnt": 332
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00005",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 59.334964990615845,
+                "elapsed": 31.708898067474365,
+                "cnt": 325
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00006",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 38.00667476654053,
+                "elapsed": 29.536982536315918,
+                "cnt": 324
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00007",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 52.53317618370056,
+                "elapsed": 33.310654163360596,
+                "cnt": 332
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00008",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 40.18884348869324,
+                "elapsed": 41.93600034713745,
+                "cnt": 325
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00009",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 98.55003333091736,
+                "elapsed": 5.639702320098877,
+                "cnt": 334
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00010",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 72.97103905677795,
+                "elapsed": 21.700157403945923,
+                "cnt": 329
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00011",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 29.150169849395752,
+                "elapsed": 19.78729486465454,
+                "cnt": 330
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00012",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 76.84248423576355,
+                "elapsed": 23.870331287384033,
+                "cnt": 332
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00013",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 36.85577321052551,
+                "elapsed": 45.529699087142944,
+                "cnt": 332
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00014",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 71.26023745536804,
+                "elapsed": 22.411102056503296,
+                "cnt": 328
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00015",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 66.51632165908813,
+                "elapsed": 26.669970273971558,
+                "cnt": 332
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00016",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 95.47548484802246,
+                "elapsed": 7.687711238861084,
+                "cnt": 326
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00017",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 22.613393783569336,
+                "elapsed": 5.110790491104126,
+                "cnt": 333
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00018",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 45.746556997299194,
+                "elapsed": 37.118361949920654,
+                "cnt": 329
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00019",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 35.12009143829346,
+                "elapsed": 28.301506519317627,
+                "cnt": 329
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00020",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 58.70187568664551,
+                "elapsed": 29.32667374610901,
+                "cnt": 326
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00021",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 25.61139965057373,
+                "elapsed": 9.64184308052063,
+                "cnt": 324
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00022",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 31.6072940826416,
+                "elapsed": 22.65134072303772,
+                "cnt": 335
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00023",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 60.77965188026428,
+                "elapsed": 31.390045881271362,
+                "cnt": 332
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00024",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 97.0410840511322,
+                "elapsed": 7.275190353393555,
+                "cnt": 323
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00025",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 44.64834475517273,
+                "elapsed": 43.980029821395874,
+                "cnt": 331
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00026",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 47.75959515571594,
+                "elapsed": 34.081961154937744,
+                "cnt": 328
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00027",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 27.425875186920166,
+                "elapsed": 13.466782093048096,
+                "cnt": 332
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00028",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 29.848084926605225,
+                "elapsed": 14.277911901473999,
+                "cnt": 329
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00029",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 45.28612756729126,
+                "elapsed": 39.59154152870178,
+                "cnt": 331
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00030",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 56.424620389938354,
+                "elapsed": 32.36083269119263,
+                "cnt": 325
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00031",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 37.28285241127014,
+                "elapsed": 32.58346128463745,
+                "cnt": 331
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00032",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 70.49278831481934,
+                "elapsed": 23.969354152679443,
+                "cnt": 329
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00033",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 69.44445943832397,
+                "elapsed": 25.514673948287964,
+                "cnt": 328
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00034",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 33.95406770706177,
+                "elapsed": 28.955384254455566,
+                "cnt": 327
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00035",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 32.75092649459839,
+                "elapsed": 26.494926691055298,
+                "cnt": 329
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00036",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 65.36170673370361,
+                "elapsed": 28.059659957885742,
+                "cnt": 329
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00037",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 21.447066068649292,
+                "elapsed": 2.962440013885498,
+                "cnt": 328
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00038",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 60.598509073257446,
+                "elapsed": 30.648831844329834,
+                "cnt": 328
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00039",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 55.463501930236816,
+                "elapsed": 34.638022661209106,
+                "cnt": 330
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00040",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 87.47176861763,
+                "elapsed": 15.040197372436523,
+                "cnt": 329
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00041",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 62.98663783073425,
+                "elapsed": 31.791429042816162,
+                "cnt": 325
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00042",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 41.3280975818634,
+                "elapsed": 27.127753496170044,
+                "cnt": 331
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00043",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 74.22596788406372,
+                "elapsed": 25.63865637779236,
+                "cnt": 327
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00044",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 43.542704820632935,
+                "elapsed": 40.02935552597046,
+                "cnt": 334
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00045",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 56.88664960861206,
+                "elapsed": 32.621137380599976,
+                "cnt": 332
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00046",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 42.70285177230835,
+                "elapsed": 38.99768614768982,
+                "cnt": 326
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00047",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 38.802114725112915,
+                "elapsed": 35.951486349105835,
+                "cnt": 333
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00048",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 81.30138778686523,
+                "elapsed": 19.700275659561157,
+                "cnt": 325
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00049",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 29.37090277671814,
+                "elapsed": 16.570870876312256,
+                "cnt": 327
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00050",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 50.50503754615784,
+                "elapsed": 29.06324529647827,
+                "cnt": 333
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00051",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 26.323782682418823,
+                "elapsed": 12.61977767944336,
+                "cnt": 332
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00052",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 90.89160537719727,
+                "elapsed": 11.069205522537231,
+                "cnt": 324
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00053",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 36.21012783050537,
+                "elapsed": 41.628962993621826,
+                "cnt": 331
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00054",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 68.66386198997498,
+                "elapsed": 28.955328226089478,
+                "cnt": 326
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00055",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 41.31304860115051,
+                "elapsed": 42.74652457237244,
+                "cnt": 327
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00056",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 51.875935792922974,
+                "elapsed": 34.66023540496826,
+                "cnt": 331
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00057",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 43.948636531829834,
+                "elapsed": 39.875306367874146,
+                "cnt": 329
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00058",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 47.36043882369995,
+                "elapsed": 40.45614004135132,
+                "cnt": 328
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00059",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 35.79089713096619,
+                "elapsed": 31.927894353866577,
+                "cnt": 326
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00060",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 60.14232015609741,
+                "elapsed": 32.38594961166382,
+                "cnt": 323
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00061",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 23.24319338798523,
+                "elapsed": 4.840129137039185,
+                "cnt": 335
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00062",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 46.3000648021698,
+                "elapsed": 43.3737268447876,
+                "cnt": 326
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00063",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 91.42363834381104,
+                "elapsed": 6.673779010772705,
+                "cnt": 325
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00064",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 98.85550546646118,
+                "elapsed": 12.350239753723145,
+                "cnt": 329
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00065",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 95.44673466682434,
+                "elapsed": 13.455411672592163,
+                "cnt": 326
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00066",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 85.49958777427673,
+                "elapsed": 8.70128607749939,
+                "cnt": 333
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00067",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 99.57279872894287,
+                "elapsed": 14.297028303146362,
+                "cnt": 328
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00068",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 81.67764592170715,
+                "elapsed": 10.541823625564575,
+                "cnt": 327
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00069",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 90.17438220977783,
+                "elapsed": 16.425838708877563,
+                "cnt": 328
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00070",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 86.45546817779541,
+                "elapsed": 17.127666234970093,
+                "cnt": 324
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00071",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 93.37555432319641,
+                "elapsed": 16.84714698791504,
+                "cnt": 326
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00072",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 91.88090085983276,
+                "elapsed": 13.096071481704712,
+                "cnt": 330
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00073",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 87.5348265171051,
+                "elapsed": 14.157827377319336,
+                "cnt": 328
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00074",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 62.383496046066284,
+                "elapsed": 13.435985803604126,
+                "cnt": 323
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00075",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 70.64060640335083,
+                "elapsed": 18.83348059654236,
+                "cnt": 328
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00076",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 86.36366534233093,
+                "elapsed": 9.805622577667236,
+                "cnt": 335
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00077",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 68.84400153160095,
+                "elapsed": 16.855998516082764,
+                "cnt": 326
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00078",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 75.69398355484009,
+                "elapsed": 12.644088745117188,
+                "cnt": 328
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00079",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 90.76619076728821,
+                "elapsed": 1.3672938346862793,
+                "cnt": 326
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00080",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 55.39622497558594,
+                "elapsed": 14.971181869506836,
+                "cnt": 337
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00081",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 51.18258285522461,
+                "elapsed": 12.617581844329834,
+                "cnt": 329
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00082",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 54.07961654663086,
+                "elapsed": 14.404387474060059,
+                "cnt": 327
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00083",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 63.55362391471863,
+                "elapsed": 13.710079669952393,
+                "cnt": 322
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00084",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 57.600637435913086,
+                "elapsed": 16.287404537200928,
+                "cnt": 329
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00085",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 72.91555166244507,
+                "elapsed": 4.763113498687744,
+                "cnt": 332
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00086",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 74.15819454193115,
+                "elapsed": 3.9234659671783447,
+                "cnt": 331
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00087",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 65.02846550941467,
+                "elapsed": 9.86488127708435,
+                "cnt": 327
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00088",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 36.76132678985596,
+                "elapsed": 9.392470121383667,
+                "cnt": 331
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00089",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 40.92620897293091,
+                "elapsed": 13.028214693069458,
+                "cnt": 334
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00090",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 62.17313623428345,
+                "elapsed": 12.692150592803955,
+                "cnt": 326
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00091",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 40.83122682571411,
+                "elapsed": 14.804717302322388,
+                "cnt": 327
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00092",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 69.02623152732849,
+                "elapsed": 5.892044544219971,
+                "cnt": 326
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00093",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 35.43354415893555,
+                "elapsed": 11.206170797348022,
+                "cnt": 331
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00094",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 49.88896870613098,
+                "elapsed": 16.751699686050415,
+                "cnt": 333
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00095",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 30.380150318145752,
+                "elapsed": 4.998225688934326,
+                "cnt": 331
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00096",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 30.395599126815796,
+                "elapsed": 6.377135753631592,
+                "cnt": 325
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00097",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 56.18693971633911,
+                "elapsed": 8.949225902557373,
+                "cnt": 334
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00098",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    },
+    {
+        "message": {
+            "result": {
+                "s3_elapsed": 44.584044218063354,
+                "elapsed": 16.632978916168213,
+                "cnt": 327
+            },
+            "params": {
+                "x": 1000,
+                "bucket": "bigdata-benchmark",
+                "key": "pavlo/text/5nodes/rankings/part-00099",
+                "service_endpoint": "https://s3.us-south.objectstorage.softlayer.net"
+            }
+        }
+    }
+]

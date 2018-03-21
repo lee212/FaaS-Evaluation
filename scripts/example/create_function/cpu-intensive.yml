@@ -1,0 +1,7 @@
+function_name: cpu-intensive-flops-nodejs 
+description: "matrix multiplication"
+runtime: nodejs 
+timeout: 300 # seconds
+memory: 1536 # Megabytes
+handler: function_handler
+code: cpu-intensive-flops.nodejs.zip

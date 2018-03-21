@@ -66,7 +66,7 @@ def invoke_rest(args):
             data=json.dumps(args),
             headers={"Content-Type":"application/json"})
     e = time.time() - s
-    return (res.text, e)
+    return (res, e)
 
 def invoke_pubsub(args):
 

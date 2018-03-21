@@ -3,5 +3,5 @@ description: "matrix multiplication"
 runtime: nodejs 
 timeout: 300 # seconds
 memory: 1536 # Megabytes
-handler: function_handler
-code: cpu-intensive-flops.nodejs.zip
+handler: cpu-intensive-flops.function_handler
+code: cpu-intensive-flops-nodejs.zip

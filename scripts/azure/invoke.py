@@ -8,6 +8,7 @@ from pprint import pprint as pp
 from urllib.parse import urlparse
 from multiprocessing.pool import ThreadPool, TimeoutError
 import logging
+import copy
 
 logging.basicConfig(level=logging.INFO)
 #logging.getLogger().addHandler(logging.StreamHandler())
@@ -81,8 +82,11 @@ def handler(event, parallel):
     for cid in range(size):
 
         if parallel:
+            params = copy.deepcopy(event)
+            params['cid'] = cid
             cblist.append(tp.apply_async(worker, (params,)))
         else:
+            params['cid'] = cid
             cblist.append(worker(params))
 
     m = time.time()

@@ -50,7 +50,7 @@ def handler(event, parallel):
         if parallel:
             res.append(p.apply_async(lambda_invoke, args=(params,)))
         else:
-            res.append(lambda_invoke(event))
+            res.append(lambda_invoke(params))
 
     mtime = time.time()
     nres = []

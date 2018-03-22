@@ -17,3 +17,17 @@ exports.pythonGCS = (event, callback) => {
     console.log(message);
     callback();
 };
+
+exports.pythonGCSHTTPTrigger = function python_call(req, res) {
+    var rcmd = req.body.cmd;
+    var rparams = req.body.params;
+
+    const
+    spawn = require( 'child_process' ).spawnSync,
+    cmd = spawn( rcmd, rparams );
+
+    var message = "" + `stdout: ${cmd.stdout.toString()}` + `stderr: ${cmd.stderr.toString()}`;
+    console.log(message);
+    res.status(200).send(message);
+};
+

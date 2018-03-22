@@ -48,7 +48,11 @@ def parse_response_rest(requests_response):
     u'path'}, {u'value': u'blackbox', u'key': u'kind'}], u'subject':
     u'lee212@indiana.edu'}
     """
-    return json.loads(requests_response)
+    if isinstance(requests_response, str):
+        return json.loads(requests_response)
+    else:
+        # <class 'requests.models.Response'>
+        return requests_response.json()
 
 def get_config():
     return { "Org": os.environ["IBM_ORG"], "Space": os.environ["IBM_SPACE"] }

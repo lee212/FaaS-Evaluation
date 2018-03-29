@@ -42,10 +42,10 @@ for fname in fnames.split(","):
                     }
         '''
 
-with open(fname +  ".elastic", "w") as f:
+with open(fname +  ".byRequestId", "w") as f:
     json.dump(ar, f, indent=4)
 
-with open(fname +  ".elastic.err", "w") as f:
-    json.dump(err, f, indent=4)
+#with open(fname +  ".elastic.err", "w") as f:
+#    json.dump(err, f, indent=4)
 
 

@@ -99,6 +99,8 @@ def handler(event, parallel, org, space):
             params["Space"] = space
             params["function_name"] = fname
             params["sync"] = is_sync
+            if not parallel:
+                params["sync"] = "true"
             argument = params
         else:
             params_str = ""

@@ -7,12 +7,12 @@ ofname = sys.argv[2]
 res = []
 r = []
 w = []
+
 with open(fname) as f:
     rdict = json.load(f)
-
     for k, v in rdict.items():
         try:
-            response = v["response"]['result']
+            response = json.loads(v['result'])
             res.append([response['read'], response['write']])
             r.append(response['read'])
             w.append(response['write'])

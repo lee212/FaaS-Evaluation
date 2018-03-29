@@ -7,6 +7,7 @@ import time
 import rand_gen
 import argparse
 import logging
+from get_duration import get_duration
 
 logging.basicConfig(level=logging.INFO)
 #logging.getLogger().addHandler(logging.StreamHandler())
@@ -55,14 +56,14 @@ def log_with_result(invoke_fname, log_fname):
         log_data = json.load(f)
 
     res = []
+    num = 0
     for i in invoked_list:
         i_size = int(i['invoke_size'])
-        num = 0
-        for j in i['result']['response']:
+        for j in i['result']:#['response']:
             try:
                 key = j['ResponseMetadata']['RequestId']
             except:
-                logger.error("error {}, {}".format(idx, r[idx]))
+                logger.error("error {}".format(j))
                 continue
             call_date = j['ResponseMetadata']['HTTPHeaders']['date']
 
@@ -71,9 +72,12 @@ def log_with_result(invoke_fname, log_fname):
             except:
                 logger.error(key)
                 continue
-            tmp = [i, w_size, num, gflops, elapsed, init, mat_n, loop, call_date,
-                    func_timestamp ]
-            res.append(tmp)
+
+            # 0 - START, 1- main message, 2- END, 3- REPORT
+            msec = get_duration(rdata[3]['message'])
+            if msec:
+                tmp = [num, msec, i_size]
+                res.append(tmp)
             num += 1
 
     logger.info("total invocations: {}".format(len(res)))
@@ -107,9 +111,9 @@ if __name__ == "__main__":
     parser_log.add_argument('res_fname', help='result file of elastic invoke')
     parser_log.add_argument('log_fname', help='log file')
     args = parser.parse_args()
-    args.params = json.loads(args.params)
 
     if args.sub == "invoke":
+        args.params = json.loads(args.params)
         result = elastic_invoke(args)
         output_fname = os.path.basename(__file__).split(".")[0] + "." + \
                 args.func_names + ".log"

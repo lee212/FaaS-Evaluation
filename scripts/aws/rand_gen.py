@@ -11,23 +11,24 @@ def rand_read(fname):
     return res
 
 def rand_gen():
-    rand_numbers = np.concatenate([np.random.randint(1, 4, size=50), \
-        np.random.randint(3, 7, size=25), \
-        np.random.randint(2, 6, size=25), \
-        np.random.randint(6, 10, size=12), \
+    rand_numbers = np.concatenate([
+        #np.random.randint(1, 4, size=50), \
+        #np.random.randint(3, 7, size=25), \
+        #np.random.randint(2, 6, size=25), \
+        #np.random.randint(6, 10, size=12), \
         np.random.randint(10, 14, size=13), \
         np.random.randint(14, 17, size=12), \
         np.random.randint(17, 20, size=13), \
         np.random.randint(20, 25, size=10), \
         np.random.randint(20, 30, size=15), \
-        np.random.randint(35, 50, size=25), \
-        np.random.randint(40, 55, size=25), \
-        np.random.randint(20, 30, size=25), \
-        np.random.randint(25, 35, size=25), \
-        np.random.randint(35, 45, size=25), \
-        np.random.randint(50, 65, size=25), \
-        np.random.randint(40, 50, size=15), \
-        np.random.randint(30, 40, size=15), \
+        np.random.randint(35, 50, size=15), \
+        np.random.randint(40, 55, size=13), \
+        np.random.randint(20, 30, size=10), \
+        np.random.randint(25, 35, size=10), \
+        np.random.randint(35, 45, size=10), \
+        np.random.randint(50, 65, size=10), \
+        np.random.randint(40, 50, size=10), \
+        np.random.randint(30, 40, size=10), \
         np.random.randint(25, 35, size=10), \
         np.random.randint(20, 30, size=10), \
         np.random.randint(15, 25, size=10), \
@@ -39,9 +40,7 @@ def rand_gen():
         np.random.randint(59, 69, size=10), \
         np.random.randint(65, 79, size=10), \
         np.random.randint(75, 89, size=10), \
-        np.random.randint(60, 90, size=10), \
-        np.random.randint(70, 90, size=10), \
-        np.random.randint(55, 70, size=25)])
+        np.random.randint(55, 70, size=10)])
 
     return rand_numbers
 
@@ -55,6 +54,7 @@ if __name__ == "__main__":
         pprint.pprint(rand_read(args.filename))
     else:
         rlist = rand_gen()
+        print (np.sum(rlist))
         if args.type == "write":
             rand_write(args.filename, rlist)
         else:

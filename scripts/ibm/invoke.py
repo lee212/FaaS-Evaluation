@@ -79,7 +79,10 @@ def invoke_rest(args):
         res = res.text
     return (res, e)
 
-def handler(event, parallel, org, space):
+def handler(event, args): # parallel, org, space):
+    parallel = args.concurrent
+    org = args.Org
+    space = args.Space
 
     size = event['invoke_size']
     fname = event['function_name']
@@ -177,7 +180,7 @@ if __name__ == "__main__":
     event = args.params
     event['function_name'] = args.func_names
     event['invoke_size'] = args.isize
-    res = handler(event, args.concurrent, org=args.Org, space=args.Space)
+    res = handler(event, args)#.concurrent, org=args.Org, space=args.Space)
 
     params_fstr = ''.join(e for e in str(args.params) if e.isalnum() or e == ":")
     output_fname = ("invoke.{}.{}.{}.{}.{}.log".format(call_type, args.isize,

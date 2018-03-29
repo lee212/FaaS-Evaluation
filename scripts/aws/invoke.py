@@ -31,7 +31,8 @@ def lambda_invoke(x):
             'payload': x }
     return res
 
-def handler(event, parallel):
+def handler(event, args):
+    parallel = args.concurrent
     if not parallel:
         global itype
         # run a function in

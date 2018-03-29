@@ -69,7 +69,8 @@ def convert_urls_2_str(url):
     func_name = parse_result.path.split("/")[2]
     return func_name
 
-def handler(event, parallel):
+def handler(event, args): #parallel):
+    parallel = args.concurrent
 
     tp = ThreadPool(thread_num)
     

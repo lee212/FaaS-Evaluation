@@ -77,7 +77,7 @@ def handler(event, args): #parallel):
     cblist = [] 
     size = int(event['invoke_size'])
     params = event
-    worker = globals()[event['target'] + "_invoke"]
+    worker = globals()[args.target + "_invoke"]
     s = time.time()
     logger.debug("started threadpool")
     for cid in range(size):
@@ -130,7 +130,7 @@ if __name__ == "__main__":
     event['function_name'] = args.func_names
     event['invoke_size'] = args.isize
     event['target'] = args.target
-    res = handler(event, args.concurrent)
+    res = handler(event, args)
 
     params_fstr = ''.join(e for e in str(args.params) if e.isalnum() or e == ":")
 

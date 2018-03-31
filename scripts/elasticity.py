@@ -88,8 +88,10 @@ class elasticInvoke(object):
 
                 # 0 - START, 1- main message, 2- END, 3- REPORT
                 msec = get_duration(rdata[3]['message'])
+                msg = json.loads(rdata[1]['message'].split("\t")[2])
+                init = (msg['host_info']['init'])
                 if msec:
-                    tmp = [num, msec, i_size]
+                    tmp = [num, msec, i_size, init]
                     res.append(tmp)
                 num += 1
 

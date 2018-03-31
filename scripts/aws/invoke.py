@@ -7,6 +7,8 @@ import time
 import json
 import botocore.session
 from multiprocessing.pool import ThreadPool
+import logging
+from datetime import datetime
 
 region = "us-east-2"
 itype = "RequestResponse" #"Event"
@@ -14,8 +16,16 @@ itype = "Event"
 s = botocore.session.get_session()
 c = s.create_client('lambda', region_name=region)
 
+logging.basicConfig(level=logging.INFO)
+#logging.getLogger().addHandler(logging.StreamHandler())
+logger = logging.getLogger(__name__)
+
 def lambda_invoke(x):
     start = time.time()
+    x['timestamp_from_client'] = start
+    x['date_from_client'] = \
+            datetime.utcfromtimestamp(start).strftime('%Y-%m-%dT%H:%M:%S.%fZ')
+
     res = c.invoke(FunctionName=x['function_name'], Payload=json.dumps(x),
             InvocationType=itype) 
     end = time.time()
@@ -26,6 +36,8 @@ def lambda_invoke(x):
 
     # elapsed_time is valid when RequestResponse used
     res['client_info'] = { 'elapsed_time' : end - start,
+            'ingestionTime': end,
+            'timestamp': start,
             'invocation_type': itype,
             'return_value': str(ret),
             'payload': x }
@@ -115,7 +127,7 @@ if __name__ == "__main__":
         event = args.params
         event["function_name"] = func_name
         event["invoke_size"] = args.isize
-        res += handler(event, args.concurrent)
+        res += handler(event, args)
 
     #print res
     params_str = ''.join(e for e in str(args.params) if e.isalnum() or e == ":")

@@ -100,7 +100,6 @@ def handler(event, args): # parallel, org, space):
             invoke = invoke_rest
             params["Org"] = org
             params["Space"] = space
-            params["function_name"] = fname
             params["sync"] = is_sync
             if not parallel:
                 params["sync"] = "true"
@@ -183,6 +182,8 @@ if __name__ == "__main__":
     res = handler(event, args)#.concurrent, org=args.Org, space=args.Space)
 
     params_fstr = ''.join(e for e in str(args.params) if e.isalnum() or e == ":")
+    # disabled temporarily
+    params_fstr = ""
     output_fname = ("invoke.{}.{}.{}.{}.{}.log".format(call_type, args.isize,
         args.func_names, params_fstr, args.concurrent))
     to_file(output_fname, res)

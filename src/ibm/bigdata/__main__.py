@@ -36,37 +36,38 @@ https://console.bluemix.net/docs/openwhisk/openwhisk_actions.html#creating-pytho
 """
 
 def main(params):
-	bucket = params['bucket']
-	key = params['key']
-	x = int(params['x'])
-	cos_credentials = params['credentials']
-	auth_endpoint = 'https://iam.bluemix.net/oidc/token'
-	service_endpoint = params['service_endpoint']
-	s3d_start = time.time()
-	cos = ibm_boto3.client('s3',
-                         ibm_api_key_id=cos_credentials['apikey'],
-                        ibm_service_instance_id=cos_credentials['resource_instance_id'],
-                         ibm_auth_endpoint=auth_endpoint,
-                         config=Config(signature_version='oauth'),
-                         endpoint_url=service_endpoint)
-	r=cos.get_object(Bucket=bucket,Key=key)
-	lines = r['Body'].read().split(b"\n")
-	s3d_end = time.time()
-	res = []
-	t_start = time.time()
-	for line in lines:
-		try:
-			pageURL, pageRank, avgDuration = line.split(b",")
-		except:
-			continue
-		if int(pageRank) > int(x):
-			res.append([pageURL, pageRank])
+    bucket = params['bucket']
+    key = params['key']
+    x = int(params['x'])
+    cos_credentials = params['credentials']
+    auth_endpoint = 'https://iam.bluemix.net/oidc/token'
+    service_endpoint = params['service_endpoint']
+    s3d_start = time.time()
+    cos = ibm_boto3.client('s3',
+            ibm_api_key_id=cos_credentials['apikey'],
+            ibm_service_instance_id=cos_credentials['resource_instance_id'],
+            ibm_auth_endpoint=auth_endpoint,
+            config=Config(signature_version='oauth'),
+            endpoint_url=service_endpoint)
+    r=cos.get_object(Bucket=bucket,Key=key)
+    lines = r['Body'].read().split(b"\n")
+    s3d_end = time.time()
+    res = []
+    t_start = time.time()
+    for line in lines:
+        try:
+            pageURL, pageRank, avgDuration = line.split(b",")
+        except:
+            continue
+        if int(pageRank) > int(x):
+            res.append([pageURL, pageRank])
 
-	t_end = time.time()
-	r_num = len(res)
-	elapsed = t_end - t_start
-	result = {"result":{"cnt": r_num, "elapsed":elapsed, "s3_elapsed": s3d_end - s3d_start } ,
-                "params": params}
+    t_end = time.time()
+    r_num = len(res)
+    elapsed = t_end - t_start
+    del(params['credentials'])
+    result = {"result":{"cnt": r_num, "elapsed":elapsed, "s3_elapsed": s3d_end - s3d_start } ,
+            "params": params}
 
-	print (result)
-	return { "message": result }
+    print (result)
+    return { "message": result }

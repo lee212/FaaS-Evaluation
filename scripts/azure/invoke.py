@@ -50,6 +50,9 @@ def argument_parser(parser=None):
             + ' to a function (json)')
     parser.add_argument('--concurrent', action='store_true', dest='concurrent', 
             default=False, help='Concurrency concurrent|sequential')
+    parser.add_argument("--stdout", action="store_true",  default=False,
+            help="stdout")
+
     try:
         # For IBM OpenWhisk
         parser.add_argument('--Org', default=os.environ['IBM_ORG'],
@@ -133,9 +136,13 @@ if __name__ == "__main__":
     res = handler(event, args)
 
     params_fstr = ''.join(e for e in str(args.params) if e.isalnum() or e == ":")
+    # Temporarily disabled
+    params_fstr = ""
 
     if event['target'] == 'azure':
         func_names = convert_urls_2_str(args.func_names)
     output_fname = ("invoke.{}.{}.{}.{}.{}.log".format(call_type, args.isize,
         func_names, params_fstr, args.concurrent))
     to_file(output_fname, res)
+    if args.stdout:
+        pp(res, indent=4)

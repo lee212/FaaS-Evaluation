@@ -17,3 +17,5 @@ zip -r bigdata-scanner.zip virtualenv __main__.py
 bx wsk action create bigdata-scanner --kind python:3 bigdata-scanner.zip -m 512 -t 300000
 bx wsk action invoke bigdata-scanner -P param
 ```
+
+Note `sudo` is required and `virtualenv` is created using `root` account

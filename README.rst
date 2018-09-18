@@ -1,26 +1,13 @@
-Big Data Benchmark for Function as a Service 
+Evaluation of Production Serverless Computing Environments
 ===============================================================================
 
-Public cloud platforms are compared with the Amplab benchmark datasets and
-workloads (https://amplab.cs.berkeley.edu/benchmark/).
+Public serverless computing platforms are evaluated with the series of functions
 
 The considered platforms are:
 
 * AWS Lambda
 * Azure Functions
-* IBM OpenWhisks
-* Google Function
-
-Dataset
--------------------------------------------------------------------------------
-
-/s3/buckets/big-data-benchmark/pavlo/
-
-Workload
--------------------------------------------------------------------------------
-
-- Scan Query with X = { 10, 100, 1000 }
-- Aggregation Query
-- Join Query
+* IBM Functions powered by Apache OpenWhisk
+* Google Functions
 
 
